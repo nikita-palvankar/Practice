@@ -1,0 +1,298 @@
+22-12-2025
+
+### C++ programming – 40-question mock exam (PG‑DAC CCEE pattern, 1 mark each)
+
+**Q1.** Which of the following is not a valid C++ keyword?  
+a) `volatile`  
+b) `mutable`  
+c) `friend`  
+=> d) `include`
+
+**Q2.** Which operator is used to allocate memory dynamically in C++?  
+a) `malloc`  
+=> b) `new`  
+c) `alloc`  
+d) `calloc`
+
+**Q3.** Which of the following is true about references in C++?  
+a) They can be null.  
+=> b) They must be initialized at declaration.  
+c) They can be reseated.  
+d) They occupy separate storage from the referent.
+
+**Q4.** Which of the following is not a type of constructor?  
+a) Default  
+b) Copy  
+c) Parameterized  
+=> d) Virtual
+
+**Q5.** Which header file is required for `cout` and `cin`?  
+a) `<stdio.h>`  
+=>b) `<iostream>`  
+c) `<stdlib.h>`  
+d) `<stream>`
+
+**Q6.** Which is correct for declaring a pointer to int?  
+a) `int ptr;`  
+=> b) `int *ptr;`  
+c) `int &ptr;`  
+d) `int **ptr;`
+
+**Q7.** Which correctly allocates a single int dynamically?  
+a) `int *p = malloc(sizeof(int));`  
+=> b) `int *p = new int;`  
+c) `int p = new int;`  
+d) `int *p = alloc(int);`
+
+**Q8.** `delete[]` is used for:  
+a) Deleting static arrays  
+=> b) Deleting dynamically allocated arrays  
+c) Deleting stack arrays  
+d) Deleting pointers to functions
+
+**Q9.** Which access specifier is not valid in C++?  
+a) `public`  
+b) `protected`  
+c) `private`  
+=> d) `internal`
+
+**Q10.** Which of the following about inline functions is true?  
+=> a) They reduce call overhead.  
+b) They always run faster.  
+c) They cannot contain loops.  
+d) They are stored on heap.
+
+**Q11.** Which operator accesses members via a pointer?  
+a) `.`  
+=> b) `->`  
+c) `*`  
+d) `::`
+
+**Q12.** Which is not a valid storage class?  
+a) `auto`  
+b) `register`  
+c) `static`  
+=> d) `dynamic`
+
+**Q13.** Which statement about destructors is true?  
+a) They can be overloaded.  
+=> b) They can be virtual.  
+c) They return values.  
+d) They must be public.
+
+**Q14.** Pure virtual functions:  
+a) Must be defined in base class  
+=> b) Make the class abstract  
+c) Cannot be overridden  
+d) Are declared without `virtual`
+
+**Q15.** Which is not a valid operator in C++?  
+a) `sizeof`  
+b) `typeid`  
+=>  c) `instanceof`  
+d) `dynamic_cast`
+
+**Q16.** Function overloading requires functions to differ in:  
+a) Return type only  
+=>  b) Parameter list  
+c) Access specifier  
+d) Storage class
+
+**Q17.** Which is used to allocate arrays dynamically?  
+=>  a) `new[]`  
+b) `malloc[]`  
+c) `calloc[]`  
+d) `alloc[]`
+
+**Q18.** Templates provide:  
+ a) Runtime polymorphism  
+=> b) Generic programming  
+c) Only class templates  
+d) Only function templates
+
+**Q19.** Which loop does not exist in standard C++?  
+a) `for`  
+b) `while`  
+c) `do-while`  
+=> d) `foreach`
+
+**Q20.** Static variables in functions:  
+a) Reinitialize each call  
+=> b) Retain value between calls  
+c) Must be global  
+d) Are stored on heap
+
+**Q21.** Which operator cannot be overloaded?  
+a) `+`  
+b) `[]`  
+c) `->`  
+=> d) `::`
+
+**Q22.** Which statement exits a loop immediately?  
+a) `continue`  
+=> b) `break`  
+c) `return 0;`  
+d) `exit(0);`
+
+**Q23.** Friend functions:  
+a) Are class members  
+=> b) Can access private members  
+c) Must be defined inside class  
+d) Cannot be overloaded
+
+**Q24.** Polymorphism enables:  
+=> a) Same function name with different parameters  
+b) Multiple classes with same name  
+c) Only multiple inheritance  
+d) Only multiple constructors
+
+**Q25.** The `virtual` keyword is used to:  
+a) Declare abstract classes only  
+=> b) Enable runtime polymorphism  
+c) Declare static functions  
+d) Declare inline functions
+
+**Q26.** The `this` pointer points to:  
+a) Base class object  
+b) Derived class object  
+=> c) Current object  
+d) Static members
+
+**Q27.** Namespaces in C++:  
+=> a) Avoid name conflicts  
+b) Are mandatory  
+c) Cannot contain classes  
+d) Are defined with `namespace()`
+
+**Q28.** The `delete` operator:  
+=> a) Frees dynamically allocated memory  
+b) Deletes static variables  
+c) Deletes global variables  
+d) Deletes inline functions
+
+**Q29.** STL provides:  
+=> a) Generic classes and functions  
+b) Java utilities  
+c) Only string utilities  
+d) Only I/O streams
+
+**Q30.** `const` on a variable means:  
+=> a) Immutable value  
+b) Static storage  
+c) Global visibility  
+d) Volatile access
+
+**Q31.** Recursion in C++ means:  
+=> a) A function can call itself  
+b) A function cannot call itself  
+c) Requires inline functions  
+d) Is not allowed
+
+**Q32.** In a `struct` by default, members are:  
+a) Private  
+b) Protected  
+=> c) Public  
+d) Static
+
+**Q33.** `enum` defines:  
+=> a) Named constants  
+b) Variables  
+c) Functions  
+d) Classes
+
+**Q34.** `dynamic_cast` is used for:  
+=> a) Safe downcasting with RTTI  
+b) Operator overloading  
+c) Compile-time casting only  
+d) Template specialization
+
+**Q35.** `typeid` operator:  
+=> a) Returns runtime type information  
+b) Returns size of type  
+c) Returns address of type  
+d) Returns default value of type
+
+**Q36.** A virtual destructor ensures:  
+=> a) Proper cleanup via base pointer  
+b) Faster deletion  
+c) Prevention of inheritance  
+d) Prevention of polymorphism
+
+**Q37.** Which statement about exception handling is true?  
+=> a) `try` must be followed by at least one `catch`  
+b) `throw` only inside `main()`  
+c) Multiple `catch` blocks are not allowed  
+d) `finally` is mandatory in C++
+
+**Q38.** Copy constructor is invoked when:  
+=> a) Passing object by value  
+b) Using `delete`  
+c) Modifying a const object  
+d) Calling a static function
+
+**Q39.** Static member functions:  
+a) Require an object to call  
+b) Can access non-static members directly  
+c) Cannot be overloaded  
+=> d) Do not require an object to call
+
+**Q40.** Function templates:  
+=> a) Enable writing generic functions  
+b) Are resolved at runtime  
+c) Cannot be used with classes  
+d) Must return `int`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+29.
+30.
+31.
+32.
+33.
+34.
+35.
+36.
+37.
+38.
+39.
+40.
+
