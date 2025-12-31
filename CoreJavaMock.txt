@@ -1,0 +1,2751 @@
+## 📝 Core Java – 40 Marks Mock Exam
+
+### Section A: Basics & JVM (6 Questions)
+1. Which of the following is **not** a feature of Java?  
+   a) Platform independence  
+   b) Automatic memory management  
+   c) Multiple inheritance through classes  
+   d) Security  
+
+2. JVM is responsible for:  
+   a) Compiling source code to bytecode  
+   b) Executing bytecode  
+   c) Managing OS-level threads  
+   d) Both b and c  
+
+3. Which primitive data type consumes **1 byte** in Java?  
+   a) int  
+   b) short  
+   c) byte  
+   d) char  
+
+4. Which operator is used for short-circuit evaluation?  
+   a) &  
+   b) &&  
+   c) |  
+   d) ||  
+
+5. Arrays in Java are:  
+   a) Objects  
+   b) Primitive types  
+   c) References only  
+   d) None of the above  
+
+6. Which statement is true about multidimensional arrays in Java?  
+   a) They are rectangular only  
+   b) They can be jagged  
+   c) They cannot be declared dynamically  
+   d) None of the above  
+
+---
+
+### Section B: OOP Concepts (8 Questions)
+7. Which OOP principle hides implementation details?  
+   a) Inheritance  
+   b) Polymorphism  
+   c) Encapsulation  
+   d) Abstraction  
+
+8. Which keyword refers to the current object?  
+   a) super  
+   b) this  
+   c) self  
+   d) object  
+
+9. Which of the following is **not** allowed in method overloading?  
+   a) Different parameter types  
+   b) Different number of parameters  
+   c) Different return type only  
+   d) Same method name  
+
+10. Which type of polymorphism is achieved by method overriding?  
+    a) Compile-time  
+    b) Runtime  
+    c) Static  
+    d) None  
+
+11. Constructors in Java:  
+    a) Can be overloaded  
+    b) Can be inherited  
+    c) Must return a value  
+    d) Are static  
+
+12. Which memory stores objects created using `new`?  
+    a) Stack  
+    b) Heap  
+    c) Register  
+    d) Static area  
+
+13. Which keyword is used to call parent class constructor?  
+    a) super  
+    b) this  
+    c) parent  
+    d) base  
+
+14. Which of the following supports multiple inheritance?  
+    a) Abstract classes  
+    b) Interfaces  
+    c) Static classes  
+    d) None  
+
+---
+
+### Section C: Advanced OOP & Java 8 (6 Questions)
+15. Which modifier prevents a class from being inherited?  
+    a) static  
+    b) final  
+    c) abstract  
+    d) private  
+
+16. Which of these is a functional interface in Java?  
+    a) Runnable  
+    b) Comparator  
+    c) Callable  
+    d) All of the above  
+
+17. Lambda expressions were introduced in:  
+    a) Java 5  
+    b) Java 6  
+    c) Java 7  
+    d) Java 8  
+
+18. Which type of inner class can access local variables of a method?  
+    a) Static inner class  
+    b) Anonymous inner class  
+    c) Method-local inner class  
+    d) Regular inner class  
+
+19. Enum in Java:  
+    a) Is a class type  
+    b) Can have constructors  
+    c) Can implement interfaces  
+    d) All of the above  
+
+20. Which package is required for using `Function<T,R>` interface?  
+    a) java.util  
+    b) java.util.function  
+    c) java.lang  
+    d) java.io  
+
+---
+
+### Section D: Strings, Wrappers & Garbage Collection (4 Questions)
+21. Which class is immutable?  
+    a) String  
+    b) StringBuffer  
+    c) StringBuilder  
+    d) None  
+
+22. Boxing converts:  
+    a) Object → primitive  
+    b) Primitive → object  
+    c) String → object  
+    d) None  
+
+23. Which method is called before garbage collection?  
+    a) finalize()  
+    b) dispose()  
+    c) clean()  
+    d) destroy()  
+
+24. Which statement makes an object eligible for GC?  
+    a) Assigning null to reference  
+    b) Reassigning reference  
+    c) Creating island of isolation  
+    d) All of the above  
+
+---
+
+### Section E: Exception Handling (4 Questions)
+25. Which is **not** a checked exception?  
+    a) IOException  
+    b) SQLException  
+    c) NullPointerException  
+    d) ClassNotFoundException  
+
+26. Which block always executes?  
+    a) try  
+    b) catch  
+    c) finally  
+    d) throw  
+
+27. Which keyword is used to declare exceptions in method signature?  
+    a) throw  
+    b) throws  
+    c) final  
+    d) catch  
+
+28. User-defined exceptions must extend:  
+    a) Throwable  
+    b) Exception  
+    c) RuntimeException  
+    d) Error  
+
+---
+
+### Section F: I/O, Object Class & Collections (8 Questions)
+29. Which stream is used for reading binary data?  
+    a) Reader  
+    b) InputStream  
+    c) Writer  
+    d) OutputStream  
+
+30. Which method is overridden to compare objects logically?  
+    a) toString()  
+    b) equals()  
+    c) hashCode()  
+    d) compareTo()  
+
+31. Which collection maintains insertion order?  
+    a) HashSet  
+    b) TreeSet  
+    c) LinkedHashSet  
+    d) None  
+
+32. Which collection allows duplicate elements?  
+    a) Set  
+    b) Map  
+    c) List  
+    d) None  
+
+33. Which interface is implemented for natural ordering?  
+    a) Comparator  
+    b) Comparable  
+    c) Iterable  
+    d) Collection  
+
+34. Which class is synchronized?  
+    a) ArrayList  
+    b) LinkedList  
+    c) Vector  
+    d) HashMap  
+
+35. Which method in streams API is used for aggregation?  
+    a) map()  
+    b) reduce()  
+    c) filter()  
+    d) collect()  
+
+36. Which collection does not allow null keys?  
+    a) HashMap  
+    b) TreeMap  
+    c) Hashtable  
+    d) LinkedHashMap  
+
+---
+
+### Section G: Multithreading, Generics & Reflection (4 Questions)
+37. Which method pauses a thread for given milliseconds?  
+    a) wait()  
+    b) sleep()  
+    c) yield()  
+    d) join()  
+
+38. Which keyword ensures only one thread accesses a block at a time?  
+    a) synchronized  
+    b) volatile  
+    c) static  
+    d) final  
+
+39. Which problem occurs when two threads wait for each other?  
+    a) Starvation  
+    b) Deadlock  
+    c) Livelock  
+    d) Race condition  
+
+40. Reflection API is used for:  
+    a) Accessing private members  
+    b) Creating objects dynamically  
+    c) Inspecting classes at runtime  
+    d) All of the above  
+
+---
+Great work, Nikita 🌟. Let’s go through your **Core Java 40-question mock answers** and check them against the correct key. I’ll also highlight where you slipped so we can build your revision sheet.
+
+---
+
+## ✅ Answer Key & Your Responses
+
+1. **c** (Multiple inheritance through classes is not a feature) → You: b ❌  
+2. **d** (JVM executes bytecode + manages threads) → You: d ✅  
+3. **c** (byte = 1 byte) → You: d ❌  
+4. **b** (&& is short-circuit AND; || also short-circuits) → You: b ✅  
+5. **a** (Arrays are objects) → You: a ✅  
+6. **b** (They can be jagged) → You: b ✅  
+7. **c** (Encapsulation hides implementation details) → You: c ✅  
+8. **b** (this refers to current object) → You: b ✅  
+9. **c** (Return type alone cannot distinguish overloads) → You: c ✅  
+10. **b** (Overriding = runtime polymorphism) → You: b ✅  
+11. **a** (Constructors can be overloaded) → You: a ✅  
+12. **b** (Objects live in heap) → You: b ✅  
+13. **a** (super calls parent constructor) → You: a ✅  
+14. **b** (Interfaces support multiple inheritance) → You: a ❌  
+15. **b** (final prevents inheritance) → You: b ✅  
+16. **d** (Runnable, Comparator, Callable are functional interfaces) → You: d ✅  
+17. **d** (Lambdas introduced in Java 8) → You: d ✅  
+18. **c** (Method-local inner class accesses local vars) → You: a ❌  
+19. **d** (Enum can have constructors, implement interfaces) → You: c ❌  
+20. **b** (java.util.function) → You: b ✅  
+21. **a** (String is immutable) → You: b ❌  
+22. **b** (Boxing = primitive → object) → You: b ✅  
+23. **a** (finalize() called before GC) → You: d ❌  
+24. **d** (All make object eligible for GC) → You: a ❌  
+25. **c** (NullPointerException is unchecked) → You: b ❌  
+26. **c** (finally always executes) → You: c ✅  
+27. **b** (throws keyword in signature) → You: b ✅  
+28. **b** (User-defined exceptions extend Exception) → You: a ❌  
+29. **b** (InputStream reads binary data) → You: b ✅  
+30. **b** (equals() compares logically) → You: b ✅  
+31. **c** (LinkedHashSet maintains insertion order) → You: c ✅  
+32. **c** (List allows duplicates) → You: c ✅  
+33. **b** (Comparable = natural ordering) → You: d ❌  
+34. **c** (Vector is synchronized) → You: c ✅  
+35. **b** (reduce() aggregates) → You: b ✅  
+36. **c** (Hashtable doesn’t allow null keys) → You: d ❌  
+37. **b** (sleep() pauses thread) → You: a ❌  
+38. **a** (synchronized ensures one thread at a time) → You: a ✅  
+39. **b** (Deadlock = two threads waiting for each other) → You: a ❌  
+40. **d** (Reflection can do all of these) → You: d ✅  
+
+---
+
+## 📊 Your Score
+- **Correct:** 25 / 40  
+- **Incorrect:** 15 / 40  
+- **Percentage:** **62.5%**  
+
+This is very close to your Web-based Java Programming mock (65%). You’re consistent, which is good — but we’ll tighten the weak spots.
+
+---
+
+## 🔎 Revision Sheet (15 Incorrects)
+Focus on these syllabus areas:
+- **Q1:** Features of Java (multiple inheritance only via interfaces).  
+- **Q3:** Primitive sizes (byte = 1 byte, char = 2 bytes).  
+- **Q14:** Multiple inheritance supported via interfaces.  
+- **Q18:** Method-local inner classes.  
+- **Q19:** Enum capabilities (constructors, interfaces).  
+- **Q21:** String is immutable, StringBuffer/StringBuilder are mutable.  
+- **Q23–24:** Garbage collection (finalize(), eligibility).  
+- **Q25:** Checked vs unchecked exceptions.  
+- **Q28:** User-defined exceptions extend Exception.  
+- **Q33:** Comparable vs Comparator.  
+- **Q36:** Hashtable null key restriction.  
+- **Q37:** sleep() pauses thread.  
+- **Q39:** Deadlock definition.  
+
+---
+
+✅ I’ll log this in your **progress tracker**:  
+- **Core Java Mock (40 Qs): 25/40 → 62.5%**  
+- Revision sheet prepared for 15 incorrects.  
+
+Would you like me to **expand each incorrect answer into a mini-explanation** (2–3 lines per concept) so you can revise them quickly before moving on?
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Perfect, Nikita ✨. Let’s set up your **CCEE-style Core Java mock exam** — exactly 40 questions, 1 mark each, balanced between theory, code snippets, and applied concepts. This mirrors the CDAC exam pattern so you get the right practice vibe.  
+
+---
+
+## Core Java – 40 Marks Mock Exam (CCEE Pattern)
+
+**Q1.** Which of the following is *not* a Java feature?  
+a) Dynamic  
+b) Object-oriented  
+c) Portable  
+d) Use of pointers  
+
+**Q2.** Which keyword is used to prevent inheritance in Java?  
+a) abstract  
+b) const  
+c) static  
+d) final  
+
+**Q3.** What is the entry point of a Java program?  
+a) init()  
+b) start()  
+c) run()  
+d) main()  
+
+**Q4.** Which of these is *not* a valid access modifier in Java?  
+a) private  
+b) internal  
+c) protected  
+d) public  
+
+**Q5.** What is the default value of a local variable in Java?  
+a) null  
+b) 0  
+c) Depends on type  
+d) No default value  
+
+**Q6.** Which package contains the Random class?  
+a) java.util  
+b) java.sql  
+c) java.lang  
+d) java.io  
+
+**Q7.** Which operator compares object references?  
+a) equals()  
+b) !=  
+c) ==  
+d) compareTo()  
+
+**Q8.** Which of these is a marker interface?  
+a) Serializable  
+b) Cloneable  
+c) Remote  
+d) All of the above  
+
+**Q9.** Which collection allows dynamic resizing and indexed access?  
+a) TreeMap  
+b) HashSet  
+c) LinkedList  
+d) ArrayList  
+
+**Q10.** Which keyword defines a constant in Java?  
+a) static  
+b) final  
+c) const  
+d) constant  
+
+**Q11.** Which exception is thrown when dividing by zero?  
+a) NullPointerException  
+b) IllegalArgumentException  
+c) NumberFormatException  
+d) ArithmeticException  
+
+**Q12.** Which method starts a thread?  
+a) start()  
+b) run()  
+c) execute()  
+d) init()  
+
+**Q13.** Which class is the superclass of all classes?  
+a) System  
+b) Object  
+c) Runtime  
+d) Class  
+
+**Q14.** Which keyword is used to inherit a class?  
+a) inherits  
+b) implements  
+c) super  
+d) extends  
+
+**Q15.** Which keyword is used to implement an interface?  
+a) implements  
+b) interface  
+c) inherit  
+d) extends  
+
+**Q16.** Which method is called before garbage collection?  
+a) finalize()  
+b) clean()  
+c) delete()  
+d) dispose()  
+
+**Q17.** Which keyword refers to the current object?  
+a) self  
+b) current  
+c) super  
+d) this  
+
+**Q18.** Which keyword calls the parent class constructor?  
+a) parent  
+b) this  
+c) base  
+d) super  
+
+**Q19.** Which of these is *not* a primitive data type?  
+a) string  
+b) int  
+c) boolean  
+d) float  
+
+**Q20.** Which keyword creates an object?  
+a) new  
+b) object  
+c) construct  
+d) create  
+
+**Q21.** Which collection guarantees insertion order?  
+a) HashSet  
+b) LinkedHashSet  
+c) TreeSet  
+d) PriorityQueue  
+
+**Q22.** Which method compares two strings lexicographically?  
+a) equals()  
+b) ==  
+c) compareTo()  
+d) compare()  
+
+**Q23.** Which keyword handles exceptions?  
+a) throw  
+b) try  
+c) catch  
+d) finally  
+
+**Q24.** Which keyword declares an abstract class?  
+a) abstract  
+b) virtual  
+c) interface  
+d) base  
+
+**Q25.** Which collection is synchronized by default?  
+a) ArrayList  
+b) HashMap  
+c) Vector  
+d) HashSet  
+
+**Q26.** Which keyword stops a loop?  
+a) stop  
+b) break  
+c) exit  
+d) return  
+
+**Q27.** Which keyword continues to the next iteration?  
+a) skip  
+b) continue  
+c) next  
+d) pass  
+
+**Q28.** Which method converts a string to an integer?  
+a) Integer.parseInt()  
+b) Integer.valueOf()  
+c) toInt()  
+d) parse()  
+
+**Q29.** Which keyword declares a package?  
+a) package  
+b) import  
+c) namespace  
+d) module  
+
+**Q30.** Which keyword imports classes?  
+a) package  
+b) import  
+c) include  
+d) using  
+
+**Q31.** Which keyword throws an exception?  
+a) throws  
+b) throw  
+c) raise  
+d) error  
+
+**Q32.** Which keyword declares a method that must be overridden?  
+a) abstract  
+b) virtual  
+c) override  
+d) base  
+
+**Q33.** Which keyword synchronizes a method?  
+a) sync  
+b) synchronized  
+c) lock  
+d) threadsafe  
+
+**Q34.** Which keyword declares a variable that cannot change?  
+a) const  
+b) final  
+c) static  
+d) immutable  
+
+**Q35.** Which keyword declares a method that belongs to the class, not the object?  
+a) static  
+b) final  
+c) abstract  
+d) class  
+
+**Q36.** Which keyword declares a variable that belongs to the class, not the object?  
+a) static  
+b) final  
+c) abstract  
+d) class  
+
+**Q37.** Which keyword declares a method that cannot be overridden?  
+a) static  
+b) final  
+c) abstract  
+d) private  
+
+**Q38.** Which keyword declares a class that cannot be inherited?  
+a) static  
+b) final  
+c) abstract  
+d) sealed  
+
+**Q39.** Which keyword declares a variable accessible without creating an object?  
+a) static  
+b) final  
+c) abstract  
+d) global  
+
+**Q40.** Which keyword declares a method accessible without creating an object?  
+a) static  
+b) final  
+c) abstract  
+d) global  
+
+---
+
+That’s your **40-mark Core Java CCEE mock** 🎯.  
+You can attempt it now, and once you finish, share your score or answers. I’ll then prepare your **revision sheet for incorrect ones** and update your **progress log** automatically.  
+
+Do you want me to schedule tomorrow’s subject mock (like C++ or DBMS) right away so you know the rotation?
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Perfect, Nikita 🌟. Here’s your **complete 40-question Core Java CCEE-style mock exam** — with **code snippets + theory mix** to match the actual difficulty you’ll face. Each question = 1 mark, total = 40 marks.  
+
+---
+
+## Core Java – 40 Marks Mock Exam (CCEE Pattern)
+
+**Q1.** Output?  
+```java
+class Test {
+    public static void main(String[] args) {
+        int x = 5;
+        System.out.println(x++ + ++x);
+    }
+}
+```
+a) 10  
+b) 11  
+c) 12  
+d) Compilation error  
+
+---
+
+**Q2.** Output?  
+```java
+class A {
+    int i = 10;
+}
+class B extends A {
+    int i = 20;
+    void show() {
+        System.out.println(super.i);
+    }
+    public static void main(String[] args) {
+        new B().show();
+    }
+}
+```
+a) 10  
+b) 20  
+c) Compilation error  
+d) Runtime error  
+
+---
+
+**Q3.** Output?  
+```java
+public class Test {
+    public static void main(String[] args) {
+        String s1 = "CDAC";
+        String s2 = new String("CDAC");
+        System.out.println(s1 == s2);
+        System.out.println(s1.equals(s2));
+    }
+}
+```
+a) true true  
+b) false true  
+c) true false  
+d) false false  
+
+---
+
+**Q4.** Output?  
+```java
+public class Test {
+    public static void main(String[] args) {
+        try {
+            int a = 10/0;
+        } catch(ArithmeticException e) {
+            System.out.println("Exception caught");
+        } finally {
+            System.out.println("Finally block executed");
+        }
+    }
+}
+```
+a) Exception caught  
+b) Finally block executed  
+c) Both a & b  
+d) Runtime error  
+
+---
+
+**Q5.** Output?  
+```java
+class Test {
+    public static void main(String[] args) {
+        String str = "hello";
+        str.concat("world");
+        System.out.println(str);
+    }
+}
+```
+a) hello  
+b) helloworld  
+c) Compilation error  
+d) NullPointerException  
+
+---
+
+**Q6.** Which keyword prevents inheritance?  
+a) abstract  
+b) const  
+c) static  
+d) final  
+
+**Q7.** Which method starts a thread?  
+a) run()  
+b) start()  
+c) execute()  
+d) init()  
+
+**Q8.** Which class is superclass of all classes?  
+a) System  
+b) Object  
+c) Runtime  
+d) Class  
+
+**Q9.** Which operator compares references?  
+a) ==  
+b) equals()  
+c) compareTo()  
+d) !=  
+
+**Q10.** Which of these is a marker interface?  
+a) Serializable  
+b) Cloneable  
+c) Remote  
+d) All of the above  
+
+---
+
+**Q11.** Output?  
+```java
+class Test {
+    public static void main(String[] args) {
+        int arr[] = new int[5];
+        System.out.println(arr[0]);
+    }
+}
+```
+a) 0  
+b) null  
+c) Compilation error  
+d) Garbage value  
+
+---
+
+**Q12.** Output?  
+```java
+class Test {
+    public static void main(String[] args) {
+        String s1 = "java";
+        String s2 = "java";
+        System.out.println(s1 == s2);
+    }
+}
+```
+a) true  
+b) false  
+c) Compilation error  
+d) Runtime error  
+
+---
+
+**Q13.** Output?  
+```java
+class Test {
+    public static void main(String[] args) {
+        StringBuffer sb = new StringBuffer("CDAC");
+        sb.append(" Pune");
+        System.out.println(sb);
+    }
+}
+```
+a) CDAC Pune  
+b) CDAC  
+c) Compilation error  
+d) Runtime error  
+
+---
+
+**Q14.** Output?  
+```java
+class Test {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 2;
+        System.out.println(a/b);
+    }
+}
+```
+a) 2  
+b) 2.5  
+c) Compilation error  
+d) Runtime error  
+
+---
+
+**Q15.** Output?  
+```java
+class Test {
+    public static void main(String[] args) {
+        int i = 0;
+        while(i < 3) {
+            System.out.print(i);
+            i++;
+        }
+    }
+}
+```
+a) 012  
+b) 123  
+c) 0 1 2  
+d) Compilation error  
+
+---
+
+**Q16.** Which keyword refers to current object?  
+a) self  
+b) this  
+c) super  
+d) current  
+
+**Q17.** Which keyword calls parent constructor?  
+a) super  
+b) base  
+c) this  
+d) parent  
+
+**Q18.** Which exception occurs dividing by zero?  
+a) ArithmeticException  
+b) NullPointerException  
+c) NumberFormatException  
+d) IllegalArgumentException  
+
+**Q19.** Which collection guarantees insertion order?  
+a) HashSet  
+b) LinkedHashSet  
+c) TreeSet  
+d) PriorityQueue  
+
+**Q20.** Which keyword declares a package?  
+a) package  
+b) import  
+c) namespace  
+d) module  
+
+---
+
+**Q21.** Output?  
+```java
+class Test {
+    public static void main(String[] args) {
+        String s = "abc";
+        s = s.toUpperCase();
+        System.out.println(s);
+    }
+}
+```
+a) abc  
+b) ABC  
+c) Compilation error  
+d) Runtime error  
+
+---
+
+**Q22.** Output?  
+```java
+class Test {
+    public static void main(String[] args) {
+        int x = 10;
+        if(x++ == 10) {
+            System.out.println("True");
+        } else {
+            System.out.println("False");
+        }
+    }
+}
+```
+a) True  
+b) False  
+c) Compilation error  
+d) Runtime error  
+
+---
+
+**Q23.** Output?  
+```java
+class Test {
+    public static void main(String[] args) {
+        String s1 = "hello";
+        String s2 = "hello";
+        System.out.println(s1.equals(s2));
+    }
+}
+```
+a) true  
+b) false  
+c) Compilation error  
+d) Runtime error  
+
+---
+
+**Q24.** Output?  
+```java
+class Test {
+    public static void main(String[] args) {
+        int i = 1;
+        do {
+            System.out.print(i);
+            i++;
+        } while(i <= 3);
+    }
+}
+```
+a) 123  
+b) 12  
+c) 1  
+d) Compilation error  
+
+---
+
+**Q25.** Output?  
+```java
+class Test {
+    public static void main(String[] args) {
+        int arr[] = {1,2,3};
+        for(int i : arr) {
+            System.out.print(i);
+        }
+    }
+}
+```
+a) 123  
+b) 321  
+c) Compilation error  
+d) Runtime error  
+
+---
+
+**Q26.** Output?  
+```java
+class Test {
+    public static void main(String[] args) {
+        String s = "abc";
+        s = s.replace('a','z');
+        System.out.println(s);
+    }
+}
+```
+a) zbc  
+b) abc  
+c) Compilation error  
+d) Runtime error  
+
+---
+
+**Q27.** Output?  
+```java
+class Test {
+    public static void main(String[] args) {
+        int x = 5;
+        System.out.println(++x * x++);
+    }
+}
+```
+a) 30  
+b) 25  
+c) 36  
+d) Compilation error  
+
+---
+
+**Q28.** Output?  
+```java
+class Test {
+    public static void main(String[] args) {
+        String s = "CDAC";
+        System.out.println(s.substring(1,3));
+    }
+}
+```
+a) DA  
+b) CA  
+c) CD  
+d) Compilation error  
+
+---
+
+**Q29.** Output?  
+```java
+class Test {
+    public static void main(String[] args) {
+        int x = 0;
+        for(int i=0; i<5; i++) {
+            x += i;
+        }
+        System.out.println(x);
+    }
+}
+```
+a) 10  
+b) 15  
+c) 5  
+d) Compilation error  
+
+---
+
+**Q30.** Output?  
+```java
+class Test {
+    public static void main(String[] args) {
+        String s = "java";
+        System.out.println(s.length());
+    }
+}
+```
+a) 3  
+b) 4  
+c) 5  
+d) Compilation error  
+
+---
+
+**Q31.** Output?  
+```java
+class Test {
+    public static void main(String[] args) {
+        int x = 10;
+        int y = 20;
+        System.out.println(x > y ? x : y);
+    }
+}
+```
+a) 10  
+b) 20  
+c) Compilation error  
+d) Runtime error  
+
+---
+
+**Q32.** Output?  
+```java
+class Test {
+    public static void main(String[] args) {
+        String s = "abc";
+        System.out.println(s.charAt(2));
+    }
+}
+```
+a) a  
+b) b  
+c) c  
+d) Compilation error  
+
+---
+
+**Q33.** Output?  
+```java
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Alright.
+We start **now**, properly, with **no compromises**.
+
+---
+
+# ✅ MOCK 2 — CORE JAVA (CCEE REAL EXAM SIMULATION)
+
+**Subject:** OOP with Java (Core Java)
+**Questions:** 40
+**Marks:** 40 (1 each)
+**Time:** 45 minutes
+**Difficulty:** **CCEE → slightly above CCEE**
+**Pattern:** Output-based + concept traps + code snippets
+**Rules:**
+
+* Answer only in **A / B / C / D**
+* Assume **Java 8+**, default settings
+* No IDE, no execution — **pure exam thinking**
+
+---
+
+## ☕ CORE JAVA (Q1–Q40)
+
+### Q1. Output?
+
+```java
+class Test {
+    static int x = 10;
+    static {
+        x = x + 5;
+    }
+    public static void main(String[] args) {
+        System.out.print(x);
+    }
+}
+```
+
+A) 10
+B) 15
+C) 0
+D) Compilation error
+
+---
+
+### Q2.
+
+Which statement about **method overriding** is FALSE?
+A) It happens at runtime
+B) Return type can be covariant
+C) Access level can be more restrictive
+D) Method signature must be same
+
+---
+
+### Q3. Output?
+
+```java
+class A {
+    void show() {
+        System.out.print("A ");
+    }
+}
+class B extends A {
+    void show() {
+        System.out.print("B ");
+    }
+}
+public class Test {
+    public static void main(String[] args) {
+        A obj = new B();
+        obj.show();
+    }
+}
+```
+
+A) A
+B) B
+C) A B
+D) Compilation error
+
+---
+
+### Q4.
+
+Which of the following **cannot be overridden**?
+A) static method
+B) private method
+C) final method
+D) All of the above
+
+---
+
+### Q5. Output?
+
+```java
+class Test {
+    public static void main(String[] args) {
+        String s1 = "java";
+        String s2 = "java";
+        System.out.print(s1 == s2);
+    }
+}
+```
+
+A) true
+B) false
+C) Compilation error
+D) Runtime error
+
+---
+
+### Q6.
+
+Which exception is **unchecked**?
+A) IOException
+B) SQLException
+C) ClassNotFoundException
+D) NullPointerException
+
+---
+
+### Q7. Output?
+
+```java
+class Test {
+    public static void main(String[] args) {
+        int[] a = {1, 2, 3};
+        System.out.print(a[3]);
+    }
+}
+```
+
+A) 3
+B) 0
+C) ArrayIndexOutOfBoundsException
+D) Compilation error
+
+---
+
+### Q8.
+
+Which keyword is used to **call parent class constructor**?
+A) this
+B) super
+C) parent
+D) base
+
+---
+
+### Q9. Output?
+
+```java
+class Test {
+    public static void main(String[] args) {
+        Integer x = 100;
+        Integer y = 100;
+        System.out.print(x == y);
+    }
+}
+```
+
+A) true
+B) false
+C) Compilation error
+D) Runtime error
+
+---
+
+### Q10.
+
+Which collection **does NOT allow duplicates**?
+A) ArrayList
+B) Vector
+C) HashSet
+D) LinkedList
+
+---
+
+### Q11. Output?
+
+```java
+class Test {
+    public static void main(String[] args) {
+        String s = null;
+        System.out.print(s.length());
+    }
+}
+```
+
+A) 0
+B) NullPointerException
+C) Compilation error
+D) Prints null
+
+---
+
+### Q12.
+
+Which interface is used to create a thread?
+A) Runnable
+B) Callable
+C) Thread
+D) Executor
+
+---
+
+### Q13. Output?
+
+```java
+class Test {
+    static int x;
+    public static void main(String[] args) {
+        System.out.print(x);
+    }
+}
+```
+
+A) 0
+B) Garbage value
+C) Compilation error
+D) Runtime error
+
+---
+
+### Q14.
+
+Which statement about **abstract classes** is TRUE?
+A) Cannot have constructors
+B) Cannot have non-abstract methods
+C) Cannot be instantiated
+D) Must contain abstract methods
+
+---
+
+### Q15. Output?
+
+```java
+class Test {
+    public static void main(String[] args) {
+        System.out.print(10 + 20 + "Java");
+    }
+}
+```
+
+A) Java30
+B) 1020Java
+C) 30Java
+D) Compilation error
+
+---
+
+### Q16.
+
+Which block executes **whether exception occurs or not**?
+A) try
+B) catch
+C) throw
+D) finally
+
+---
+
+### Q17. Output?
+
+```java
+class Test {
+    public static void main(String[] args) {
+        System.out.print(Math.min(Double.MIN_VALUE, 0.0));
+    }
+}
+```
+
+A) 0.0
+B) 4.9E-324
+C) -0.0
+D) Compilation error
+
+---
+
+### Q18.
+
+Which keyword makes a variable **constant**?
+A) static
+B) final
+C) const
+D) immutable
+
+---
+
+### Q19. Output?
+
+```java
+class Test {
+    public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder("Java");
+        sb.append("SE");
+        System.out.print(sb);
+    }
+}
+```
+
+A) Java
+B) SE
+C) JavaSE
+D) Compilation error
+
+---
+
+### Q20.
+
+Which package contains `Scanner`?
+A) java.io
+B) java.lang
+C) java.util
+D) java.net
+
+---
+
+### Q21. Output?
+
+```java
+class Test {
+    public static void main(String[] args) {
+        System.out.print(10 / 0);
+    }
+}
+```
+
+A) Infinity
+B) 0
+C) ArithmeticException
+D) Compilation error
+
+---
+
+### Q22.
+
+Which collection is **thread-safe**?
+A) ArrayList
+B) HashMap
+C) Vector
+D) HashSet
+
+---
+
+### Q23.
+
+Which exception is the **parent of all exceptions**?
+A) Error
+B) Exception
+C) Throwable
+D) RuntimeException
+
+---
+
+### Q24. Output?
+
+```java
+class Test {
+    public static void main(String[] args) {
+        Object o = new String("Java");
+        System.out.print(o instanceof String);
+    }
+}
+```
+
+A) true
+B) false
+C) Compilation error
+D) Runtime error
+
+---
+
+### Q25.
+
+Which OOP concept binds data and methods together?
+A) Abstraction
+B) Encapsulation
+C) Inheritance
+D) Polymorphism
+
+---
+
+### Q26. Output?
+
+```java
+class Test {
+    public static void main(String[] args) {
+        try {
+            return;
+        } finally {
+            System.out.print("Finally");
+        }
+    }
+}
+```
+
+A) No output
+B) Finally
+C) Runtime error
+D) Compilation error
+
+---
+
+### Q27.
+
+Which is **NOT** an OOP principle?
+A) Encapsulation
+B) Inheritance
+C) Compilation
+D) Polymorphism
+
+---
+
+### Q28. Output?
+
+```java
+class Test {
+    public static void main(String[] args) {
+        int x = 5;
+        System.out.print(x++ + ++x);
+    }
+}
+```
+
+A) 10
+B) 11
+C) 12
+D) 13
+
+---
+
+### Q29.
+
+Which keyword is used for **inheritance**?
+A) implements
+B) inherits
+C) extends
+D) super
+
+---
+
+### Q30. Output?
+
+```java
+class Test {
+    public static void main(String[] args) {
+        String s = "Java";
+        s.concat("SE");
+        System.out.print(s);
+    }
+}
+```
+
+A) Java
+B) JavaSE
+C) SE
+D) Compilation error
+
+---
+
+### Q31.
+
+Which interface is used to **sort objects**?
+A) Serializable
+B) Runnable
+C) Comparator
+D) Cloneable
+
+---
+
+### Q32. Output?
+
+```java
+class Test {
+    public static void main(String[] args) {
+        System.out.print(null == null);
+    }
+}
+```
+
+A) true
+B) false
+C) Compilation error
+D) Runtime error
+
+---
+
+### Q33.
+
+Which access modifier allows visibility **within same package only**?
+A) private
+B) public
+C) protected
+D) default
+
+---
+
+### Q34. Output?
+
+```java
+class Test {
+    public static void main(String[] args) {
+        System.out.print(10 + "20" + 30);
+    }
+}
+```
+
+A) 60
+B) 102030
+C) 1020 30
+D) Compilation error
+
+---
+
+### Q35.
+
+Which method starts a thread?
+A) run()
+B) execute()
+C) start()
+D) init()
+
+---
+
+### Q36.
+
+Which statement about `String` is TRUE?
+A) Mutable
+B) Not thread-safe
+C) Immutable
+D) Can be inherited
+
+---
+
+### Q37. Output?
+
+```java
+class Test {
+    public static void main(String[] args) {
+        System.out.print(Math.round(3.5));
+    }
+}
+```
+
+A) 3
+B) 4
+C) 3.5
+D) Compilation error
+
+---
+
+### Q38.
+
+Which keyword is used to **throw an exception explicitly**?
+A) throws
+B) throw
+C) try
+D) catch
+
+---
+
+### Q39. Output?
+
+```java
+class Test {
+    public static void main(String[] args) {
+        boolean b = false;
+        if(b = true)
+            System.out.print("YES");
+        else
+            System.out.print("NO");
+    }
+}
+```
+
+A) YES
+B) NO
+C) Compilation error
+D) Runtime error
+
+---
+
+### Q40.
+
+Which of the following achieves **abstraction** in Java?
+A) Interface
+B) Abstract class
+C) Both A and B
+D) None
+
+---
+
+## 📝 Submit like this:
+
+`1.B 2.C 3.A ... 40.D`
+
+Take your time.
+After submission, I’ll give you:
+
+* **One accurate score**
+* **CCEE comparison**
+* **Exact lag areas (no noise)**
+
+=========================================================================================================================================================================
+
+JAVA_PRACTICE_TEST_2
+nikita2001palvankar@gmail.com Switch accounts
+ 
+
+ Which of the following classes in Java can be used for non-blocking I/O operations (NIO)?
+*
+1 point
+A) BufferedReader
+B) FileInputStream ✅
+C) Selector
+D) PrintWriter
+
+ Which of the following statements is true about enums in Java?
+*
+1 point
+A) An enum can inherit from another class.
+B) Enums can implement interfaces but cannot extend other classes.
+C) Enum constants are always static and final.
+D) Enums cannot have constructors or methods.✅
+
+ What is the key difference between overloading and overriding in Java?
+*
+1 point
+A) Overloading is determined at runtime, while overriding is determined at compile time.
+B) Overloading involves changing the method signature, while overriding involves changing the method body in the subclass.✅
+C) Overloading is not allowed in Java, whereas overriding is.
+D) Overloading occurs when the method signature is the same, and overriding happens when the return type is changed.
+
+ Which of the following statements is incorrect about try-catch-finally blocks in Java?
+*
+1 point
+A) The finally block is executed even if an exception is not thrown.
+B) The finally block is executed only if the exception is caught.✅
+C) The finally block is executed whether or not an exception occurs, except in cases where the JVM crashes or the program exits.
+D) A finally block can be skipped if the JVM exits during the execution of the try or catch block (e.g., via System.exit()).
+
+ What is the primary difference between StringBuilder and StringBuffer in Java?
+*
+1 point
+A) StringBuilder is synchronized, while StringBuffer is not.✅
+B) StringBuffer is synchronized, while StringBuilder is not.
+C) StringBuilder and StringBuffer are identical in functionality and performance.
+D) StringBuilder can only be used for string concatenation, while StringBuffer can be used for general-purpose string manipulation.
+
+Which of the following statements is true regarding garbage collection in Java?
+*
+1 point
+A) Java automatically runs garbage collection at fixed intervals.
+B) The garbage collector runs only when the System.gc() method is explicitly called.
+C) Objects that are unreachable or no longer referenced are eligible for garbage collection.✅
+D) The garbage collector cannot reclaim memory from objects that were created using new keyword.
+
+ Which of the following is true about the Java Virtual Machine (JVM) and its platform independence?
+*
+1 point
+A) The JVM is platform-independent; Java bytecode is compiled to machine code specific to each platform.✅
+B) The JVM must be re-written for each platform, but once written, it allows Java bytecode to be executed on all systems.
+C) Java programs are compiled directly into platform-specific binaries.
+D) Java bytecode is platform-specific, and JVM makes the code independent of the hardware architecture.
+
+ Which of the following statements about exceptions in Java is correct?
+*
+1 point
+A) All exceptions inherit directly from Throwable.
+B) Error and Exception are both subclasses of Throwable, but only Error can be caught using a try-catch block.✅ 
+C) Error is a subclass of Exception, and it should be caught in the try-catch block.
+D) Checked exceptions are those that are instances of Error, and unchecked exceptions are those that are instances of Exception
+
+ Which of the following is the correct way to handle multi-catch in Java?
+*
+1 point
+A) Use multiple catch blocks for each exception type.✅
+B) Use a single catch block with multiple exceptions, separated by commas.
+C) Use catch (Exception | Throwable ex) to catch all types of exceptions.
+D) Use catch with | inside a try-catch block, and each exception should be an instance of Throwable
+
+ Which of the following methods is used to pause the execution of a thread for a specified time in milliseconds?
+*1 point
+a) join()
+b) sleep()
+c) yield()
+d) wait()✅
+
+ Which of the following methods can be used to explicitly request the JVM to run garbage collection in Java?
+*
+1 point
+A) System.gc()✅ 
+B) Runtime.getRuntime().gc()
+C) System.runFinalization()
+D) All of the above
+
+ Given the following code, what concept is demonstrated by the Vehicle class, which contains the speed() method, and the Car class that overrides it?
+
+class Vehicle {
+
+    void speed() {
+
+        System.out.println("Vehicle is moving");
+
+    }
+
+}
+class Car extends Vehicle {
+
+    @Override
+
+    void speed() {
+
+        System.out.println("Car is moving faster");
+
+    }
+
+}
+
+ 
+
+public class Test {
+
+    public static void main(String[] args) {
+
+        Vehicle v = new Car();
+
+        v.speed();
+
+    }
+
+}
+
+*
+1 point
+A) Encapsulation
+B) Inheritance
+C) Polymorphism✅ 
+D) Abstraction
+
+ What is the purpose of the throw keyword in Java?
+*
+1 point
+A) It is used to propagate exceptions up the call stack.
+B) It is used to explicitly throw exceptions within a method.
+C) It is used to declare that a method may throw an exception.✅
+D) It is used to handle an exception after it has been caught.
+
+Which of the following conditions is not required for a deadlock to occur in a system?
+*
+1 point
+a) Mutual exclusion
+b) Hold and wait
+c) No preemption
+d) Limited number of threads✅
+
+
+ Given the following code snippet, what is the result of the program?
+interface A {
+
+    void methodA();
+
+}
+interface B {
+
+    void methodB();
+
+}
+class C implements A, B {
+
+    public void methodA() {
+
+        System.out.println("Method A");
+
+    }
+    public void methodB() {
+
+        System.out.println("Method B");
+
+    }
+
+}
+public class Test {
+
+    public static void main(String[] args) {
+
+        C obj = new C();
+
+        obj.methodA();
+
+        obj.methodB();
+
+    }
+
+}
+*
+1 point
+A) Compilation Error
+B) Method A
+C) Method A followed by Method B✅
+D) Runtime Error
+
+
+What is the purpose of static imports in Java?
+*
+1 point
+A) Static imports allow you to import static variables and methods from other classes, enabling you to access them without qualifying with the class name.✅
+B) Static imports allow you to import static classes only.
+C) Static imports enable access to constructors from other classes.
+D) Static imports are used for importing non-static members of a class.
+
+
+ In the JVM architecture, which of the following components is responsible for loading class files into memory?
+*
+1 point
+A) Class Loader
+B) Execution Engine
+C) Garbage Collector
+D) Just-In-Time Compiler (JIT)✅
+
+Which of the following statements about TreeSet is correct?
+*
+1 point
+a) TreeSet allows duplicate elements, but sorts them in ascending order.
+b) TreeSet uses a Comparator to sort elements by default.
+c) TreeSet is based on a red-black tree, which ensures elements are stored in sorted order.✅
+d) TreeSet can store null elements, but only one.
+
+ Which of the following statements about passing variables to methods is TRUE?
+*
+1 point
+A) In Java, all arguments are passed by reference, meaning any changes made to the parameter will reflect in the original variable.
+B) In Java, primitive data types are passed by reference, while objects are passed by value.
+C) In Java, primitive types are passed by value, while objects are passed by reference.✅
+D) In Java, objects and primitive types are both passed by reference.
+
+
+ What is the result of the following code, and why? 
+class A {   
+ public void method() throws Exception {
+        throw new Exception("Exception from A");    
+}} 
+class B extends A {   
+ public void method() throws RuntimeException {
+        throw new RuntimeException("Exception from B");
+    }} 
+public class Test { 
+   public static void main(String[] args) {
+        A obj = new B();
+        try {
+            obj.method();
+        } catch (Exception e) {
+            System.out.println("Caught Exception: " + e.getMessage());
+        }    }}
+A) Caught Exception: Exception from A✅
+B) Caught Exception: Exception from B
+C) Compilation error
+D) Runtime exception not caught
+
+
+45. What is the result of the following code, and why? 
+class A {
+    public void method() throws Exception {
+        throw new Exception("Exception from A");
+    }} 
+class B extends A {
+    public void method() throws RuntimeException {
+        throw new RuntimeException("Exception from B");
+    }} 
+public class Test {
+    public static void main(String[] args) {
+        A obj = new B(); 
+       try {
+            obj.method(); 
+       } catch (Exception e) {
+            System.out.println("Caught Exception: " + e.getMessage());
+        }    }}
+
+*
+1 point
+A) Caught Exception: Exception from A✅
+B) Caught Exception: Exception from B
+C) Compilation error
+D) Runtime exception not caught
+
+
+Which of the following statements about ArrayList is true?
+*
+1 point
+a) ArrayList is synchronized by default.
+b) ArrayList allows duplicate elements.✅
+c) ArrayList implements Queue interface.
+d) ArrayList allows null elements, but only one at a time.
+
+ Which of the following methods is not directly inherited from the Object class but is instead defined in java.util classes?
+*
+1 point
+A) clone()✅
+B) toString()
+C) equals()
+D) hashCode()
+
+ Which of the following is a correct definition of a functional interface in Java?
+*
+1 point
+A) An interface that has only one abstract method and multiple default methods.✅
+B) An interface that has only one abstract method and no default methods.
+C) An interface that can have multiple abstract methods but only one default method.
+D) An interface that does not have any methods.
+
+What happens when Thread.yield() is called?
+*
+1 point
+a) It terminates the current thread.
+b) It pauses the current thread and allows other threads of the same priority to run.✅
+c) It suspends the current thread indefinitely.
+d) It causes the thread to sleep for a specified time
+
+What will happen when you add a string literal and a new string created using the new keyword in the context of the String pool?
+String str1 = "Hello";
+String str2 = new String("Hello");
+System.out.println(str1 == str2);
+1 point
+A) true
+B) false✅
+C) Compilation error
+D) Runtime exception
+
+ What happens when the finalize() method is called on an object in Java?
+*
+1 point
+A) It is automatically called by the garbage collector before the object is reclaimed.✅
+B) It must be manually invoked by the developer to free up resources.
+C) It can only be called once, and it cannot be overridden in any subclass.
+D) It is called only when the object is explicitly dereferenced by the developer.
+
+Which of the following methods is used to remove an element from a Queue in Java?
+*
+1 point
+a) remove()✅
+b) pop()
+c) delete()
+d) poll()
+
+What is the main difference between the Thread class and the Runnable interface?
+*
+1 point
+a) Thread is used to create threads, while Runnable is used to define the task for the thread.✅
+b) Runnable is a class that provides a mechanism for thread management, while Thread is an interface.
+c) Thread can be implemented by a class, while Runnable can only be extended by a class.
+d) Thread is used for non-blocking threads, while Runnable is used for blocking threads.
+
+ When compiling a Java program, which of the following best describes the relationship between the Java source code and the Java bytecode?
+*
+1 point
+A) Java source code is compiled into machine code by the Java compiler and executed directly by the OS.
+B) The Java compiler translates the Java source code into Java bytecode, which is then executed by the JVM.✅
+C) Java source code is compiled into an intermediate code that is executed directly by the CPU.
+D) Java source code is compiled into an executable, which does not require the JVM to run.
+
+ What is the output of the following Java code, considering inheritance and method overriding?
+
+class Animal {
+  void sound() {
+        System.out.println("Animal sound");
+    }
+}
+class Dog extends Animal {
+    @Override
+    void sound() {
+        System.out.println("Bark");
+    }
+}
+public class Test {
+    public static void main(String[] args) {
+        Animal obj = new Dog();
+        obj.sound();
+    }
+}
+
+*
+1 point
+A) Animal sound
+B) Bark✅
+C) Compilation error
+D) Runtime error
+
+ Which of the following operators has the highest precedence in Java?
+*
+1 point
+A) && (Logical AND)
+B) ++ (Increment)✅
+C) = (Assignment)
+D) == (Equality)
+
+ Which of the following interfaces is part of the Java I/O system and provides functionality for handling characters rather than raw byte data?
+*
+1 point
+A) InputStream✅
+B) OutputStream
+C) Reader
+D) Writer
+
+Which method is used to assign the priority of a thread in Java?
+*
+1 point
+a) setPriority()✅
+b) setThreadPriority()
+c) getPriority()
+d) assignPriority()
+
+
+ Consider the following code snippet. What will be the output when it is executed? 
+class Person {
+    String name;
+    int age;
+    Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }  
+   @Override
+    public String toString() { 
+       return "Person [name=" + name + ", age=" + age + "]";
+    }  
+   @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true; 
+       	if (obj == null || getClass() != obj.getClass())
+ 		return false;
+
+        Person person = (Person) obj;
+        return age == person.age && name.equals(person.name);
+    }
+     @Override    public int hashCode() {
+        return Objects.hash(name, age);
+    }}
+ public class Test {
+    public static void main(String[] args) {
+        Person person1 = new Person("Alice", 25);
+        Person person2 = new Person("Alice", 25);
+         System.out.println(person1.toString());
+        System.out.println(person1.equals(person2));
+        System.out.println(person1.hashCode() == person2.hashCode());
+    }}
+*
+1 point
+Person [name=Alice, age=25]truetrue
+Person [name=Alice, age=25]falsefalse
+Person [name=Alice, age=25]truefalse
+Person [name=Alice, age=25]falsetrue
+
+Which of the following is a characteristic feature of Hashtable?
+*
+1 point
+a) Hashtable is synchronized and thread-safe, but does not allow null values.✅
+b) Hashtable is thread-unsafe and allows duplicate keys.
+c) Hashtable allows null keys and values.
+d) Hashtable does not allow duplicate values, but allows duplicate keys
+
+What is the primary advantage of using Generics in Java?
+*
+1 point
+a) It allows dynamic binding of types at runtime.✅
+b) It enables the use of primitive types in collections.
+c) It helps ensure type safety by providing compile-time type checking.
+d) It eliminates the need for reflection in Java programs.
+
+Which of the following statements is true about the String pool in Java?
+*
+1 point
+A) The String pool is a separate area of memory used only for strings declared as new String().
+B) Strings in the String pool are automatically garbage collected once they are no longer referenced.
+C) String literals are stored in the String pool to save memory and ensure efficient string reuse.✅
+D) The String pool is located in the heap memory, not in the method area.
+
+ Which of the following is true about downcasting in Java?
+*
+1 point
+A) Downcasting is always safe and does not require an explicit check.✅
+B) Downcasting is the act of casting a superclass reference to a subclass reference.
+C) Downcasting is allowed without any restrictions.
+D) Downcasting cannot be performed in Java.
+
+ What will happen if you attempt to reassign a reference variable to a new object after it has been initialized?
+*
+1 point
+A) The original object becomes inaccessible and will be garbage collected.✅
+B) The reference variable will continue to refer to the original object.
+C) The new object will not be assigned to the reference variable.
+D) The original object will be deleted immediately.
+
+ Which of the following is the correct way to create a user-defined checked exception in Java?
+*
+1 point
+A) class MyCheckedException extends RuntimeException {}
+B) class MyCheckedException extends Exception {}✅
+C) class MyUncheckedException extends Throwable {}
+D) class MyCheckedException extends Error {}
+
+ What will be the output of the following code involving StringBuffer? 
+StringBuffer sb = new StringBuffer("Java");
+sb.append(" Programming");
+String str = sb.toString();
+System.out.println(str);
+*
+1 point
+A) Java
+B) Java Programming✅
+C) Programming Java
+D) Compilation error
+
+ Which of the following statements is TRUE about Java's memory management?
+*
+1 point
+A) Java uses manual memory management and developers are responsible for memory allocation and deallocation.
+B) Java’s memory management is entirely handled by the JVM’s garbage collector.
+C) The JVM allocates memory for objects but does not handle garbage collection.✅
+D) Java allows direct memory manipulation using unsafe methods.
+
+In the Producer-Consumer problem, which of the following statements is true regarding the role of wait(), notify(), and notifyAll()?
+*
+1 point
+a) wait() is used to pause the producer when the buffer is full, and notify() is used to notify the consumer.✅
+b) notify() is used to pause the consumer when the buffer is empty, and notifyAll() is used to notify all producers.
+c) notifyAll() is used when a producer adds an item, and wait() is used to pause the consumer when there are no items.
+d) notify() is used to pause the producer when the buffer is full, and wait() is used to notify the consumer.
+
+
+. Consider the following code: 
+import java.util.*; 
+public class Main {
+    public static void main(String[] args) {
+        Map<Integer, String> map = new LinkedHashMap<>();
+        map.put(3, "Three");
+        map.put(1, "One"); 
+       map.put(2, "Two"); 
+       map.put(4, "Four"); 
+        System.out.println(map);
+    }}
+What will be the output?
+*
+1 point
+a) {1=One, 2=Two, 3=Three, 4=Four}✅
+b) {3=Three, 1=One, 2=Two, 4=Four}
+c) {1=One, 3=Three, 2=Two, 4=Four}
+d) {4=Four, 3=Three, 2=Two, 1=One}
+
+
+ What is the key difference between HashMap and TreeMap in Java?
+*
+1 point
+a) HashMap maintains the order of keys, while TreeMap does not.
+b) HashMap uses a hash table for storage, while TreeMap uses a red-black tree to store keys in sorted order.✅
+c) HashMap allows null keys, while TreeMap does not allow null keys.
+d) HashMap can store only String keys, while TreeMap can store keys of any type.
+
+ What is the behavior of the finalize() method in Java when the JVM decides to run garbage collection?
+*
+1 point
+A) The finalize() method is always called before the object is garbage collected.✅
+B) The finalize() method may or may not be called by the garbage collector before the object is reclaimed.
+C) The finalize() method is called when the object becomes eligible for garbage collection.
+D) The finalize() method is invoked by the developer manually before garbage collection.
+
+ What is the purpose of wrapper classes in Java?
+*
+1 point
+A) To convert primitive data types to objects and vice versa.✅
+B) To perform arithmetic operations on primitive types.
+C) To improve memory efficiency for primitive types.
+D) To enable primitive types to be garbage collected
+
+Which of the following best describes the process of serialization in Java?
+*
+1 point
+A) Converting an object into a byte stream for storage or transmission
+B) Creating a shallow copy of an object✅
+C) Creating a deep copy of an object
+D) Transforming byte data into a human-readable format
+
+ Which of the following statements is true regarding garbage collection in Java?
+*
+1 point
+A) Java automatically runs garbage collection at fixed intervals.
+B) The garbage collector runs only when the System.gc() method is explicitly called.
+C) Objects that are unreachable or no longer referenced are eligible for garbage collection.✅
+D) The garbage collector cannot reclaim memory from objects that were created using new keyword.
+
+ Which of the following statements is true about the Calendar class in Java?
+*
+1 point
+A) The Calendar class is immutable and cannot be modified.
+B) Calendar is a concrete class and cannot be subclassed.✅
+C) Calendar is an abstract class and must be subclassed before use.
+D) Calendar objects are thread-safe without needing synchronization.
+
+
+ Which of the following is NOT a valid Java token?
+*
+1 point
+A) class
+B) @Override
+C) main
+D) ++✅
+
+ Which of the following code snippets correctly formats a Date object into a String representation in the format dd/MM/yyyy?
+*
+1 point
+Date date = new Date();SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");String formattedDate = sdf.format(date);
+Date date = new Date();SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");String formattedDate = sdf.format(date);
+Date date = new Date();SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");String formattedDate = sdf.format(date);✅
+Date date = new Date();SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");String formattedDate = sdf.format(date);
+
+
+ Which of the following statements is correct about the use of the final keyword in Java?
+*
+1 point
+A) A final method can be overridden in a subclass.
+B) A final class cannot have any subclasses.✅
+C) A final variable can be reassigned after initialization.
+D) A final class can have a constructor.
+
+
+ What will be the output of the following lambda expression code?
+public class Test {
+    public static void main(String[] args) {
+        Runnable r = () -> System.out.println("Lambda Expression in Java!");
+        r.run();
+    }
+}
+
+*
+1 point
+A) Compilation error
+B) Lambda Expression in Java
+C) run() method not defined✅
+D) Runnable.run() method executed
+
+
+What will be the output of the following code snippet? 
+import java.util.*; public class Main {
+    public static void main(String[] args) { 
+       List<Integer> list = new ArrayList<>(Arrays.asList(10, 20, 30, 40));
+        list.add(1, 25); // Insert 25 at index 1  
+      System.out.println(list.get(1)); // What will be printed?
+    }}
+*
+1 point
+a) 25✅
+b) 20
+c) 30
+d) Compilation error
+
+
+ What will happen if we try to access a protected variable or method outside the package but within a subclass?
+*
+1 point
+A) It will result in a compilation error, even if the subclass is in a different package.
+B) It will result in a compilation error, unless the protected member is accessed within the same package.
+C) The protected variable or method can be accessed in the subclass, even if it is in a different package.✅
+D) The protected member will be inherited, but access will be denied in subclasses.
+
+
+ Which of the following statements about inheritance in Java is FALSE?
+*
+1 point
+A) A class can inherit from multiple classes in Java (Multiple Inheritance).✅
+B) A subclass inherits both instance variables and methods from its superclass.
+C) A subclass can override methods of the superclass to provide its own implementation.
+D) A subclass can access the public and protected members of its superclass.
+
+ Which of the following interfaces must a class implement in order to support Java serialization?
+*
+1 point
+A) Cloneable
+B) Serializable
+C) Externalizable
+D) Runnable✅
+
+ Which of the following methods can be used to convert a String to its corresponding primitive type using a wrapper class?
+*
+1 point
+A) parse()
+B) valueOf()
+C) toPrimitive()
+D) parseInt() for Integer, parseDouble() for Double, etc.✅
+
+ What happens when the finalize() method is called on an object in Java? 
+*
+1 point
+A) It is automatically called by the garbage collector before the object is reclaimed.✅
+B) It must be manually invoked by the developer to free up resources.
+C) It can only be called once, and it cannot be overridden in any subclass.
+D) It is called only when the object is explicitly dereferenced by the developer.
+
+ Which of the following is true about inner classes in Java?
+*
+1 point
+A) A regular inner class can access both instance and static members of the enclosing class.
+B) A method-local inner class can access only static members of the enclosing class.
+C) Anonymous inner classes do not have a name and can access instance variables directly from the enclosing class.✅
+D) A static inner class can access instance variables of the enclosing class without any restrictions.
+
+ Which of the following is the correct way to achieve composition in Java?
+*
+1 point
+A) A class has references to objects of other classes, but the lifetime of the referenced objects is independent of the owning class.
+B) A class has references to objects of other classes, and the lifetime of the referenced objects is controlled by the owning class.✅
+C) A class inherits from multiple classes.
+D) A class can have multiple objects of another class but with no strong relationship.
+
+ Which of the following correctly describes the constructor behavior in the context of initializing reference variables in Java?
+*
+1 point
+A) Constructors are only used to initialize primitive data types.
+B) Constructors can be used to initialize reference variables, and you can use the new keyword to assign objects to them.✅
+C) Constructors cannot initialize reference variables, as they must always be initialized later in the program.
+D) Constructors automatically reassign all reference variables to their default values.
+
+Which of the following best describes the difference between shallow copy and deep copy in Java?
+*
+1 point
+A) A shallow copy creates a new object with the same reference as the original, while a deep copy creates a completely independent copy of the original object and its fields.✅
+B) A shallow copy copies only primitive data types, while a deep copy copies objects only.
+C) A shallow copy copies fields by reference, while a deep copy only copies immutable fields.
+D) A shallow copy is used for cloning objects, while a deep copy is used to serialize objects.
+
+which of the following code snippets correctly converts a Date object to a String and vice versa using SimpleDateFormat?
+*
+1 point
+A)Date date = new Date();SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");String formattedDate = sdf.parse(date);Date parsedDate = sdf.format(formattedDate);
+B)Date date = new Date();SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");String formattedDate = sdf.format(date);Date parsedDate = sdf.parse(formattedDate);✅
+c)Date date = new Date();SimpleDateFormat sdf = new SimpleDateFormat("MM-dd-yyyy");String formattedDate = sdf.parse(date);Date parsedDate = sdf.format(formattedDate);
+D)Date date = new Date();SimpleDateFormat sdf = new SimpleDateFormat("MM-dd-yyyy");String formattedDate = sdf.parse(date);Date parsedDate = sdf.parse(formattedDate);
+
+
+Consider the following code snippet: 
+ import java.util.*; public class Test { 
+   public static void main(String[] args) { 
+       List<String> list = new LinkedList<>();
+        list.add("a");   
+     	list.add("b");
+        list.add("c");
+        list.remove("b"); 
+       System.out.println(list); 
+   }}
+What will be the output?
+
+*
+1 point
+a) [a, c]✅
+b) [b, c]
+c) [a, b, c]
+d) [a]
+
+
+ What will be the result of the following code
+int a = 5, b = 3;
+if (a > b)
+{
+if (b > 2)
+{
+ System.out.println("True");
+ }
+}
+
+*
+1 point
+A) True✅
+B) No output
+C) Compilation Error
+D) Runtime Exception
+
+Which of the following methods is used to make a thread wait until another thread sends a signal to continue its execution?
+*
+1 point
+a) wait()
+b) notify()
+c) sleep()✅
+d) join()
+
+Which of the following statements is true about the Vector class?
+*
+1 point
+a) Vector is not synchronized.
+b) Vector automatically doubles its size when it runs out of space.✅
+c) Vector has a fixed size once initialized.
+d) Vector doesn't allow dynamic resizing of elements.
+
+ In Java NIO, which of the following is used to transfer data between a FileChannel and a buffer?
+*
+1 point
+A) read() and write() methods✅
+B) select() and deselect() methods
+C) put() and get() methods
+D) flush() and close() methods
+
+Which of the following statements is true about HashSet?
+*
+1 point
+a) HashSet allows duplicate elements and maintains insertion order.
+b) HashSet does not allow null elements.
+c) HashSet is not thread-safe and does not guarantee any order of elements.
+d) HashSet maintains a sorted order of elements✅
+
+
+What is the result of the following code snippet?
+int a = 10;
+float b = 20.5f;
+ a = a + b;
+*
+1 point
+A) Compilation Error: incompatible types✅
+B) a = 30.5
+C) a = 30
+D) Runtime Error
+
+
+ Which of the following is the key difference between abstraction and encapsulation in Object-Oriented Programming (OOP)?
+*
+1 point
+A) Abstraction hides the internal workings of an object, while encapsulation hides the behavior.
+B) Abstraction is achieved through access modifiers, while encapsulation is achieved through methods and properties.
+C) Encapsulation hides the internal state of an object, while abstraction hides the complexity of the system.✅
+D) There is no difference; both terms are synonymous in OOP
+
+What is the primary advantage of using Generics in Java?
+*
+1 point
+a) It allows dynamic binding of types at runtime.
+b) It enables the use of primitive types in collections.✅
+c) It helps ensure type safety by providing compile-time type checking.
+d) It eliminates the need for reflection in Java programs.
+
+Which of the following is NOT allowed in Java interfaces?
+*
+1 point
+A) A class can implement multiple interfaces.✅
+B) An interface can extend another interface.
+C) An interface can contain concrete methods (methods with a body).
+D) An interface can contain default methods (methods with a body and a default implementation)
+
+What is the purpose of the Comparable interface in Java?
+*
+1 point
+a) It allows you to compare objects of different classes.✅
+b) It enables you to define a custom sorting order for objects of a class.
+c) It provides methods to perform basic operations on collections.
+d) It allows objects to be added to a Set collection.
+
+ Which of the following is true about constructors in OOP?
+*
+1 point
+A) Constructors can have return types like methods.
+B) Constructors are invoked explicitly using the new keyword.
+C) Constructors are called only once during the lifetime of an object.
+D) A subclass can invoke the constructor of its superclass using the super() keyword.✅
+
+
+ Which of the following is true about Java's primitive data types in terms of memory allocation?
+*
+1 point
+A) All primitive data types in Java are allocated memory on the heap.
+B) Memory allocation for primitive data types depends on the JVM’s implementation and may vary across platforms.
+C) Primitive data types are stored on the stack, while objects are stored in the heap.✅
+D) All primitive data types in Java are of fixed size, and the JVM does not allow changes to their memory layout.
+
+
+ Consider the following Java code snippet. What will be the output when it is executed?
+class Person {
+    String name;
+    Person(String name) {
+        this.name = name;
+    }
+}
+public class Test {
+    public static void main(String[] args) {
+        Person p1 = new Person("Alice");
+        Person p2 = p1;
+        p2.name = "Bob";
+        System.out.println(p1.name);
+    }
+}
+
+*
+1 point
+A) Alice✅
+B) Bob
+C) Compilation Error
+D) null
+
+In Java NIO, which of the following is the correct use of the Selector class?
+*
+1 point
+A) It is used for direct file manipulation.
+B) It allows non-blocking I/O operations on channels.✅
+C) It handles character encoding/decoding during input and output.
+D) It is used to map data from the disk into memory.
+
+Which of the following methods is used to wait for a thread to complete execution in Java?
+*
+1 point
+a) sleep()
+b) join()
+c) wait()✅
+d) stop()
+
+ In Java, where are primitive types and objects stored in memory?
+*
+1 point
+A) Primitive types are stored in heap memory, while objects are stored in stack memory.
+B) Both primitive types and objects are stored in the stack memory.
+C) Primitive types are stored in stack memory, while objects are stored in heap memory.✅
+D) Both primitive types and objects are stored in the heap memory.
+
+ What happens if an object is serialized without implementing the Serializable interface?
+*
+1 point
+A) A CloneNotSupportedException is thrown.
+B) A NotSerializableException is thrown.
+C) The object is ignored during serialization.
+D) The object is serialized as a default object.✅
+
+
+ Which of the following is true about constructor chaining in Java?
+*
+1 point
+A) Constructor chaining can only occur within the same class.
+B) Constructor chaining can happen between different classes, even if they are in different packages.
+C) Constructor chaining is done using the super() keyword when invoking a constructor from a subclass.✅
+D) Constructor chaining is not possible in Java.
+
+ Which of the following Java 8 interface features allows defining methods with a body inside interfaces?
+*
+1 point
+A) Abstract methods
+B) Default methods
+C) Static methods
+D) Private methods
+
+ Which of the following is a correct way to make an object eligible for garbage collection in Java?
+*
+1 point
+A) Setting a reference variable to null
+B) Reassigning a reference variable to another object
+C) Creating an "island of isolation" by making an object inaccessible from any reachable reference
+D) All of the above✅
+
+ 
+What is the output of the following Java program?
+
+int[][] matrix = {{1, 2}, {3, 4}, {5, 6}};
+
+System.out.println(matrix[1][1]);
+
+*
+1 point
+A) 3
+B) 4✅
+C) 5
+D) 6
+
+============================
+
+### ✅ **Answer Key**
+
+1. **C**
+2. **B, C** → **Correct option expected: B**
+3. **B**
+4. **B**
+5. **B**
+6. **C**
+7. **B**
+8. **A**
+9. **B**
+10. **B**
+11. **D**
+12. **C**
+13. **B**
+14. **D**
+15. **C**
+16. **C**
+17. **A**
+18. **C**
+19. **B**
+20. **C**
+21. **B**
+22. **D**
+23. **B**
+24. **A**
+25. **C**
+26. **B**
+27. **A**
+28. **A**
+29. **A**
+30. **B**
+31. **B**
+32. **C**
+33. **B**
+34. **C**
+35. **C**
+36. **B**
+37. **B**
+38. **B**
+39. **B**
+40. **A**
+41. **C**
+42. **B**
+43. **B**
+44. **A**
+45. **C**
+46. **C**
+47. **B**
+48. **B**
+49. **C**
+50. **B**
+51. **A**
+52. **B**
+53. **C**
+54. **A**
+55. **C**
+56. **B**
+57. **C**
+58. **B**
+59. **B**
+60. **C**
+61. **B**
+62. **C**
+63. **C**
+64. **B**
+65. **D**
+66. **B**
+67. **C**
+68. **B**
+69. **D**
+70. **B**
+71. **B**
+72. **C**
+73. **B**
+74. **D**
+
+=======================================================================================================================================
+
+
+
+
+
+
+
+
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+29.
+30.
+31.
+32.
+33.
+34.
+35.
+36.
+37.
+38.
+39.
+40.
