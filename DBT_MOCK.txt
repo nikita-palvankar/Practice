@@ -1,0 +1,374 @@
+Alright Nikita, here’s your **Subject-Specific PG-DAC CCEE style mock exam** for today.  
+I’ve picked **Database Technologies** as the subject focus. It’s exactly **40 MCQs, 1 mark each, exam-level difficulty, with code snippets included.**
+
+---
+
+## 📘 Database Technologies – Mock Exam (40 MCQs)
+
+**Instructions:** 1 hour, 40 questions, 1 mark each.  
+
+1. Which SQL clause is used to filter rows?  
+   - A) GROUP BY  
+  =>  - B) WHERE  
+   - C) HAVING  
+   - D) ORDER BY  
+
+2. In PL/SQL, `%TYPE` is used for:  
+   - A) Declaring constants  
+  =>   - B) Referencing datatype of a column/variable  
+   - C) Exception handling  
+   - D) Declaring triggers  
+
+3. Which command permanently saves changes in Oracle?  
+   - A) SAVE  
+  =>  - B) COMMIT  
+   - C) ROLLBACK  
+   - D) END  
+
+4. Default isolation level in Oracle DB is:  
+   => - A) READ COMMITTED  
+   - B) SERIALIZABLE  
+   - C) READ UNCOMMITTED  
+   - D) REPEATABLE READ  
+
+5. Output of:  
+   ```sql
+   SELECT LENGTH('CDAC Pune') FROM dual;
+   ```  
+   - A) 8  
+   =>  - B) 9  
+   - C) 10  
+   - D) Error  
+
+6. What is a cursor in PL/SQL?  
+  =>   - A) Pointer to a result set  
+   - B) Trigger object  
+   - C) Stored procedure  
+   - D) Transaction log  
+
+7. Difference between `DELETE` and `TRUNCATE`:  
+   =>  - A) DELETE can rollback, TRUNCATE cannot  
+   - B) DELETE removes structure, TRUNCATE removes rows  
+   - C) DELETE is faster than TRUNCATE  
+   - D) Both are identical  
+
+8. Which SQL function returns number of rows?  
+   -=>  A) COUNT()  
+   - B) SUM()  
+   - C) ROWCOUNT()  
+   - D) TOTAL()  
+
+9. Which keyword is used to create a view?  
+   - A) MAKE VIEW  
+   => - B) CREATE VIEW  
+   - C) ADD VIEW  
+   - D) NEW VIEW  
+
+10. Consider:  
+   ```sql
+   SELECT NVL(NULL, 'CDAC') FROM dual;
+   ```  
+   Output?  
+   - A) NULL  
+  =>   - B) CDAC  
+   - C) Error  
+   - D) Empty string  
+
+11. Which of the following is NOT a valid constraint?  
+   - A) PRIMARY KEY  
+   - B) FOREIGN KEY  
+   - C) UNIQUE  
+   =>  - D) INDEX  
+
+12. PL/SQL block starts with:  
+   =>  - A) DECLARE  
+   - B) BEGIN  
+   - C) START  
+   - D) OPEN  
+
+13. Which join returns all rows from both tables?  
+   - A) INNER JOIN  
+   - B) LEFT JOIN  
+   - C) RIGHT JOIN  
+   => - D) FULL OUTER JOIN  
+
+14. Output of:  
+   ```sql
+   SELECT SUBSTR('PGDAC', 3, 2) FROM dual;
+   ```  
+   - A) GA  
+  => - B) DA  
+   - C) AC  
+   - D) Error  
+
+15. Which statement is used to remove a table permanently?  
+   => - A) DROP  
+   - B) DELETE  
+   - C) TRUNCATE  
+   - D) REMOVE  
+
+16. ACID property: “I” stands for?  
+   - A) Integrity  
+  =>  - B) Isolation  
+   - C) Indexing  
+   - D) Instance  
+
+17. Exception handling keyword in PL/SQL:  
+   - A) TRY  
+   - B) CATCH  
+   => - C) EXCEPTION  
+   - D) ERROR  
+
+18. Which of these is a DDL command?  
+   - A) INSERT  
+   - B) UPDATE  
+   =>- C) CREATE  
+   - D) SELECT  
+
+19. Output of:  
+   ```sql
+   SELECT MOD(17,5) FROM dual;
+   ```  
+   => - A) 2  
+   - B) 3  
+   - C) 4  
+   - D) Error  
+
+20. Which index type stores data in B-tree structure?  
+   - A) Bitmap  
+   - B) Clustered  
+   - C) Non-clustered  
+  =>  - D) B-tree  
+
+21. PL/SQL trigger executes:  
+   => - A) Before/After DML events  
+   - B) Only once  
+   - C) Only on SELECT  
+   - D) Never automatically  
+
+22. Which keyword is used to rename a table?  
+   => - A) RENAME  
+   - B) ALTER  
+   - C) UPDATE  
+   - D) CHANGE  
+
+23. Output of:  
+   ```sql
+   SELECT ROUND(15.567,2) FROM dual;
+   ```  
+   - A) 15.56  
+   => - B) 15.57  
+   - C) 15.5  
+   - D) Error  
+
+24. Which of these is NOT a valid SQL datatype?  
+   - A) NUMBER  
+   - B) VARCHAR2  
+   => - C) BOOLEAN  
+   - D) DATE  
+
+25. PL/SQL procedure is created using:  
+   - A) CREATE FUNCTION  
+   - B) CREATE PROC  
+  =>  - C) CREATE PROCEDURE  
+   - D) CREATE BLOCK  
+
+26. Which keyword is used to remove duplicates?  
+   - A) UNIQUE  
+   -=>  B) DISTINCT  
+   - C) DIFFERENT  
+   - D) CLEAN  
+
+27. Output of:  
+   ```sql
+   SELECT INSTR('PGDAC', 'A') FROM dual;
+   ```  
+   - A) 2  
+   - B) 3  
+   => - C) 4  
+   - D) Error  
+
+28. Which of these is NOT a valid transaction control command?  
+   - A) COMMIT  
+   - B) SAVEPOINT  
+   - C) ROLLBACK  
+   => - D) GRANT  
+
+29. PL/SQL package contains:  
+  =>  - A) Procedures and Functions  
+   - B) Only Triggers  
+   - C) Only Tables  
+   - D) Only Views  
+
+30. Which SQL operator is used for pattern matching?  
+  =>  - A) LIKE  
+   - B) MATCH  
+   - C) COMPARE  
+   - D) SEARCH  
+
+31. Output of:  
+   ```sql
+   SELECT REPLACE('PGDAC','DAC','NET') FROM dual;
+   ```  
+  =>  - A) PGNET  
+   - B) NETPG  
+   - C) DACNET  
+   - D) Error  
+
+32. Which of these is NOT a valid PL/SQL loop?  
+   - A) FOR  
+   - B) WHILE  
+   => - C) DO-WHILE  
+   - D) LOOP  
+
+33. Which SQL keyword is used to combine results of two queries?  
+   => - A) UNION  
+   - B) JOIN  
+   - C) MERGE  
+   - D) CONNECT  
+
+34. Output of:  
+   ```sql
+   SELECT POWER(2,3) FROM dual;
+   ```  
+   - A) 6  
+   => - B) 8  
+   - C) 9  
+   - D) Error  
+
+35. Which of these is NOT a valid PL/SQL exception?  
+   - A) NO_DATA_FOUND  
+   - B) TOO_MANY_ROWS  
+   - C) INVALID_CURSOR  
+  =>  - D) NULL_POINTER  
+
+36. Which SQL keyword is used to change table structure?  
+   - A) UPDATE  
+   => - B) ALTER  
+   - C) MODIFY  
+   - D) CHANGE  
+
+37. Output of:  
+   ```sql
+   SELECT CEIL(12.3) FROM dual;
+   ```  
+   - A) 12  
+   => - B) 13  
+   - C) 12.3  
+   - D) Error  
+
+38. Which of these is NOT a valid normalization form?  
+   - A) 1NF  
+   - B) 2NF  
+   - C) 3NF  
+   => - D) 5NF  
+
+39. PL/SQL function must return:  
+   - A) Cursor  
+   => - B) Value  
+   - C) Procedure  
+   - D) Trigger  
+
+40. Which SQL keyword is used to revoke privileges?  
+  =>  - A) REVOKE  
+   - B) REMOVE  
+   - C) DENY  
+   - D) DROP  
+
+---
+
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+29.
+30.
+31.
+32.
+33.
+34.
+35.
+36.
+37.
+38.
+39.
+40.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+29.
+30.
+31.
+32.
+33.
+34.
+35.
+36.
+37.
+38.
+39.
+40.
