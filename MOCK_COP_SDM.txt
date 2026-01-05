@@ -1,0 +1,390 @@
+COP_&_SDM_PRACTICE_TEST
+
+Q. 1. Which of the following command create an empty git repository or reinitialize an existing one?
+1. git create
+=> 2. git init✔️
+3. git initialize
+4. git launch
+
+Q. 2. Which of the agile methodology advocates the use of problem domain?
+1. Evo
+2. scrum
+3. Extreme programming(XP)
+=>  4. feature-drivendevelopment(FDD)✔️ 
+
+Q. 3. Which of the following is NOT property of the waterfall model?
+1. Software development cascades from one phase to another
+2. It is plan_driven process
+=> 3.software development is incremental in nature✔️ 
+4.iterations can be costly
+
+## Q. 4. In Jenkins, a _______ is used to display record of multiple builds.        
+=> 1.weather icon ✔️
+=> 2.coloured Ball
+3.Colouredsqaure
+4.Coloured Ball and weather icon
+
+Q. 5. the ability to scale in microservices architecture comes from the fact that________
+1. CI/CD pipelines allow for scaling
+2. there are more CPU and memory footprints in cloud providers
+3. RESTFUL calls are always used
+=> 4. artifacts are single purpose and separated✔️
+
+Q6. Matching (CI/CD tools)
+
+✅ 1-C, 2-A, 3-D, 4-B
+Column 1
+1. 1-C, 2-D, 3-A, 4-B	
+=> 2. 1-C, 2-A, 3-D, 4-B	✔️
+3. 1-B, 2-D, 3-A, 4-C	
+4. 1-B, 2-A, 3-D, 4-C	
+
+Q. 7. What comprises an infrastructure as a Service(IaaS) model?
+1. third-party improvements with software and hardware, which are difficult to offer when hosted internally
+2. increased speed and virtualization
+=> 3. third-party providers that hosts, service and maintains all aspects of the system on behalf of the end user✔️
+4.increased help and logic and coding issues for an organization’s proprietary system
+
+## Q. 8. What is the practice of every change going through full automated testing and being deployed automatically to the production enviroments?
+=> 1. Continuous Integration
+2. Continuous Delivery
+3. Continuous Denigration
+=> 4. Continuous Deployment ✔️  
+
+
+Q. 9. Which of the following  type of  virtualization is also characteristic of cloud computing?
+1.storage
+2.application
+3. CPU
+=> 4.all of the above✔️ 
+
+Q. 10. For project management, Jira is used for ___________
+1. Segmenting, executing, accounting and reporting
+=> 2.planning, tracking, reporting and releasing✔️ 
+3.brainstorming, exploring, planning, and executing
+4.motivating, grouping, analyzing and plotting
+
+Q. 11. What is the ideal sprint length in an Agile Development Model?
+=> 1. 2-4 weeks✔️ 
+2. 1 week
+3. 3-5 weeks
+4. 3weeks
+
+Q. 12. Which of the following command is used to access the running container?
+1.docker run
+=> 2.docker exec✔️ 
+3.docker build
+4.docker pull
+
+Q. 13. Which features of OOPs help in code reusability?
+1. class
+2. Abstraction
+=> 3. Inheritance✔️ 
+4. Object
+
+Q.14. which of the following architectural layer is used as front end in cloud computing 
+1. Cloud
+=> 2. Client✔️  
+3. Middle Layer
+4. Soft
+
+Q. 15. Which of the following views cannot be captured using UML diagram?
+1. Layer View
+=> 2.user view✔️  
+3. Structural View
+4.all of the above
+
+Q. 16. Which of the following AWS services enables users to launch VM instances?
+=> 1. AWS EC2✔️  
+2. AWS S3
+3. AWS Lambda
+4. AWS EBS
+
+Q. 17. Which is true about Kubernetes?
+=> 1. Integrated Kubernetes solutions are available from most major cloud provides✔️  
+2. Kubernetes is best suited to test environments and isn’t mature enough for production use
+3. Kubernetes is one of the newest orchestration platforms
+4. it can only run Kubernetes containers
+
+Q. 18. Which of the following languages is supported by Selenium WebDriver?
+=> 1. Perl✔️ 
+2. C
+3. C++
+4. ASP
+
+Q. 19. _________ provides complete isolation from the host operating system and the other Virtual Machine(VMs) , so it is fully secure
+=> 1. Virtualization ✔️ 
+2. Containerization
+3. Security
+4. Cloud
+
+## Q. 20. What is unique about Docker swarm?       
+1.Docker swarm uses a MCP or “Master Control Program ” to orchestra system access
+2.Docker swarm is much more decentralized than the other container platforms ✔️ 
+3.Docker swarm is more centralized than the other container platforms
+4.Docker swarm can run both VMs and Containers
+
+Q. 21. What is the basic operational unit of Kubernetes?
+1. Task
+=> 2. Pod✔️ 
+3. Nodes
+4. Container
+
+Q. 22. DevOps is an extension of :
+1. QA
+=> 2. Agile✔️ 
+3. Waterfall
+4.none of the above
+
+Q. 23. ________ is responsible for full software development life cycle while ________ is responsible for software testing life cycle
+=> 1. Quality Assurance, Quality Control ✔️ 
+2. Quality Control , Quality Assurance
+3. Quality Assertion, Quality Control
+4. Quality Control, Quality Assertion
+
+Q. 24. Under which type of thinking strategy does Brainstorming fall?
+1. Decision Thinking
+2. Analytical Thinking
+3. Compassionate Thinking
+=> 4. Creative Thinking ✔️ 
+
+Q. 25.At the coreof a good regression test, we are making certain that _____
+1.no bugs exist
+2.all bugs are fixed
+=> 3.nothing new has broken ✔️ 
+4.new bugs are identied
+
+## Q. 26. Which of the following activities is NOT fundamentals to Software engineering?
+=> 1. Software Standardization  ✔️
+2. Software Specification
+3. Software Validation
+=> 4. Software Evalution
+
+Q. 27. Some of the agile frameworks are 
+=> 1.scrum&Canban ✔️ 
+2. Test Given Development
+3.feature given development
+4.dynamic system development method
+
+Q28. Matching (Agile frameworks)
+Captionless Image
+
+=> 1. 1-C,  2-A, 3-B ✔️ 
+2. 1-B,  2-C, 3-A
+3. 1-A,  2-B, 3-C
+4. 1-B,  2-A, 3-C
+
+Q. 29. In WebDriver _______ command can be used to enter values onto text boxes
+1.selenium.type()
+2.type()
+=> 3.sendKeys(“text”)✔️ 
+4.driver.type(“text”)
+
+Q. 30. Which of the following statements true for an API Gateway?
+1. API Gateway is not single entry point into a system
+2. API Gateway is not responsible for request routing
+=> 3. API Gateway is a server✔️  
+4. API Gateway is not responsible for load balancing
+
+Q. 31. Which one of the following is delivered at the end of the Sprint?
+1. A document containing test cases for the current sprint
+2. An architectural design of the solution
+=> 3. An increment of done software✔️  
+4. Wireframes designs for User Interface
+
+Q. 32. Which of the following is not version control system tool?
+1.git
+2.mercurial
+=> 3. Jenkins✔️  
+4. AWS Code Commit
+
+Q. 33.Which of the following technique is applied for usability testing?
+1. white box
+=> 2.Black box✔️ 
+3. Grey box
+4. All of the above
+
+Q. 34. In YAML, Explicit Tags are denoted using the symbol?
+=> 1. exclamation point ( ! ) ✔️  
+2.pipe character ( | )
+3. greater than symbol ( > )
+4. question mark ( ? )
+
+Q. 35. What is true of Protocol Aware Heterogeneous interoperability using the symbol?
+1. System call other systems to do work
+2. All communication within the service boundaries are solved via ReST
+=> 3. All communication use any technology they want ✔️ 
+4.there is polyglot development everywhere
+
+
+Q. 36. Which command is used to push the code into git staging area?
+1. git pull
+=> 2. git add✔️  
+3. git push
+4. git commit
+
+Q. 37. What is the need for DevOps?
+1. decrease deployment frequency
+2. Lower success rate of new releases
+3. Longer development Cycle
+=> 4. Enhanced version control✔️ 
+
+Q. 38. Which of the following is not goal of WebDriver API?
+1. Emulate actions of users
+=> 2. Provide record and playback of test steps ✔️ 
+3. Maintain a standardized API
+4. Help developers and testers quickly and easily write automated test
+
+Q. 39. Principles 1, 8, 9 and 10 of the Agile Manifesto describe prioritizing high-value work. What’s a common way that agile teams  prioritize their work?
+=> 1.they create rank list of what the customer finds valuable ✔️ 
+2.they create detailed project requirements
+3.they meet the customer to plan everything in the product before they start working
+4.they prioritize the work that would be the easiest to develop
+
+
+Q. 40. Which of the following is git command to download all the objects and references from a specific repositor
+1.git log-n
+=> 2.git fetch✔️ 
+3.git help
+4.gitconfig --list
+
+Q. 41. Which one of the following is the address generated by CPU?
+1.physicaladdress
+2.absoluteaddress
+=> 3.logical address✔️ 
+4.none of the above
+
+## Q. 42. Paging increases the ______ time
+1.waiting
+=> 2.execution
+=> 3. context-switching ✔️
+4.all of the above
+
+Q. 43. Which Linux command list the content of all sub directory?
+1.ls ~
+=> 2.ls */✔️ 
+3.ls /
+4.ls ../
+
+## Q. 44. The operating system and other processes are protected from being modified by an already running process because _____
+=> 1. They are in different memory spaces
+2. They are in different logical addresses
+3. They have a protection algorithm
+=> 4. Every address generated by the CPU is being checked against the relocation and limit registers✔️
+
+Q. 45. Where are placed list of processes that are prepared to be executed and waiting?
+1. Job queue
+=> 2. Ready queue✔️
+3. Execution queue
+4. Process queue
+
+Q. 46. By shell into the parameter, _____ reads the first argument
+=> 1. $1✔️
+2. $3
+3. $$
+4. 1$
+
+Q. 47. Program is interrupted by _________ command in appropriate way
+1.kill
+2. SIGKILL
+=> 3.trap✔️
+4. INT
+
+Q. 48. Which system call can be used by a parent process to determine the termination of child process?
+=> 1.wait✔️
+2.exit
+3.fork
+4.get
+
+Q. 49. Entry of all the PCBs of the current process is in ________
+1. Process Register
+2. Program counter
+=> 3. Process Table✔️
+4. Process Unit
+
+Q. 50. If one thread opens a file with read privileges then:
+1.other hands in the another process can also read from that file
+=> 2.other hands in the same process can also read from that file ✔️
+3.any other thread can not read from that file
+4.all of the mentioned
+
+Q. 51. Command used to check shared memory is
+=> 1.ipcs ✔️
+2.ipcs-mS
+3.ipcs-s
+4.ipcs-q
+
+Q. 52. Which of the following are major disadvantages of requesting all resources while preventingdeadlock
+
+i) delay process initiation
+
+ii) future resources requirements must be known
+
+iii) subject to cyclic resource allocation
+
+=> 1.i and ii only✔️
+2.ii and iii only
+3.i and iii only
+4.i, ii, iii and iv
+
+## Q. 53. In which of the following algorithm where the reference bit is used to determine whether a page has been recently and some page that has not been recently referenced is replaced?
+1. LRU Page replacement Algorithm
+=> 2. FIFO Page replacement Algorithm
+3. Optional Page replacement Algorithm
+=> 4. NRU Page replacement Algorithm ✔️ 
+
+## Q. 54. In most cases, if a process is sent a signal while it is executing a system call:
+1.the system call will continue execution and the signal will be ignored completely
+2.the system call is interrupted by the signal, and the signal handler comes in  ✔️
+3.the signal has no effect until the system call completes
+4.none of the mentioned
+
+Q. 55. Both process (the parent and the child ) continue execution at the instruction after the fork()
+1. Negative integer , Zero
+2.Zero , Negative integer
+=> 3. Nonzero integer , Zero✔️
+4.Zero , Nonzero integer
+
+Q. 56. Which of the following command is used to display only directories that exist in the current directory?
+=> 1.ls–l  | grep “^d” ✔️
+2.ls | grep “^d”
+3.ls –l  | grep “#d”
+4.ls –l  | grep “*d”
+
+
+Q. 57. When the operating system has performed a _______ operation, it has two choices for selecting a process either admitting a newly created process or bring in a previously suspended process.
+=> 1. Swapping-in ✔️
+2. Swapping-out
+3. Blocked-in
+4.  Blocked-out
+
+Q. 58.  Which of the following is not an operating system?
+1. Windows
+=> 2. Oracle ✔️
+3. DOS
+4. Linux
+
+Q. 59. When was the first operating system developed?
+1. 1948
+2. 1949
+=> 3. 1950 ✔️
+4. 1951
+
+Q. 60. What else is a command interpreter called?
+1.prompt
+2.kernel
+=> 3.shell ✔️
+4.command
+
+
+
+
+
+
+
+
+
+
+
+
+
