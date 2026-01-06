@@ -1,0 +1,1879 @@
+ADVANCE_JAVA_PRACTICE_TEST_2
+Total points
+146/176
+  
+Which of the following Hibernate mapping strategies is used to represent inheritance between classes in an object-oriented model?
+*
+1/1
+• A) Table Per Class Hierarchy (Single Table)
+• B) Table Per Concrete Class (Concrete Table)
+• C) Table Per Subclass (Joined Table)
+• D) All of the above ✔️
+ 
+ 
+In Spring Security, what is the purpose of the @EnableWebSecurity annotation?
+
+*
+1/1
+• A) It enables the security-related configuration and setups in the application.
+ ✔️
+• B) It allows the user to configure the Spring MVC controllers.
+• C) It registers web filters to secure the HTTP requests.
+• D) It configures the user roles and permissions.
+ 
+Which of the following is NOT a key feature of Spring Boot?
+*
+1/1
+• A) Embedded web server support (like Tomcat, Jetty, etc.)
+• B) Automatic configuration of Spring beans
+• C) Dependency injection using annotations
+• D) Full-fledged ORM support with integrated Hibernate configuration✔️
+ 
+ 
+Which of the following is a valid session tracking method in servlets that do not rely on cookies?
+
+*
+1/1
+• A) URL Rewriting
+• B) Hidden Form Fields
+• C) HttpSession
+• D) All of the above✔️
+ 
+ 
+Which of the following JSP elements is used to include a static or dynamic resource (such as an HTML file or another JSP) in the current JSP page?
+
+*
+1/1
+• A) <jsp:include>✔️
+• B) <jsp:forward>
+• C) <% include %>
+• D) <%@ include %>
+ 
+Which of the following is the primary responsibility of a J2EE container in the context of web applications?
+*
+1/1
+• A) Handling user interface (UI) rendering
+• B) Managing the lifecycle of servlets and JSPs✔️
+• C) Compiling the source code of the web application
+• D) Writing the application’s database queries
+ 
+Which of the following statements is true regarding the @Entity annotation in Hibernate?
+
+*
+1/1
+• A) It marks a class as a managed entity to be persisted to a database table.✔️
+• B) It defines a relational mapping to a database column.
+• C) It specifies a relationship between two database tables.
+• D) It is used to create a database schema for a class.
+ 
+In the Spring Framework, which of the following annotations is used to define a Spring Bean?
+*
+0/1
+• A) @Component✔️
+• B) @Bean
+• C) @Autowired
+• D) @Service
+Correct answer
+• A) @Component
+ 
+In Spring Security, what does @PreAuthorize("hasRole('ADMIN')") do?
+
+*
+1/1
+• A) It checks that the user is authenticated before accessing the method.
+• B) It restricts access to the method to users with the ADMIN role only.✔️
+• C) It logs the user’s activities for auditing.
+• D) It enables the method for public access.
+ 
+What is the purpose of @Query in Spring Data JPA?
+
+public interface UserRepository extends JpaRepository<User, Long> {
+
+    @Query("SELECT u FROM User u WHERE u.username = ?1")
+
+    List<User> findByUsername(String username);
+
+}
+
+*
+1/1
+• A) It defines a custom query to be executed when the method is called.✔️
+• B) It automatically generates the SQL query based on method names.
+• C) It is used to execute INSERT or DELETE queries in the repository.
+• D) It is used to map the entity's fields to database columns.
+ 
+In the context of Spring Security, which of the following is true about JWT (JSON Web Token) authorization?
+*
+1/1
+• A) JWT tokens are typically used to authenticate users and transmit information between client and server in a secure, stateless manner.✔️
+• B) JWT is only used for authorization, not for authentication.
+• C) The JWT token is typically stored in session storage in the client’s browser.
+• D) JWT tokens are automatically refreshed every 30 minutes
+ 
+In a microservices architecture, which of the following tools is commonly used for orchestrating and managing the deployment of containers?
+*
+1/1
+• A) Docker Compose
+• B) Jenkins
+• C) Kubernetes✔️
+• D) Prometheus
+ 
+In the MVC pattern, the controller component's primary responsibility is to:
+
+*
+1/1
+• A) Handle business logic and database interactions
+• B) Manage user interface design
+• C) Handle user requests, interact with the model, and choose the appropriate view to display✔️
+• D) Perform data validation and error handling
+ 
+Which of the following is not a valid scope in JSP?
+
+*
+0/1
+• A) page✔️
+• B) request
+• C) application
+• D) session
+ 
+Correct answer
+• A) page
+ 
+In Spring Boot, which annotation is commonly used to define a RESTful controller for handling HTTP requests?
+
+*
+1/1
+• A) @Controller
+• B) @RestController✔️
+• C) @Service
+• D) @Component
+ 
+What does the following Spring Data JPA repository code do?
+
+public interface UserRepository extends JpaRepository<User, Long> {
+
+    List<User> findByUsername(String username);
+
+}
+
+*
+1/1
+• A) It generates a custom query to fetch users by their usernames.✔️
+• B) It throws an exception if no users are found by the username.
+• C) It requires a custom query to find users by username.
+• D) It finds users by their id, not their username.
+ 
+Which of the following is a valid HTTP status code returned by a RESTful service in response to a successful POST request?
+
+*
+0/1
+• A) 200 OK
+• B) 201 Created✔️
+• C) 400 Bad Request
+• D) 404 Not Found
+Correct answer
+• B) 201 Created
+ 
+Which annotation in Spring is used to map HTTP requests to specific handler methods in a controller?
+
+@Controller
+
+public class MyController {
+
+    @RequestMapping("/home")
+
+    public String home(Model model) {
+
+        model.addAttribute("message", "Welcome to Spring!");
+
+        return "home";
+
+    }
+
+}
+
+*
+1/1
+• A) @RequestMapping✔️
+• B) @Service
+• C) @Component
+• D) @RestController
+ 
+In a Spring Security application, how do you configure authorization based on roles, such as allowing only users with the role ADMIN to access certain endpoints?
+*
+1/1
+• A) Use @PreAuthorize("hasRole('ADMIN')") on the methods or controller endpoints.
+ ✔️
+• B) Use http.authorizeRequests().antMatchers("/admin/**").hasRole("USER").
+• C) Configure roles in application.properties and apply them automatically.
+• D) Manually check the roles in each controller method using @Secured("ROLE_ADMIN").
+ 
+Which Spring Boot feature allows easy testing of RESTful APIs by simulating HTTP requests without the need for a web browser?
+
+*
+1/1
+• A) RestTemplate
+• B) Spring Test RestTemplate
+• C) MockMvc✔️
+• D) @WebMvcTest
+ 
+What is the correct way to prevent SQL injection when using JDBC?
+
+*
+1/1
+• A) Use Statement objects with concatenated SQL queries.
+• B) Use PreparedStatement objects with parameterized queries.✔️
+• C) Disable user input validation.
+• D) Manually escape user input for every query.
+ 
+When using RestTemplate in a Spring Boot application to invoke a REST service, which of the following methods would be used to send a GET request to fetch data from a REST API?
+*
+1/1
+• A) restTemplate.postForObject()
+• B) restTemplate.getForObject()✔️
+• C) restTemplate.putForObject()
+• D) restTemplate.deleteForObject()
+ 
+In the context of the MVC (Model-View-Controller) pattern, which of the following components is typically responsible for displaying the user interface in a JSP-based web application?
+*
+1/1
+• A) Model
+• B) Controller
+• C) View✔️
+• D) Service Layer
+ 
+What is the benefit of using an API Gateway in a microservices architecture?
+*
+1/1
+• A) It helps to route requests to appropriate microservices, provide load balancing, and enforce security.✔️
+• B) It acts as a database for all microservices.
+• C) It stores the microservices' application logic.
+• D) It manages transactions across multiple services.
+ 
+Which of the following is a key challenge when using microservices that is not typically faced in a monolithic architecture?
+
+*
+1/1
+• A) Monolithic systems require more computing resources.
+• B) Ensuring consistency across multiple microservices in terms of data and transactions can be complex.✔️
+• C) Microservices cannot be scaled independently.
+• D) Microservices have fewer security risks.
+ 
+Which of the following servlet annotations is used to declare a servlet?
+
+@WebServlet("/hello")
+
+public class HelloWorldServlet extends HttpServlet {
+
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+        response.getWriter().write("Hello, World!");
+
+    }
+
+}
+
+*
+1/1
+• A) @ServletMapping
+• B) @ServletContext
+• C) @WebServlet✔️
+• D) @RequestMapping
+ 
+Which of the following is the main advantage of using Spring Boot for web applications?
+
+*
+1/1
+• A) Spring Boot requires more configuration than traditional Spring applications.
+• B) Spring Boot provides built-in support for RESTful APIs and embedded servers.
+✔️
+• C) Spring Boot does not support database integration out of the box.
+• D) Spring Boot applications are always slower to deploy compared to traditional Spring applications.
+ 
+Which of the following is a key difference between SOAP and RESTful web services?
+*
+1/1
+• A) SOAP is a stateless communication protocol, while RESTful services are stateful.
+• B) SOAP uses XML exclusively for messaging, while REST can use multiple formats like JSON and XML.✔️
+• C) SOAP is faster and more lightweight than RESTful web services.
+• D) RESTful web services require a specific transport protocol, while SOAP can work over any protocol.
+ 
+In a microservices architecture, what is the role of Service Discovery?
+
+*
+1/1
+• A) It enables microservices to dynamically discover and communicate with each other.✔️
+• B) It provides security by authenticating users across all services.
+• C) It logs all interactions between microservices for auditing.
+• D) It centralizes all business logic in a single service.
+ 
+Which of the following is a disadvantage of using cookies for session tracking?
+*
+1/1
+• A) Cookies are stored on the client-side, making them less secure.✔️
+• B) Cookies are only valid for a single session.
+• C) Cookies require a server-side session management system.
+• D) Cookies cannot store large amounts of data.
+ 
+In the following Hibernate code, what does the session.save() method do?
+
+Session session = sessionFactory.openSession();
+
+Transaction transaction = session.beginTransaction();
+
+User user = new User("john_doe", "password");
+
+session.save(user);
+
+transaction.commit();
+
+session.close();
+
+*
+1/1
+• A) It updates the existing User record in the database.
+• B) It inserts the User object into the database.✔️
+• C) It deletes the User record from the database.
+• D) It retrieves the User record from the database.
+ 
+Which of the following is a valid use case for custom queries in Spring Data JPA using the @Query annotation?
+*
+1/1
+• A) When you need a query that is not easily represented by the method name conventions.✔️
+• B) When you want to automatically generate SQL queries for CRUD operations.
+• C) When you want to define the entity relationships in a repository.
+• D) When you need automatic pagination and sorting for all queries.
+ 
+In a Spring MVC application, what is the role of the ModelAndView object?
+
+@RequestMapping("/home")
+
+public ModelAndView home() {
+
+    ModelAndView modelAndView = new ModelAndView();
+
+    modelAndView.setViewName("home");
+
+    modelAndView.addObject("message", "Welcome!");
+
+    return modelAndView;
+
+
+}
+
+*
+1/1
+• A) It handles user input validation.
+• B) It stores the model data and view name for rendering the response.✔️
+• C) It manages session attributes.
+• D) It handles database connection pooling.
+ 
+In Spring AOP, which of the following annotations is used to define an aspect?
+*
+1/1
+• A) @Aspect✔️
+• B) @Pointcut
+• C) @JoinPoint
+• D) @Advice
+ 
+In a Servlet application, what is the purpose of a DAO (Data Access Object)?
+*
+1/1
+• A) To manage the session state of the user
+• B) To separate the business logic and database operations, providing an abstraction layer✔️
+• C) To handle HTTP requests and responses
+• D) To manage session tracking and cookies
+ 
+Which of the following is correct for the JDBC DriverManager?
+
+Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root", "password");
+
+*
+1/1
+• A) DriverManager is responsible for managing the database connection pool.
+• B) DriverManager.getConnection() does not require database credentials.
+• C) DriverManager automatically loads the JDBC drivers when a connection is requested.✔️
+• D) DriverManager is not used in the JDBC API.
+ 
+What is the purpose of the Data Access Object (DAO) design pattern in JDBC?
+*
+0/1
+• A) To simplify SQL query construction.
+• B) To abstract the database interaction from the rest of the application, providing a clear separation of concerns.✔️
+• C) To directly execute SQL queries without involving any objects.
+• D) To improve the performance of SQL queries by caching results.
+ 
+Correct answer
+• B) To abstract the database interaction from the rest of the application, providing a clear separation of concerns.
+ 
+Which Spring annotation is used to indicate that a method is part of the application's business logic and should be executed when a request is received?
+
+*
+0/1
+• A) @Service
+• B) @Controller
+• C) @RestController
+• D) @RequestMapping✔️
+Correct answer
+• D) @RequestMapping
+ 
+How does SessionFactory work in Hibernate?
+*
+1/1
+• A) It is responsible for managing database connections and executing SQL queries.
+• B) It creates and manages Session instances for interacting with the database.✔️
+• C) It maps Java objects to database tables.
+• D) It manages the lifecycle of Hibernate transactions.
+ 
+What is the role of the init() method in the life cycle of a servlet?
+
+*
+1/1
+• A) It initializes the servlet instance and is called once when the servlet is first loaded into memory.✔️
+• B) It handles client requests.
+• C) It destroys the servlet instance.
+• D) It retrieves data from the database.
+ 
+What is the purpose of the @OneToMany annotation in Hibernate?
+
+*
+1/1
+• A) It defines a one-to-one relationship between two entities.
+• B) It defines a one-to-many relationship, where one entity can be associated with multiple entities of another type.✔️
+• C) It defines a many-to-many relationship.
+• D) It defines a relationship where one entity is associated with one entity of another type.
+ 
+What is the role of the "CQRS" (Command Query Responsibility Segregation) pattern in microservices architecture?
+*
+1/1
+• A) It separates the reading and writing of data into different models to optimize for different types of use cases (queries vs. updates).✔️
+• B) It defines how microservices can communicate with each other.
+• C) It helps in handling the security of the microservices.
+• D) It provides a way to handle transactions across multiple microservices.
+ 
+What does @EnableAutoConfiguration do in Spring Boot?
+
+*
+1/1
+• A) It enables automatic configuration of the Spring application context based on the dependencies present in the classpath.✔️
+• B) It creates custom configurations for each component.
+• C) It disables automatic configuration.
+• D) It enables Spring Security features by default.
+ 
+When using Spring Boot with Maven, which dependency is necessary for creating a Spring Boot web application with embedded Tomcat?
+*
+1/1
+• A) spring-boot-starter-data-jpa
+• B) spring-boot-starter-web✔️
+• C) spring-boot-starter-thymeleaf
+• D) spring-boot-starter-logging
+ 
+What is the default behavior when a findById method is used in Spring Data JPA and no entity is found with the given ID?
+
+*
+0/1
+• A) It throws a NoResultException.
+• B) It returns null.
+• C) It returns Optional.empty().✔️
+• D) It returns an empty list.
+Correct answer
+• C) It returns Optional.empty().
+ 
+In JDBC, which driver type is referred to as a "network protocol" driver, which communicates directly with the database server and translates client requests into a format understandable by the database?
+
+
+*
+1/1
+• A) Type 1 Driver
+• B) Type 2 Driver
+• C) Type 3 Driver✔️
+• D) Type 4 Driver
+ 
+What is the default session timeout in a servlet container like Tomcat?
+
+*
+1/1
+• A) 10 minutes
+• B) 30 minutes✔️
+• C) 60 minutes
+• D) 120 minutes
+ 
+In Spring MVC, which of the following components is responsible for resolving the view (like a JSP or Thymeleaf template) to be used for rendering the response?
+*
+1/1
+• A) HandlerMapping
+• B) ModelAndView
+• C) ViewResolver✔️
+• D) DispatcherServlet
+ 
+What will be the output of the following Spring Boot application using @RestController?
+
+@RestController
+
+@RequestMapping("/api")
+
+public class UserController {
+
+    @GetMapping("/user")
+
+    public String getUser() {
+
+        return "John Doe";
+
+    }
+
+}
+
+*
+1/1
+• A) It will return a 404 Not Found error.
+• B) It will return a JSON response with the string "John Doe".
+• C) It will return the string "John Doe" as plain text in the body.✔️
+• D) It will return an error because @RestController cannot handle GET requests.
+ 
+Which of the following annotations is used in Spring to test a controller in isolation, without the need for the full application context?
+
+*
+1/1
+• A) @RunWith(SpringRunner.class)
+• B) @MockBean
+• C) @WebMvcTest✔️
+• D) @SpringBootTest
+ 
+In Spring AOP, which of the following terms refers to a specific point during the execution of a program where an aspect can be applied (e.g., method execution, field access)?
+*
+0/1
+• A) Join Point✔️
+• B) Pointcut
+• C) Advice
+• D) Aspect
+Correct answer
+• A) Join Point
+ 
+Which of the following methods is part of the HttpServlet class and is invoked for handling HTTP POST requests?
+
+*
+1/1
+• A) doGet()
+• B) doPost()✔️
+• C) service()
+• D) init()
+ 
+What is the primary difference between a J2EE compliant web application and a non-compliant web application?
+
+*
+0/1
+• A) A J2EE compliant application must include an EJB module.
+• B) A J2EE compliant application follows specific conventions, including the use of a web.xml descriptor and proper directory structure.✔️
+• C) A J2EE compliant application does not require a web server.
+• D) A J2EE compliant application is only deployable on a J2EE server, whereas non-compliant applications can run on any Java server.
+ 
+Correct answer
+• B) A J2EE compliant application follows specific conventions, including the use of a web.xml descriptor and proper directory structure.
+ 
+Which of the following is true about @ManyToOne relationship mapping in Hibernate?
+
+*
+1/1
+• A) The @ManyToOne annotation defines a many-to-one relationship where many entities can be associated with one entity.✔️
+• B) The @ManyToOne annotation defines a one-to-many relationship.
+• C) The @ManyToOne annotation is used only for bidirectional relationships.
+• D) The @ManyToOne annotation is used for single-valued attributes only.
+ 
+How does a JSP handle errors during runtime?
+
+*
+0/1
+• A) It displays a custom error page using the errorPage directive✔️
+• B) It automatically generates an exception and halts the execution
+• C) It logs the error to the console
+• D) It redirects to a default error page specified in the web.xml file
+Correct answer
+• A) It displays a custom error page using the errorPage directive
+ 
+When using Spring Security, what role does the AuthenticationManager interface play in authentication?
+*
+1/1
+• A) It is responsible for managing user sessions after successful authentication.
+• B) It is used to retrieve the credentials of users from a database.
+• C) It is responsible for authenticating user credentials and returning an Authentication object.✔️
+• D) It handles user authorization by defining permissions for each user.
+ 
+Which annotation is used in Hibernate to mark a class as an entity that should be persisted in the database?
+*
+1/1
+• A) @Table
+• B) @Entity✔️
+• C) @Column
+• D) @Id
+ 
+In Hibernate, what is the purpose of the @Id annotation?
+
+*
+1/1
+• A) It specifies the primary key of the entity.✔️
+• B) It is used to auto-generate the ID for an entity.
+• C) It defines a relationship between two entities.
+• D) It maps an entity to a database table.
+ 
+How does Spring Boot simplify the development of web applications?
+
+*
+1/1
+• A) By automatically configuring the necessary components and libraries for the application.
+• B) By providing a built-in web server, such as Tomcat, for running web applications.
+• C) By eliminating the need to write most of the boilerplate code for application setup.
+• D) All of the above.✔️
+ 
+ 
+What is the output of the following code when a Statement is used to execute a query?
+
+Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "user", "password");
+
+Statement stmt = conn.createStatement();
+
+String query = "SELECT name FROM users WHERE age > 30";
+
+ResultSet rs = stmt.executeQuery(query);
+
+while(rs.next()) {
+
+    System.out.println(rs.getString("name"));
+
+}
+
+*
+1/1
+• A) It prints the names of all users with age greater than 30.✔️
+• B) It throws a SQLException because executeQuery does not return a ResultSet.
+• C) It prints the names of all users with age less than 30.
+• D) It prints the names of all users regardless of age.
+ 
+Which HTTP status code is typically returned by a RESTful service to indicate that the server could not find the requested resource?
+*
+1/1
+• A) 200 OK
+• B) 204 No Content
+• C) 404 Not Found✔️
+• D) 500 Internal Server Error
+ 
+What is the purpose of using Expression Language (EL) in JSP?
+*
+1/1
+• A) To execute Java code directly within JSP pages
+• B) To simplify accessing data from JavaBeans, request parameters, session attributes, and other objects✔️
+• C) To replace all scriptlets in the JSP page with a cleaner syntax
+• D) To compile JSP pages into servlets
+ 
+Which of the following is not an implicit object in JSP?
+*
+1/1
+• A) request
+• B) session
+• C) config
+• D) model✔️
+ 
+ 
+What is the main benefit of using JSP over Servlets for creating dynamic web pages?
+
+*
+1/1
+• A) JSP allows dynamic page generation and the use of Java code in HTML.✔️
+• B) JSP is not used for dynamic page generation.
+• C) Servlets are slower for generating dynamic content than JSP.
+• D) JSP is only useful for static page generation
+ 
+What is the function of @Transactional in Spring?
+
+*
+0/1
+• A) It commits database transactions automatically.
+• B) It defines the transaction management behavior for a method or class.✔️
+• C) It encrypts data before writing it to the database.
+• D) It commits a transaction only if all database operations are successful.
+ 
+Correct answer
+• B) It defines the transaction management behavior for a method or class.
+ 
+In a Spring Boot application using Thymeleaf as a view technology, which dependency do you need to include in your pom.xml file for Thymeleaf integration?
+*
+1/1
+• A) spring-boot-starter-thymeleaf✔️
+• B) spring-boot-starter-web
+• C) spring-boot-starter-mvc
+• D) spring-boot-thymeleaf
+ 
+In Spring AOP, which of the following terms refers to a cross-cutting concern that is modularized into a separate component?
+*
+1/1
+• A) Aspect✔️
+• B) Pointcut
+• C) Join Point
+• D) Advice
+ 
+In Spring Data JPA, which of the following is true about the @Query annotation?
+*
+0/1
+• A) It allows the definition of custom JPQL or SQL queries.✔️
+• B) It is used for defining the entity relationships in JPA.
+• C) It automatically creates queries for CRUD operations.
+• D) It is used for indexing database tables.
+Correct answer
+• A) It allows the definition of custom JPQL or SQL queries.
+ 
+Which of the following is a common deployment pattern used in microservices architecture?
+
+*
+1/1
+• A) Deploying all microservices in a single monolithic container.
+• B) Deploying each microservice in a separate container, managed by an orchestration tool like Kubernetes.
+✔️
+• C) Deploying microservices without any containers or orchestration tools.
+• D) Deploying microservices directly on physical servers without virtualization.
+ 
+Which of the following is a major disadvantage of using the JDBC Statement object for executing dynamic SQL queries?
+*
+1/1
+• A) It does not support SQL injection.
+• B) It allows reuse of the SQL query with different parameters.
+• C) It does not support prepared SQL statements, which could lead to SQL injection vulnerabilities.✔️
+• D) It increases the performance of queries compared to other objects.
+
+In a Spring Boot application, which of the following is used to perform dependency injection?
+*
+1/1
+• A) @Service
+• B) @Autowired✔️
+• C) @Entity
+• D) @RequestMapping
+ 
+What is the default behavior when a save() method is called in a JpaRepository if the entity already exists in the database?
+
+*
+1/1
+• A) It updates the existing entity.✔️
+• B) It throws a DuplicateKeyException.
+• C) It returns an error message.
+• D) It does nothing.
+ 
+In a Spring Boot application, which annotation is used to configure a class as a REST controller?
+
+*
+1/1
+• A) @Controller
+• B) @RestController✔️
+• C) @WebServlet
+• D) @RequestMapping
+ 
+Which of the following is a core feature of the Spring IoC (Inversion of Control) container?
+*
+0/1
+• A) Managing object creation and their dependencies✔️
+• B) Handling user authentication and authorization
+• C) Providing transaction management services
+• D) Enabling object persistence to databases
+Correct answer
+• A) Managing object creation and their dependencies
+ 
+In a microservices architecture, what is the role of the API Gateway?
+
+*
+1/1
+• A) It manages the individual services’ internal logic.
+• B) It acts as an intermediary that routes requests to the appropriate microservice.
+ ✔️
+• C) It stores business data.
+• D) It is responsible for orchestrating business logic between multiple services.
+ 
+Which of the following Spring Data JPA methods returns a list of entities based on a custom query defined with the @Query annotation?
+*
+0/1
+• A) findBy✔️
+• B) queryBy
+• C) @QueryBy
+• D) executeQuery
+Correct answer
+• A) findBy
+ 
+Which of the following is true about HttpSession in Servlets?
+
+HttpSession session = request.getSession();
+
+session.setAttribute("username", "JohnDoe");
+
+*
+1/1
+• A) HttpSession allows data to be shared across multiple user requests.✔️
+• B) HttpSession can only store primitive data types.
+• C) The session is destroyed after a single HTTP request.
+• D) HttpSession cannot store complex objects.
+ 
+Which of the following is an advantage of using Spring Boot?
+
+*
+1/1
+• A) It reduces the need for XML configuration files and provides a convention-over-configuration approach.✔️
+• B) It requires more manual configuration than Spring Framework.
+• C) It does not support external libraries such as Hibernate.
+• D) It only supports web applications and not REST APIs.
+ 
+What is the role of the @RequestMapping annotation in Spring MVC?
+
+*
+1/1
+• A) It maps HTTP requests to handler methods in the controller.✔️
+• B) It performs data binding for form inputs.
+• C) It specifies the view name for the response.
+• D) It marks a method to be executed periodically
+ 
+What is the significance of the application.properties file in a Spring Boot application?
+
+*
+1/1
+• A) It configures various application properties such as database settings, port numbers, logging configurations, etc.✔️
+• B) It is used to write business logic for the application.
+• C) It contains security settings only for the application.
+• D) It provides the default configuration for Spring Boot auto-configuration.
+ 
+What is the lifecycle of a JSP page, in the correct order of execution?
+*
+1/1
+• A) Translation phase, Compilation phase, Initialization phase, Execution phase, Cleanup phase✔️
+• B) Compilation phase, Translation phase, Initialization phase, Execution phase, Cleanup phase
+• C) Translation phase, Compilation phase, Execution phase, Cleanup phase
+• D) Initialization phase, Compilation phase, Execution phase, Translation phase, Cleanup phase
+ 
+What will happen if you use @Autowired with a @Service annotated class?
+
+*
+1/1
+• A) Spring will automatically inject an instance of the service class into any other class that uses @Autowired.✔️
+• B) It will automatically create a new service instance every time it is requested.
+• C) It disables the automatic configuration of the service class.
+• D) It indicates that the service class should be tested with unit tests only.
+ 
+Which of the following is the most commonly used data format in RESTful web services when working with Spring Boot?
+
+*
+1/1
+• A) XML
+• B) CSV
+• C) JSON✔️
+• D) YAML
+ 
+What is the purpose of the @GetMapping annotation in Spring Boot for RESTful services?
+
+*
+1/1
+• A) It maps HTTP GET requests to handler methods of RESTful controllers.✔️
+• B) It is used to handle POST requests.
+• C) It is used to return data in JSON format from a controller.
+• D) It maps HTTP PUT requests to a resource.
+ 
+In the Spring Boot application, what will happen when you use @SpringBootApplication?
+
+@SpringBootApplication
+
+public class MyApp {
+
+    public static void main(String[] args) {
+
+        SpringApplication.run(MyApp.class, args);
+
+    }
+
+}
+
+*
+1/1
+• A) It configures Spring Boot to scan for Spring Beans automatically and launches the application.✔️
+• B) It disables the default configuration of Spring Boot.
+• C) It creates a database connection automatically.
+• D) It configures Spring Boot only for web applications.
+ 
+Which of the following is true regarding the Spring @Autowired annotation?
+*
+1/1
+• A) It automatically injects a dependency by type or by name into a Spring Bean.✔️
+• B) It only supports constructor-based dependency injection.
+• C) It is used to define Spring Beans explicitly.
+• D) It is a scope annotation that limits the scope of beans.
+ 
+What is the purpose of the @RestController annotation in Spring Boot?
+*
+1/1
+• A) It combines @Controller and @ResponseBody, indicating that the class handles web requests and returns response data directly.✔️
+• B) It defines a RESTful service endpoint and allows HTML page rendering.
+• C) It enables Spring Security for REST APIs.
+• D) It provides automatic mapping of HTTP request parameters to method parameters.
+ 
+Which of the following statements is true about the Servlet lifecycle?
+
+public class MyServlet extends HttpServlet {
+
+    public void init() throws ServletException {
+
+        System.out.println("Servlet Initialized");
+
+    }
+
+ 
+
+    public void service(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+
+        System.out.println("Servlet Processing Request");
+
+    }
+
+ 
+
+    public void destroy() {
+
+        System.out.println("Servlet Destroyed");
+
+    }
+
+
+}
+
+*
+1/1
+• A) The destroy() method is called before the servlet's init() method.
+• B) The init() method is called when the servlet is first loaded.✔️
+• C) The service() method is called once during the servlet initialization.
+• D) The destroy() method is called only if the servlet throws an exception.
+ 
+What is the primary advantage of using JWT (JSON Web Token) for authentication in a microservices environment?
+
+*
+1/1
+• A) It simplifies communication between services by embedding security credentials in the HTTP headers.✔️
+• B) It encrypts all the requests sent between services.
+• C) It requires the use of cookies for storing authentication data.
+• D) It stores user credentials securely in the client-side database.
+ 
+Which of the following methods does the JpaRepository interface provide that CrudRepository does not?
+*
+1/1
+• A) saveAll()
+• B) findOne()
+• C) deleteInBatch()✔️
+• D) save()
+ 
+Which of the following annotations is used to define a custom query in Spring Data JPA?
+*
+0/1
+• A) @Query✔️
+• B) @CustomQuery
+• C) @Select
+• D) @NamedQuery
+Correct answer
+• A) @Query
+ 
+In Spring AOP, what is the purpose of the @AfterReturning advice?
+*
+1/1
+• A) It executes after the method completes normally, but only if it returns a result.
+ ✔️
+• B) It executes before the method is invoked.
+• C) It executes after the method throws an exception.
+• D) It executes after the method execution, regardless of the outcome.
+ 
+Which of the following repositories provides basic CRUD functionality and is part of Spring Data JPA?
+*
+1/1
+• A) CrudRepository
+• B) JpaRepository
+• C) PagingAndSortingRepository
+• D) All of the above✔️
+ 
+ 
+In a microservices architecture, which approach is commonly used for service discovery?
+*
+1/1
+• A) Hardcoding the service URLs in the client applications.
+• B) Using a static mapping file for each service's endpoint.
+• C) Using a service registry like Eureka, where services register themselves and clients query the registry for service instances.✔️
+• D) Using a single monolithic service to manage all client requests.
+ 
+In Spring Security, which of the following is required for setting up basic authentication with a username and password?
+
+ 
+
+@Configuration
+
+@EnableWebSecurity
+
+public class SecurityConfig extends WebSecurityConfigurerAdapter {
+
+    @Override
+
+    protected void configure(HttpSecurity http) throws Exception {
+
+        http.httpBasic().and().authorizeRequests()
+
+            .antMatchers("/admin").hasRole("ADMIN")
+
+            .antMatchers("/user").hasAnyRole("USER", "ADMIN");
+
+    }
+
+}
+
+*
+1/1
+• A) Basic authentication can be configured automatically by Spring Boot.✔️
+• B) You need to manually implement authentication logic in the service layer.
+• C) Basic authentication configuration requires a custom filter.
+• D) Basic authentication is configured only in the application.properties file.
+ 
+Which of the following is NOT a valid scope for Spring Beans?
+*
+1/1
+• A) Singleton
+• B) Prototype
+• C) Request
+• D) Model ✔️
+ 
+In a servlet, how can a developer handle exceptions that occur during the processing of a request?
+*
+1/1
+• A) By using try-catch blocks in the service() method
+• B) By mapping the exception to an error page using the web.xml deployment descriptor
+• C) By overriding the doGet() and doPost() methods with custom error-handling logic
+• D) All of the above✔️
+ 
+ 
+Which of the following advice types is executed before the method execution in Spring AOP?
+*
+1/1
+• A) Before✔️
+• B) After
+• C) Around
+• D) AfterReturning
+ 
+In a Spring Boot application, what does the @SpringBootApplication annotation do?
+
+*
+1/1
+• A) It marks the main entry point of the application.✔️
+• B) It configures all dependencies in the application manually.
+• C) It disables the auto-configuration of the application.
+• D) It automatically creates and deploys a WAR file for the application
+ 
+How does HttpSession manage session tracking?
+*
+1/1
+• A) By generating a unique session ID stored on the client side in a cookie
+• B) By creating a session attribute for each user request
+• C) By storing session data in the session object that is associated with the client’s requests
+• D) Both A and C✔️
+ 
+ 
+Which of the following best describes the Spring MVC Front Controller design pattern?
+*
+1/1
+• A) A pattern that centralizes request processing and delegates it to various view resolvers✔️
+• B) A pattern where every controller method handles the entire HTTP request and response
+• C) A pattern where views are directly mapped to individual controllers
+• D) A pattern where the front controller handles user input and updates the model without any intermediary
+ 
+What is the default behavior when using the CrudRepository interface in Spring Data JPA for a findBy method if no record is found?
+*
+0/1
+• A) It throws a NoResultException.
+• B) It returns an empty list.✔️
+• C) It returns null.
+• D) It returns an exception message.
+Correct answer
+• B) It returns an empty list.
+ 
+What is a key feature of Spring Data JPA?
+
+*
+1/1
+• A) It eliminates the need for writing custom database queries.✔️
+• B) It integrates with Hibernate to perform automatic schema generation.
+• C) It allows manual creation of SQL queries only.
+• D) It only supports MySQL as a database
+ 
+In a Spring Boot application, what file is used to configure application-specific properties such as database settings and server ports?
+*
+1/1
+• A) application.properties or application.yml✔️
+• B) application.xml
+• C) spring-config.xml
+• D) spring-boot-config.xml
+ 
+In Hibernate, what is the purpose of the Criteria API?
+*
+1/1
+• A) It is used to fetch database records using a simple SQL query.
+• B) It allows dynamic and object-oriented query creation without needing to write HQL.✔️
+• C) It is used for creating native SQL queries.
+• D) It generates automatic SQL queries for all CRUD operations.
+ 
+What is the role of @SpringBootApplication annotation in a Spring Boot application?
+*
+1/1
+• A) It defines the main class of a Spring Boot application and is a shortcut for @Configuration, @EnableAutoConfiguration, and @ComponentScan.✔️
+• B) It configures the application context and initializes beans.
+• C) It defines the REST API mappings.
+• D) It activates Spring Security configurations for your application.
+ 
+What is the purpose of the RequestDispatcher in a servlet?
+*
+1/1
+• A) To forward a request to another servlet or JSP✔️
+• B) To create a new HTTP session
+• C) To create a database connection
+• D) To manage user authentication
+ 
+Which of the following methods is used to commit the current transaction in JDBC after a series of operations (such as an insert, update, or delete)?
+*
+1/1
+• A) commit()✔️
+• B) setAutoCommit(false)
+• C) executeUpdate()
+• D) setTransactionMode(true)
+ 
+In the context of the Servlet lifecycle, which method is used to process a POST request?
+
+public class MyServlet extends HttpServlet {
+
+    @Override
+
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+        String name = req.getParameter("name");
+
+        resp.getWriter().write("Hello, " + name);
+
+    }
+
+}
+
+*
+1/1
+• A) doGet
+• B) doPost✔️
+• C) service
+• D) init
+ 
+How would you retrieve all entities from a table using HQL in Hibernate?
+*
+0/1
+• A) from Entity✔️
+• B) select * from Entity
+• C) get from Entity
+• D) select all from Entity
+Correct answer
+• A) from Entity
+ 
+Which of the following annotations is used to declare a servlet in a modern servlet-based web application (Servlet 3.0 and above)?
+
+*
+1/1
+• A) @Servlet
+• B) @WebServlet✔️
+• C) @ServletMapping
+• D) @RequestMapping
+
+ 
+Which of the following is the primary function of JSTL (JavaServer Pages Standard Tag Library)?
+*
+1/1
+• A) To simplify JavaBean management
+• B) To provide common functions like loops, conditionals, and formatting within JSP pages✔️
+• C) To manage the session data in JSP
+• D) To allow the creation of custom JSP tags
+ 
+: What is the role of @Aspect in Spring AOP?
+
+@Aspect
+
+@Component
+
+public class LoggingAspect {
+
+    @Before("execution(* com.example.service.*.*(..))")
+
+    public void logBefore(JoinPoint joinPoint) {
+
+        System.out.println("Method called: " + joinPoint.getSignature());
+
+    }
+
+}
+
+*
+1/1
+• A) It defines an aspect that handles cross-cutting concerns like logging.✔️
+• B) It is used to enable logging in Spring Boot applications.
+• C) It injects dependencies into the application.
+• D) It manages database connections for each service.
+ 
+What does the @Query annotation in Spring Data JPA allow you to do?
+
+public interface UserRepository extends JpaRepository<User, Long> {
+
+    @Query("SELECT u FROM User u WHERE u.username = ?1")
+
+    List<User> findByUsername(String username);
+
+}
+
+*
+1/1
+• A) It allows writing custom SQL queries in repository methods.✔️
+• B) It automatically generates SQL queries for CRUD operations.
+• C) It maps HTTP queries to JPA methods.
+• D) It helps with database connection pooling.
+ 
+In a servlet-based application, how can a developer track sessions using HttpSession?
+*
+1/1
+• A) By storing the session ID in a cookie or URL
+• B) By manually encoding the session ID into a request URL
+• C) By calling request.getSession() to create a new session or get an existing one
+• D) All of the above✔️
+ 
+ 
+Which of the following is the correct purpose of Hibernate Query Language (HQL)?
+*
+1/1
+• A) To create, update, and delete database tables using SQL-like syntax.
+• B) To provide an object-oriented query language that operates on Hibernate's object model.✔️
+• C) To interact with the database using Java-based code only.
+• D) To store and retrieve configuration settings for Hibernate applications.
+ 
+Which of the following is the most suitable way to test a Spring MVC controller’s REST API endpoints using MockMvc?
+
+*
+0/1
+• A) Use @WebMvcTest and MockMvc together for unit tests.✔️
+• B) Use @SpringBootTest with @AutoConfigureMockMvc.
+• C) Use @RunWith(MockitoJUnitRunner.class) with MockMvc.
+• D) Use @MockBean with MockMvc for integration testing.
+Correct answer
+• B) Use @SpringBootTest with @AutoConfigureMockMvc.
+ 
+Which of the following is a common pattern used in Spring for building web applications?
+
+*
+1/1
+• A) Factory Pattern
+• B) Singleton Pattern
+• C) Proxy Pattern
+• D) Model-View-Controller (MVC) Pattern✔️
+ 
+ 
+Which of the following is the primary advantage of using JSP over Servlets for dynamic content generation?
+*
+1/1
+• A) JSP allows for more complex logic than Servlets.
+• B) JSP separates the view layer from the business logic, promoting cleaner code.✔️
+• C) JSP is better suited for handling HTTP requests.
+• D) JSP requires less memory than Servlets.
+ 
+Which database pattern is commonly used in a microservices architecture to ensure that each service has its own isolated database?
+*
+1/1
+• A) Single Database Pattern
+• B) Database per Service Pattern✔️
+• C) Shared Database Pattern
+• D) Global Database Pattern
+ 
+Which of the following is true regarding RESTful web services?
+*
+1/1
+• A) RESTful web services are stateful by default.
+• B) RESTful web services use XML only for communication.
+• C) RESTful web services are stateless and use standard HTTP methods.✔️
+• D) RESTful web services require a SOAP message format
+ 
+Which of the following Spring Boot annotations is used to configure an embedded web server like Tomcat, Jetty, or Undertow in a Spring Boot application?
+*
+1/1
+• A) @EnableWebServer
+• B) @SpringBootApplication
+• C) @WebServlet
+• D) Spring Boot auto-configures an embedded web server without requiring a specific annotation.✔️
+ 
+ 
+ When comparing session tracking mechanisms, which of the following is a key advantage of HttpSession over cookies?
+*
+0/1
+• A) HttpSession stores session data server-side, providing better security.
+ 
+• B) HttpSession does not require cookies to store the session ID.
+• C) HttpSession allows multiple sessions per user without any limitations.
+• D) Both A and B✔️
+Correct answer
+• D) Both A and B
+ 
+Which of the following best describes the primary goal of using JSP in a web application?
+*
+1/1
+• A) To combine business logic and user interface code in one file
+• B) To separate the presentation layer (UI) from the content generation (business logic)✔️
+• C) To provide a better way to handle HTTP requests
+• D) To create a standalone Java application with a GUI
+ 
+What does the @ComponentScan annotation do in a Spring Boot application?
+
+*
+1/1
+• A) It enables component scanning to discover Spring Beans and register them in the application context.✔️
+• B) It scans for HTTP requests in the application.
+• C) It scans for available database tables to create entities.
+• D) It scans for Spring Boot properties configuration.
+ 
+In a microservices architecture, what is the primary role of an API Gateway?
+*
+1/1
+• A) It is responsible for monitoring the performance of all microservices.
+• B) It routes client requests to the appropriate microservices and handles cross-cutting concerns such as authentication, logging, and rate limiting.✔️
+• C) It manages the deployment of all microservices across multiple servers.
+• D) It stores and manages all data related to the microservices
+ 
+In Spring Security, which of the following is true when using JWT for authentication?
+
+public class JwtTokenFilter extends OncePerRequestFilter {
+
+    @Override
+
+    protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
+
+            throws ServletException, IOException {
+
+        String token = request.getHeader("Authorization");
+
+        if (token != null && token.startsWith("Bearer ")) {
+
+            // JWT validation and authentication logic
+
+        }
+
+        filterChain.doFilter(request, response);
+
+    }
+
+}
+
+*
+1/1
+• A) JWT tokens are used to verify the user's identity and grant access to protected resources.✔️
+• B) JWT is not suitable for use with Spring Security.
+• C) JWT automatically validates requests without the need for a filter.
+• D) The Authorization header is not required for JWT-based authentication.
+ 
+How does Spring Data JPA simplify database operations in a Spring application?
+
+public interface UserRepository extends JpaRepository<User, Long> {
+
+    List<User> findByUsername(String username);
+
+}
+
+*
+1/1
+• A) Spring Data JPA eliminates the need for writing SQL queries.
+• B) It automatically handles transactions for all operations.
+• C) It provides automatic implementations for common CRUD operations and query methods.✔️
+• D) It does not support custom queries.
+ 
+What is the role of the @Entity annotation in Spring Data JPA?
+*
+1/1
+• A) It marks the class as a JPA entity that is mapped to a database table.✔️
+• B) It defines a custom query for the entity.
+• C) It specifies a one-to-one relationship with another entity.
+• D) It initializes a Spring Bean for the entity class
+ 
+Which of the following is a key advantage of adopting a microservices architecture over a monolithic architecture?
+
+*
+1/1
+• A) Microservices have fewer deployment challenges and scale better.
+• B) Microservices are always faster to develop and deploy compared to monolithic applications.
+• C) Microservices allow teams to work independently on different modules, enabling better flexibility and scalability.✔️
+• D) Microservices have fewer security concerns compared to monolithic architectures.
+ 
+In Spring Data JPA, which of the following interfaces is a direct extension of the CrudRepository interface and adds more JPA-specific functionality, such as support for pagination and sorting?
+*
+1/1
+• A) JpaRepository✔️
+• B) JpaCrudRepository
+• C) PagingAndSortingRepository
+• D) EntityRepository
+ 
+Which of the following is the correct way to run a Spring Boot application as a standalone Java application?
+*
+0/1
+• A) By using the java -jar command on the compiled JAR file
+• B) By using Maven mvn spring-boot:run command
+• C) By creating a war file and deploying it on a web server
+• D) All of the above✔️
+Correct answer
+• D) All of the above
+ 
+In Spring Framework, which of the following is a feature of the @Component annotation?
+*
+1/1
+• A) It marks a class as a Spring Bean, making it eligible for auto-detection during classpath scanning.✔️
+• B) It indicates that a class is part of the service layer and should only contain business logic.
+• C) It provides a way to inject external dependencies into Spring beans.
+• D) It is used to define a view in Spring MVC.
+ 
+What is the typical structure of a servlet-based web application deployment descriptor (web.xml)?
+
+*
+1/1
+• A) <servlet> elements are defined to map servlets to URLs
+• B) <filter> elements are used to define filters for request processing
+• C) <listener> elements define events related to session and application contexts
+• D) All of the above✔️
+ 
+ 
+Which of the following is a key advantage of using Hibernate annotations over XML configuration?
+*
+0/1
+• A) Annotations eliminate the need for configuration files, reducing complexity.✔️
+• B) Annotations require less memory usage compared to XML-based configurations.
+• C) Annotations do not support any advanced mapping features.
+• D) Annotations do not support dynamic queries.
+Correct answer
+• A) Annotations eliminate the need for configuration files, reducing complexity.
+ 
+In the context of Spring MVC, what does the ModelAndView object represent?
+*
+0/1
+• A) A data structure used to store the HTTP request and response
+• B) A container for both the model (data) and the view (JSP or other views)✔️
+• C) A view resolver for determining which view to use
+• D) A handler mapping object that maps URL patterns to controller methods
+ 
+Correct answer
+• B) A container for both the model (data) and the view (JSP or other views)
+ 
+
+What is the role of the HttpServletRequest object in the doPost method of a Servlet?
+
+protected void doPost(HttpServletRequest req, HttpServletResponse resp)
+
+*
+1/1
+• A) It represents the response sent to the client.
+• B) It holds the request data from the client, such as form parameters and headers.✔️
+• C) It provides methods for managing database transactions.
+• D) It is used to track sessions.
+ 
+In Spring Boot, which of the following is used to map HTTP request methods (GET, POST, etc.) to specific handler methods in a controller class?
+*
+0/1
+• A) @RequestMapping✔️
+• B) @RequestBody
+• C) @ResponseBody
+• D) @Bean
+ 
+Correct answer
+• A) @RequestMapping
+ 
+Which of the following is an example of a cross-cutting concern handled by Spring AOP?
+
+@Aspect
+
+public class LoggingAspect {
+
+    @Before("execution(* com.example.service.*.*(..))")
+
+    public void logBefore(JoinPoint joinPoint) {
+
+        System.out.println("Method called: " + joinPoint.getSignature());
+
+    }
+
+}
+*
+1/1
+• A) Method execution timing
+• B) Logging and performance monitoring✔️
+• C) Database transactions
+• D) Handling request parameters
+ 
+Which of the following deployment descriptors is used to configure the servlet in a J2EE web application?
+*
+1/1
+• A) web.xml✔️
+• B) application.xml
+• C) ejb-jar.xml
+• D) persistence.xml
+ 
+Which of the following annotations in Spring AOP is used to declare a pointcut expression for matching methods?
+*
+1/1
+• A) @Pointcut✔️
+• B) @Before
+• C) @After
+• D) @Around
+ 
+Which of the following is an important characteristic of a microservices architecture with respect to fault tolerance?
+
+*
+1/1
+• A) Microservices are more prone to failures due to their distributed nature, but they can be made resilient with techniques like circuit breakers.✔️
+• B) Microservices are immune to network failures since they are stateless.
+• C) Microservices always guarantee the availability of services even under high load.
+• D) Microservices cannot tolerate any failure and require all services to be up to function.
+ 
+Which of the following is the correct way to pass parameters to a servlet via a URL in a GET request?
+*
+1/1
+• A) Using the HttpServletResponse object
+• B) Using URL query parameters, e.g., ?param1=value1&param2=value2✔️
+• C) Using HTTP headers
+• D) Using cookies in the browser
+ 
+What is the purpose of the @Query annotation in Spring Data JPA?
+
+*
+1/1
+• A) It is used to automatically generate SQL queries based on method names.
+• B) It allows the definition of custom JPQL or SQL queries for a repository method.✔️
+• C) It performs entity-to-table mapping.
+• D) It is used to define the relationships between entities.
+ 
+Which of the following Spring Boot features enables you to auto-configure certain parts of the application, like data sources, web servers, and messaging queues?
+*
+1/1
+• A) @AutoConfiguration
+• B) @ComponentScan
+• C) @EnableAutoConfiguration✔️
+• D) @Configuration
+ 
+In the context of Servlet Life Cycle, which of the following methods is invoked when a servlet is removed from the servlet container?
+*
+0/1
+• A) init()✔️
+• B) destroy()
+• C) service()
+• D) doGet()
+Correct answer
+• B) destroy()
+ 
+Which of the following is a method in the HttpServletResponse interface used to redirect the client to a different URL?
+*
+1/1
+• A) sendRedirect()✔️
+• B) setStatus()
+• C) sendError()
+• D) setHeader()
+ 
+In Spring Security, what does the httpBasic() method enable?
+
+*
+1/1
+• A) It enables session management for HTTP requests.
+• B) It enables HTTP Basic Authentication for the application.✔️
+• C) It configures role-based access control for users.
+• D) It enables the creation of custom authentication filters.
+ 
+Which AOP term refers to the logic that is applied at a particular join point in the program execution?
+*
+0/1
+• A) Advice✔️
+• B) Pointcut
+• C) Aspect
+• D) Join Point
+ 
+Correct answer
+• A) Advice
+ 
+Which of the following is a recommended strategy for managing distributed transactions in a microservices architecture?
+*
+1/1
+• A) Using two-phase commit protocol for all transactions.
+• B) Relying on a centralized database for transactions across services.
+• C) Implementing the Saga pattern for managing long-running transactions and eventual consistency.✔️
+• D) Using only synchronous HTTP requests for service-to-service communication.
+ 
+Which file format is used to package a J2EE compliant web application for deployment?
+*
+1/1
+• A) .jar
+• B) .war✔️
+• C) .ear
+• D) .zip
+ 
+Which of the following JDBC classes is used to create a SQL query to retrieve data from a database and send the query to the database?
+
+
+*
+0/1
+A) Driver
+B) Connection
+C) Statement✔️
+D) PreparedStatement
+ 
+Correct answer
+C) Statement
+ 
+Which of the following statements is correct about JDBC?
+
+*
+0/1
+• A) JDBC drivers are platform-specific and can vary between operating systems.
+• B) JDBC uses a connection pool to manage database connections.
+• C) PreparedStatements are less efficient than Statements because they need to be recompiled each time.✔️
+• D) JDBC can only be used with SQL databases and not with NoSQL databases.
+Correct answer
+• A) JDBC drivers are platform-specific and can vary between operating systems.
+ 
+In Hibernate, how are collections (e.g., List, Set) mapped between Java objects and database tables?
+*
+1/1
+• A) Collections are mapped using @ManyToMany annotation only.
+• B) Collections are mapped using @ElementCollection or @OneToMany annotations.✔️
+• C) Collections are mapped using @Component annotation.
+• D) Collections cannot be mapped in Hibernate.
+ 
+In Spring AOP, which of the following advice types allows for custom behavior before, during, and after method execution?
+
+*
+1/1
+• A) Around✔️
+• B) Before
+• C) After
+• D) AfterReturning
+ 
+In Spring Boot, when performing unit testing for Spring MVC controllers, what is the purpose of using @MockBean with @WebMvcTest?
+*
+0/1
+• A) @MockBean is used to mock the service layer beans, and @WebMvcTest configures the controller layer tests in isolation.✔️
+• B) @MockBean is used to inject real service beans for integration testing, while @WebMvcTest mocks the controller layer.
+• C) @MockBean is used to mock controllers, while @WebMvcTest tests the service layer.
+• D) @MockBean automatically enables security configurations for the test cases.
+Correct answer
+• A) @MockBean is used to mock the service layer beans, and @WebMvcTest configures the controller layer tests in isolation.
+ 
+Which annotation in Spring Boot is used to enable Aspect-Oriented Programming (AOP)?
+*
+0/1
+• A) @EnableAspectJAutoProxy✔️
+• B) @EnableAspectJ
+• C) @Aspect
+• D) @EnableAOP
+Correct answer
+• A) @EnableAspectJAutoProxy
+ 
+How can you apply an aspect only to methods that are executed within a certain package in Spring AOP?
+*
+1/1
+• A) By defining a @Pointcut expression that matches methods in that package.✔️
+• B) By using the @Before annotation.
+• C) By defining an @Around advice with package-specific logic.
+• D) By specifying a package within the @Aspect annotation.
+ 
+Which of the following is a primary advantage of using Servlets over CGI (Common Gateway Interface)?
+*
+1/1
+• A) Servlets provide better memory management by reusing the same servlet instance for multiple requests.✔️
+• B) Servlets are only able to process GET requests.
+• C) CGI scripts are more scalable than Servlets.
+• D) Servlets are not supported by web servers like Apache HTTP Server.
+ 
+Which of the following is true when using Spring Security’s Basic Authentication?
+
+*
+1/1
+• A) The username and password are passed in the HTTP request headers using Authorization: Basic <encoded_string>.✔️
+• B) The credentials are encrypted in the HTTP body as part of a POST request.
+• C) The credentials are stored in cookies and sent with every request.
+• D) The username and password are passed in the URL query parameters.
+ 
+The HttpServletRequest interface provides methods to get parameters from the client request. Which of the following is the method used to retrieve a parameter as a string?
+*
+1/1
+• A) getParameter()✔️
+• B) getAttribute()
+• C) getQueryString()
+• D) getParameterMap()
+ 
+In which of the following scenarios would the PreparedStatement be preferred over Statement in JDBC?
+String query = "SELECT * FROM users WHERE username = ?";
+
+PreparedStatement pstmt = connection.prepareStatement(query);
+
+pstmt.setString(1, "john_doe");
+
+ResultSet rs = pstmt.executeQuery();
+
+*
+1/1
+• A) When query parameters are dynamic or user-driven.✔️
+• B) When you only need to execute a SELECT query without parameters.
+• C) When working with stored procedures that don't require parameters.
+• D) When there's no need to execute the query multiple times
+ 
+In the context of Spring Boot RESTful services, which of the following is used to configure the handling of incoming JSON data and its conversion to Java objects?
+*
+1/1
+• A) @RequestBody✔️
+• B) @RequestMapping
+• C) @JsonProperty
+• D) @ResponseBody
+ 
+Which of the following Spring annotations is used for validation of user input in a Spring MVC application?
+
+*
+1/1
+• A) @Valid✔️
+• B) @Autowired
+• C) @Controller
+• D) @RequestMapping
+ 
+What is the correct way to configure Dependency Injection (DI) in Spring using annotations?
+
+@Component
+
+public class MyService {
+
+    public void serve() {
+
+        System.out.println("Service called");
+
+    }
+
+}
+
+ 
+
+@Configuration
+
+@ComponentScan("com.example")
+
+public class AppConfig {
+
+    // DI automatically happens here
+
+}
+
+*
+1/1
+• A) @Autowired is used to inject dependencies into a class.✔️
+• B) @ComponentScan is used to inject dependencies into a method.
+• C) @Inject is the only annotation used for DI in Spring.
+• D) @Service annotation is required to configure DI.
+ 
+What does the @SpringBootApplication annotation do in a Spring Boot application?
+
+*
+1/1
+It disables the auto-configuration feature of Spring Boot.
+• B) It marks the main class of the Spring Boot application and enables component scanning, auto-configuration, and property support.✔️
+• C) It initializes the database connection for Spring Boot.
+• D) It replaces the need for a @Controller annotation
+ 
+What is the primary difference between @RequestMapping and @GetMapping in Spring MVC?
+*
+1/1
+• A) @RequestMapping can handle all HTTP methods, while @GetMapping handles only HTTP GET requests.✔️
+• B) @RequestMapping is used for class-level mapping, and @GetMapping is for method-level mapping.
+• C) @RequestMapping is used for retrieving data, while @GetMapping is used for handling form submissions.
+• D) @RequestMapping supports only HTTP POST methods, while @GetMapping supports GET methods.
+ 
+Which of the following tools is commonly used for deploying J2EE web applications to a server such as Tomcat or GlassFish?
+*
+1/1
+• A) Apache Maven✔️
+• B) Java Web Start
+• C) JBoss Application Server
+• D) Java Deployment Toolkit
+ 
+What is the purpose of the @Entity annotation in Hibernate?
+*
+1/1
+• A) It marks a class as a Java Bean.
+• B) It indicates that the class is a part of the JPA persistence context and will map to a database table.✔️
+• C) It defines a primary key for the class.
+• D) It is used to define a relationship between two entities.
+ 
+In Spring Boot, which of the following annotations is typically used to perform unit tests on service layers, where Spring beans are injected and mocked?
+
+*
+0/1
+• A) @MockBean✔️
+• B) @TestConfiguration
+• C) @MockMvc
+• D) @ServiceTest
+Correct answer
+• A) @MockBean
+ 
+What does the @Autowired annotation in Spring do?
+
+@Service
+
+public class UserService {
+
+    @Autowired
+
+    private UserRepository userRepository;
+
+
+}
+
+*
+1/1
+• A) It manually wires the UserRepository into the UserService.
+• B) It indicates that UserRepository is a singleton.
+• C) It injects the UserRepository dependency automatically into the UserService.
+ ✔️
+• D) It marks the UserRepository as a required dependency for the application.
+ 
+Which of the following is the correct order of the Hibernate entity lifecycle?
+
+*
+1/1
+• A) Transient → Persistent → Detached → Removed✔️
+• B) Persistent → Transient → Detached → Removed
+• C) Detached → Persistent → Transient → Removed
+• D) Transient → Detached → Persistent → Removed
+ 
+In Hibernate, what is the purpose of the SessionFactory interface?
+*
+1/1
+• A) It manages the session lifecycle during database interactions.
+• B) It is used to open and create sessions to interact with the database.
+ ✔️
+• C) It provides a mechanism for object-relational mapping.
+• D) It stores the cache for Hibernate entities
+ 
+What is the primary reason for using Spring Boot over traditional Spring Framework?
+
+*
+1/1
+• A) Spring Boot eliminates the need for external build tools like Maven or Gradle.
+• B) Spring Boot simplifies the configuration process by using sensible defaults and automatic configuration.✔️
+• C) Spring Boot is designed for batch processing and scheduling.
+• D) Spring Boot requires less memory and provides built-in caching mechanisms.
+ 
+: In a Spring Boot application, what is the function of the application.properties file?
+
+*
+1/1
+• A) It defines database table structures.
+• B) It stores user credentials for authentication.
+• C) It is used to configure various application settings, like database URLs, server ports, logging levels, etc.✔️
+• D) It stores only the URL mappings for controllers.
+ 
+In a Spring Boot application, which of the following HTTP methods is typically used for creating a new resource in a RESTful service?
+
+*
+0/1
+• A) GET
+• B) POST✔️
+• C) PUT
+• D) DELETE
+Correct answer
+• B) POST
