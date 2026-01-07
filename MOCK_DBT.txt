@@ -1,0 +1,2063 @@
+DBT_PRACTICE_TEST_2
+
+Which of the following is the correct order of normal forms?
+1 point
+a) 1NF → 2NF → 3NF → BCNF → 4NF → 5NF 
+b) 1NF → 3NF → BCNF → 2NF → 4NF → 5NF
+c) 3NF → 2NF → BCNF → 1NF → 4NF → 5NF
+d) 1NF → 2NF → BCNF → 3NF → 4NF → 5NF
+
+
+In MongoDB, which of the following is the correct way to perform an upsert operation?
+
+db.users.update(
+
+   { "username": "john_doe" },
+
+   { $set: { "email": "john@example.com" } },
+
+   { upsert: true }
+
+);
+*
+1 point
+a) The operation updates the document if the username exists, otherwise inserts a new document 
+b) The operation only inserts a document if the username exists
+c) The operation deletes the document if the username exists
+d) The operation performs no action if the username exists
+
+Which of the following commands will allow you to change the name of a column in an existing table in MySQL?
+
+ALTER TABLE Students CHANGE COLUMN old_name new_name VARCHAR(255);
+*
+1 point
+a) ALTER COLUMN
+b) MODIFY COLUMN
+c) CHANGE COLUMN
+d) RENAME COLUMN
+
+
+Which SQL code snippet correctly implements a trigger to update the LastModified field in the Employees table whenever an Employee record is updated?
+
+CREATE TRIGGER UpdateEmployeeTimestamp
+
+BEFORE UPDATE ON Employees
+
+FOR EACH ROW
+
+SET NEW.LastModified = NOW();
+*
+1 point
+a) This code correctly creates a trigger that updates LastModified whenever an employee record is updated.
+b) The SET command should be placed inside the BEGIN and END block.
+c) The trigger should be AFTER UPDATE instead of BEFORE UPDATE.
+d) NEW.LastModified should be replaced with OLD.LastModified to refer to the previous value
+
+Which SQL function will return the average value of a numeric column in a table?
+*
+1 point
+a) MAX()
+b) SUM()
+c) AVG()
+d) COUNT()
+
+
+Given the following SQL query, what does the AUTO_INCREMENT feature do?
+
+CREATE TABLE Employees (
+
+  EmployeeID INT AUTO_INCREMENT,
+
+  EmployeeName VARCHAR(100),
+
+  PRIMARY KEY (EmployeeID)
+
+);
+*
+1 point
+a) Automatically increments the EmployeeID each time a new row is inserted.
+b) Automatically sets the EmployeeID to a constant value.
+c) Automatically sets the EmployeeID to the maximum value of EmployeeID.
+d) Automatically inserts a value into the EmployeeName column
+
+
+Which of the following MongoDB features ensures high availability in a replica set configuration?
+*
+1 point
+a) Horizontal Scaling
+b) Sharding
+c) Write Concerns
+d) Automatic Failover
+
+Which of the following MySQL Built-in functions is used to round a number to a specified number of decimal places?
+*
+1 point
+a) ROUND(num, decimal places)
+b) TRUNCATE(num, decimal places)
+c) FLOOR(num)
+d) CEIL(num)
+
+
+ Which of the following queries will create a copy of the structure of a table Customers into a new table Customers_Copy, without copying the data?
+CREATE TABLE Customers_Copy AS SELECT * FROM Customers WHERE 1 = 0;
+*
+1 point
+a) Creates both the structure and data of Customers.
+b) Creates only the structure of Customers and no data.
+c) Creates only the data of Customers without structure.
+d) Copies data from Customers to Customers_ Copy
+
+
+What will the following MySQL code do?
+
+CREATE PROCEDURE GetEmployeeBonus(IN empID INT)
+
+BEGIN
+
+    DECLARE empBonus DECIMAL(10,2);
+
+    DECLARE exit_loop BOOLEAN DEFAULT FALSE;
+
+    DECLARE employee_cursor CURSOR FOR
+
+    SELECT Bonus FROM Employees WHERE EmployeeID = empID;
+
+    OPEN employee_cursor;
+
+    FETCH employee_cursor INTO empBonus;
+
+    IF empBonus > 5000 THEN
+
+        SELECT 'Bonus is High';
+
+    ELSE
+
+        SELECT 'Bonus is Low';
+
+    END IF;
+
+    CLOSE employee_cursor;
+
+END;
+*
+1 point
+a) It checks the bonus of the employee and returns whether it is 'High' or 'Low' based on the value
+b) It returns an error because the FETCH statement cannot be used with a cursor in this way
+c) It updates the bonus of the employee
+d) It deletes the employee record from the table
+
+
+Which SQL code snippet demonstrates correct use of foreign key constraints to ensure referential integrity between Orders and Customers?
+
+CREATE TABLE Orders (
+
+    OrderID INT PRIMARY KEY,
+
+    CustomerID INT,
+
+    OrderDate DATE,
+
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID) ON DELETE CASCADE
+
+);
+*
+1 point
+a) This code correctly creates a foreign key with ON DELETE CASCADE to maintain referential integrity.
+b) The foreign key should not include the ON DELETE CASCADE clause.
+c) The foreign key constraint should reference the Orders table, not the Customers table.
+d) The CustomerID should not be a foreign key in the Orders table.
+
+
+Which of the following index types is used in MySQL to speed up searches and ensures that values in the indexed column are unique?
+*
+1 point
+a) Full-text Index
+b) Hash Index
+c) Unique Index
+d) Spatial Index
+
+
+Which of the following NoSQL databases is an example of a Document Store?
+*
+1 point
+a) MongoDB
+b) Redis
+c) Cassandra
+d) Neo4j
+
+
+Which SQL code snippet demonstrates correct usage of JOIN between the Customers and Orders tables to retrieve customer names and their order details?sql
+
+SELECT Customers.CustomerName, Orders.OrderID, Orders.OrderDate
+
+FROM Customers
+
+INNER JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
+*
+1 point
+a) This code correctly uses INNER JOIN to retrieve customer details along with their orders.
+b) INNER JOIN should be replaced by LEFT JOIN to include customers with no orders.
+c) The INNER JOIN should use WHERE instead of ON.
+d) The ON condition should use Orders.CustomerID = Customers.CustomerID instead.
+
+
+Which of the following is NOT a feature of Relational Databases as per Codd's 12 Rules?
+*
+1 point
+a) Data should be represented in tables.
+b) Operations should be based on set theory.
+c) The DBMS should support hierarchical data storage.
+d) Every column in a table must contain atomic values.
+
+
+Which of the following is true about DML (Data Manipulation Language) in SQL?
+*
+1 point
+a) DML commands are used for defining database structures.
+b) DML commands include CREATE, ALTER, and DROP.
+c) DML commands are used for querying and modifying data in tables.
+d) DML commands affect the database schema.
+
+
+Which of the following SQL statements can be used to revoke the privilege of selecting from the Employees table?
+*
+1 point
+a) REVOKE SELECT ON Employees FROM User1;
+b) GRANT SELECT ON Employees TO User1;
+c) DENY SELECT ON Employees FROM User1;
+d) REMOVE SELECT ON Employees FROM User1;
+
+
+Which of the following is a valid example of a NoSQL Database?
+*
+1 point
+a) MySQL
+b) PostgreSQL
+c) MongoDB
+d) Oracle
+
+
+Given the following SQL query, what is the purpose of the EXISTS keyword?
+SELECT * FROM Orders
+
+WHERE EXISTS (SELECT * FROM Customers WHERE Orders.CustomerID = Customers.CustomerID);
+*
+1 point
+a) Checks for records where Orders.CustomerID matches Customers.CustomerID.
+b) Returns all rows from Orders where the Customers table contains any matching records.
+c) Ensures that Customers table has no matching records.
+d) Filters rows that exist only in the Orders table.
+
+
+What is the primary difference between TRUNCATE and DELETE commands in MySQL?
+*
+1 point
+a) DELETE removes the table, while TRUNCATE only removes the data
+b) TRUNCATE cannot be rolled back, while DELETE can be rolled back
+c) DELETE is faster than TRUNCATE
+d) TRUNCATE is used for removing rows, while DELETE is for removing tables
+
+
+Which MySQL flow control statement is used to exit a loop prematurely in a stored procedure?
+*
+1 point
+a) LEAVE
+b) ITERATE
+c) BREAK
+d) EXIT
+
+
+Which of the following Relational Algebra operations is used to return rows that do not appear in another set?
+*
+1 point
+a) Union
+b) Intersect
+c) Minus
+d) Cartesian Product
+
+Which of the following is a valid condition to use with a WHERE clause in SQL?
+*
+1 point
+a) AND, OR, NOT
+b) FROM, JOIN, SELECT
+c) BETWEEN, GROUP BY, HAVING
+d) ORDER BY, LIMIT
+
+
+Which type of cursor in MySQL allows you to move forward and backward through the result set?
+*
+1 point
+a) Read-Only
+b) Insensitive
+c) Scrollable
+d) Asensitive
+
+
+Which of the following best defines NoSQL databases?
+*
+1 point
+a) They are designed to support structured data with a fixed schema.
+b) They are designed for relational data with SQL-based queries.
+c) They support unstructured or semi-structured data and provide flexibility in terms of schema design.
+d) They support only key-value data models with fixed key structures
+
+
+What would be the result of the following SQL statement?
+
+CREATE PROCEDURE AddEmployee(IN employeeName VARCHAR(100), IN employeeDept VARCHAR(100))
+
+BEGIN
+
+    INSERT INTO Employees (Name, Department) VALUES (employeeName, employeeDept);
+
+END;
+*
+1 point
+a) It creates a stored procedure to add an employee to the Employees table
+b) It adds an employee to the Employees table immediately upon execution
+c) It creates a view that displays employee details
+d) It updates an existing employee record
+
+
+In a trigger, which of the following variables is used to reference the old value of a column before an UPDATE operation?
+*
+1 point
+a) NEW
+b) OLD
+c) CURRENT
+d) PREVIOUS
+
+
+What is the main benefit of using indexes in a database?
+*
+1 point
+a) Improves the performance of INSERT and UPDATE operations
+b) Speeds up data retrieval operations such as SELECT queries
+c) Reduces the need for normalization
+d) Ensures data consistency across tables
+
+
+What does the IN operator do in SQL?
+*
+1 point
+a) Filters records that do not meet the condition
+b) Filters records within a set of values
+c) Filters records that meet a single condition
+d) Filters records for numeric ranges
+
+
+Which of the following is NOT a MongoDB operator?
+*1 point
+a) $gt
+b) $set
+c) $insert
+d) $in
+
+In MongoDB, what does the $push operator do?
+*1 point
+a) Adds an element to an array only if it doesn’t already exist
+b) Adds an element to the end of an array
+c) Removes the first element from an array
+d) Sorts the elements of an array
+
+
+What is the primary difference between a BEFORE trigger and an AFTER trigger in MySQL?
+*1 point
+a) BEFORE triggers execute after the operation, while AFTER triggers execute before the operation
+b) BEFORE triggers execute before the operation, and AFTER triggers execute after the operation
+c) BEFORE triggers only allow modifications, while AFTER triggers cannot modify data
+d) There is no significant difference between BEFORE and AFTER triggers
+
+
+Given the following SQL code for a function:
+
+CREATE FUNCTION CalculateTax(salary DECIMAL(10,2)) RETURNS DECIMAL(10,2)
+
+BEGIN
+
+    IF salary <= 50000 THEN
+
+        RETURN salary * 0.05;
+
+    ELSE
+
+        RETURN salary * 0.10;
+
+    END IF;
+
+END;
+
+What does this function do?
+*1 point
+a) It calculates the tax based on a salary threshold of 50,000, with 5% tax for salaries up to 50,000 and 10% for higher salaries
+b) It returns a fixed tax amount of 5% on all salaries
+c) It calculates the bonus for employees based on their salaries
+d) It applies a tax rate of 15% regardless of salary
+
+
+Which of the following is NOT a valid SQL constraint in MySQL?
+*1 point
+a) PRIMARY KEY
+b) UNIQUE
+c) CHECK
+d) FOREIGN KEY
+
+
+In the following MySQL function, what will it return?
+
+CREATE FUNCTION GetTotalSalary() RETURNS DECIMAL(10,2)
+
+BEGIN
+
+    DECLARE totalSalary DECIMAL(10,2);
+
+    SELECT SUM(Salary) INTO totalSalary FROM Employees;
+
+    RETURN totalSalary;
+
+END;
+*
+1 point
+a) It will return the total salary of all employees
+b) It will return the highest salary of an employee
+c) It will return the number of employees
+d) It will return an error because functions cannot return values
+
+
+In MongoDB, what type of database is a key-value store?
+*
+1 point
+a) Document Store
+b) Column Store
+c) Key-Value Store
+d) Graph Store
+
+
+Consider the Entity-Relationship Diagram (ERD) where a Department has many Employees, and Employee works for one Department. Which relationship should be represented?
+*
+1 point
+a) One-to-one
+b) One-to-many
+c) Many-to-many
+d) Many-to-one
+
+
+What is the result of the following MongoDB query?
+
+db.users.find({ age: { $gt: 30 } }).count();
+*
+1 point
+a) The number of users whose age is greater than 30
+b) A list of users whose age is greater than 30
+c) The total sum of the ages of users greater than 30
+d) The average age of users greater than 30
+
+
+Which SQL operation is used to retrieve data from a database?
+*
+1 point
+a) SELECT
+b) INSERT
+c) UPDATE
+d) DELETE
+
+
+What is the primary difference between JSON and BSON in MongoDB?
+*
+1 point
+a) JSON supports a richer data structure, while BSON supports fewer types.
+b) JSON is a lightweight format for data storage, while BSON is more efficient for data transfer and storage.
+c) JSON is a binary format, while BSON is a text-based format.
+d) JSON supports nesting, while BSON does not
+
+
+Which of the following MongoDB operations will delete multiple documents matching a query?
+*
+1 point
+a) db.collection.remove()
+b) db.collection.deleteOne()
+c) db.collection.deleteMany()
+d) db.collection.drop()
+
+
+What is the primary advantage of using stored procedures in MySQL?
+*
+1 point
+a) Stored procedures increase the complexity of queries
+b) Stored procedures are not reusable once created
+c) Stored procedures improve performance by reducing network traffic and providing encapsulation
+d) Stored procedures are faster than direct SQL queries in every case
+
+
+Which SQL query will select all records from the Customers table where the Country is either 'USA' or 'Canada'?
+
+SELECT * FROM Customers WHERE Country IN ('USA', 'Canada');
+*
+1 point
+a) SELECT * FROM Customers WHERE Country LIKE 'USA' OR Country LIKE 'Canada';
+b) SELECT * FROM Customers WHERE Country = 'USA' AND Country = 'Canada';
+c) SELECT * FROM Customers WHERE Country IN ('USA', 'Canada');
+d) SELECT * FROM Customers WHERE Country = 'USA' OR Country = 'Canada';
+
+
+Which operator in MongoDB is used to find documents where a field is in a specific array of values?
+*
+1 point
+a) $in
+b) $gt
+c) $or
+d) $exists
+
+
+Which of the following statements is correct about stored procedures?
+*
+1 point
+a) Stored procedures can have IN, OUT, and INOUT parameters to handle input and output values
+b) Stored procedures cannot accept parameters
+c) Stored procedures are only used to insert data into a table
+d) Stored procedures are only available in MySQL's InnoDB storage engine
+
+
+Which of the following is NOT a benefit of using indexes in databases?
+*
+1 point
+a) Faster query performance for specific queries
+b) Increased disk space usage
+c) Faster retrieval of data
+d) Improved sorting performance
+
+
+Consider the following trigger definition. What happens when the AFTER INSERT trigger is executed?
+
+CREATE TRIGGER InsertTrigger AFTER INSERT ON Employees
+
+FOR EACH ROW
+
+BEGIN
+
+    INSERT INTO AuditLog (Action, Timestamp) VALUES ('INSERT', NOW());
+
+END;
+*
+1 point
+a) It will execute after each insert operation on the Employees table and log the action into the AuditLog table
+b) It will execute before each insert operation on the Employees table
+c) It will delete the record from the AuditLog table
+d) It will only log insert actions for Employees whose names are 'John'
+
+
+Consider the following stored procedure. What will happen when executed?
+CREATE PROCEDURE CheckSalary(IN empID INT)
+
+BEGIN
+
+    DECLARE empSalary DECIMAL(10,2);
+
+    SELECT Salary INTO empSalary FROM Employees WHERE EmployeeID = empID;
+
+    IF empSalary > 50000 THEN
+
+        SELECT 'High Salary';
+
+    ELSE
+
+        SELECT 'Low Salary';
+
+    END IF;
+
+END;
+*
+1 point
+a) It will check if the salary of an employee is greater than 50,000 and return either 'High Salary' or 'Low Salary'
+b) It will return an error because salary values are not allowed to be stored in variables
+c) It will update the employee's salary based on the condition
+d) It will throw an error because there is no error handling
+
+
+In MongoDB, a document is stored in which format?
+*
+1 point
+a) JSON
+b) BSON
+c) XML
+d) CSV
+
+
+Consider the following stored procedure. What will happen when GetEmployeeInfo is called?
+
+CREATE PROCEDURE GetEmployeeInfo(IN empID INT)
+
+BEGIN
+
+    SELECT Name, Department FROM Employees WHERE EmployeeID = empID;
+
+END;
+*
+1 point
+a) It will return the Name and Department of the employee with the given empID
+b) It will return all employees' details in the database
+c) It will insert a new employee record
+d) It will delete the employee with the given empID
+
+
+What will be the result of the following SQL query?
+
+SELECT COUNT(DISTINCT CourseID) FROM Enrollments;
+*
+1 point
+a) Count of all CourseID values in the Enrollments table.
+b) Count of unique CourseID values in the Enrollments table.
+c) Count of all rows in the Enrollments table.
+d) Sum of all CourseID values in the Enrollments table.
+
+
+Which MySQL function would be used to extract the year from a given date?
+
+SELECT YEAR('2023-08-15');
+*
+1 point
+a) EXTRACT()
+b) DATE_PART()
+c) YEAR()
+d) DATE_FORMAT()
+
+
+Which of the following MongoDB operations would be used to update an existing document or insert a new one if no document matches the query?
+*
+1 point
+a) INSERT
+b) UPDATE
+c) UPSERT
+d) REPLACE
+
+
+Which SQL command is used to define a view named EmployeeView that selects EmployeeID and EmployeeName from the Employees table?
+
+CREATE VIEW EmployeeView AS
+
+SELECT EmployeeID, EmployeeName FROM Employees;
+
+What will this query do?
+*
+1 point
+a) It will create a temporary view.
+b) It will create a permanent view.
+c) It will create a new table.
+d) It will create a new stored procedure
+
+
+Which MongoDB operator would you use to select documents where the tags array contains both nodejs and mongodb?
+*
+1 point
+a) $in
+b) $all
+c) $contains
+d) $exists
+
+
+Which MySQL command is used to create a temporary table?
+
+CREATE TEMPORARY TABLE temp_table (
+
+    id INT PRIMARY KEY,
+
+    name VARCHAR(100)
+
+);
+
+What does this query do?
+*
+1 point
+a) Creates a temporary table that will be available for the duration of the session
+b) Creates a permanent table that will persist across sessions
+c) Creates a table that can only be used for SELECT queries
+d) Creates a table that will be dropped after one day
+
+
+Which SQL code snippet correctly uses GROUP BY and HAVING to find the number of orders per customer that have more than 5 orders?
+
+SELECT CustomerID, COUNT(OrderID) AS NumberOfOrders
+
+FROM Orders
+
+GROUP BY CustomerID
+
+HAVING COUNT(OrderID) > 5;
+*
+1 point
+a) This code correctly counts the number of orders per customer and filters customers with more than 5 orders.
+b) The HAVING clause should be used before the GROUP BY clause.
+c) The HAVING clause is not needed if COUNT is used in the SELECT statement.
+d) COUNT should be replaced with SUM to get the correct number of orders.
+
+
+Which normal form does this table violate?
+StudentID
+CourseID
+InstructorName
+
+
+1    C101    Prof. A
+
+1     102      Prof. B
+
+2     C101   Prof. A
+
+2     C103   Prof. C
+*
+1 point
+a) 1st Normal Form (1NF)
+b) 2nd Normal Form (2NF)
+c) 3rd Normal Form (3NF)
+d) Boyce-Codd Normal Form (BCNF)
+
+
+What is the result of the following SQL query?
+
+SELECT * FROM Orders WHERE OrderDate BETWEEN '2022-01-01' AND '2022-12-31';
+*
+1 point
+a) It will select orders placed before January 1, 2022.
+b) It will select orders placed after December 31, 2022.
+c) It will select orders placed between January 1, 2022, and December 31, 2022.
+d) It will select all orders from the Orders table.
+
+
+What is the CAP theorem primarily concerned with in distributed NoSQL databases?
+*
+1 point
+a) Consistency, Availability, and Processing
+b) Consistency, Availability, and Partition Tolerance
+c) Consistency, Architecture, and Performance
+d) Caching, Availability, and Partitioning
+
+
+Consider the following MySQL trigger. What will happen when an UPDATE statement is executed?
+
+CREATE TRIGGER UpdateTrigger BEFORE UPDATE ON Employees
+
+FOR EACH ROW
+
+BEGIN
+
+    IF NEW.salary < OLD.salary THEN
+
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Salary cannot be decreased';
+
+    END IF;
+
+END;
+*
+1 point
+a) The trigger will raise an exception if the new salary is less than the old salary
+b) The trigger will log an error but allow the update to occur
+c) The trigger will prevent any updates from being executed
+d) The trigger will return a message but continue with the update
+
+
+Which of the following MongoDB methods is used to create a new collection?
+*
+1 point
+a) db.createCollection()
+b) db.create()
+c) db.createNew()
+d) db.addCollection()
+
+
+What will this SQL query do?
+
+SELECT COUNT(*) FROM Orders
+
+WHERE OrderDate BETWEEN '2022-01-01' AND '2022-12-31';
+*
+1 point
+a) Count of all orders placed in the year 2022.
+b) Count of all orders where the OrderDate is null.
+c) Count of all orders where the OrderDate is after 2022-12-31.
+d) Count of all orders placed before 2022.
+
+
+What does the $gt operator do in MongoDB?
+*
+1 point
+a) Returns documents where a field is greater than a given value
+b) Returns documents where a field is less than a given value
+c) Returns documents where a field is equal to a given value
+d) Returns documents where a field is not null
+
+
+Which cursor type in MySQL cannot be used to modify data in the result set?
+*
+1 point
+a) Insensitive
+b) Read-Only
+c) Scrollable
+d) Asensitive
+
+
+What is the primary data model of a MongoDB database?
+*
+1 point
+a) Key-Value Store
+b) Document Store
+c) Column-Oriented Store
+d) Graph Store
+
+
+Which SQL command is used to automatically assign a unique value to a column when a new record is inserted?
+*
+1 point
+a) SEQUENCE
+b) AUTO_INCREMENT
+c) SERIAL
+d) IDENTITY
+
+
+In a Conceptual Data Model, which of the following is represented?
+*
+1 point
+a) Detailed structure of data
+b) Logical structure and relationships among entities
+c) High-level representation of the business environment
+d) Implementation-specific constraints
+
+
+Which of the following conditional statements in MySQL is not supported?
+*
+1 point
+a) IF-ELSE
+b) IF-ELSE-THEN
+c) SWITCH CASE
+d) CASE WHEN
+
+
+Given the following stored procedure, what happens when it encounters an error?
+
+CREATE PROCEDURE UpdateSalary(IN empID INT, IN newSalary DECIMAL(10,2))
+
+BEGIN
+
+    DECLARE CONTINUE HANDLER FOR SQLEXCEPTION
+
+    BEGIN
+
+        ROLLBACK;
+
+    END;
+
+    START TRANSACTION;
+
+    UPDATE Employees SET salary = newSalary WHERE EmployeeID = empID;
+
+    COMMIT;
+
+END;
+*
+1 point
+a) It will rollback the transaction in case of an exception and keep the original salary
+b) It will always commit the transaction without checking for errors
+c) It will exit the procedure without making any changes to the Employees table
+d) It will throw a new error after the ROLLBACK
+
+
+What is the correct MongoDB syntax for updating the address field in a user document where the _id is 1234?
+
+db.users.updateOne({ _id: 1234 }, { $set: { address: "New Address" } })
+*
+1 point
+a) db.users.updateOne({ _id: 1234 }, { $set: { address: "New Address" } })
+b) db.users.update({ _id: 1234 }, { address: "New Address" })
+c) db.users.updateOne({ _id: 1234 }, { address: "New Address" })
+d) db.users.set({ _id: 1234 }, { address: "New Address" })
+
+
+What does this SQL query return?
+
+SELECT DISTINCT DepartmentID FROM Employees;
+*
+1 point
+a) Returns all unique department IDs from the Employees table.
+b) Returns all department IDs, including duplicates.
+c) Returns only the first department ID found.
+d) Returns all columns from the Employees table, with duplicates.
+
+
+What is the result of this SQL query?
+
+UPDATE Students
+
+SET StudentName = 'Jane Doe'
+
+WHERE StudentID = 1;
+*
+1 point
+a) It will insert a new record with StudentName = 'Jane Doe'.
+b) It will update the StudentName of the student with StudentID = 1 to 'Jane Doe'.
+c) It will delete the record where StudentID = 1.
+d) It will change all StudentName values to 'Jane Doe'
+
+
+Which SQL command is used to create a new table in MySQL with a primary key constraint?
+
+CREATE TABLE Students (
+
+    StudentID INT PRIMARY KEY,
+
+    Name VARCHAR(100),
+
+    Age INT
+
+);
+
+*
+1 point
+a) INSERT INTO Students
+b) CREATE DATABASE Students
+c) CREATE TABLE Students
+d) ALTER TABLE Students ADD PRIMARY KEY (StudentID)
+
+
+What will the following stored procedure do?
+
+CREATE PROCEDURE HandleErrorExample()
+
+BEGIN
+
+    DECLARE CONTINUE HANDLER FOR SQLEXCEPTION
+
+    BEGIN
+
+        ROLLBACK;
+
+        SELECT 'Error occurred, transaction rolled back';
+
+    END;
+
+    START TRANSACTION;
+
+    INSERT INTO Employees (EmployeeID, Name, Salary) VALUES (1, 'John', 50000);
+
+    COMMIT;
+
+END;
+
+*
+1 point
+a) It will rollback the transaction if any error occurs and print the message
+b) It will continue the transaction even if there is an error
+c) It will print the error message but not rollback the transaction
+d) It will raise an exception and stop the execution
+
+
+Given the following code, which parameter mode does the procedure CalculateSalary use for the salary parameter?
+DELIMITER $$
+CREATE PROCEDURE CalculateSalary(IN employeeID INT, OUT employeeSalary DECIMAL(10,2))
+BEGIN
+    SELECT salary INTO employeeSalary
+    FROM Employees
+    WHERE EmployeeID = employeeID;
+END$$
+DELIMITER ;
+*
+1 point
+a) IN
+b) OUT
+c) INOUT
+d) IN/OUT
+
+
+Which of the following CAP Theorem properties is not guaranteed in a NoSQL database like MongoDB?
+*
+1 point
+a) Consistency
+b) Availability
+c) Partition tolerance
+d) Durability
+
+
+In MongoDB, which of the following represents a field in a document?
+*
+1 point
+a) Table
+b) Column
+c) Key-Value Pair
+d) Record
+
+
+In relational algebra, which operation is used to combine two relations?
+*
+1 point
+a) Selection
+b) Projection
+c) Union
+d) Difference
+
+
+What is the correct MongoDB command to create a new database?
+*1 point
+a) CREATE DATABASE <dbname>
+b) use <dbname>
+c) db.createDatabase('<dbname>')
+d) CREATE DATABASE IF NOT EXISTS <dbname>
+
+
+Which of the following is true about MongoDB Indexes?
+*
+1 point
+a) Indexes are mandatory in MongoDB to perform CRUD operations.
+b) MongoDB automatically creates indexes on all fields.
+c) Indexes help in speeding up search queries but slow down write operations.
+d) MongoDB does not support compound indexes.
+
+
+Which SQL command is used to remove a table and its data from a database?
+*
+1 point
+a) DROP
+b) DELETE
+c) REMOVE
+d) TRUNCATE
+
+
+Which SQL clause is used to sort the results of a query?
+*
+1 point
+a) ORDER BY
+b) GROUP BY
+c) HAVING
+d) SORT BY
+
+
+Which of the following is a valid MongoDB query to find all users whose status is "active"?
+db.users.find({ status: "active" });
+*
+1 point
+a) db.users.find({ status: "active" })
+b) db.users.find(status: "active")
+c) db.users.find({ "status" => "active" })
+d) db.users.find(status: => "active")
+
+
+In MongoDB, which command is used to sort documents in a collection in descending order by a field age?
+db.collection.find().sort({ age: -1 })
+*
+1 point
+a) sort({ age: -1 })
+b) find().sort(age: -1)
+c) find({}).sort('age', DESC)
+d) sort('age', -1)
+
+
+What is a correlated subquery in SQL?
+*
+1 point
+a) A subquery that is independent of the outer query
+b) A subquery that refers to columns from the outer query
+c) A subquery that only returns a single value
+d) A subquery that performs aggregation
+
+
+Which SQL command would you use to remove all rows from a table without removing the table structure in MySQL?
+TRUNCATE TABLE Employees;
+*
+1 point
+a) DELETE FROM Employees;
+b) DROP TABLE Employees;
+c) TRUNCATE TABLE Employees;
+d) REMOVE ALL FROM Employees;
+
+
+Which of the following is NOT a part of the ACID properties in databases?
+*
+1 point
+a) Atomicity
+b) Consistency
+c) Isolation
+d) Scalability
+
+
+Which MongoDB method is used to update an existing document?*
+1 point
+a) update()
+b) save()
+c) insert()
+d) modify()
+
+
+What does the LIMIT clause do in a SQL query?*
+1 point
+a) Limits the number of rows returned
+b) Limits the number of columns returned
+c) Limits the number of database tables used
+d) Limits the data based on date ranges
+
+
+Which SQL query syntax will produce the same result for the following operation in Relational Algebra: A ∪ B?
+
+SELECT column1 FROM A
+UNION
+SELECT column1 FROM B;
+*
+1 point
+a) UNION only returns distinct rows.
+b) UNION ALL includes duplicate rows.
+c) INTERSECT returns common rows.
+d) MINUS returns rows in A but not in B.
+
+
+What is the correct SQL syntax to group records in the Sales table by the ProductID column?
+
+SELECT ProductID, SUM(SaleAmount)
+FROM Sales
+GROUP BY ProductID;
+*
+1 point
+a) GROUP BY groups the records based on the ProductID column.
+b) GROUP BY groups the records based on the SaleAmount column.
+c) GROUP BY is not valid in SQL.
+d) GROUP BY is only valid for non-numeric columns
+
+
+Which of the following trigger types is executed before any changes are made to the table in MySQL?*
+1 point
+a) AFTER
+b) BEFORE
+c) ON UPDATE
+d) ON DELETE
+
+
+Which of the following normal forms removes transitive dependencies?*
+1 point
+a) 1st Normal Form (1NF)
+b) 2nd Normal Form (2NF)
+c) 3rd Normal Form (3NF)
+d) Boyce-Codd Normal Form (BCNF
+
+
+Given the following SQL code, how does MySQL handle indexes in relation to queries?
+SELECT Name, Department FROM Employees
+WHERE EmployeeID = 101;
+*
+1 point
+a) MySQL will use an index on EmployeeID if one exists, to quickly locate the record.
+b) MySQL will always perform a full table scan, ignoring any indexes.
+c) MySQL will create a new index on the fly for the EmployeeID column.
+d) MySQL will ignore the index if EmployeeID is a primary key.
+
+
+
+Consider the following stored procedure with a cursor. What does the following block of code do?
+
+DECLARE emp_cursor CURSOR FOR SELECT salary FROM Employees;
+DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;
+OPEN emp_cursor;
+read_loop: LOOP
+    FETCH emp_cursor INTO @salary;
+    IF done THEN
+        LEAVE read_loop;
+    END IF;
+    UPDATE Employees SET salary = salary + 1000 WHERE salary = @salary;
+END LOOP;
+CLOSE emp_cursor;
+*
+1 point
+a) It iterates through the Employees table and adds 1000 to the salary of each employee
+b) It fetches the salary for each employee and deletes those who earn below a certain amount
+c) It loops through the cursor and inserts a new salary into the table
+d) It updates the salary only for employees whose salary is higher than the average
+
+
+Which of the following is an example of data redundancy in a relational database?*
+1 point
+a) Storing customer address in multiple tables without normalization.
+b) Using a primary key to enforce unique rows in a table.
+c) Using IN operator to filter records.
+d) Using DISTINCT to remove duplicate records
+
+Which of the following is the correct syntax to define a foreign key in MySQL?*
+1 point
+a) CREATE TABLE table_name (id INT PRIMARY KEY, FOREIGN KEY (column_name) REFERENCES other_table(column_name));
+b) ALTER TABLE table_name ADD FOREIGN KEY (column_name) REFERENCES other_table(column_name);
+c) CREATE FOREIGN KEY table_name (id, other_table_column_name);
+d) CREATE TABLE table_name FOREIGN KEY (column_name) REFERENCES other_table(column_name);
+
+
+Given the following code, which of the following flow control constructs are used inside the stored procedure?
+
+CREATE PROCEDURE CalculateBonus()
+BEGIN
+    DECLARE bonus DECIMAL(10,2);
+    DECLARE done INT DEFAULT FALSE;
+    DECLARE cur CURSOR FOR SELECT Salary FROM Employees;
+    OPEN cur;
+    read_loop: LOOP
+        FETCH cur INTO bonus;
+        IF done THEN
+            LEAVE read_loop;
+        END IF;
+        UPDATE Employees SET Salary = Salary + bonus WHERE Salary = bonus;
+    END LOOP;
+    CLOSE cur;
+END;
+*
+1 point
+a) LOOP and LEAVE
+b) REPEAT and ITERATE
+c) IF and WHILE
+d) SWITCH CASE and ITERATE
+
+
+Which of the following is the correct analogy between RDBMS and MongoDB?
+*
+1 point
+a) RDBMS uses documents and MongoDB uses tables
+b) RDBMS uses collections and MongoDB uses rows
+c) RDBMS uses tables and MongoDB uses collections
+d) RDBMS uses BSON and MongoDB uses JSON
+
+
+Which of the following is NOT a feature of MongoDB?
+*
+1 point
+a) Schema-less design
+b) Horizontal scaling
+c) ACID transactions across multiple documents and collections
+d) Foreign key constraints
+
+
+Which MySQL command is used to delete a database?
+*
+1 point
+a) DROP DATABASE
+b) DELETE DATABASE
+c) REMOVE DATABASE
+d) TRUNCATE DATABASE
+
+
+Which MySQL data type would you use to store decimal numbers with high precision?
+*
+1 point
+a) INT
+b) FLOAT
+c) DECIMAL
+d) VARCHAR
+
+
+What will the following SQL query return?
+
+SELECT MAX(salary) FROM employees;
+*
+1 point
+a) The lowest salary in the employees table
+b) The highest salary in the employees table
+c) The total sum of all salaries
+d) The average salary
+
+
+What is the difference between a database instance and a schema in MySQL?
+*
+1 point
+a) A database instance refers to the actual data while schema defines the structure of the database.
+b) A database instance is a set of schemas, and a schema is a collection of users.
+c) A database instance and schema are the same thing in MySQL.
+d) A database instance is only used in cloud databases, while a schema is used in relational databases.
+
+
+In which of the following scenarios is a NoSQL database most likely to be used?
+*
+1 point
+a) When strict schema and relationships are required
+b) When high availability, scalability, and unstructured data are needed
+c) When a transactional system is required
+d) When data integrity and normalization are the highest priorities
+
+
+What is the correct MongoDB command to create a collection named users?
+
+db.createCollection("users")
+*
+1 point
+a) db.createCollection("users")
+b) db.users.create()
+c) create.collection("users")
+d) db.collection.create("users")
+
+
+Which of the following trigger events in MySQL would allow modification of data before it is inserted into the database?
+*
+1 point
+a) BEFORE INSERT
+b) AFTER INSERT
+c) BEFORE UPDATE
+d) AFTER DELETE
+
+
+What is the output of the following SQL query?
+
+SELECT COUNT(*) FROM employees WHERE age > 30;
+*
+1 point
+a) The total number of employees in the database
+b) The number of employees with age greater than 30
+c) The total sum of all ages of employees
+d) A list of employees whose age is greater than 30
+
+Which SQL keyword is used to group rows that have the same values into summary rows?
+*
+1 point
+a) GROUP BY
+b) HAVING
+c) ORDER BY
+d) DISTINCT
+
+
+Which data model does MongoDB use?
+*
+1 point
+a) Key-Value Store
+b) Column-Oriented Store
+c) Document Store
+d) Graph Database
+
+
+What is the output of the following stored procedure?
+
+CREATE PROCEDURE CheckDiscount(IN orderTotal DECIMAL(10,2))
+BEGIN
+    IF orderTotal >= 1000 THEN
+        SELECT 'Discount Applied';
+    ELSE
+        SELECT 'No Discount';
+    END IF
+END;
+*
+1 point
+a) It checks if the total amount is greater than or equal to 1000 and returns the appropriate discount status
+b) It always returns 'Discount Applied'
+c) It always returns 'No Discount'
+d) It updates the orderTotal value based on some criteria
+
+
+Which MongoDB operator is used to update multiple fields in a document?
+*
+1 point
+a) $set
+b) $addToSet
+c) $push
+d) $inc
+
+Which of the following statements about Temporary Tables is true in MySQL?
+*
+1 point
+a) Temporary tables are automatically dropped when the session ends
+b) Temporary tables are visible to all sessions
+c) Temporary tables must be dropped manually to release resources
+d) Temporary tables can only be used with the InnoDB storage engine
+
+
+What will this SQL query do?
+
+INSERT INTO Students (StudentID, StudentName)
+VALUES (1, 'John Doe');
+*
+1 point
+a) Insert a new row with StudentID = 1 and StudentName = 'John Doe'.
+b) Update an existing row with StudentID = 1 to have StudentName = 'John Doe'.
+c) Delete the row where StudentID = 1.
+d) Return the number of rows in the Students table.
+
+
+Which of the following is a characteristic of an RDBMS?
+*
+1 point
+a) Schema-less design
+b) Data stored in key-value pairs
+c) Data stored in tables with defined schema
+d) Data stored in document format
+
+
+What does the DISTINCT keyword do in this SQL query?
+
+SELECT DISTINCT Department FROM Employees;
+*
+1 point
+a) Returns only the first department listed.
+b) Returns all departments, including duplicates.
+c) Returns unique department names, excluding duplicates.
+d) Returns only employees from one department.
+
+
+What will be the output of the following trigger when a row is inserted into the Employees table?
+
+CREATE TRIGGER BeforeInsertTrigger BEFORE INSERT ON Employees
+FOR EACH ROW
+BEGIN
+    SET NEW.salary = NEW.salary * 1.10;
+END;
+*
+1 point
+a) It will increase the salary of the inserted employee by 10% before the row is inserted into the table
+b) It will decrease the salary by 10% after the row is inserted
+c) It will log the inserted salary into another table
+d) It will throw an error because the NEW keyword cannot be used with BEFORE INSERT
+
+
+Which MongoDB method can be used to add a new field to an existing document or update the value of an existing field?
+*
+1 point
+a) $set
+b) $add
+c) $rename
+d) $push
+
+
+Which of the following SQL operators is used to test for null values?
+*
+1 point
+a) BETWEEN
+b) LIKE
+c) IS NULL
+d) IN
+
+
+Which of the following Relational Algebra operations returns rows that satisfy a given condition?
+*
+1 point
+a) Projection
+b) Selection
+c) Union
+d) Cartesian Product
+
+
+Which SQL code snippet demonstrates correct usage of DDL commands to modify an existing table by adding a new column for Age and setting a default value?
+
+ALTER TABLE Employees
+ADD COLUMN Age INT DEFAULT 30;
+
+
+*
+1 point
+a) This code correctly adds a column Age with a default value of 30 to the Employees table.
+b) The ALTER TABLE statement should be used with CREATE COLUMN, not ADD COLUMN.
+c) The DEFAULT value should be assigned after the column definition.
+d) The ALTER TABLE command cannot set default values for columns in MySQL
+
+
+Consider the following MongoDB query. What will it return?
+db.users.find({ age: { $gt: 30 } }).count();
+*
+1 point
+a) The number of users whose age is greater than 30
+b) A list of users whose age is greater than 30
+c) A single user document with the highest age
+d) The average age of users greater than 30
+
+
+In which MySQL Storage Engine are transactions, foreign key constraints, and ACID properties supported?
+*
+1 point
+a) MyISAM
+b) InnoDB
+c) MEMORY
+d) MERGE
+
+
+Which MongoDB operation is used to insert a new document into a collection?
+*
+1 point
+a) insertOne()
+b) add()
+c) create()
+d) saveOne()
+
+
+Which of the following MySQL commands is used to update the values in a table?
+*
+1 point
+a) UPDATE
+b) MODIFY
+c) INSERT
+d) SET
+
+
+In MongoDB, RDBMS analogies are used for collections and documents. Which RDBMS element corresponds to a MongoDB collection?
+*
+1 point
+a) Row
+b) Table
+c) Field
+d) Column
+
+
+What will the following MongoDB query do?
+
+db.orders.update(
+
+  { orderId: 123 },
+
+  { $set: { status: "shipped" } },
+
+  { upsert: true }
+
+);
+*
+1 point
+a) It will update the status of the order with orderId 123 to "shipped". If no such order exists, it will insert a new order document.
+b) It will only update the status if the order exists.
+c) It will delete the order with orderId 123
+d) It will create a new order with the status "shipped" only if orderId does not exist
+
+
+In MongoDB, which of the following is used to store data?
+*
+1 point
+a) Tables
+b) Collections
+c) Schemas
+d) DataFrames
+
+
+Which of the following conditional statements will execute the code block if the condition is false?
+*
+1 point
+a) IF
+b) IF-ELSE
+c) CASE
+d) SWITCH CASE
+
+
+Which SQL code snippet demonstrates the correct use of Codd's 12th rule (View Updating Rule) in a relational database?sql
+CREATE VIEW EmployeeDetails AS
+
+SELECT EmployeeID, EmployeeName, Department FROM Employees
+
+WHERE Active = 1;
+*
+1 point
+a) This view is valid under Codd’s 12th rule because it can be updated through the underlying tables.
+b) Views defined with WHERE clauses cannot be updated under Codd’s 12th rule.
+c) Codd’s 12th rule does not allow the creation of any views.
+d) Views should only contain JOIN operations to satisfy Codd’s 12th rule
+
+
+Consider the following MongoDB code. What will be the output of this query?
+
+db.products.find({ price: { $gt: 50 } }).sort({ price: -1 }).limit(5);
+*
+1 point
+a) It will return the top 5 products with prices greater than 50, sorted by price in descending order
+b) It will return all products with prices greater than 50
+c) It will return the first 5 products sorted by price
+d) It will return products where price is equal to 50
+
+
+Which handler action in MySQL can be used in stored procedures to ignore errors?
+*
+1 point
+a) CONTINUE
+b) EXIT
+c) ROLLBACK
+d) RESTART
+
+Which of the following MySQL data types is used for storing dates?
+*
+1 point
+a) DATE
+b) VARCHAR
+c) INT
+d) TIMESTAMP
+
+
+Which MongoDB data type allows storing binary data such as images or files?
+*
+1 point
+a) String
+b) Binary Data
+c) ObjectId
+d) Date
+
+
+The following MongoDB operation uses an upsert. What does it do?
+
+db.users.updateOne(
+
+    { username: "john_doe" },
+
+    { $set: { email: "john.doe@example.com" } },
+
+    { upsert: true }
+
+)
+
+a) It updates the document if username exists, or inserts a new document if it doesn't. (Correct)
+b) It only inserts a new document regardless of whether the username exists.
+c) It deletes the existing document if username exists.
+d) It replaces the entire document.
+
+
+Which SQL code snippet correctly creates a table with foreign key constraints and checks for valid data?
+
+CREATE TABLE Orders (
+
+    OrderID INT PRIMARY KEY,
+
+    CustomerID INT,
+
+    OrderDate DATE,
+
+    CONSTRAINT FK_Customer FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID),
+
+    CONSTRAINT CHK_OrderDate CHECK (OrderDate >= '2023-01-01')
+
+);
+
+*
+1 point
+a) This code correctly creates the Orders table with a foreign key and a check constraint.
+b) The foreign key constraint is incorrectly referencing the Customers table.
+c) The CHECK constraint should be placed after the PRIMARY KEY definition.
+d) Foreign key constraints cannot be defined in the CREATE TABLE statement
+
+
+What does the HAVING clause in SQL do?
+*
+1 point
+a) Filters rows based on a condition
+b) Sorts the rows in ascending or descending order
+c) Filters grouped rows based on a condition
+d) Limits the number of rows returned
+
+
+Which of the following MongoDB commands will sort the users collection by age in ascending order?
+*
+1 point
+a) db.users.find().sort({ age: 1 })
+b) db.users.find().sort({ age: -1 })
+c) db.users.sort({ age: 1 })
+d) db.users.sort({ age: -1 })
+
+
+Which flow control statement is used to continue to the next iteration of a loop without executing the remaining statements for the current iteration?
+*
+1 point
+a) LEAVE
+b) ITERATE
+c) CONTINUE
+d) EXIT
+
+
+Which of the following MongoDB query will return all documents in the students collection where the age field is greater than or equal to 18?
+
+db.students.find({ age: { $gte: 18 } })
+*
+1 point
+a) db.students.find({ age: { $gte: 18 } })
+b) db.students.find({ age: $gte: 18 })
+c) db.students.find({ age: 18 >= })
+d) db.students.find({ age: { $gt: 18 } })
+
+Which of the following ACID properties ensures that a transaction will either be fully completed or not executed at all in case of a failure?
+*
+1 point
+a) Atomicity
+b) Consistency
+c) Isolation
+d) Durability
+
+
+Which of the following is a valid MongoDB query to find a document by its username?
+db.users.find({ username: "john_doe" });
+*
+1 point
+a) db.users.find({ username: "john_doe" })
+b) db.users.find({ "username": john_doe })
+c) db.users.find({ "john_doe": username })
+d) db.users.select("username: john_doe")
+
+
+Which of the following MySQL statement will rollback a transaction if an error occurs during execution?
+*
+1 point
+a) COMMIT
+b) ROLLBACK
+c) SAVEPOINT
+d) EXCEPTION
+
+
+Which of the following is a valid operator in MongoDB for updating a document field?
+*
+1 point
+a) $set
+b) $insert
+c) $update
+d) $modify
+
+
+Which of the following statements about JSON and BSON is true?
+*
+1 point
+a) JSON is a binary format and BSON is text-based
+b) BSON supports additional data types like Date and Binary while JSON does not
+c) BSON is more compact than JSON for all types of data
+d) JSON is a subset of BSON
+
+
+Which SQL code snippet correctly drops a table Products if it exists, and prevents errors if the table is not found?
+
+DROP TABLE IF EXISTS Products;
+*
+1 point
+a) This code correctly drops the Products table if it exists.
+b) The DROP TABLE statement cannot use IF EXISTS in MySQL.
+c) The DROP statement should include CASCADE to handle dependent objects.
+d) The DROP TABLE command must always be executed with CASCADE to avoid errors
+
+
+Which of the following TCL commands is used to undo changes made in the current transaction?
+*
+1 point
+a) COMMIT
+b) ROLLBACK
+c) SAVEPOINT
+d) GRANT
+
+What is the default storage engine used by MySQL?
+*
+1 point
+a) MyISAM
+b) InnoDB
+c) Memory
+d) NDB
+
+
+Which of the following functional dependencies is a violation of 3rd Normal Form (3NF)?
+*
+1 point
+a) EmployeeID → EmployeeName
+b) StudentID → CourseID
+c) StudentID → InstructorName (where InstructorName depends on CourseID)
+d) StudentID → StudentName
+
+Which SQL code snippet demonstrates a correct use of ALTER TABLE to add a new column and set a default value in MySQL?
+ALTER TABLE Employees
+ADD COLUMN Department VARCHAR(100) DEFAULT 'General';
+*
+1 point
+a) This code correctly adds a Department column with a default value.
+b) Default values should be defined inside the CREATE statement, not with ALTER TABLE.
+c) The column type should be VARCHAR(50) instead of VARCHAR(100).
+d) The ALTER TABLE command cannot add a default value to a new column.
+
+
+Which of the following is a Key-Value Store type of NoSQL database?
+*
+1 point
+a) MongoDB
+b) Cassandra
+c) Redis
+d) Neo4j
+
+
+Which MySQL loop construct is used to repeatedly execute a block of code until a condition is false?
+*
+1 point
+a) LOOP
+b) REPEAT
+c) WHILE
+d) ITERATE
+
+
+Which of the following is NOT a type of NoSQL database?
+*
+1 point
+a) Key-Value Store
+b) Document Store
+c) Graph Database
+d) Relational Database
+
+
+Given the SQL query:
+
+SELECT * FROM Employees
+INNER JOIN Departments
+ON Employees.DeptID = Departments.DeptID;
+
+What type of Join is being used?
+*
+1 point
+a) Equi Join
+b) Inner Join
+c) Outer Join
+d) Cross Join
+
+
+What is the result of the following MongoDB query?
+
+db.users.find({ age: { $gt: 30 } }).sort({ age: 1 }).limit(3);
+*
+1 point
+a) The first 3 users sorted by age in ascending order
+b) The first 3 users sorted by age in descending order
+c) All users older than 30
+d) The last 3 users sorted by age
+
+
+Which of the following is used to create an index on a name field in the users collection in MongoDB?
+*
+1 point
+a) db.users.createIndex({ name: 1 })
+b) db.createIndex(users, { name: 1 })
+c) db.users.index({ name: 1 })
+d) db.users.createIndex({ name: 0 })
+
+
+What does MongoDB Compass provide as a tool for developers?
+*
+1 point
+a) A command-line interface for querying MongoDB
+b) A GUI interface for visualizing and managing MongoDB data
+c) A full-text search engine
+d) A data backup and restore tool
+
+
+What will be the output of the following MongoDB query?
+
+db.users.find().limit(3);
+*
+1 point
+a) It will return the first 3 documents in the collection
+b) It will return all documents in the collection
+c) It will throw an error
+d) It will return the last 3 documents in the collection
+
+Which of the following TCL commands is used to permanently save changes made to a transaction?
+*
+1 point
+a) ROLLBACK
+b) COMMIT
+c) SAVEPOINT
+d) GRANT
+
+
+In MongoDB, which operator is used to find documents that match multiple conditions in the query?
+*
+1 point
+a) $and
+b) $or
+c) $match
+d) $all
+
+What is the primary advantage of using an index in MongoDB?
+*
+1 point
+a) To ensure the uniqueness of data
+b) To optimize query performance
+c) To delete duplicate data
+d) To group data
+
+
+Which SQL command can be used to remove a stored procedure in MySQL?
+*
+1 point
+a) DELETE PROCEDURE procedure_name;
+b) DROP PROCEDURE procedure_name;
+c) REMOVE PROCEDURE procedure_name;
+d) ALTER PROCEDURE procedure_name;
+
+
+What MongoDB operator is used to update only specific fields in a document, instead of replacing the entire document?
+*
+1 point
+a) $set
+b) $inc
+c) $push
+d) $addToSet
+
+
+Which SQL code snippet correctly creates a table with unique constraints on the Email field and Phone field, ensuring no duplicates?
+
+CREATE TABLE Employees (
+
+    EmployeeID INT PRIMARY KEY,
+
+    Name VARCHAR(100),
+
+    Email VARCHAR(100) UNIQUE,
+
+    Phone VARCHAR(15) UNIQUE
+
+);
+*
+1 point
+a) This code correctly creates the Employees table with unique constraints on Email and Phone.
+b) The UNIQUE constraint cannot be applied to multiple columns in the CREATE TABLE statement.
+c) The Phone column should be indexed, not constrained as unique.
+d) The UNIQUE constraint is not valid for Phone in the CREATE statement.
+
+
+In MySQL, which cursor type allows updates to the data through the cursor but does not reflect changes made outside the cursor?
+*
+1 point
+a) Insensitive
+b) Scrollable
+c) Read-Only
+d) Nonscrollable
+
+
+Which of the following statements about BSON is true?
+*
+1 point
+a) BSON is a binary format of JSON used by MongoDB
+b) BSON is less compact than JSON
+c) BSON can only store text-based data
+d) BSON is not supported in MongoDB
+
+
+Given the following stored procedure, what is the purpose of the LEAVE statement?
+
+CREATE PROCEDURE ProcessEmployeeData()
+
+BEGIN
+
+    DECLARE done INT DEFAULT FALSE;
+
+    DECLARE cur CURSOR FOR SELECT Name FROM Employees;
+
+    OPEN cur;
+
+    read_loop: LOOP
+
+        FETCH cur INTO @name;
+
+        IF done THEN
+
+            LEAVE read_loop;
+
+        END IF;
+
+        -- Process data here
+
+    END LOOP;
+
+    CLOSE cur;
+
+END;
+*
+1 point
+a) It exits the LOOP and ends the execution of the procedure
+b) It continues the loop for the next iteration
+c) It pauses the loop and waits for user input
+d) It initializes the cursor to begin fetching rows
+
+
+Which of the following SQL commands is used to modify an existing column in a table?
+*
+1 point
+a) UPDATE COLUMN
+b) ALTER COLUMN
+c) MODIFY COLUMN
+d) CHANGE COLUMN
+
+
+Given the following SQL statement:
+
+SELECT * FROM Orders WHERE EXISTS (SELECT 1 FROM Customers WHERE Customers.CustomerID = Orders.CustomerID);
+
+Which type of subquery is being used?
+*
+1 point
+a) Simple Subquery
+b) Correlated Subquery
+c) Inline View
+d) EXISTS Subquery
+
+Which statement is true about cursors in MySQL?
+*
+1 point
+a) Cursors can be used only in SELECT queries
+b) Cursors allow retrieving one row at a time
+c) A cursor cannot be declared inside a stored procedure
+d) Cursors can be used to update multiple rows at a time
+
+
+Which of the following NoSQL database types is used for Graph data modeling?
+*
+1 point
+a) MongoDB
+b) Neo4j
+c) Cassandra
+d) Redis
+
+
+In a Join operation, which type of join only returns rows where there is a matching row in both tables?
+*
+1 point
+a) Cross Join
+b) Outer Join
+c) Inner Join
+d) Natural Join
+
+What is the main purpose of error handling in MySQL stored procedures?
+*
+1 point
+a) To manage concurrency in database transactions
+b) To handle exceptions and define actions based on error conditions
+c) To prevent queries from running in the background
+d) To log all successful operations to an external file
+
+
+Which flow control statement will repeat a block of code as long as the given condition is true?
+*
+1 point
+a) LOOP
+b) WHILE
+c) REPEAT
+d) ITERATE
+
+
+Which of the following data models is NOT one of the major three types of database models?
+*
+1 point
+a) Relational model
+b) Hierarchical model
+c) Object-relational model
+d) Flat-file model
+
+
+Given the following code snippet, what will happen when the procedure UpdateEmployeeDetails is called?
+
+CREATE PROCEDURE UpdateEmployeeDetails(IN empID INT, IN empName VARCHAR(100), IN empDept VARCHAR(100))
+
+BEGIN
+
+    UPDATE Employees
+
+    SET Name = empName, Department = empDept
+
+    WHERE EmployeeID = empID;
+
+END;
+*
+1 point
+a) The procedure will update the Name and Department columns for the specified EmployeeID.
+b) The procedure will create a new employee with the provided details.
+c) The procedure will delete the employee with the provided EmployeeID.
+d) The procedure will insert a new record for the provided empID.
+
+
+Which of the following statements about NoSQL databases is true?
+*
+1 point
+a) NoSQL databases only support read operations
+b) NoSQL databases are usually schema-less and support flexible data structures
+c) NoSQL databases cannot scale horizontally
+d) NoSQL databases always use relational data models
+
+What will the following SQL query do?
+DELETE FROM Students WHERE StudentID = 1;
+*
+1 point
+a) It will delete all rows in the Students table.
+b) It will delete the row where StudentID = 1.
+c) It will remove the column StudentID from the Students table.
+d) It will update the StudentName where StudentID = 1.
