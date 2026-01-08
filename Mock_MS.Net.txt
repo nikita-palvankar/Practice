@@ -1,0 +1,592 @@
+MS.Net_PRACTICE_TEST =>
+
+Q. 44. What will be the output of the below c# code?
+
+using System;
+
+namespace HelloWorldApplication
+{
+ class Hello
+ {
+ static void Main(string[] args)
+{ /* my first program in C# */
+Console.WriteLine("Hello world");
+Console.Read();
+ }
+ }
+ }
+1. Hello World
+2. hello world
+3. Hello World
+4. Hello world
+
+Q. 33. Find the error in the below code snippet class Employee
+
+{
+int Empid;
+public int Employee()
+ {
+   EmpId = 1001;
+ }
+}
+
+1. no error
+2. return type is not possible in constructor
+3. access specifier is not possible in constructor
+4. constructor must have different name than class
+
+Q. 28. You have declared an event on your class and you want outside users of your class to raise this event what do you do?
+1. Add public method to your class that raises the event
+2. make the event public
+3. use a public delegate instead of an event
+4. use a custom event accessor to give access to outside user
+
+Q. 60. Not a Value type
+1. enum
+2. event
+3. struct
+4. all of the above
+
+Q. 46. Value type converted into object type___
+1. Boxing
+2. unBoxing
+3. both of them
+4. none of them
+
+19. Select the type of multitasking methods that exist: 
+1. process based
+2. thread based
+3. only process
+4. both process & thread based
+
+Q. 32 Consider the below scenario:
+
+John is working a software developer for blue diamond corporation, currently he is developing a web application for one of the leading retail book shop. He is using EF and LINQ to work with databases. He needs to write a LINQ query which will display all the details about books whose  ““ Price”” greater than 50 and ““QuantityInStock”” should be greater than 100.
+
+Which of the following LINQ expression will best suit his requirement?
+1. var result = from b in Books select b where b.QualityInStock  > 100 AND b.Price >50.00;
+2. var result = from b in Books where b.QualityInStock  > 100 AND b.Price >50.00 select b;
+3. var result = from b in books select books where b.QualityInStock  > 100 AND b.Price >50.00;
+4. var result = from b in books where b.QualityInStock  > 100 AND b.Price >50.00 select books;
+
+
+Q. 5__________ensures complete interoperability among applications, regarding of the language used to create the application.     
+1. CLR
+2.  CLS
+3. CTS
+4. FCL
+
+Q. 21. Which component in ASP.Net MVC can be used to pass data between controller to view?(Assume you have to pass current date and time)
+1. ViewData[“DateTime”] = DateTime.Now.ToString();
+2. ViewState[“DateTime”] = DateTime.Now.ToString();
+3. ViewBag[“DateTime”] = DateTime.Now().ToString();
+4. DataView [“DateTime”] = DateTime.Now.ToString();
+
+Q. 59. Which operators cannot be overloaded
+1. unary
+2. binary
+3. assignment
+4. comparision
+
+Q. 20. How to check request coming from which controller using MVC ASP.Net?
+1. var_controller = HttpContext.Current.RequestContext.Values[“Controller”].ToString();
+2. var_controller = HttpContext.Current.Request.RequestContext.RoutData.Values[“Controller”].ToString();
+3. var_controller = RoutData.Values[“Controller”].ToString();
+4. None of the above
+
+Q. 35. State the following statements about the Microsoft intermediate Language(MSIL) are true or false
+
+i) the MSIL code includes instructions to load, initialize and invoke methods on objects.
+
+ii) the MSIL code is collected and assembled in the form of byte codes and is converted to a .Net assembly.
+1. i-True, ii-False
+2. i-False, ii- True
+3. i- True, ii- True
+4. i- False, ii- False
+
+Q. 27. You are developing as ASP.Net application. You create a view that will be returned by action methods in multiple controllers. You need to place the view in the appropriate folder. To which subfolder within the views folder should you add the view?
+1. shared
+2. default
+3. master
+4. none of the above
+
+Q. 16. Which of the following is not a type of Contract in wcf?
+1. Service Contract
+2. Operation Contract
+3. Security Contract
+4. None of the above
+
+Q. 24. IsNullOrEmpty() is used to check wether the specified string is null or an Empty string. A string will be ____ if it has not been assigned a value. A string will be empty if it is assigned ____ or ______
+1. “”, null, String.Empty
+2. null, “”, String.Empty
+3. null, String.Empty, “”
+4. “”,String.Empty, null
+
+Q. 45. Which is not reference data types in c#
+1. class, interface
+2. Array
+3. Delegate
+4. Event
+
+Q. 37.  In c# which of the following modifier do you use in a base class to require any derived class to implement a class member?
+1. Abstract
+2. Virtual
+3. must override
+4. Sealed
+
+Q. 26. What will be the output of the following c# code?
+
+class Program
+{
+   static void Main(string[] args)
+   {
+         int i = 5;
+         int j;
+        method1(ref i);
+        method2(out j);
+      Console.writeline(i+ “  ”+j);
+    }
+        static void method1(ref int x )
+       {
+             x = x + x;
+       }
+       static void method2(out int x)
+{
+       x = 6;
+       x = x + x;
+}
+}
+1. 36, 10
+2. 10, 36
+3. 36, 0
+4.  none of the above
+
+Q. 11. How do you manage states in asp.net mvc application?
+1. Application
+2. Session
+3. ViewBag
+4. All of the above
+
+Q. 13. Methods are not supported by dynamic types.
+1. Anonymous
+2. Static
+3. Abstract
+4. Extension
+
+Q. 3 . what will be the output of the following code?
+
+static void Main(string[] args)
+
+{
+
+int i,j;
+
+int[]  arr = new int[3,3];
+
+for(i=0;i<3;++i)
+
+{             
+
+for( j=0;j<3;++j)
+
+{
+
+    arr[i,j] = i * 2 + i*2;
+
+Console.Writeline(arr[i,j]);
+
+}
+
+Console.Writeline();
+
+}
+
+}
+1. 0 2 4 2 4 6 6 6 8
+2. 0 2 2 2 4 6 4 6 8
+3. 0 2 2 4 4 6 4 6 8
+4. 0 2 4 2 4 6 4 6 8
+
+Q. 18. Choose the correct statements from the following
+1. Indexes are location indicators
+2. Indexes are used to access class objects
+3. Indexes is a form of property and work in the same as a property
+4. all the mentioned
+
+Q. 15. The reason that c# does not support multiple inheritance is because of _______
+1. Method collision
+2. name collision
+3. function collision
+4. interface collision
+
+Q. 53. What will be the output of the following program
+
+using System;
+class Program
+{
+    static Program()
+    {
+        Console.WriteLine("Static Constructor");
+    }
+    Program()
+    {
+        Console.WriteLine("Default Constructor");
+    }
+    static void Main(string[] args)
+    }
+        Program obj = new Program();
+        Program obj1 = new Program();
+    }
+}  
+1. Static Constructor static Constructor Default Constructor
+2. Default Constructor Default Constructor
+3. Static Constructor Default Constructor
+4. Static Constructor Default Constructor Default Constructor
+
+Q. 8. C# treats the multiple catch statements like cases in a _____ statement.
+1. if
+2. switch
+3. for
+4. while
+
+Q. 17. Choose the incorrect statements about delegates?
+1. delegates are not type safe
+2. delegates can be used to implement callback notification
+3. delegate is a user defined type
+4. delegates permits execution of a method in an asynchronous manner
+
+Q. 31. _______ parameters allow you to give a method parameter a default value so that you do not have to specify if every time you called the method
+1. optional
+2. named
+3. out
+4. ref
+
+Q. 41. Which assembly requires only one copy of assembly?
+1. private
+2. shared
+3. satellite
+4. all of the above
+
+Q. 22. How to print value from Controller to view in MVC?`
+1. ViewBag.ECMDetail = “my message”; and in view@ViewBag.ECMDetail
+2.  ViewBag.ECMDetail = “my message”; and in view ViewBag.ECMDetail
+3. ViewBag.ECMDetail = “my message”; and in view@ViewBag.Title
+4. None of the above
+
+
+Q. 9. Valid code for creating a SqlConnection Object would be:
+1. SqlConnection conn = NEW SqlConnection(“Data Source = local Source = (local); Initial Catalog = Northwind; Integrated Security = SSPI”);
+2. SqlConnect conn = NEW SqlConnection(“Data Source = local Source = (local); Initial Catalog = Northwind; Integrated Security = SSPI”);
+3. SqlConnection conn = NEW SqlConnect(“Data Source = local Source = (local); Initial Catalog = Northwind; Integrated Security = SSPI”);
+4. All of the above
+
+Q. 7. Which of the following valid states for Thread?
+
+1. Ustarted
+2. Runnable
+3. Running
+4. Not Runnable
+5. Dead (Terminated)
+
+1. 1, 2, 3, 4, 5
+2. 1, 2 , 4 , 5
+3. 1, 2 , 3, 5
+4. 1, 2 , 3, 4
+
+
+Q. 47. Access specifier in c#
+1 point
+1. Private
+2. Protected
+3. Internal
+4. Internal protected
+
+Q. 29. What will be the output of the following c# code snippet
+
+class Program
+{
+static void Main(string[] args)
+{
+string[] strs = {“alpha”, “beta”, “gamma”};
+var chrs = from str in strs
+let chrArray = str.ToCharArray()
+from ch in chrArray
+orderby ch;
+select ch;
+Console.WriteLine(“The individual characters in sorted order:”);
+foreach(char c in chrs)
+Console.Write(c+ “ ”);
+Console.WriteLine();
+Console.ReadLine();
+}
+}
+
+1. a a a a b e g g h l m p t t
+2. a a a a b e g h l m m p t
+3. a a a a b e g m m m m p t
+4. a a a a b e e h l m m p t t
+
+
+Q. 12. What does the following C# code specify?
+
+Object Invoke(object obj , object [] parameters)
+1. Calling a type using invoke()
+2. Any arguments that need to be passed to the method are specified in the array parameters
+3. the value returned by the invoke method is returned by invoke()
+4. all of the above
+
+
+Q. 38. The C# compiler used in .NET CORE is _______
+1. csc.exe
+2. Roslyn
+3.Typescript
+4. core.exe
+
+Q. 57. Interface methods are ____________and ____________by default.
+1. public , abstract
+2. private, abstract
+3. private, final
+4. public, final
+
+Q. 1. In c#, having unreachable code is always a /an ______
+1. Method
+2. function
+3. Error
+4. Iterative
+
+Q. 36. The infrastructure that supports dynamic operations at run time is called the _______
+1. CLR
+2. CTS
+3. CLS
+4. DLR
+
+Q. 54. What will be the output of the following program
+
+using System;
+ 
+static class Program
+{
+    static Program()
+    {
+        Console.WriteLine("Static Constructor");
+    }
+    public static void addNumbers(int x, int y)
+    {
+        Console.WriteLine("Addition : "+(x+y));
+    }
+}
+class Course : Program
+{
+    static void Main(string[] args)
+    {
+        Program.addnumbers(12,21);
+    }
+}
+
+1. 12 , 21
+2. 21,12
+3. 'Course': cannot derive from static class 'Program'
+4. none of them
+
+30. Choose the correct statement about process-based multitasking.
+1. A feature that allows our computer to run two or more programs concurrently
+2. A program that acts as a small unit of code that can be dispatched by the scheduler
+3. Only A program that acts as a small unit of code that can be dispatched by the scheduler
+4. Both A feature that allows our computer to run two or more programs concurrently & A program that acts as a small unit of code that can be dispatched by the scheduler
+
+
+Q. 49. Types of constructors in c#
+
+i) Default Constructor
+ii) Parameterized Constructor
+iii) Copy Constructor
+iv) Static Constructor
+v) Private Constructor
+
+1. ii and i
+2. ii and iii
+3. i , ii and iii
+4. all of the above
+
+Q. 43. Managed code executed by _____________
+1. operating system
+2. runtime environment CLR
+3. JIT
+4. all of them
+
+Q. 42. _______is cross platform
+1. .NET Core
+2. .NET Framework
+3. both of them
+4. none of them
+
+14. Choose the correct statement among the followings?
+1. Indexers are location indicators
+2. Indexers are used to access class objects
+3. Indexer is a form of property and works in the same way as a property
+4. All of the mentioned
+
+Q. 55. both the base class and derived class has their own constructors, so the process is complicated because the constructors of both classes must be executed. To overcome this situation C# provide a keyword known as a _______ keyword.
+1. this
+2. super
+3. sealed
+4. base
+
+
+Q. 34. List <T > Contains(T) method is used to check whether an element is in the List<T> or not. The return type is
+1. int
+2. Boolean
+3. void
+4. var
+
+Q. 23. Inheritance is _______ in nature
+1. Commutative
+2. Associative
+3. Transitive
+4. Iterative
+
+Q. 25. What is the correct definition of extension methods?
+1. The extension are static methods that allows developers to extend functionality of an existing type without creating a new derived type, recompilling, or otherwise modifying the original type and an instance methods on the extended methods on the extended type
+2. the extensions are static methods that allows developers to extend functionality of an existing type
+3. the extensions are static methods that allows developers to extend functionality of an existing type and are instance methods
+4. none of the above
+
+
+Q. 50. What will be the output of the following program
+
+class Program
+{
+     static int x = 1;
+     int  y = 2;
+static void count()
+{
+   Console.WriteLine(x + x);
+}
+    static void Main(string[] args)
+     {
+Progra.count();
+Program obj = new Program();
+Console.WriteLine(obj.y);
+      }
+}
+1. 2 0
+2. 2 1
+3. 2 2
+4. error
+
+Q. 48. Value keyword represents ______
+1. value of parameter
+2. value of property
+3. value of method
+4. none of the above
+
+Q. 56. Sealed Method________________
+1. A method can also be sealed, and in that case, the method cannot be overridden. If you want to declare a method as sealed, then it has to be declared as virtual in its base class.
+2. A method can also be sealed, and in that case, the method cannot be overridden. If you want to declare a method as sealed, then it has to be declared as virtual in its child class.
+3. A method can also be sealed, and in that case, the method cannot be overridden. If you want to declare a method as sealed, then it has to be declared as sealed in its base class.
+4. A method can also be sealed, and in that case, the method cannot be overridden. If you want to declare a method as sealed, then it has to be declared as sealed in its child class.
+
+Q. 6. Which of the following keyword is used to overload user defined types?
+1. op
+2. overload
+3. operator
+4. operatoroverload
+
+Q. 2. What will be the output of the following code?
+Class overload
+{             
+public int x;
+int y;
+public  int  add(int a)
+   {
+        x = a + 1;
+       return x;
+}
+public int add(int a, int b)
+    {
+      x = a + 2;
+      return x;
+    }
+}
+class program
+
+static void Main
+
+
+1. 8      8
+2. 0       2
+3.  8        9
+4.  7        8
+
+Q. 10. State whether the following statements about the managed and unmanaged code are TRUE or FALSE
+
+i) Managed code is the code that is executed directly by the CLR
+
+ii) Managed code directly complies to the machine code and runs on the machine where it is has to be compiled
+
+iii) Unmanaged code does not have services such as security or memory management
+
+1. i) True , ii) False, iii) False
+2. i) False, ii) False, iii) True
+3. i) True , ii) False, iii) True
+4. i) False, ii) False, iii) True
+
+Q. 39. What is used in following scenario :
+
+When working with a query expression, a variable that can store the result of the sub-expresion in order to reuse it in the upcoming clause
+1. let
+2. var
+3. dynamic
+4. generic Expression
+
+
+Q. 52.  What will be the output of the following program        
+using System;
+class Program
+{
+    static int empId;
+    public static int EmpId { get => empId; set =>empId = value;}
+    static void Main(string[] args)
+{
+        Program.EmpId = 1101;
+        Console.WriteLine(Program.EmpId);
+    }
+}
+1. error
+2. compile time error
+3. runtime error
+4.  1101
+
+51. Choose the namespace in which the interface IEnumerable is declared?
+1. System.Collections
+2. System.Collections.Generic
+3. Both System.Collections & System.Collections.Generic
+4. None of the mentioned
+
+Q. 40. You have create a collection of order objects. The collection must meet the following requirements
+
+-used strongly typed members
+
+-process order objects in first-in-first-out order
+
+-store values for each order objects
+
+-use zero based indices
+
+Which collection type must be used to meet all the above requirements?
+1. Stack<T>
+2. Queue<T>
+3. LinkedList<T>
+4. Dictionary<K,V>
+
+Q. 4. Lambda expression is a better way to represent an ________ method.
+1. anonymous method
+2. delegate
+3. event
+4. generics
+
+Q. 58. IDisposable is an interface that contains only a single method i.e. ____________for releasing unmanaged resources.
+1. Dispose(),
+2. IDispose(),
+3. gc.collect(),
+4. GC.SuppressFinalize(this)
