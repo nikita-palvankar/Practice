@@ -1,0 +1,1250 @@
+WPT_PRACTICE_TEST_2
+
+Q1: Which HTTP method is used to request data from a specified resource in a stateless manner?
+*
+1 point
+A) POSTm
+B) GET ✔️
+C) PUT
+D) DELETE
+
+Q2: Which HTTP status code indicates that the request was successful and the server has fulfilled the request?
+*
+1 point
+A) 200✔️
+B) 404
+C) 500
+D) 301
+
+Q3: What is the difference between HTTP 1.0 and HTTP 2.0?
+*
+1 point
+A) HTTP 2.0 allows multiplexing, reducing latency
+B) HTTP 1.0 is faster
+C) HTTP 2.0 uses TCP for communication, unlike HTTP 1.0✔️
+D) There is no difference
+
+Q4: Which of the following protocols is used to encrypt communication over the web, ensuring secure data transfer?
+*
+1 point
+A) HTTP
+B) HTTPS ✔️
+C) FTP
+D) SSH
+
+Q5: Which of the following web servers supports running JavaScript applications?
+*
+1 point
+A) Apache ✔️
+B) Nginx
+C) IIS
+D) Node.js
+
+Q6: What is the purpose of the <canvas> tag in HTML5?
+*
+1 point
+A) To draw graphics dynamically via JavaScript✔️
+B) To display a video
+C) To structure a webpage
+D) To embed an interactive form
+
+
+Q7: Which HTML5 attribute is used to specify the validation pattern for form input fields?
+*
+1 point
+A) pattern
+B) regex
+C) required ✔️
+D) validate
+
+Q8: Which of the following is NOT a new feature introduced in HTML5?
+*
+1 point
+A) Geolocation
+B) Local storage ✔️
+C) WebSockets
+D) <frame>
+
+
+Q9: What is the default value of the type attribute for the <input> tag in HTML5?
+*
+1 point
+A) text ✔️
+B) password
+C) submit
+D) radio
+
+Q10: Which of the following elements is used to create an ordered list in HTML?
+*
+1 point
+A) <list>
+B) <unordered>
+C) <order>
+D) <ol> ✔️
+
+Q11: In CSS, what is the purpose of the box-sizing property?
+*
+1 point
+A) To define the dimensions of an element
+B) To include padding and border in the element's total width and height ✔️
+C) To manage element margins
+D) To define the background size
+
+Q12: Which CSS property is used to control the stacking order of elements?
+*
+1 point
+A) z-index ✔️
+B) position
+C) margin
+D) display
+
+Q13: How can you make a webpage responsive across different screen sizes using CSS?
+*
+1 point
+A) Use media queries ✔️
+B) Use viewport units
+C) Apply fixed widths for all elements
+D) Set a constant height for all elements
+
+
+Q14: What is the purpose of the @media rule in CSS?
+*
+1 point
+A) To target specific HTML elements based on conditions
+B) To include external media files like images
+C) To apply CSS rules only when certain conditions are met (e.g., screen width) ✔️
+D) To animate elements on a webpage
+
+Q15: In CSS, which property is used to set the space between the content and the border of an element?
+*
+1 point
+A) margin
+B) padding✔️
+C) border-width
+D) spacing
+
+Q16: Which of the following is a JavaScript feature introduced in ECMAScript 6 (ES6)?
+*
+1 point
+A) var keyword
+B) let and const keywords✔️
+C) Function declarations
+D) String concatenation
+
+
+Q17: Which of the following is true about JavaScript functions?
+*
+1 point
+A) Functions can return values ✔️
+B) Functions cannot have parameters
+C) Functions do not support closures
+D) Functions are always anonymous
+
+Q18: What is the purpose of JSON.parse() in JavaScript?
+*
+1 point
+A) To convert an object to a JSON string
+B) To parse a JSON string and convert it to a JavaScript object ✔️
+C) To store JSON data in a variable
+D) To validate the structure of a JSON object
+
+Q19: In JavaScript, what does the this keyword refer to inside a method?
+*
+1 point
+A) The global object
+B) The object the method is called on ✔️
+C) The function itself
+D) The parent object
+
+Q20: Which of the following is true about promises in JavaScript?
+*
+1 point
+A) Promises are used for handling synchronous operations
+B) A promise can have only one state (pending, resolved, or rejected) at a time ✔️
+C) Promises are used for handling asynchronous operations
+D) Promises do not need to be handled with .then() or .catch()
+
+Q21: In React, which of the following hooks is used to manage the state of a functional component?
+*
+1 point
+A) useEffect
+B) useState ✔️
+C) useReducer
+D) useMemo
+
+Q22: Which of the following is true about React components?
+*
+1 point
+A) Components cannot be reused
+B) Components can be either class-based or functional
+C) Class components are slower than functional components ✔️
+D) React only supports functional components
+
+Q23: Which method is used to update the state in a React class component?
+*
+1 point
+A) this.setState()
+B) this.updateState()✔️
+C) this.changeState()
+D) this.modifyState()
+
+Q24: What is the purpose of Redux in a React application?
+*
+1 point
+A) To handle component lifecycle methods ✔️
+B) To manage local component state
+C) To manage the global application state
+D) To directly manipulate the DOM
+
+Q25: In Redux, what is the role of the "reducer"?
+*
+1 point
+A) To update the state based on actions ✔️
+B) To send actions to the store
+C) To trigger side-effects
+D) To create actions
+
+Q26: Which of the following is true about the useEffect hook in React?
+*
+1 point
+A) It is used to manage the state of a component
+B) It is used to perform side-effects like fetching data ✔️
+C) It is used to create new components
+D) It is only available in class components
+
+Q27: How is data passed from a parent component to a child component in React?
+
+*
+1 point
+A) Through props 
+B) Through state
+C) Through context✔️
+D) Through Redux
+
+Q28: What is the purpose of React's useContext hook?
+*
+1 point
+A) To pass data between sibling components
+B) To share data between components without passing props✔️
+C) To directly update the component's state
+D) To handle form submissions
+
+Q29: What is the Redux store responsible for?
+*
+1 point
+A) Handling component lifecycle
+B) Fetching data from APIs
+C) Storing the global state of the application✔️
+D) Rendering the UI
+
+Q30: In React, what does JSX stand for?
+*
+1 point
+A) JavaScript XML✔️
+B) JavaScript Extension
+C) JavaScript Executable
+D) JavaScript Excerpt
+
+
+Q31: Which of the following actions can be dispatched in a Redux application?
+*
+1 point
+A) Only synchronous actions
+B) Only asynchronous actions
+C) Both synchronous and asynchronous actions ✔️
+D) Only actions that modify the UI
+
+
+Q32: In React-Redux, which function is used to connect a component to the Redux store?
+*
+1 point
+A) connect()✔️
+B) useState()
+C) useEffect()
+D) createStore()
+
+Q33: What is the purpose of the require() function in Node.js?
+*
+1 point
+A) To import external modules
+B) To initialize the Node.js server ✔️
+C) To execute JavaScript code
+D) To start an event listener
+
+Q34: Which method is used to create an HTTP server in Node.js?
+*
+1 point
+A) http.createServer()✔️
+B) server.create()
+C) server.start()
+D) node.create()
+
+Q35: In Node.js, what does the fs module provide?
+*
+1 point
+A) Database functionality
+B) File system-related operations✔️
+C) HTTP request/response handling
+D) Real-time web sockets
+
+
+Q36: What is the purpose of the package.json file in a Node.js project?
+*
+1 point
+A) To define the folder structure
+B) To manage environment variables
+C) To list project dependencies and scripts ✔️
+D) To configure Node.js server settings
+
+Q37: What is the role of the npm command in Node.js development?
+*
+1 point
+A) To manage database queries
+B) To compile JavaScript code
+C) To install, update, and manage packages ✔️
+D) To serve web pages
+
+Q38: What does the callback function in Node.js refer to?
+*
+1 point
+A) A function that is invoked at a later time after an operation completes
+B) A function that handles errors only
+C) A function that processes API responses
+D) A function that sets up event listeners ✔️
+
+Q39: How does Node.js handle asynchronous I/O operations?
+*
+1 point
+A) Using an event-driven, non-blocking I/O model
+B) By blocking the main thread until I/O completes
+C) Using the multi-threaded processing model
+D) Using synchronous I/O operations only
+
+Q40: What is the role of middleware in Express.js?
+*
+1 point
+A) To handle database connections
+B) To process HTTP requests and responses before they reach the route handler 
+C) To handle routing for different HTTP methods ✔️
+D) To manage server performance
+
+
+Q41: Which of the following is a correct way to start an Express.js server?
+*
+1 point
+A) app.listen(3000) 
+B) server.listen(3000)  ✔️
+C) http.createServer(app).listen(3000)
+D) express.start(3000)
+
+Q42: What is the role of the express.Router() in Express.js?
+*
+1 point
+A) To handle HTTP requests
+B) To connect to the database
+C) To define and manage route handling logic ✔️
+D) To serve static files
+
+Q43: Which HTTP method would you use to update an existing resource on the server?
+*
+1 point
+A) POST ✔️
+B) DELETE
+C) PUT
+D) GET
+
+Q44: What is the main benefit of using Node.js for web development?
+*
+1 point
+A) It is based on a multi-threaded processing model
+B) It allows real-time interactions using WebSockets
+C) It uses a single-threaded, non-blocking event loop for efficient I/O operations✔️
+D) It is primarily designed for server-side rendering
+
+Q45: What is the role of the next() function in Express.js middleware?
+*
+1 point
+A) It passes control to the next middleware function ✔️
+B) It ends the request-response cycle
+C) It starts the server
+D) It triggers a route handler
+
+Q46: What does the use() method in Express.js do?
+*
+1 point
+A) Creates routes for HTTP requests✔️
+B) Defines a server's static files
+C) Mounts middleware functions
+D) Configures the port
+
+Q47: In React-Redux, what is an action?
+*
+1 point
+A) An object that describes an event to be processed by the reducer✔️
+B) A function that triggers a state change
+C) A way to modify component state directly
+D) A component responsible for rendering UI
+
+Q48: In Redux, what is the role of the store?
+*
+1 point
+A) To handle asynchronous actions✔️
+B) To dispatch actions
+C) To hold the application's state
+D) To interact with the server
+
+Q49: Which of the following is true about React-Redux's mapStateToProps function?
+*
+1 point
+A) It is used to dispatch actions
+B) It maps the Redux state to component props✔️
+C) It provides middleware functionality
+D) It renders the component with the state
+
+Q50: What is the primary purpose of useSelector in React-Redux?
+*
+1 point
+A) To dispatch actions to the Redux store ✔️
+B) To modify the Redux store
+C) To extract data from the Redux store
+D) To map Redux state to props
+
+Q 51: Which of the following is the correct way to embed a video in HTML5?
+<video controls>
+<source src="video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+*
+1 point
+A)<embed src="video.mp4" type="video/mp4">
+B)<video src="video.mp4" controls>
+C)<video controls><source src="video.mp4"></video>
+D)<video><source src="video.mp4" type="video/mp4"></video>✔️
+
+Q 52 Which CSS property is used to define the space between the content and the border of an element?
+.box {
+padding: 20px;
+}
+*
+1 point
+A)margin
+B)border
+C)padding✔️
+D)spacing
+
+Q 53: What will the following JavaScript code output?
+
+let a = [1, 2, 3];a[5] = 10;
+console.log(a.length);
+*
+1 point
+A)5✔️
+B)6
+C)3
+D)undefined
+
+Q 54 Which of the following methods is used to remove a child node from a parent in the DOM?
+
+let parent = document.getElementById('parent');
+let child = document.getElementById('child');
+*
+1 point
+A)parent.removeChild(child)✔️
+B)parent.deleteChild(child)
+C)child.removeNode()
+D)parent.remove(child)
+
+Q55In React, what is the output of the following code?
+
+const MyComponent = () => {return<h1>Hello, {name}</h1>;}; 
+ReactDOM.render(<MyComponent />, document.getElementById('root'));
+*
+1 point
+A)Hello, {name}✔️
+B)Hello, undefined
+C)Hello, world
+D) Compilation Error
+
+Q 56: How would you update the state of a React component in a functional component using hooks?
+
+const [count, setCount] = useState(0);
+ consthandleClick = () => {// Update state here}; 
+return (<div>
+<buttononClick={handleClick}>Increment</button>
+<p>{count}</p>
+</div>);
+*
+1 point
+A)setCount(count + 1)✔️
+B)this.setState(count + 1)
+C)setCount(() => count + 1)
+D)count += 1
+
+Q 57 What is the role of an action in Redux?
+
+const action = { type: 'ADD_ITEM', payload: 'Item 1' };
+*
+1 point
+A) To modify the Redux store directly
+B) To dispatch a state change request to the reducer✔️
+C) To store the current state
+D) To call the API for data fetching
+
+Q 58 Which of the following is the correct way to implement a reducer function in Redux?
+
+const initialState = { items: [] };
+ constitemsReducer = (state = initialState, action) => 
+{switch (action.type) {case'ADD_ITEM':return { ...state, items: [...state.items, action.payload] };
+default:return state;  }};
+
+*
+1 point
+A)state.items.push(action.payload)
+B)state.items = state.items.concat(action.payload) ✔️
+C)return { state.items.push(action.payload) }
+D)return { ...state, action.payload }
+
+Q 59 What is the result of the following Node.js code snippet?
+
+console.log('A');
+setTimeout(() =>console.log('B'), 0);
+console.log('C');
+*
+1 point
+A) A B C ✔️
+B) A C B
+C) B A C
+D) C B A
+
+
+Q 60 In Express.js, what does the following middleware function do?
+
+app.use((req, res, next) => {console.log('Request received');
+next();});
+*
+1 point
+A) Logs the request and sends the response
+B) Prevents the request from being processed further
+C) Logs the request and passes control to the next middleware✔️
+D) Sends a response immediately after logging the request
+
+Q 61: Which of the following is a correct way to pass a prop to a child component in React?
+
+const ParentComponent = () => {return<ChildComponentname="John" />;};
+*
+1 point
+A)ChildComponent.name = "John" 
+B)name = "John"
+C)ChildComponent({ name: "John" })✔️
+D)name="John" in <ChildComponent
+
+Q 62 Which HTML element is used to create a dropdown list in a form?
+
+<select><optionvalue="1">Option 1</option>
+<optionvalue="2">Option 2</option></select>
+
+*
+1 point
+A)<input type="dropdown">✔️
+B)<select>
+C)<option>
+D)<dropdown>
+
+Q 63: What will the following Node.js code do?
+
+const http = require('http');
+const server = http.createServer((req, res) => {
+res.write('Hello World');
+res.end();});
+server.listen(3000);
+
+*
+1 point
+A) Start an HTTP server and display "Hello World" on port 3000
+B) Display "Hello World" in the console
+C) Listen to HTTP requests on port 3000
+D) Both A and C ✔️
+
+Q 64 Which of the following Axios methods sends a GET request to the given URL?
+
+axios.get('/api/data')  
+.then(response =>console.log(response.data))  
+.catch(error =>console.error(error));
+*
+1 point
+A)axios.get('/api/data')✔️
+B)axios.post('/api/data')
+C)axios.fetch('/api/data')
+D)axios.query('/api/data')
+
+Q 65 What will be the output of the following JavaScript code?
+
+function greet(name = 'Guest')
+ {return`Hello, ${name}`;}
+console.log(greet());
+console.log(greet('John'));
+
+*
+1 point
+A) Hello, undefined, Hello, Guest
+B) Hello, Guest, Hello, John✔️
+C) Hello, John, Hello, Guest
+D) Hello, John, Hello, undefined
+
+Q 66 Which of the following React hooks is used to handle side effects in functional components?
+
+*
+1 point
+A)useEffect()✔️
+B)useState()
+C)useContext()
+D)useRef()
+
+Q 67 What will the following code output?
+
+const jsonData = '{"name":"John","age":30}';
+const obj = JSON.parse(jsonData);
+console.log(obj.name);
+
+*
+1 point
+A)"John" ✔️
+B)name
+C)undefined
+D)30
+
+Q 68 What does the following jQuery code do?
+
+$('#myButton').click(function() {alert('Button clicked!');});
+
+*
+1 point
+A) Changes the background color of the button
+B) Adds an event listener to the button✔️
+C) Hides the button
+D) Changes the text of the button
+
+Q 69 Which lifecycle method in React is called after a component has been rendered to the screen?
+*
+1 point
+A)componentDidMount()✔️
+B)componentWillMount()
+C)render()
+D)getDerivedStateFromProps()
+
+Q 70 What is the correct way to validate a form input field in HTML5?
+
+<form>
+<input type="text" required><button type="submit">Submit</button>
+</form>
+*
+1 point
+A) Using JavaScript to check if the field is empty
+B) Adding the required attribute to the input field ✔️
+C) Using the validate() function
+D) Using the validate() event handler
+
+Q 71 What is the purpose of React Context?
+*
+1 point
+A) To manage local component state
+B)To manage global state for all components ✔️
+C) To handle side effects
+D) To render a component tree
+
+Q 72 Which HTTP method is used to update a resource?
+*
+1 point
+A)GET
+B)POST ✔️
+C)PUT
+D)DELETE
+
+Q 73: In Redux, which method is used to dispatch an action?
+
+const action = { type: 'ADD_ITEM', payload: 'Item 1' };
+*
+1 point
+A)store.dispatch(action)
+B)dispatch(action)✔️
+C)store.add(action)
+D)store.create(action)
+
+
+Q 74 How can you create an HTTP server in Node.js that listens for POST requests?
+
+const http = require('http');
+const server = http.createServer((req, res) => 
+{if (req.method === 'POST') 
+{res.write('POST request received');
+res.end();  }});
+server.listen(3000);
+*
+1 point
+A)http.listen()
+B)server.listen()✔️
+C)server.on('POST')
+D)req.method('POST')
+
+
+Q 75 How do you define a route for handling GET requests in Express.js?
+
+app.get('/home', (req, res) => {res.send('Welcome to Home');});
+*
+1 point
+A)app.route('/home').get()✔️
+B)app.get('/home', handler)
+C)router.get('/home')
+D)app.listen('/home')
+
+
+Q 76 What will be the result of the following HTML code if the user tries to submit the form without filling the input field?
+
+<form>
+<labelfor="username">Username:</label><inputtype="text"id="username"name="username"required><buttontype="submit">Submit</button>
+</form>
+*
+1 point
+A) Form will submit successfully without validation.
+B) Browser will show an error message asking the user to fill the input.✔️
+C) The form will be reset automatically.
+D) Form will submit without any message.
+
+Q 77 Given the following CSS and HTML, what will be the result of the layout?
+
+  <divclass="container">
+<divclass="item">Item 1</div>
+<divclass="item">Item 2</div>
+<divclass="item">Item 3</div>
+</div>  
+  .container {
+display: flex;
+justify-content: space-between;}
+.item {
+background-color: lightblue;
+padding: 10px;}
+*
+1 point
+A) The items will be arranged in a single row, with equal spacing between each.
+B) The items will stack vertically with space between them. ✔️
+C) All items will be centered in the container.
+D) The items will be stacked with no space between them.
+
+
+Q 78 What will be the output of the following JavaScript code?
+
+const greeting = (name) => {
+let message = `Hello, ${name}!`;
+console.log(message);}; 
+greeting('Alice');
+console.log(message);
+*
+1 point
+A)Hello, Alice!andmessage is not defined 
+B)Hello, Alice!andundefined
+C)Hello, Alice!andHello, Alice!✔️
+D) Error: message is not defined outside the function
+
+Q 79 What will be the output of the following JavaScript code?
+
+constnums = [1, 2, 3, 4, 5];
+const result = nums.map(num =>num * 2).filter(num =>num>6);
+console.log(result);
+*
+1 point
+A)[2, 4, 6, 8, 10]
+B)[8, 10]✔️
+C)[1, 2, 3, 4, 5]
+D)[6, 8, 10]
+
+
+Q 80 What will be the output of the following code?
+
+const person = {
+name: 'John',
+age: 30,
+address: {city: 'New York',country: 'USA'  }};
+ const { name,
+ address: { city } } = person;
+console.log(name, city);
+*
+1 point
+A)John New York ✔️
+B)undefined New York
+C)John USA
+D)John undefined
+
+ 
+
+Q 81 What will be the output of the following React component?
+
+importReact, { useState } from'react'; 
+constCounter = () => {
+const [count, setCount] = useState(0); 
+return (
+<div>
+<buttononClick={() =>setCount(count + 1)}>Increment</button>
+<p>Count: {count}</p>
+</div> 
+ );
+};
+ exportdefaultCounter;
+*
+1 point
+A) The count will always be 1 after the button is clicked.
+B) The count will increase by 1 each time the button is clicked.
+C) The count will always remain 0 regardless of button clicks.
+D) Error: setCount is undefined.
+
+
+Q 82 What is the result of the following React code?
+
+importReact, { useState } from'react'; 
+constShowMessage = () => {
+const [isVisible, setIsVisible] = useState(false);
+ return (
+<div>
+<buttononClick={() =>setIsVisible(!isVisible)}>Toggle
+</button>      {isVisible&&<p>This is a message.</p>}</div>  );
+};
+ exportdefaultShowMessage;
+*
+1 point
+A) The message will be displayed initially.
+B) Clicking the button will toggle the visibility of the message.
+C) The message will never be displayed.
+D) Error: isVisible is not defined.
+
+
+Q 83How would you capture user input from a form in React?
+
+importReact, { useState } from'react'; 
+constFormComponent = () => {const [name, setName] = useState(''); consthandleSubmit = (e) => {e.preventDefault();console.log(name);  }; 
+return (
+<formonSubmit={handleSubmit}><inputtype="text"value={name}onChange={(e) =>setName(e.target.value)}       /><buttontype="submit">Submit</button>
+</form>  );
+};
+ exportdefaultFormComponent;
+*
+1 point
+A) This code will log the input value on every keystroke.
+B) This code will log the input value only when the form is submitted.
+C) The input value will not change.
+D) Error: setName is not a function
+
+Q 84 What will be the result of the following code?
+
+ importReactfrom'react';
+import { connect } from'react-redux'; 
+constCounter = ({ count }) => {
+return<p>Count: {count}</p>;}; 
+constmapStateToProps = (state) => {
+return {count: state.count 
+ };
+}; 
+exportdefaultconnect(mapStateToProps)(Counter);
+*
+1 point
+A) The component will render count from the Redux store.
+B) The component will render a static value of count (0 by default).
+C) The component will not render anything due to missing store configuration.
+D) Error: connect is not a valid function.
+
+
+Q 85 What will be the result of the following Node.js code?
+
+constfs = require('fs'); 
+fs.readFile('file.txt', 'utf8', 
+(err, data) => {if (err) throw err;
+console.log(data);
+});
+*
+1 point
+A) The content of the file file.txt will be printed to the console.
+B) An error will be thrown if file.txt doesn't exist.
+C) The code will not run because fsis not a valid module.
+D) Both A and B.
+
+
+Q 86What will be the output of the following code?
+
+console.log('Start');
+setTimeout(() =>
+console.log('Middle'), 0);
+console.log('End');
+*
+1 point
+A)Start Middle End
+B)Start End Middle
+C)Middle Start End
+D)End Middle Start
+
+
+Q 87 What will be the result of the following Express code?
+
+const express = require('express');
+const app = express(); 
+app.get('/user/:id', (req, res) => {
+res.send(`User ID: ${req.params.id}`);});
+ app.listen(3000);
+*
+1 point
+A) It will send the User ID as a parameter in the URL.
+B) The URL must include a parameter id to get the User ID.
+C) It will respond with a 404 error if no parameter is passed.
+D) Both A and B.
+
+
+Q 88 Which of the following correctly describes the origin of the Internet and its development into a global network?
+*
+1 point
+A) The Internet originated as ARPANET in the 1980s, initially used for academic research and military communication. It became publicly accessible in the late 1990s when the World Wide Web (WWW) was introduced.
+B) The Internet was originally developed as the WWW by Tim Berners-Lee in the early 1990s, with the goal of connecting businesses globally.
+C) The Internet was developed in the late 1990s as a commercial project by a consortium of global corporations, focusing on the use of browsers to navigate information.
+D) The Internet was created in 2001 by the United Nations to facilitate global digital communication between countries.
+
+Q 89 Which of the following is a key difference between HTTP/1.0 and HTTP/2?
+*
+1 point
+A) HTTP/2 introduced multiplexing to allow multiple requests and responses to be sent simultaneously over a single connection, while HTTP/1.0 only allowed one request-response at a time.
+B) HTTP/1.0 uses binary data encoding, while HTTP/2 relies on text-based encoding for faster data transmission.
+C) HTTP/2 allows for statelessness in communication, unlike HTTP/1.0 which is stateful.
+D) HTTP/2 requires fewer headers in each request compared to HTTP/1.0, making it less efficient.
+
+
+Q 90 Which of the following HTTP methods is idempotent?*
+1 point
+A) GET
+B) POST
+C) PUT
+D) DELETE
+
+
+Q 91 Which of the following statements accurately describes HTTPS compared to HTTP?*
+1 point
+A) HTTPS uses SSL/TLS to encrypt the data between the client and the server, whereas HTTP transmits data in plaintext.
+B) HTTPS is used only for sending secure passwords, while HTTP is used for sending other types of information.
+C) HTTPS operates over port 8080, while HTTP uses port 80.
+D) HTTPS is a newer protocol, developed as an alternative to HTTP, and it does not require any security certificates
+
+Q 92 Which of the following correctly describes the function of a web server like Apache or IIS?*
+1 point
+A) A web server manages the network protocols and routes data from users to appropriate DNS servers.
+B) A web server processes requests from browsers and delivers content (HTML, CSS, images) to the client, handling HTTP requests and responses.
+C) A web server serves as a middleman between the client's browser and the router, forwarding packets between the two.
+D) A web server’s main role is to maintain the domain name registration and map IP addresses to domain names.
+
+
+Q 93 Which of the following is a new element introduced in HTML5?*
+1 point
+A)<frame>
+B)<video>
+C)<blink>
+D)<font>
+
+
+Q 94 Which property is used to change the background color of a webpage in CSS?*
+1 point
+A)bgcolor
+B)background-color
+C)color
+D)background
+
+
+Q.95 Which CSS property is used to change the font size?*
+1 point
+a) font-style
+b) font-size
+c) text-size
+d) font-weight
+
+
+Q.96 What does the display: flex; CSS property do?*
+1 point
+a) Aligns the text
+b) Makes the element a flexible container
+c) Makes the element transparent
+d) Adds space between elements
+
+
+Q.97 Which of the following statements is true about JavaScript functions?*
+1 point
+a) Functions can only return one value.
+b) Functions can be called multiple times.
+c) Functions cannot accept parameters.
+d) Functions must be declared before they are called.
+
+
+Q.98 Which method is used to parse a JSON string in JavaScript?*
+1 point
+a) JSON.stringify()
+b) JSON.parse()
+c) JSON.convert()
+d) JSON.decode()
+
+
+Q.99 What is the result of the following JavaScript expression: 5 + '5'?*
+1 point
+a) 10
+b) 55
+c) NaN
+d) undefined
+
+
+Q.100 What is the purpose of event.preventDefault() in JavaScript?*
+1 point
+a) Prevents an event from executing.
+b) Stops an event from propagating to other elements.
+c) Stops the browser's default action for the event.
+d) All of the above.
+
+
+Q.101 Which method is used to add an item to the end of an array in JavaScript*
+1 point
+a) push()
+b) pop()
+c) shift()
+d) unshift()
+
+
+Q.102 What is the purpose of npm in Node.js?*
+1 point
+a) To install JavaScript libraries.
+b) To manage Node.js packages.
+c) To run JavaScript code.
+d) All of the above.
+
+
+Q.103 Which command is used to install a package globally using npm?*
+1 point
+a) npm install
+b) npm install -g
+c) npm update -g
+d) npm install --global
+
+Q.104 What is the purpose of the express.Router() in Express? *
+1 point
+a) To define the basic routing for the application.
+b) To create a middleware stack.
+c) To handle HTTP requests for a specific group of routes.
+d) To start the Express server.
+
+
+Q.105 Which of the following is true about asynchronous programming in Node.js? *
+1 point
+a) Asynchronous functions block the execution of other code.
+b) Asynchronous functions are executed after all synchronous code completes.
+c) Asynchronous functions are run in parallel with synchronous functions.
+d) Asynchronous functions do not exist in Node.js.
+
+
+Q.106 Which method is used to start a server in Express?*
+1 point
+a) app.listen()
+b) server.listen()
+c) app.start()
+d) express.listen()
+
+
+Q.107 What is the primary purpose of React'suseState hook?*
+1 point
+a) To handle side effects in functional components.
+b) To manage component state in functional components.
+c) To render components.
+d) To manage the lifecycle of a component.
+
+
+Q.108 Which of the following is a correct way to define a functional component in React?*
+1 point
+a) functionMyComponent() { return <div>Hello</div>; }
+b) constMyComponent = function() { return <div>Hello</div>; }
+c) constMyComponent = () => { return <div>Hello</div>; }
+d) All of the above
+
+
+Q.109 What is the use of useEffect in React?*
+1 point
+a) To manage the state of the component.
+b) To handle component lifecycle methods in functional components.
+c) To render components conditionally.
+d) To create reusable components.
+
+
+Q.110 In React, what is the main purpose of Redux?*
+1 point
+a) To handle the component lifecycle.
+b) To manage global state for the application.
+c) To optimize rendering performance.
+d) To define routes and navigation
+
+Q.111 Which of the following are Redux building blocks?*
+1 point
+a) Actions, Reducers, Store
+b) State, Dispatcher, Middleware
+c) Store, Components, Dispatcher
+d) Actions, Dispatchers, Components
+
+
+Q.112 What is AJAX primarily used for in web development?*
+1 point
+a) To send asynchronous requests to the server without reloading the page.
+b) To render dynamic HTML content on the server.
+c) To send synchronous requests to the server.
+d) To manage the state of the client-side application.
+
+
+Q.113 Which method is used to send an AJAX request using jQuery?*
+1 point
+a) $.ajax()
+b) $.post()
+c) $.get()
+d) All of the above
+
+Q.114 What is the purpose of the XMLHttpRequest object in JavaScript?*
+1 point
+a) To send data to the server asynchronously.
+b) To make synchronous API calls.
+c) To manipulate the DOM.
+d) To manage session storage.
+
+
+Q.115 Which of the following is used to parse a JSON object into a JavaScript object? *
+1 point
+a) JSON.parse()
+b) JSON.stringify()
+c) JSON.objectify()
+d) JSON.toObject()
+
+Q.116 What does the axios.get() method do?*
+1 point
+a) Sends a GET request to the server.
+b) Sends a POST request to the server.
+c) Sends a PUT request to the server.
+d) Sends a DELETE request to the server.
+
+Q.117 Code Snippet:
+
+<form>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+<input type="submit" value="Submit">
+</form>
+Question: What type of form element is used to gather the user’s name?*
+1 point
+a) <input type="password">
+b) <input type="text">
+c) <input type="email">
+d) <input type="number">
+
+Q.118 Code Snippet:
+
+button {
+background-color: blue;
+color: white;
+border-radius: 5px;
+padding: 10px 20px;
+}
+button:hover {
+background-color: darkblue;
+}
+
+Question: What happens when the user hovers over the button?*
+1 point
+a) The button changes to a yellow background.
+b) The button’s background color changes to dark blue.
+c) The button turns transparent.
+d) Nothing happens on hover.
+
+Q.119 Code Snippet:
+
+const greet = (name) => {
+console.log("Hello, " + name + "!");
+};
+greet("Alice"); // Output: Hello, Alice!
+
+Question: What will be printed to the console when the function is called with "Alice"?*
+1 point
+a) Hello, Alice!
+b) Hello
+c) undefined
+d) Alice
+
+
+Q.120 Code Snippet:
+
+const express = require('express');
+const app = express();
+app.get('/', (req, res) => {
+res.send('Hello, World!');
+});
+app.listen(3000, () => {
+console.log('Server is running on port 3000');
+});
+
+Question: What does this code do?*
+1 point
+a) It creates a basic server that listens on port 3000 and sends “Hello, World!” when accessed.
+b) It creates a database connection on port 3000.
+c) It defines a route for the /home URL.
+d) It runs a JavaScript function on the server.
+
+Q.121Code Snippet:
+
+import React, { useState } from 'react';
+const Counter = () => {
+const [count, setCount] = useState(0);
+return (
+<div>
+<p>Count: {count}</p>
+<button onClick={() =>setCount(count + 1)}>Increment</button>
+</div>
+  );
+};
+export default Counter;
+
+Question: What does the button in this React component do?*
+1 point
+a) Decreases the count by 1.
+b) Increases the count by 1.
+c) Resets the count to 0.
+d) Logs the count to the console.
+
+
+Q.122 Code Snippet:
+
+const initialState = { count: 0 };
+const counterReducer = (state = initialState, action) => {
+switch (action.type) {
+case 'INCREMENT':
+return { count: state.count + 1 };
+default:
+return state;
+  }
+};
+export default counterReducer;
+
+Question: What happens when an action with the type 'INCREMENT' is dispatched to this reducer?*
+1 point
+a) The count will remain the same.
+b) The count will decrease by 1.
+c) The count will increase by 1. 
+d) The state will be reset to { count: 0 }.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
