@@ -3,7 +3,7 @@ WPT_PRACTICE_TEST_2
 Q1: Which HTTP method is used to request data from a specified resource in a stateless manner?
 *
 1 point
-A) POSTm
+A) POST
 B) GET ✔️
 C) PUT
 D) DELETE
@@ -774,8 +774,8 @@ B)undefined New York
 C)John USA
 D)John undefined
 
- 
 
+ 
 Q 81 What will be the output of the following React component?
 
 importReact, { useState } from'react'; 
@@ -783,7 +783,7 @@ constCounter = () => {
 const [count, setCount] = useState(0); 
 return (
 <div>
-<buttononClick={() =>setCount(count + 1)}>Increment</button>
+<button onClick={() =>setCount(count + 1)}>Increment</button>
 <p>Count: {count}</p>
 </div> 
  );
@@ -792,7 +792,7 @@ return (
 *
 1 point
 A) The count will always be 1 after the button is clicked.
-B) The count will increase by 1 each time the button is clicked.
+B) The count will increase by 1 each time the button is clicked.✔️
 C) The count will always remain 0 regardless of button clicks.
 D) Error: setCount is undefined.
 
@@ -811,49 +811,53 @@ const [isVisible, setIsVisible] = useState(false);
 *
 1 point
 A) The message will be displayed initially.
-B) Clicking the button will toggle the visibility of the message.
+B) Clicking the button will toggle the visibility of the message. ✔️
 C) The message will never be displayed.
 D) Error: isVisible is not defined.
 
 
 Q 83How would you capture user input from a form in React?
 
-importReact, { useState } from'react'; 
-constFormComponent = () => {const [name, setName] = useState(''); consthandleSubmit = (e) => {e.preventDefault();console.log(name);  }; 
+import React, { useState } from 'react'; 
+const FormComponent = () => {const [name, setName] = useState('');
+const handleSubmit = (e) => {e.preventDefault();
+console.log(name);  }; 
 return (
-<formonSubmit={handleSubmit}><inputtype="text"value={name}onChange={(e) =>setName(e.target.value)}       /><buttontype="submit">Submit</button>
+<form onSubmit={handleSubmit}>
+<inputtype="text"value={name} onChange={(e) =>setName(e.target.value)}       
+/><buttontype="submit">Submit</button>
 </form>  );
 };
  exportdefaultFormComponent;
 *
 1 point
 A) This code will log the input value on every keystroke.
-B) This code will log the input value only when the form is submitted.
+B) This code will log the input value only when the form is submitted.✔️
 C) The input value will not change.
 D) Error: setName is not a function
 
 Q 84 What will be the result of the following code?
 
- importReactfrom'react';
-import { connect } from'react-redux'; 
-constCounter = ({ count }) => {
+ import React from 'react';
+import { connect } from 'react-redux'; 
+const Counter = ({ count }) => {
 return<p>Count: {count}</p>;}; 
-constmapStateToProps = (state) => {
+const mapStateToProps = (state) => {
 return {count: state.count 
  };
 }; 
-exportdefaultconnect(mapStateToProps)(Counter);
+export default connect(mapStateToProps)(Counter);
 *
 1 point
 A) The component will render count from the Redux store.
 B) The component will render a static value of count (0 by default).
-C) The component will not render anything due to missing store configuration.
+C) The component will not render anything due to missing store configuration.✔️
 D) Error: connect is not a valid function.
 
 
 Q 85 What will be the result of the following Node.js code?
 
-constfs = require('fs'); 
+const fs = require('fs'); 
 fs.readFile('file.txt', 'utf8', 
 (err, data) => {if (err) throw err;
 console.log(data);
@@ -862,8 +866,8 @@ console.log(data);
 1 point
 A) The content of the file file.txt will be printed to the console.
 B) An error will be thrown if file.txt doesn't exist.
-C) The code will not run because fsis not a valid module.
-D) Both A and B.
+C) The code will not run because fs is not a valid module.
+D) Both A and B.✔️
 
 
 Q 86What will be the output of the following code?
@@ -874,7 +878,7 @@ console.log('Middle'), 0);
 console.log('End');
 *
 1 point
-A)Start Middle End
+A)Start Middle End ✔️
 B)Start End Middle
 C)Middle Start End
 D)End Middle Start
@@ -892,13 +896,13 @@ res.send(`User ID: ${req.params.id}`);});
 A) It will send the User ID as a parameter in the URL.
 B) The URL must include a parameter id to get the User ID.
 C) It will respond with a 404 error if no parameter is passed.
-D) Both A and B.
+D) Both A and B.✔️
 
 
 Q 88 Which of the following correctly describes the origin of the Internet and its development into a global network?
 *
 1 point
-A) The Internet originated as ARPANET in the 1980s, initially used for academic research and military communication. It became publicly accessible in the late 1990s when the World Wide Web (WWW) was introduced.
+A) The Internet originated as ARPANET in the 1980s, initially used for academic research and military communication. It became publicly accessible in the late 1990s when the World Wide Web (WWW) was introduced.✔️
 B) The Internet was originally developed as the WWW by Tim Berners-Lee in the early 1990s, with the goal of connecting businesses globally.
 C) The Internet was developed in the late 1990s as a commercial project by a consortium of global corporations, focusing on the use of browsers to navigate information.
 D) The Internet was created in 2001 by the United Nations to facilitate global digital communication between countries.
@@ -906,7 +910,7 @@ D) The Internet was created in 2001 by the United Nations to facilitate global d
 Q 89 Which of the following is a key difference between HTTP/1.0 and HTTP/2?
 *
 1 point
-A) HTTP/2 introduced multiplexing to allow multiple requests and responses to be sent simultaneously over a single connection, while HTTP/1.0 only allowed one request-response at a time.
+A) HTTP/2 introduced multiplexing to allow multiple requests and responses to be sent simultaneously over a single connection, while HTTP/1.0 only allowed one request-response at a time.✔️
 B) HTTP/1.0 uses binary data encoding, while HTTP/2 relies on text-based encoding for faster data transmission.
 C) HTTP/2 allows for statelessness in communication, unlike HTTP/1.0 which is stateful.
 D) HTTP/2 requires fewer headers in each request compared to HTTP/1.0, making it less efficient.
@@ -914,7 +918,7 @@ D) HTTP/2 requires fewer headers in each request compared to HTTP/1.0, making it
 
 Q 90 Which of the following HTTP methods is idempotent?*
 1 point
-A) GET
+A) GET ✔️
 B) POST
 C) PUT
 D) DELETE
@@ -922,7 +926,7 @@ D) DELETE
 
 Q 91 Which of the following statements accurately describes HTTPS compared to HTTP?*
 1 point
-A) HTTPS uses SSL/TLS to encrypt the data between the client and the server, whereas HTTP transmits data in plaintext.
+A) HTTPS uses SSL/TLS to encrypt the data between the client and the server, whereas HTTP transmits data in plaintext. ✔️
 B) HTTPS is used only for sending secure passwords, while HTTP is used for sending other types of information.
 C) HTTPS operates over port 8080, while HTTP uses port 80.
 D) HTTPS is a newer protocol, developed as an alternative to HTTP, and it does not require any security certificates
@@ -930,7 +934,7 @@ D) HTTPS is a newer protocol, developed as an alternative to HTTP, and it does n
 Q 92 Which of the following correctly describes the function of a web server like Apache or IIS?*
 1 point
 A) A web server manages the network protocols and routes data from users to appropriate DNS servers.
-B) A web server processes requests from browsers and delivers content (HTML, CSS, images) to the client, handling HTTP requests and responses.
+B) A web server processes requests from browsers and delivers content (HTML, CSS, images) to the client, handling HTTP requests and responses. ✔️
 C) A web server serves as a middleman between the client's browser and the router, forwarding packets between the two.
 D) A web server’s main role is to maintain the domain name registration and map IP addresses to domain names.
 
@@ -938,7 +942,7 @@ D) A web server’s main role is to maintain the domain name registration and ma
 Q 93 Which of the following is a new element introduced in HTML5?*
 1 point
 A)<frame>
-B)<video>
+B)<video> ✔️
 C)<blink>
 D)<font>
 
@@ -946,7 +950,7 @@ D)<font>
 Q 94 Which property is used to change the background color of a webpage in CSS?*
 1 point
 A)bgcolor
-B)background-color
+B)background-color ✔️
 C)color
 D)background
 
@@ -954,15 +958,15 @@ D)background
 Q.95 Which CSS property is used to change the font size?*
 1 point
 a) font-style
-b) font-size
-c) text-size
+b) font-size ✔️
+c) text-size 
 d) font-weight
 
 
 Q.96 What does the display: flex; CSS property do?*
 1 point
 a) Aligns the text
-b) Makes the element a flexible container
+b) Makes the element a flexible container ✔️
 c) Makes the element transparent
 d) Adds space between elements
 
@@ -972,12 +976,12 @@ Q.97 Which of the following statements is true about JavaScript functions?*
 a) Functions can only return one value.
 b) Functions can be called multiple times.
 c) Functions cannot accept parameters.
-d) Functions must be declared before they are called.
+d) Functions must be declared before they are called. ✔️
 
 
 Q.98 Which method is used to parse a JSON string in JavaScript?*
 1 point
-a) JSON.stringify()
+a) JSON.stringify() ✔️
 b) JSON.parse()
 c) JSON.convert()
 d) JSON.decode()
@@ -986,7 +990,7 @@ d) JSON.decode()
 Q.99 What is the result of the following JavaScript expression: 5 + '5'?*
 1 point
 a) 10
-b) 55
+b) 55 ✔️
 c) NaN
 d) undefined
 
@@ -996,12 +1000,12 @@ Q.100 What is the purpose of event.preventDefault() in JavaScript?*
 a) Prevents an event from executing.
 b) Stops an event from propagating to other elements.
 c) Stops the browser's default action for the event.
-d) All of the above.
+d) All of the above. ✔️
 
 
 Q.101 Which method is used to add an item to the end of an array in JavaScript*
 1 point
-a) push()
+a) push() ✔️
 b) pop()
 c) shift()
 d) unshift()
@@ -1009,16 +1013,16 @@ d) unshift()
 
 Q.102 What is the purpose of npm in Node.js?*
 1 point
-a) To install JavaScript libraries.
+a) To install JavaScript libraries. 
 b) To manage Node.js packages.
 c) To run JavaScript code.
-d) All of the above.
+d) All of the above.✔️
 
 
 Q.103 Which command is used to install a package globally using npm?*
 1 point
 a) npm install
-b) npm install -g
+b) npm install -g ✔️
 c) npm update -g
 d) npm install --global
 
@@ -1026,14 +1030,14 @@ Q.104 What is the purpose of the express.Router() in Express? *
 1 point
 a) To define the basic routing for the application.
 b) To create a middleware stack.
-c) To handle HTTP requests for a specific group of routes.
+c) To handle HTTP requests for a specific group of routes. ✔️
 d) To start the Express server.
 
 
 Q.105 Which of the following is true about asynchronous programming in Node.js? *
 1 point
 a) Asynchronous functions block the execution of other code.
-b) Asynchronous functions are executed after all synchronous code completes.
+b) Asynchronous functions are executed after all synchronous code completes. ✔️f
 c) Asynchronous functions are run in parallel with synchronous functions.
 d) Asynchronous functions do not exist in Node.js.
 
@@ -1041,31 +1045,31 @@ d) Asynchronous functions do not exist in Node.js.
 Q.106 Which method is used to start a server in Express?*
 1 point
 a) app.listen()
-b) server.listen()
+b) server.listen()✔️
 c) app.start()
 d) express.listen()
 
 
-Q.107 What is the primary purpose of React'suseState hook?*
+Q.107 What is the primary purpose of React's useState hook?*
 1 point
 a) To handle side effects in functional components.
-b) To manage component state in functional components.
+b) To manage component state in functional components.✔️
 c) To render components.
 d) To manage the lifecycle of a component.
 
 
 Q.108 Which of the following is a correct way to define a functional component in React?*
 1 point
-a) functionMyComponent() { return <div>Hello</div>; }
-b) constMyComponent = function() { return <div>Hello</div>; }
-c) constMyComponent = () => { return <div>Hello</div>; }
-d) All of the above
+a) function  MyComponent() { return <div>Hello</div>; }
+b) const  MyComponent = function() { return <div>Hello</div>; }
+c) const MyComponent = () => { return <div>Hello</div>; }
+d) All of the above✔️
 
 
 Q.109 What is the use of useEffect in React?*
 1 point
 a) To manage the state of the component.
-b) To handle component lifecycle methods in functional components.
+b) To handle component lifecycle methods in functional components. ✔️
 c) To render components conditionally.
 d) To create reusable components.
 
@@ -1073,7 +1077,7 @@ d) To create reusable components.
 Q.110 In React, what is the main purpose of Redux?*
 1 point
 a) To handle the component lifecycle.
-b) To manage global state for the application.
+b) To manage global state for the application. ✔️
 c) To optimize rendering performance.
 d) To define routes and navigation
 
@@ -1082,12 +1086,12 @@ Q.111 Which of the following are Redux building blocks?*
 a) Actions, Reducers, Store
 b) State, Dispatcher, Middleware
 c) Store, Components, Dispatcher
-d) Actions, Dispatchers, Components
+d) Actions, Dispatchers, Components ✔️
 
 
 Q.112 What is AJAX primarily used for in web development?*
 1 point
-a) To send asynchronous requests to the server without reloading the page.
+a) To send asynchronous requests to the server without reloading the page. ✔️
 b) To render dynamic HTML content on the server.
 c) To send synchronous requests to the server.
 d) To manage the state of the client-side application.
@@ -1098,11 +1102,11 @@ Q.113 Which method is used to send an AJAX request using jQuery?*
 a) $.ajax()
 b) $.post()
 c) $.get()
-d) All of the above
+d) All of the above ✔️
 
 Q.114 What is the purpose of the XMLHttpRequest object in JavaScript?*
 1 point
-a) To send data to the server asynchronously.
+a) To send data to the server asynchronously. ✔️
 b) To make synchronous API calls.
 c) To manipulate the DOM.
 d) To manage session storage.
@@ -1112,12 +1116,12 @@ Q.115 Which of the following is used to parse a JSON object into a JavaScript ob
 1 point
 a) JSON.parse()
 b) JSON.stringify()
-c) JSON.objectify()
+c) JSON.objectify()✔️
 d) JSON.toObject()
 
 Q.116 What does the axios.get() method do?*
 1 point
-a) Sends a GET request to the server.
+a) Sends a GET request to the server. ✔️
 b) Sends a POST request to the server.
 c) Sends a PUT request to the server.
 d) Sends a DELETE request to the server.
@@ -1132,7 +1136,7 @@ Q.117 Code Snippet:
 Question: What type of form element is used to gather the user’s name?*
 1 point
 a) <input type="password">
-b) <input type="text">
+b) <input type="text"> ✔️
 c) <input type="email">
 d) <input type="number">
 
@@ -1151,7 +1155,7 @@ background-color: darkblue;
 Question: What happens when the user hovers over the button?*
 1 point
 a) The button changes to a yellow background.
-b) The button’s background color changes to dark blue.
+b) The button’s background color changes to dark blue.✔️
 c) The button turns transparent.
 d) Nothing happens on hover.
 
@@ -1164,7 +1168,7 @@ greet("Alice"); // Output: Hello, Alice!
 
 Question: What will be printed to the console when the function is called with "Alice"?*
 1 point
-a) Hello, Alice!
+a) Hello, Alice! ✔️
 b) Hello
 c) undefined
 d) Alice
@@ -1183,7 +1187,7 @@ console.log('Server is running on port 3000');
 
 Question: What does this code do?*
 1 point
-a) It creates a basic server that listens on port 3000 and sends “Hello, World!” when accessed.
+a) It creates a basic server that listens on port 3000 and sends “Hello, World!” when accessed. ✔️
 b) It creates a database connection on port 3000.
 c) It defines a route for the /home URL.
 d) It runs a JavaScript function on the server.
@@ -1205,7 +1209,7 @@ export default Counter;
 Question: What does the button in this React component do?*
 1 point
 a) Decreases the count by 1.
-b) Increases the count by 1.
+b) Increases the count by 1.✔️
 c) Resets the count to 0.
 d) Logs the count to the console.
 
@@ -1227,7 +1231,7 @@ Question: What happens when an action with the type 'INCREMENT' is dispatched to
 1 point
 a) The count will remain the same.
 b) The count will decrease by 1.
-c) The count will increase by 1. 
+c) The count will increase by 1.  ✔️
 d) The state will be reset to { count: 0 }.
 
 
