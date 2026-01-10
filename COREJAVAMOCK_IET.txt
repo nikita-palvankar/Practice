@@ -1,12 +1,6 @@
 
 JAVA_PRACTICE_TEST_2
-nikita2001palvankar@gmail.com Switch accounts
- 
-Saving…
-* Indicates required question
-Email
-*
-Record nikita2001palvankar@gmail.com as the email to be included with my response
+
  Which of the following classes in Java can be used for non-blocking I/O operations (NIO)?
 *
 1 point
@@ -841,11 +835,7 @@ A) 3
 B) 4
 C) 5
 D) 6
-Never submit passwords through Google Forms.
-This content is neither created nor endorsed by Google. - Contact form owner - Terms of Service - Privacy Policy
-Does this form look suspicious? Report
 
-Google Forms
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ANSWRS =>
