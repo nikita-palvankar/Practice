@@ -1,0 +1,555 @@
+C++_PRACTICE_TEST_03
+
+What is the output of the following code?
+
+#include <iostream>
+using namespace std;  
+class Test { 
+ 	public:      
+int x;      
+Test(int val) {
+ x = val; 
+}      
+void modify() const { x = 10; } 
+ };  
+
+int main() { 
+     const Test t(5); 
+     t.modify();  
+    cout << t.x; 
+     return 0;
+  } 
+*
+1 point
+a) Compilation error due to modification of constant object ✔️
+b) 5
+c) 10
+d) Undefined behavior
+
+
+What will be the output of the following code?
+
+#include<iostream>
+using namespace std;
+class MyClass {
+public:
+    MyClass() {
+        cout << "Constructor Called" << endl;
+    }
+    ~MyClass() {
+        cout << "Destructor Called" << endl;
+    }
+};
+int main() {
+    MyClass obj;
+}
+
+*
+1 point
+A) Constructor Called Destructor Called ✔️
+B) Destructor Called Constructor Called
+C) Error
+D) No output
+
+
+
+Which of the following is the correct declaration for a constant pointer to an integer in C++?*
+1 point
+A) int* const ptr; ✔️
+B) const int* ptr; 
+C) int const* ptr;
+D) const ptr int*;
+
+Consider the following C++ code:
+int arr[5] = {1, 2};
+cout << arr[2] << arr[3] << arr[4];
+
+What is the output?
+
+*
+1 point
+a) 120 ✔️ //000
+b) 2 3 4
+c) Garbage values
+d) Compilation error
+
+
+What will be the output of the following C++ code?
+#include<iostream>
+using namespace std; 
+class Test {
+public:
+    int x;
+    Test(int val) { x = val; }
+};
+int main() {
+    Test obj(10);
+    cout << obj.x << endl;
+}
+*
+1 point
+A) 0
+B) 10 ✔️
+C) Error 
+D) Undefined behavior
+
+
+Which of the following C++ features allows a class to inherit members and behaviors from another class?
+*
+1 point
+A) Encapsulation
+B) Polymorphism
+C) Inheritance✔️
+D) Abstraction
+
+What is the size of an object of class Cdate when the class contains three integers and one character array of size 10?
+
+#include<iostream>
+using namespace std;
+class Cdate {
+    int dd, mm, yy;
+    char name[10];
+public:
+    void accept() {}
+    void display() {}
+};
+int main() {
+    Cdate d1;
+    cout << sizeof(d1) << endl;
+}
+*
+1 point
+A) 10
+B) 16
+C) 20 ✔️//24
+D) 24 
+
+
+Which of the following statements is correct about a friend function in C++?*
+1 point
+A) It can be a member of another class.
+B) It can access private and protected members of a class. ✔️
+C) It is a member of the class in which it is declared.
+D) It cannot be used to access private members of a class.
+
+
+Which of the following is not a valid declaration for a constant member function?*
+1 point
+a) int getData() const; 
+b) void display() const { cout << "Display"; }
+c) void setData(int x) const { data = x; } ✔️
+d) void modify() const;
+
+
+In C++, which of the following statements about destructors is true?*
+1 point
+A) A destructor is automatically called when an object goes out of scope. ✔️
+B) A destructor cannot take arguments.
+C) A destructor can be overloaded.
+D) A destructor is used to initialize object properties.
+
+
+What is the output of the following C++ code snippet?
+
+int a[5] = {1, 2, 3, 4, 5};
+cout << a[2] << a[3] << a[4];
+
+*
+1 point
+a) 12345
+b) 2345
+c) 234
+d) 345✔️
+
+In C++, which of the following is true about the sizeof operator when used on an array?
+*
+1 point
+a) It gives the number of elements in the array.
+b) It gives the size in bytes of the array.
+c) It is only valid for static arrays, not dynamic arrays.
+d) Both b and c. ✔️
+
+
+Which of the following is incorrect regarding the this pointer?*
+1 point
+a) The this pointer can be used to differentiate between local variables and class members when they have the same name.
+b) The this pointer refers to the address of the current object.
+c) The this pointer is available only in non-static member functions.
+d) The this pointer is passed explicitly to each member function by the compiler. ✔️
+
+
+Which of the following is the default access modifier for members of a class in C++?
+*
+1 point
+A) private ✔️
+B) public
+C) protected
+D) None of the above
+
+
+What will be the output of the following C++ program?
+
+void display(char c = '*', int count = 30);
+int main() {
+    int count = 80;
+    display('#');
+    display('$', count);
+    display();
+    return 0;
+}
+void display(char c, int count) {
+    for(int i = 1; i <= count; ++i) {
+        cout << c;
+    }
+    cout << endl;
+}
+
+*
+1 point
+a) The program will print '#' followed by 80 '$' characters and then a line of '' characters.✔️
+b) The program will print '#' followed by 30 '$' characters and then a line of '' characters.
+c) The program will print '*' followed by 30 '#' characters and then a line of '$' characters.
+d) The program will cause an error since default arguments are used in an incorrect manner.
+
+
+class Complex { 
+   int real, img;
+public:
+    Complex(int r, int i) : real(r), img(i) {}
+    void display() const {
+        cout << real << "+" << img << "i" << endl; 
+   }
+    void setReal(int r) {
+        real = r;    
+}};
+
+int main() { 
+   const Complex c(1, 2);
+    c.display();
+    c.setReal(3); // Error?
+}
+What will happen when you attempt to run this code?
+
+*
+1 point
+a) The code will run without any error.
+b) The code will compile successfully but result in undefined behavior.
+c) The code will result in a compilation error.✔️
+d) The code will run but setReal will not modify the object. 
+
+
+What is the correct syntax to pass an array to a function in C++?
+*
+1 point
+a) func(arr[]);
+b) func(int arr[]);  
+c) func(arr[5])
+d) func(int* arr); ✔️
+
+
+What does the following C++ code print?
+
+#include<iostream>
+using namespace std;
+int main() {
+    int a = 5;
+    int b = ++a;
+    cout << a << " " << b << endl;
+}
+
+*
+1 point
+A) 5 5
+B) 6 5
+C) 6 6 ✔️
+D) 5 6 
+
+
+Which of the following is not allowed in C++?
+
+*
+1 point
+A) Declaring multiple constructors in a class
+B) Declaring a function inside a class
+C) Declaring a function outside a class
+D) Declaring a variable of type function ✔️
+
+
+Consider the following code snippet:
+
+class Employee {
+    int id;
+    char name[30];
+public:
+    void getdata() {
+        cout << "Enter Id: ";
+        cin >> id;
+        cout << "Enter Name: ";
+        cin >> name; 
+   }    void putdata() const {
+        cout << id << " " << name << endl;
+    }};
+
+int main() {
+    const Employee e;
+    e.getdata(); // Error?
+    e.putdata();
+}
+What will happen when you run the code?
+*
+1 point
+a) The code will compile and run successfully.
+b) The code will compile but give an error during the getdata function call. ✔️
+c) The code will compile and give an error during the putdata function call.
+d) The code will not compile because constant objects cannot call any member functions
+
+
+Which of the following statements about constructors and destructors in C++ is false?*
+1 point
+A) Constructors are used to initialize objects.
+B) Destructors are used to destroy objects and release resources.
+C) A constructor can be called explicitly by the user. ✔️
+D) A class can have multiple constructors with different parameter lists (overloaded constructors).
+
+
+What will happen when you try to modify a constant argument inside a function?
+
+void test(const int x) {    x = 10; // Error?}
+*
+1 point
+a) The code will compile successfully and modify x.
+b) The code will result in a compile-time error due to the attempt to modify a constant argument.✔️
+c) The code will run with undefined behavior.
+d) The code will give a warning but still run successfully.
+
+
+Which of the following is true about operator overloading in C++?*
+1 point
+A) Operator overloading allows the modification of the behavior of operators in C++.✔️
+B) You cannot overload operators for primitive data types.
+C) Operator overloading can change the precedence of operators.
+D) Operators can only be overloaded for classes with one data type
+
+
+What will happen if you try to use the this pointer in a static member function?*
+1 point
+a) It will compile successfully.
+b) It will result in a compilation error. ✔️
+c) The code will run with undefined behavior.
+d) The static member function will automatically receive the this pointer. 
+
+
+In C++, what happens when you try to access an array element outside its bounds?
+*
+1 point
+a) Compiler throws an error. 
+b) Compiler performs bound checking at runtime. 
+c) Undefined behavior occurs. ✔️
+d) The program crashes immediately.
+
+
+What is the primary difference between constant objects and constant member functions in C++?*
+1 point
+a) Constant objects can call both constant and non-constant member functions.
+b) Constant member functions cannot modify the object's data members, while constant objects cannot invoke non-constant functions.✔️
+c) Constant objects can modify the data members but cannot call non-constant member functions.
+d) There is no difference between constant objects and constant member functions.
+
+
+What is the correct syntax to declare a pure virtual function in a C++ class?*
+1 point
+A) virtual void func() = 0;✔️
+B) virtual void func();
+C) void func() = 0;
+D) virtual void func()
+
+
+Which of the following statements is true about default arguments in C++?
+*
+1 point
+a) Default arguments must be provided from right to left  in the function declaration.
+b) Once a default argument is used in a function, all subsequent arguments must have default values.
+c) Default arguments can be overridden when calling the function.
+d) All of the above.✔️
+
+
+Which of the following statements about constant objects is incorrect?*
+1 point
+a) A constant object can invoke both constant and non-constant member functions.✔️
+b) Constant objects can invoke only constant member functions.
+c) The data members of a constant object cannot be modified.
+d) Constant objects are read-only objects.
+
+
+What is the output of the following C++ code?
+
+#include<iostream>
+using namespace std;
+class Rectangle {
+    int length, width;
+public:
+    void setData(int l, int w) {
+        length = l;
+        width = w;
+    }
+    int area() { return length * width; }
+};
+int main() {
+    Rectangle rect;
+    rect.setData(10, 5);
+    cout << "Area: " << rect.area() << endl;
+}
+
+*
+1 point
+A) Area: 50✔️
+B) Area: 15
+C) Area: 10
+D) Error
+ 
+
+In C++, what will be the output if the following code is executed?
+
+#include<iostream>
+using namespace std;
+class Complex {
+private:
+    int real, img;
+public:
+    Complex(int r, int i) : real(r), img(i) {}
+    Complex() {
+        real = 0;
+        img = 0;
+    }
+    void display() {
+        cout << real << "+" << img << "i" << endl;
+    }
+};
+int main() {
+    Complex c1(5, 3), c2;
+    c1.display();
+    c2.display();
+}
+
+*
+1 point
+A) 5+3i 0+0i ✔️
+B) 5+3i Error
+C) 0+0i 5+3i
+D) Error 
+
+What does the following C++ code print?
+
+#include<iostream>
+using namespace std;
+class MyClass {
+public:
+    int x;
+    MyClass() : x(10) {}
+    void setX(int val) { x = val; }
+    void printX() { cout << x << endl; }
+};
+int main() {
+    MyClass obj;
+    obj.setX(20);
+    obj.printX();
+}
+
+*
+1 point
+A) 10
+B) 20✔️
+C) Error
+D) 0
+
+What is the output of the following code?
+
+#include<iostream>
+using namespace std;
+class Base {
+    int x;
+public:
+    void setX(int val) { x = val; }
+    int getX() { return x; }
+};
+class Derived : public Base {
+    int y;
+public:
+    void setY(int val) { y = val; 
+    int getY() { return y; }
+};
+int main() {
+    Derived obj;
+    obj.setX(10);
+    obj.setY(20)
+    cout << obj.getX() << " " << obj.getY() << endl;
+}
+
+*
+1 point
+A) 10 20✔️
+B) 0 0
+C) Error
+D) 10 0
+
+What is the difference between a static data member and a non-static data member in a C++ class?
+*
+1 point
+a) A static data member is shared by all objects of the class, while a non-static data member is unique to each object.
+b) A static data member can be accessed without creating an object, but a non-static data member cannot.
+c) A non-static data member can be initialized only inside the constructor.
+d) Both a and b are correct✔️
+
+If a class has no constructor, which of the following will happen?*
+1 point
+A) The class will throw an error during object creation.
+B) A default constructor will be automatically provided. ✔️
+C) A default constructor will not be created automatically, and the object cannot be created.
+D) The class will not be able to access member variables.
+
+
+What is the purpose of static variables in a function in C++?
+*
+1 point
+a) They retain their values across multiple calls to the function. ✔️
+b) They only exist during the execution of the function.
+c) They cannot be initialized within the function.
+d) They are used for memory allocation.
+
+In C++, when a class member is declared private, which of the following is true?*
+1 point
+A) The private member can be accessed outside the class by using an object of the class.
+B) The private member can be accessed only by member functions within the class.✔️
+C) The private member can be accessed only within the class constructor.
+D) The private member can be accessed by any function in the program.
+ 
+In C++, what is the correct way to declare a constant array of integers?
+*
+1 point
+a) const int arr[5] = {1, 2, 3, 4, 5};
+b) int const arr[5] = {1, 2, 3, 4, 5};
+c) Both a and b ✔️
+d) int arr[5] const = {1, 2, 3, 4, 5};
+
+Which of the following C++ features provides the ability to use the same function name with different arguments?*
+1 point
+A) Inheritance
+B) Encapsulation
+C) Polymorphism ✔️
+D) Abstraction
+
+What happens when you try to call a non-constant member function on a constant object?*
+1 point
+a) It will compile successfully, but the function cannot modify the object.
+b) It will result in a compilation error. ✔️
+c) The function will be executed, but it will be restricted to read-only operations.
+d) It will cause undefined behavior.
+
+
+
+
+
+
+
+
+
