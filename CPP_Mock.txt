@@ -2,246 +2,1475 @@
 
 ### C++ programming – 40-question mock exam (PG‑DAC CCEE pattern, 1 mark each)
 
-**Q1.** Which of the following is not a valid C++ keyword?  
-a) `volatile`  
-b) `mutable`  
-c) `friend`  
+**Q1.** Which of the following is not a valid C++ keyword?
+a) `volatile`
+b) `mutable`
+c) `friend`
 => d) `include`
 
-**Q2.** Which operator is used to allocate memory dynamically in C++?  
-a) `malloc`  
-=> b) `new`  
-c) `alloc`  
+**Q2.** Which operator is used to allocate memory dynamically in C++?
+a) `malloc`
+=> b) `new`
+c) `alloc`
 d) `calloc`
 
-**Q3.** Which of the following is true about references in C++?  
-a) They can be null.  
-=> b) They must be initialized at declaration.  
-c) They can be reseated.  
+**Q3.** Which of the following is true about references in C++?
+a) They can be null.
+=> b) They must be initialized at declaration.
+c) They can be reseated.
 d) They occupy separate storage from the referent.
 
-**Q4.** Which of the following is not a type of constructor?  
-a) Default  
-b) Copy  
-c) Parameterized  
+**Q4.** Which of the following is not a type of constructor?
+a) Default
+b) Copy
+c) Parameterized
 => d) Virtual
 
-**Q5.** Which header file is required for `cout` and `cin`?  
-a) `<stdio.h>`  
-=>b) `<iostream>`  
-c) `<stdlib.h>`  
+**Q5.** Which header file is required for `cout` and `cin`?
+a) `<stdio.h>`
+=>b) `<iostream>`
+c) `<stdlib.h>`
 d) `<stream>`
 
-**Q6.** Which is correct for declaring a pointer to int?  
-a) `int ptr;`  
-=> b) `int *ptr;`  
-c) `int &ptr;`  
-d) `int **ptr;`
+**Q6.** Which is correct for declaring a pointer to int?
+a) `int ptr;`
+=> b) `int \*ptr;`
+c) `int \&ptr;`
+d) `int \*\*ptr;`
 
-**Q7.** Which correctly allocates a single int dynamically?  
-a) `int *p = malloc(sizeof(int));`  
-=> b) `int *p = new int;`  
-c) `int p = new int;`  
-d) `int *p = alloc(int);`
+**Q7.** Which correctly allocates a single int dynamically?
+a) `int \*p = malloc(sizeof(int));`
+=> b) `int \*p = new int;`
+c) `int p = new int;`
+d) `int \*p = alloc(int);`
 
-**Q8.** `delete[]` is used for:  
-a) Deleting static arrays  
-=> b) Deleting dynamically allocated arrays  
-c) Deleting stack arrays  
+**Q8.** `delete\[]` is used for:
+a) Deleting static arrays
+=> b) Deleting dynamically allocated arrays
+c) Deleting stack arrays
 d) Deleting pointers to functions
 
-**Q9.** Which access specifier is not valid in C++?  
-a) `public`  
-b) `protected`  
-c) `private`  
+**Q9.** Which access specifier is not valid in C++?
+a) `public`
+b) `protected`
+c) `private`
 => d) `internal`
 
-**Q10.** Which of the following about inline functions is true?  
-=> a) They reduce call overhead.  
-b) They always run faster.  
-c) They cannot contain loops.  
+**Q10.** Which of the following about inline functions is true?
+=> a) They reduce call overhead.
+b) They always run faster.
+c) They cannot contain loops.
 d) They are stored on heap.
 
-**Q11.** Which operator accesses members via a pointer?  
-a) `.`  
-=> b) `->`  
-c) `*`  
+**Q11.** Which operator accesses members via a pointer?
+a) `.`
+=> b) `->`
+c) `\*`
 d) `::`
 
-**Q12.** Which is not a valid storage class?  
-a) `auto`  
-b) `register`  
-c) `static`  
+**Q12.** Which is not a valid storage class?
+a) `auto`
+b) `register`
+c) `static`
 => d) `dynamic`
 
-**Q13.** Which statement about destructors is true?  
-a) They can be overloaded.  
-=> b) They can be virtual.  
-c) They return values.  
+**Q13.** Which statement about destructors is true?
+a) They can be overloaded.
+=> b) They can be virtual.
+c) They return values.
 d) They must be public.
 
-**Q14.** Pure virtual functions:  
-a) Must be defined in base class  
-=> b) Make the class abstract  
-c) Cannot be overridden  
+**Q14.** Pure virtual functions:
+a) Must be defined in base class
+=> b) Make the class abstract
+c) Cannot be overridden
 d) Are declared without `virtual`
 
-**Q15.** Which is not a valid operator in C++?  
-a) `sizeof`  
-b) `typeid`  
-=>  c) `instanceof`  
-d) `dynamic_cast`
+**Q15.** Which is not a valid operator in C++?
+a) `sizeof`
+b) `typeid`
+=>  c) `instanceof`
+d) `dynamic\_cast`
 
-**Q16.** Function overloading requires functions to differ in:  
-a) Return type only  
-=>  b) Parameter list  
-c) Access specifier  
+**Q16.** Function overloading requires functions to differ in:
+a) Return type only
+=>  b) Parameter list
+c) Access specifier
 d) Storage class
 
-**Q17.** Which is used to allocate arrays dynamically?  
-=>  a) `new[]`  
-b) `malloc[]`  
-c) `calloc[]`  
-d) `alloc[]`
+**Q17.** Which is used to allocate arrays dynamically?
+=>  a) `new\[]`
+b) `malloc\[]`
+c) `calloc\[]`
+d) `alloc\[]`
 
-**Q18.** Templates provide:  
- a) Runtime polymorphism  
-=> b) Generic programming  
-c) Only class templates  
+**Q18.** Templates provide:
+ a) Runtime polymorphism
+=> b) Generic programming
+c) Only class templates
 d) Only function templates
 
-**Q19.** Which loop does not exist in standard C++?  
-a) `for`  
-b) `while`  
-c) `do-while`  
+**Q19.** Which loop does not exist in standard C++?
+a) `for`
+b) `while`
+c) `do-while`
 => d) `foreach`
 
-**Q20.** Static variables in functions:  
-a) Reinitialize each call  
-=> b) Retain value between calls  
-c) Must be global  
+**Q20.** Static variables in functions:
+a) Reinitialize each call
+=> b) Retain value between calls
+c) Must be global
 d) Are stored on heap
 
-**Q21.** Which operator cannot be overloaded?  
-a) `+`  
-b) `[]`  
-c) `->`  
+**Q21.** Which operator cannot be overloaded?
+a) `+`
+b) `\[]`
+c) `->`
 => d) `::`
 
-**Q22.** Which statement exits a loop immediately?  
-a) `continue`  
-=> b) `break`  
-c) `return 0;`  
+**Q22.** Which statement exits a loop immediately?
+a) `continue`
+=> b) `break`
+c) `return 0;`
 d) `exit(0);`
 
-**Q23.** Friend functions:  
-a) Are class members  
-=> b) Can access private members  
-c) Must be defined inside class  
+**Q23.** Friend functions:
+a) Are class members
+=> b) Can access private members
+c) Must be defined inside class
 d) Cannot be overloaded
 
-**Q24.** Polymorphism enables:  
-=> a) Same function name with different parameters  
-b) Multiple classes with same name  
-c) Only multiple inheritance  
+**Q24.** Polymorphism enables:
+=> a) Same function name with different parameters
+b) Multiple classes with same name
+c) Only multiple inheritance
 d) Only multiple constructors
 
-**Q25.** The `virtual` keyword is used to:  
-a) Declare abstract classes only  
-=> b) Enable runtime polymorphism  
-c) Declare static functions  
+**Q25.** The `virtual` keyword is used to:
+a) Declare abstract classes only
+=> b) Enable runtime polymorphism
+c) Declare static functions
 d) Declare inline functions
 
-**Q26.** The `this` pointer points to:  
-a) Base class object  
-b) Derived class object  
-=> c) Current object  
+**Q26.** The `this` pointer points to:
+a) Base class object
+b) Derived class object
+=> c) Current object
 d) Static members
 
-**Q27.** Namespaces in C++:  
-=> a) Avoid name conflicts  
-b) Are mandatory  
-c) Cannot contain classes  
+**Q27.** Namespaces in C++:
+=> a) Avoid name conflicts
+b) Are mandatory
+c) Cannot contain classes
 d) Are defined with `namespace()`
 
-**Q28.** The `delete` operator:  
-=> a) Frees dynamically allocated memory  
-b) Deletes static variables  
-c) Deletes global variables  
+**Q28.** The `delete` operator:
+=> a) Frees dynamically allocated memory
+b) Deletes static variables
+c) Deletes global variables
 d) Deletes inline functions
 
-**Q29.** STL provides:  
-=> a) Generic classes and functions  
-b) Java utilities  
-c) Only string utilities  
+**Q29.** STL provides:
+=> a) Generic classes and functions
+b) Java utilities
+c) Only string utilities
 d) Only I/O streams
 
-**Q30.** `const` on a variable means:  
-=> a) Immutable value  
-b) Static storage  
-c) Global visibility  
+**Q30.** `const` on a variable means:
+=> a) Immutable value
+b) Static storage
+c) Global visibility
 d) Volatile access
 
-**Q31.** Recursion in C++ means:  
-=> a) A function can call itself  
-b) A function cannot call itself  
-c) Requires inline functions  
+**Q31.** Recursion in C++ means:
+=> a) A function can call itself
+b) A function cannot call itself
+c) Requires inline functions
 d) Is not allowed
 
-**Q32.** In a `struct` by default, members are:  
-a) Private  
-b) Protected  
-=> c) Public  
+**Q32.** In a `struct` by default, members are:
+a) Private
+b) Protected
+=> c) Public
 d) Static
 
-**Q33.** `enum` defines:  
-=> a) Named constants  
-b) Variables  
-c) Functions  
+**Q33.** `enum` defines:
+=> a) Named constants
+b) Variables
+c) Functions
 d) Classes
 
-**Q34.** `dynamic_cast` is used for:  
-=> a) Safe downcasting with RTTI  
-b) Operator overloading  
-c) Compile-time casting only  
+**Q34.** `dynamic\_cast` is used for:
+=> a) Safe downcasting with RTTI
+b) Operator overloading
+c) Compile-time casting only
 d) Template specialization
 
-**Q35.** `typeid` operator:  
-=> a) Returns runtime type information  
-b) Returns size of type  
-c) Returns address of type  
+**Q35.** `typeid` operator:
+=> a) Returns runtime type information
+b) Returns size of type
+c) Returns address of type
 d) Returns default value of type
 
-**Q36.** A virtual destructor ensures:  
-=> a) Proper cleanup via base pointer  
-b) Faster deletion  
-c) Prevention of inheritance  
+**Q36.** A virtual destructor ensures:
+=> a) Proper cleanup via base pointer
+b) Faster deletion
+c) Prevention of inheritance
 d) Prevention of polymorphism
 
-**Q37.** Which statement about exception handling is true?  
-=> a) `try` must be followed by at least one `catch`  
-b) `throw` only inside `main()`  
-c) Multiple `catch` blocks are not allowed  
+**Q37.** Which statement about exception handling is true?
+=> a) `try` must be followed by at least one `catch`
+b) `throw` only inside `main()`
+c) Multiple `catch` blocks are not allowed
 d) `finally` is mandatory in C++
 
-**Q38.** Copy constructor is invoked when:  
-=> a) Passing object by value  
-b) Using `delete`  
-c) Modifying a const object  
+**Q38.** Copy constructor is invoked when:
+=> a) Passing object by value
+b) Using `delete`
+c) Modifying a const object
 d) Calling a static function
 
-**Q39.** Static member functions:  
-a) Require an object to call  
-b) Can access non-static members directly  
-c) Cannot be overloaded  
+**Q39.** Static member functions:
+a) Require an object to call
+b) Can access non-static members directly
+c) Cannot be overloaded
 => d) Do not require an object to call
 
-**Q40.** Function templates:  
-=> a) Enable writing generic functions  
-b) Are resolved at runtime  
-c) Cannot be used with classes  
+**Q40.** Function templates:
+=> a) Enable writing generic functions
+b) Are resolved at runtime
+c) Cannot be used with classes
 d) Must return `int`
 
+==========================================================================================================================================================
+
+# 🔥 C++ FINAL MOCK TEST (53 QUESTIONS)
+
+1. Who invented C++?
+a) Dennis Ritchie
+b) Ken Thompson
+c) Brian Kernighan ✔️
+d) Bjarne Stroustrup
+
+
+2. What is C++?
+a) C++ is an object oriented programming language
+b) C++ is a procedural programming language
+c) C++ supports both procedural and object oriented programming language ✔️
+d) C++ is a functional programming language
+
+
+3. Which of the following is the correct syntax of including a user defined header files in C++?
+a) #include [userdefined]
+b) #include “userdefined”
+c) #include <userdefined.h> ✔️
+d) #include <userdefined>
+
+
+4. Which of the following is used for comments in C++?
+a) /* comment */
+b) // comment */
+c) // comment
+d) both // comment or /* comment */ ✔️
+
+
+5. Which of the following extension is used for user-defined header file in c++?
+a) hg
+b) cpp
+c) h ✔️
+d) hf
+
+
+advertisement
+
+6. Which of the following is a correct identifier in C++?
+a) VAR_1234
+b) $var_name ✔️
+c) 7VARNAME
+d) 7var_name
+
+
+7. Which of the following is not a type of Constructor in C++?
+a) Default constructor
+b) Parameterized constructor
+c) Copy constructor
+d) Friend constructor ✔️
+
+
+8. Which of the following approach is used by C++?
+a) Left-right ✔️
+b) Right-left
+c) Bottom-up
+d) Top-down
+
+
+9. What is virtual inheritance in C++?
+a) C++ technique to enhance multiple inheritance
+b) C++ technique to ensure that a private member of the base class can be accessed somehow
+c) C++ technique to avoid multiple inheritances of classes
+d) C++ technique to avoid multiple copies of the base class into children/derived class ✔️
+
+
+10. What happens if the following C++ statement is compiled and executed?
+
+int *ptr = NULL;
+delete ptr;
+
+a) The program is not semantically correct
+b) The program is compiled and executed successfully ✔️
+c) The program gives a compile-time error
+d) The program compiled successfully but throws an error during run-time
+
+
+11. What will be the output of the following C++ code?
+
+#include <iostream>
+#include <string>
+using namespace std;
+int main(int argc, char const *argv[])
+{
+ 	char s1[6] = "Hello";
+ 	char s2[6] = "World";
+ 	char s3[12] = s1 + " " + s2;
+ 	cout<<s3;
+ 	return 0;
+}
+a) Hello
+b) World
+c) Error
+d) Hello World ✔️
+
+12. What is the difference between delete and delete[] in C++?
+a) delete is syntactically correct but delete[] is wrong and hence will give an error if used in any case
+b) delete is used to delete normal objects whereas delete[] is used to pointer objects
+c) delete is a keyword whereas delete[] is an identifier
+d) delete is used to delete single object whereas delete[] is used to multiple(array/pointer of) objects ✔️
+
+
+13. What happens if the following program is executed in C and C++?
+
+#include <stdio.h>
+int main(void)
+{
+ 	int new = 5;
+ 	printf("%d", new);
+}
+a) Error in C and successful execution in C++
+b) Error in both C and C++ ✔️
+c) Error in C++ and successful execution in C
+d) A successful run in both C and C++
+
+
+14. What happens if the following program is executed in C and C++?
+
+#include <stdio.h>
+void func(void)
+{
+ 	printf("Hello");
+}
+void main()
+{
+ 	func();
+ 	func(2);
+}
+a) Outputs Hello twice in both C and C++
+b) Error in C and successful execution in C++
+c) Error in C++ and successful execution in C
+d) Error in both C and C++ ✔️
+
+
+15. Which of the following is correct about this pointer in C++?
+a) this pointer is passed as a hidden argument in all static variables of a class
+b) this pointer is passed as a hidden argument in all the functions of a class
+c) this pointer is passed as a hidden argument in all non-static functions of a class✔️
+d) this pointer is passed as a hidden argument in all static functions of a class
+
+
+16. What will be the output of the following C++ code?
+
+    #include <iostream>
+    #include <string>
+    #include <algorithm>
+    using namespace std;
+    int main()
+    {
+        string s = "spaces in text";
+        s.erase(remove(s.begin(), s.end(), ' ' ), s.end() ) ;
+        cout << s << endl;
+    }
+a) spacesintext ✔️
+b) spaces in text
+c) spaces
+d) spaces in
+
+
+17. Which of the following C++ code will give error on compilation?
+
+================code 1=================
+#include <iostream>
+using namespace std;
+int main(int argc, char const *argv[])
+{
+ 	cout<<"Hello World";
+ 	return 0;
+}
+========================================
+================code 2=================
+#include <iostream>
+int main(int argc, char const *argv[])
+{
+ 	std::cout<<"Hello World";
+ 	return 0;
+}
+========================================
+a) Code 1 only
+b) Neither code 1 nor code 2 ✔️
+c) Both code 1 and code 2
+d) Code 2 only
+
+
+18. Which of the following type is provided by C++ but not C?
+a) double
+b) float
+c) int
+d) bool ✔️
+
+
+19. What is the value of p in the following C++ code snippet?
+
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+        int p;
+        bool a = true;
+        bool b = false;
+        int x = 10;
+        int y = 5;
+        p = ((x | y) + (a + b));
+        cout << p;
+        return 0;
+    }
+a) 12 ✔️
+b) 0
+c) 2
+d) 16
+
+
+20. By default, all the files in C++ are opened in _________ mode.
+a) Binary
+b) VTC
+c) Text ✔️
+d) ISCII
+
+
+21. What will be the output of the following C++ function?
+
+    int main()
+    {
+        register int i = 1;
+        int *ptr = &i;
+        cout << *ptr;
+ 	return 0;
+    }
+a) Runtime error may be possible
+b) Compiler error may be possible
+c) 1 ✔️
+d) 0
+
+
+22. Which of the following correctly declares an array in C++?
+a) array{10};
+b) array array[10];
+c) int array;
+d) int array[10]; ✔️
+
+
+23. What is the size of wchar_t in C++?
+a) Based on the number of bits in the system ✔️
+b) 2 or 4
+c) 4
+d) 2
+
+
+24. What will be the output of the following C++ code?
+
+#include<iostream>
+using namespace std;
+int main ()
+{
+   int cin;
+   cin >> cin;
+   cout << "cin: " << cin;
+   return 0;
+}
+a) Segmentation fault
+b) Nothing is printed
+c) Error
+d) cin: garbage value✔️
+
+
+25. What is the use of the indentation in c++?
+a) r distinguishes between comments and inner data ✔️
+b) distinguishes between comments and outer data
+c) distinguishes between comments and code
+d) r distinguishes between comments and outer data
+
+
+26. Which is more effective while calling the C++ functions?
+a) call by object✔️
+b) call by pointer
+c) call by value
+d) call by reference
+
+
+27. What will be the output of the following C++ program?
+
+#include <iostream>
+#include <string>
+#include <cstring>
+using namespace std;
+int main(int argc, char const *argv[])
+{
+ 	const char *a = "Hello\0World";
+ 	cout<<a;
+ 	return 0;
+}
+a) Hello✔️
+b) World
+c) Error
+d) Hello World
+
+
+28. Which of the following is used to terminate the function declaration in C++?
+a) ;✔️
+b) ]
+c) )
+d) :
+
+
+29. What will be the output of the following C++ code?
+
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+        char c = 74;
+        cout << c;
+        return 0;
+    }
+a) I
+b) J ✔️
+c) A
+d) N
+
+
+30. What will be the output of the following C++ program?
+
+    #include <iomanip>
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+        cout << setprecision(17);
+        double d = 0.1;
+        cout << d << endl;
+        return 0;
+    }
+a) compile time error
+b) 0.100001
+c) 0.11
+d) 0.10000000000000001✔️
+
+
+31. Which keyword is used to define the macros in c++?
+a) #macro
+b) #define ✔️
+c) macro
+d) define
+
+
+32. What is the correct syntax of accessing a static member of a class in C++?
+
+---
+Example class:
+class A
+{
+ 	public:
+ 		static int value;
+}
+---
+a) A->value
+b) A^value
+c) A.value ✔️
+d) A::value
+
+
+33. The C++ code which causes abnormal termination/behaviour of a program should be written under _________ block.
+a) catch
+b) throw
+c) try ✔️
+d) finally
+
+
+34. What is Inheritance in C++?
+a) Deriving new classes from existing classes ✔️
+b) Overloading of classes
+c) Classes with same names
+d) Wrapping of data into a single class
+
+
+35. What will be the output of the following C++ code?
+
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+        int a = 5;
+        float b;
+        cout << sizeof(++a + b);
+        cout << a;
+        return 0;
+    }
+a) 2 5
+b) 4 5
+c) 4 6
+d) 2 6 ✔️
+
+
+36. Which of the following symbol is used to declare the preprocessor directives in C++?
+a) $
+b) ^
+c) # ✔️
+d) *
+
+
+37. What will be the output of the following C++ program?
+
+#include<iostream>
+using namespace std;
+int main()
+{
+ 	int a = 5;
+ 	auto check = [=]()
+        {
+ 		a = 10;
+ 	};
+ 	check();
+ 	cout<<"Value of a: "<<a<<endl;
+ 	return 0;
+}
+a) Segmentation fault
+b) Value of a: 5✔️
+c) Value of a: 10
+d) Error
+
+
+38. What will be the output of the following C++ code?
+
+#include <iostream>
+using namespace std;
+void square (int *x, int *y)
+{
+ 	*x = (*x) * --(*y);
+}
+int main ( )
+{
+ 	int number = 30;
+ 	square(&number, &number);
+ 	cout << number;
+ 	return 0;
+}
+a) 30
+b) Error
+c) Segmentation fault ✔️
+d) 870
+
+
+39. What is meant by a polymorphism in C++?
+a) class having only single form
+b) class having four forms
+c) class having many forms ✔️
+d) class having two forms
+
+
+40. What will be the output of the following C++ program?
+
+#include <iostream>
+#include <string>
+using namespace std;
+int main ()
+{
+  std::string str ("Sanfoundry.");
+  str.back() = '!';
+  std::cout << str << endl;
+  return 0;
+}
+a) Sanfoundry!
+b) Sanfoundry!.
+c) Sanfoundry.
+d) Sanfoundry.! ✔️
+
+
+41. Pick the incorrect statement about inline functions in C++?
+a) Saves overhead of a return call from a function
+b) They are generally very large and complicated function
+c) These functions are inserted/substituted at the point of call ✔️
+d) They reduce function call overheads
+
+
+42. What will be the output of the following C++ program?
+
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+        int n = 5;
+        void *p = &n;
+        int *pi = static_cast<int*>(p);
+        cout << *pi << endl;
+        return 0;
+    }
+a) 5
+b) 6
+c) compile time error ✔️
+d) runtime error
+
+
+43. What is abstract class in C++?
+a) Any Class in C++ is an abstract class
+b) Class from which any class is derived
+c) Class specifically used as a base class with atleast one virtual functions
+d) Class specifically used as a base class with atleast one pure virtual functions ✔️
+
+
+44. Which of the following constructors are provided by the C++ compiler if not defined in a class?
+a) Copy constructor
+b) Default constructor ✔️
+c) Copy Assignment Operator
+d) All of the mentioned
+
+
+45. What will be the output of the following C++ program?
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    try
+    {
+        try
+        {
+            throw 20;
+        }
+        catch (int n)
+        {
+            cout << "Inner Catch\n";
+            throw;
+        }
+    }
+    catch (int x)
+    {
+        cout << "Outer Catch\n";
+    }
+    return 0;
+}
+a) Outer Catch
+b)Inner Catch Outer Catch ✔️
+c) Error
+d) Inner Catch
+
+
+46. Which concept allows you to reuse the written code in C++?
+a) Inheritance ✔️
+b) Polymorphism
+c) Abstraction
+d) Encapsulation
+
+
+47. What will be the output of the following C++ code snippet?
+
+    #include <iostream>
+    using namespace std;
+    int operate (int a, int b)
+    {
+        return (a * b);
+    }
+    float operate (float a, float b)
+    {
+        return (a / b);
+    }
+    int main()
+    {
+        int x = 5, y = 2;
+        float n = 5.0, m = 2.0;
+        cout << operate(x, y) <<"\t";
+        cout << operate (n, m);
+        return 0;
+    }
+a) 10.0 5
+b) 10 2.5 ✔️
+c) 10.0 5.0
+d) 5.0 2.5
+
+
+48. How structures and classes in C++ differ?
+a) Structures by default hide every member whereas classes do not
+b) In Structures, members are public by default whereas, in Classes, they are private by default ✔️
+c) Structures cannot have private members whereas classes can have
+d) In Structures, members are private by default whereas, in Classes, they are public by default
+
+
+49. What will be the output of the following C++ code?
+
+    #include <iostream>
+    using namespace std;
+    int main ()
+    {
+        int a, b, c;
+        a = 2;
+        b = 7;
+        c = (a > b) ? a : b;
+        cout << c;
+        return 0;
+    }
+a) 12
+b) 14
+c) 6
+d) 7 ✔️
+
+
+50. What is the benefit of c++ input and output over c input and output?
+a) Both Type safety & Exception ✔️
+b) Sequence container
+c) Exception
+d) Type safety
+
+
+51. What will be the output of the following C++ code snippet?
+
+    #include <stdio.h>
+    #include<iostream>
+    using namespace std;
+    int main ()
+    {
+        int array[] = {0, 2, 4, 6, 7, 5, 3};
+        int n, result = 0;
+        for (n = 0; n < 8; n++)
+        {
+            result += array[n];
+        }
+        cout << result;
+        return 0;
+    }
+a) 21
+b) 27 ✔️
+c) 26
+d) 25
+
+
+52. What will be the output of the following C++ program?
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+    int main ()
+    {
+        string str ("Sanfoundry");
+        for (size_t i = 0; i < str.length();)
+        {
+            cout << str.at(i-1);
+        }
+        return 0;
+    }
+a) runtime error✔️
+b) Sanfo
+c) S
+d) Sanfoundry
+
+
+53. What will be the output of the following C++ program?
+
+#include <iostream>
+using namespace std;
+class A{
+public:
+ 	A(){
+ 		cout<<"Constructor called\n";
+ 	   }
+ 	~A(){
+ 		cout<<"Destructor called\n";
+ 	    }
+};
+int main(int argc, char const *argv[])
+{
+ 	A *a = new A[5];
+ 	delete[] a;
+ 	return 0;
+}
+a) Segmentation fault
+b) “Constructor called” five times and then “Destructor called” five times ✔️
+c) “Constructor called” five times and then “Destructor called” once
+d) Error
+
+
+====================================================================================================================================================================================================================================================================================================================
+
+# **CPP / OOPS – IMPORTANT MCQ TEST**
+
+### **1)** The OOPs concept in C++, exposing only necessary information to users or clients is known as
+
+A) Abstraction ✔️
+B) Encapsulation
+C) Data hiding 
+D) Hiding complexity
+
+---
+
+### **2)** Which of the following is an abstract data type?
+
+A) Class ✔️
+B) Int
+C) String
+D) Double
+
+---
+
+### **3)** Hiding the complexity is known as
+
+A) Abstraction ✔️
+B) Encapsulation
+C) Data hiding
+D) Composition
+
+---
+
+### **4)** For Cat and Animal class, correct way of inheritance is
+
+A) class Cat : public Animal
+B) class Animal : public Cat
+C) Both are correct way
+D) None is correct way ✔️
+
+---
+
+### **5)** In a class, encapsulating an object of another class is called
+
+A) Composition ✔️
+B) Inheritance
+C) Encapsulation 
+D) None
+
+---
+
+### **6)** Features not available in C++ object oriented programming is
+
+A) Virtual destructor 
+B) Virtual constructor
+C) Virtual function ✔️
+D) All  
+
+---
+
+### **7)** IS-A relationship in C++ is
+
+A) Inheritance ✔️
+B) Encapsulation
+C) Composition
+D) None
+
+---
+
+### **8)** If you want to write multiple functions in a class with same name, then what C++ feature will you use?
+
+A) Function overriding
+B) Encapsulation
+C) Function overloading 
+D) None ✔️
+
+---
+
+### **9)** Polymorphism types is/are
+
+A) Compile time
+B) Run time
+C) Both ✔️
+D) None
+
+---
+
+### **10)** If I want to have common functions in a class and want to defer implementations of some other functions to derived classes, then we need to use
+
+A) An interface
+B) An abstract class ✔️
+C) A friend class
+D) A static class
+
+---
+
+### **11)** Not using virtual destructor feature in a C++ object oriented programming can cause
+
+A) Memory leak ✔️
+B) An issue in creating object of the class
+C) An issue in calling base class destructor
+D) Nothing
+
+---
+
+### **12)** Which C++ oops feature is related to re-usability?
+
+A) Encapsulation
+B) Inheritance ✔️
+C) Abstraction
+D) None
+
+---
+
+### **13)** Correct way of creating an object of a class called Car is
+
+A) Car obj;
+B) Car *obj = new Car();
+C) Only B
+D) A & B both✔️
+
+---
+
+### **14)** In C++, class object created statically and dynamically are stored in memory
+
+A) Stack, heap ✔️
+B) Heap, heap
+C) Heap, stack
+D) Stack, stack
+
+---
+
+### **15)** True statement about class and structure in C++ is
+
+A) Default access specifier is private in class and public in structure ✔️
+B) Way of creating objects is different
+C) Way of inheriting is different
+D) None
+
+---
+
+### **16)** In C++ programming, cout is a/an
+
+A) Function ✔️
+B) Operator
+C) Object
+D) Macro
+
+---
+
+### **17)** Which is Abstract Data Type in C++
+
+A) Class ✔️
+B) Int
+C) Float
+D) Array
+
+---
+
+### **18)** Class allows only one object of it to be created throughout the program life cycle
+
+A) Singleton class ✔️
+B) Abstract class
+C) Friend class
+D) All classes
+
+---
+
+### **19)** Statically allocated object for class A in C++ is
+
+A) A *obj = new A();
+B) A obj;
+C) A obj = new A(); ✔️
+D) None
+
+---
+
+### **20)** When you create an object of a class A like `A obj;` then which one will be called automatically
+
+A) Constructor✔️
+B) Destructor
+C) Copy constructor
+D) Assignment operator
+
+---
+
+### **21)** When you create an object of a derived class in C++
+
+A) Derived constructor first
+B) Base constructor first ✔️
+C) Base constructor not called
+D) None
+
+---
+
+### **22)** The class in C++ which act only as a base class and object of it cannot be created is
+
+A) Parent class
+B) Super class
+C) Abstract class ✔️
+D) None
+
+---
+
+### **23)** Data members and member functions of a class in C++ are by default
+
+A) Protected
+B) Public
+C) Private ✔️
+D) None
+
+---
+
+### **24)** Which operator is used to allocate an object dynamically of a class in C++?
+
+A) Scope resolution
+B) Conditional
+C) New ✔️
+D) Membership access
+
+---
+
+### **25)** Which is used to define the member function of a class externally?
+
+A) :
+B) :: ✔️
+C) #
+D) None
+
+---
+
+### **26)** In C++, an object cannot be created for
+
+A) An interface
+B) An abstract class
+C) A singleton class
+D) A & B ✔️
+E) A, B & C
+
+---
+
+### **27)** By default functions available in C++ language are
+
+A) Constructor ✔️
+B) Destructor
+C) Copy constructor
+D) Assignment operator
+E) All
+
+---
+
+### **28)** Base class and derived class relationship comes under
+
+A) Inheritance ✔️
+B) Polymorphism
+C) Encapsulation
+D) None
+
+---
+
+### **29)** C++ inheritance relationship is
+
+A) Association
+B) Is-A ✔️
+C) Has-A
+D) None
+
+---
+
+### **30)** Types of inheritance in C++ are
+
+A) Multilevel
+B) Multiple
+C) Hierarchical
+D) All the above ✔️
+
+---
+
+### **31)** Inheritance allow in C++ Program?
+
+A) Class re-usability
+B) Creating hierarchy
+C) Extendibility
+D) All ✔️
+
+---
+
+### **32)** Functions that can be inherited from base class
+
+A) Constructor
+B) Destructor
+C) Static function ✔️
+D) None
+
+---
+
+### **33)** __________ members of base class are inaccessible to derived class
+
+A) Private ✔️
+B) Protected
+C) Public
+D) None
+
+---
+
+### **34)** Accessing functions from multiple classes to a derived class is known as
+
+A) Multiple inheritance
+B) Single inheritance
+C) Hybrid inheritance
+D) Multilevel inheritance ✔️
+ 
+---
+
+### **35)** Order of execution of destructors
+
+A) Base to derived
+B) Derived to base ✔️
+C) Random
+D) None
+
+---
+
+### **36)** Compile time polymorphism in C++
+
+A) Operator overloading
+B) Function overloading
+C) Function overriding
+D) B only
+E) A & B ✔️
+
+---
+
+### **37)** C++ abstract class can contain
+
+A) Pure virtual function✔️
+B) Non-virtual function
+C) Only pure virtual function
+D) Both
+
+---
+
+### **38)** False statement about function overloading
+
+A) Same name functions
+B) Different parameters
+C) Must use virtual keyword✔️
+D) None
+
+---
+
+### **39)** Keyword used before a function to be overridden
+
+A) override
+B) virtual
+C) void ✔️
+D) none
+
+---
+
+### **40)** Which cannot be overloaded in C++?
+
+A) Increment operator
+B) Constructor
+C) Destructor
+D) New & delete ✔️
+
+---
+
+### **41)** Correct declaration of pure virtual function
+
+A) virtual void func = 0;
+B) virtual void func() = 0;✔️
+C) virtual void func(){0};
+D) void func() = 0;
+
+---
+
+### **42)** Pure virtual functions are used
+
+A) To create interface
+B) To make class abstract✔️
+C) To force implementation
+D) All
+
+---
+
+### **43)** Which public member cannot be inherited?
+
+A) Constructor
+B) Destructor✔️
+C) Both
+D) Only B
+
+---
+
+### **44)** How many VPTR is created internally
+
+A) 0
+B) 1 ✔️
+C) 2
+D) 3
+
+---
+
+### **45)** Number of virtual tables created
+
+A) 0
+B) 1
+C) 2✔️
+D) 3
+
+---
+
+### **46)** Interface class in C++ is created by
+
+A) interface keyword ✔️
+B) Pure virtual function
+C) Both
+D) class keyword
+
+---
+
+### **47)** True statements about abstract class
+
+A) Has pure virtual function 
+B) Pointer can be created
+C) Object cannot be created
+D) All ✔️
+
+---
+
+### **48)** Run time polymorphism in C++ is
+
+A) New/delete overloading  ✔️
+B) ++/-- overloading
+C) :: overloading
+D) None
+
+---
+
+### **49)** Run time binding is related to
+
+A) Function overriding ✔️
+B) Operator overloading
+C) Both
+D) None
+
+---
+
+### **50)** Which function cannot be overloaded
+
+A) Constructor
+B) Destructor ✔️
+C) Both
+D) None
+
+---
+
+### **51)** Operators that can be overloaded
+
+A) New
+B) Delete
+C) ++ ✔️
+D) All
+
+---
+
+### **52)** Variables passed to function by
+
+A) Value
+B) Reference
+C) Pointer
+D) All ✔️
+
+---
+
+### **53)** Constant function declaration
+
+A) void display()
+B) void display() const
+C) const void display() ✔️
+D) void const display()
+
+---
+
+### **54)** Compiler provided default functions
+
+A) Copy constructor
+B) Assignment operator
+C) Constructor ✔️
+D) All
+
+---
+
+### **55)** Function called without object
+
+A) Static ✔️
+B) Inline
+C) Friend
+D) Constant
+
+---
+
+### **56)** Inline function statements
+class A{ public: }; void func1(){ } void func2(); inline void A::func2(){ }
+
+A) func1 only
+B) func2 only
+C) Both func1 and func2 ✔️
+D) None
+
+---
+
+### **57)** Function called without object
+
+A) Virtual
+B) Inline ✔️
+C) Static 
+D) Constant
+
+---
+
+### **58)** Correct default argument declaration
+
+A) int foo(int x, int y=5, int z=10)
+B) int foo(int x=5, int y=10, int z)✔️
+C) int foo(int x=5, int y, int z=10)
+D) All
+
+---
+
+### **59)** Which function cannot be overloaded
+
+A) Virtual
+B) Member
+C) Static ✔️
+D) All can
+
+---
+
+### **60)**
+
+```cpp
+void func(int a, int &b) {}
+int main(){
+int a,b;
+func(a,b);
+}
+```
+
+A) a → value, b → reference 
+B) a → reference, b → value
+C) a → value, b → address ✔️s
+D) a → value, b → pointer
+
+---
+
+==========================================================================================================================================================
 
 
 
@@ -250,49 +1479,4 @@ d) Must return `int`
 
 
 
-
-
-
-
-
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
-21.
-22.
-23.
-24.
-25.
-26.
-27.
-28.
-29.
-30.
-31.
-32.
-33.
-34.
-35.
-36.
-37.
-38.
-39.
-40.
 
