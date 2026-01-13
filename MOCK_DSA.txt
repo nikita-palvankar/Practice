@@ -3,19 +3,19 @@ DSA_PRACTICE_TEST_03
 Selection sort algorithm design technique is an example of 
 *
 1 point
-A. Greedy Method
+A. Greedy Method ✔️
 B. Divide and Conquer
 C. Dynamic programming
-D. Backtracking
+D. Backtracking  
 
   Which of the following are application of linked list?   
 *
 1 point
 A. It is used in the navigational systems where front and back navigation is
-required
+require 
 B. To  implement stacks and queues
 C. To implement Hash tables
-D. All of the above
+D. All of the above ✔️
 
 Which of the following statement(s) is/are correct regarding Bellman-Ford
 shortest path algorithm?
@@ -26,14 +26,14 @@ from the source.
 1 point
 A. Only I
 B. Both I and II
-C. Only II
-D. None of the above
+C. Only II ✔️
+D. None of the above 
 
 Suppose the numbers 80 110 120 60 40 70 90 100 85 are inserted in that order into an initially empty binary search tree. The binary search tree uses the usual ordering on natural numbers. What is the in-order traversal sequence of the resultant tree?   
 *
 1 point
 A. 80 60 40 70 110 90 85 100 120
-B. 40 60 70 80 85 90 100 110 120
+B. 40 60 70 80 85 90 100 110 120✔️
 C. 40 70 60 85 100 90 120 110 80
 D. 40 60 70 85 90 100 110 120 80
 
@@ -44,7 +44,7 @@ Which of the following is true about linked list implementation of queue?
 A. In push operation, if new nodes are inserted at the beginning of linked list, then in pop operation, nodes must be removed from end.
 2. B. In push operation, if new nodes are inserted at the end of linked list, then in pop operation, nodes must be removed from beginning.
 3. C. Queue data structure can be used to implement least recently used (LRU) page fault algorithm and Quick short algorithm.
-4. D. All of the above
+4. D. All of the above ✔️
 
 
 In binary tree if non-leaf node has non-empty left sub-tree and non-empty right sub-tree then such binary tree is called as ...........   
@@ -52,7 +52,7 @@ In binary tree if non-leaf node has non-empty left sub-tree and non-empty right 
 1 point
 A. Strictly binary tree
 B. Complete binary tree
-C. Full binary tree
+C. Full binary tree ✔️
 D. Skewed binary tree
 
 
@@ -61,7 +61,7 @@ D. Skewed binary tree
 1 point
 A. O(n)^2
 B. O(n) log n
-C. O(n)
+C. O(n)✔️
 D. O(n) (Log n)^2
 
 
@@ -71,7 +71,7 @@ How many undirected graphs (not necessarily connected) can be constructed out of
 A. n(n-1)/2
 B. 2^n
 C. n!
-D. 2^n(n-1)/2
+D. 2^n(n-1)/2✔️
 
 
 Which of the following algorithm design technique is used in Quick sort?   
@@ -80,13 +80,13 @@ Which of the following algorithm design technique is used in Quick sort?
 A. Greedy method
 B. Backtracking
 C. Dynamic programming
-D. Divide and Conquer
+D. Divide and Conquer✔️
 
 
 Which of the following implementation is correct to count the total number of nodes in singly circular linked-list?   
 *
 1 point
-A.  int count_node { int count= 0; node_t *trav = head; do { ++count;  trav = trav->next; }while( trav != head ); return count; }
+A.  int count_node { int count= 0; node_t *trav = head; do { ++count;  trav = trav->next; }while( trav != head ); return count; }✔️
 2. B. int count_node { int count= 0; node_t *trav = head; while( trav != NULL ) { ++count;  trav = trav->next; } return count; }
 3. C. int count_node { int count= 0; node_t *trav = head; while( trav != head ) {++count; trav = trav->next; } return count; }
 4. D. int count_node { int count= 0; node_t *trav = head; do { ++count;  trav = trav->next; }while( trav != NULL ); return count; }
@@ -96,7 +96,7 @@ What would be the time complexity of push and pop operation if, the stack implem
 *
 1 point
 A. O(1) for insertion    O(n) for deletion
-B. O(1) for insertion    O(1) for deletion
+B. O(1) for insertion    O(1) for deletion✔️
 C. O(n) for insertion    O(1) for deletion
 D. O(n) for insertion    O(n) for deletion
 
@@ -107,14 +107,14 @@ Which one of the following is an application of Graph Data Structure?
 A. Elctronic circuit simulation
 B. Path Optimization Algorithms.
 C. Scientific Computations
-D. All of the above
+D. All of the above✔️
 
 
 Prim's algorithm is a............  
 *
 1 point
 A. Divide and conquer algorithm
-B. Greedy algorithm
+B. Greedy algorithm✔️
 C. Dynamic programming
 D. Approximation algorithm
 
@@ -123,16 +123,16 @@ Given an undirected graph G with 5 vertices and 7 edges, the sum of the degrees 
 *
 1 point
 A. 7
-B. 5
+B. 5 
 C. 10
-D. 14
+D. 14 ✔️
 
 
 The time required to search an element in a linked list of length n is   
 *
 1 point
 A. O(log n)
-B. O(n)
+B. O(n)✔️
 C. O(1)
 D. O(n^2)
 
@@ -142,7 +142,7 @@ Which of the following is the disadvantage of the array?
 1 point
 A. If user wishes to store multiple values of similar type then the Array can be used and utilized efficiently.
 B. In arrays, the elements can be accessed randomly by using the index number.
-C. Insertion and deletion are quite difficult in an array as the elements are stored in consecutive memory locations and the shifting operation is costly.
+C. Insertion and deletion are quite difficult in an array as the elements are stored in consecutive memory locations and the shifting operation is costly.✔️
 D. Arrays allocate memory in contiguous memory locations for all its elements.
 
 
@@ -154,7 +154,7 @@ D. Arrays allocate memory in contiguous memory locations for all its elements.
 1 point
 A. Only I
 B. Both II and III
-C. Both I and III
+C. Both I and III✔️
 D. Only II
 
 
@@ -164,21 +164,23 @@ Which of the following is suitable data structure to implement priority queue?
 A. Graph
 B. Heap data structure
 C. Linked List
-D. Both B and C
+D. Both B and C✔️
 
 Is it possible to add node before specified node in a singly linked list?   
 *
 1 point
 A. Not possible
-B. yes, possible but need to traverse the corresponding list twice.
+B. yes, possible but need to traverse the corresponding list twice.✔️
 C. yes, possible by adding node after specified position and then by swapping the position.
 D. Both B and C
 
 
-If one dimentional array A[MAXSIZE] is used to implement two stacks provided two stacks grow from opposite ends of the array. Variables top1 and top2 (top1 < top 2) point to the location of the topmost element in each of the stacks, then which of the followings stetements must be true? I. If the space is to be used efficiently, the condition for stack full is top1= top2 -1 II. The condition for stack full is top1 + top2 = MAXSIZE  
+If one dimentional array A[MAXSIZE] is used to implement two stacks provided two stacks grow from opposite ends of the array. Variables top1 and top2 (top1 < top 2) point to the location of the topmost element in each of the stacks, then which of the followings stetements must be true?
+ I. If the space is to be used efficiently, the condition for stack full is top1= top2 -1 
+II. The condition for stack full is top1 + top2 = MAXSIZE  
 *
 1 point
-A. Only I is true
+A. Only I is true✔️
 B. Only II is true
 C. Both I and II are true
 D. Both I and II are false
@@ -189,7 +191,7 @@ What will be queue full condition for circular queue if implemented using static
 1 point
 A. rear==SIZE
 B. rear==SIZE-1
-C. (rear+1)%size==front
+C. (rear+1)%size==front✔️ 
 D. None of the above
 
 
@@ -197,7 +199,7 @@ Which of the following asymptotic notation is used represent lower bound?
 *
 1 point
 A. Big-Oh (O) Notation
-B. Big-Omega (Ω) notation
+B. Big-Omega (Ω) notation ✔️
 C. Big-Theta(Θ) notation
 D. None of the above
 
@@ -206,7 +208,7 @@ what would be the number of zeros in the adjacency matrix of given graph?(Some d
 1 point
 A. 10
 B. 6
-C. 16
+C. 16✔️
 D. 0
 
 
@@ -230,7 +232,7 @@ print(a);
 1 point
 A. Prints numbers from 0 to n-1
 B. Prints numbers from n-1 to 0
-C. Prints first n Fibonacci numbers
+C. Prints first n Fibonacci numbers✔️
 D. Prints first n Fibonacci numbers in reverse order.
 
 The result of evaluating postfix expression 539*74-/+62*- is   
@@ -238,7 +240,7 @@ The result of evaluating postfix expression 539*74-/+62*- is
 1 point
 A. 16
 B. 2
-C. -7
+C. -7✔️
 D. 3
 
 
@@ -246,7 +248,7 @@ Consider a situation where swap operation is very costly. Which of the following
 *
 1 point
 A. Heap Sort
-B. Selection sort
+B. Selection sort✔️
 C. Insertion sort
 D. Merge sort
 
@@ -255,7 +257,7 @@ D. Merge sort
 *
 1 point
 A. Inserting a new element in an linked-list of elements is easy as
-compared to array.
+compared to array.✔️
 B. The size of linked-list is fixed
 C. Extra memory space for a pointer is required with each element of the list
 D. Random access is not allowed.
@@ -266,7 +268,7 @@ D. Random access is not allowed.
 1 point
 A. A flowchart is a diagram while the pseudo code is written in any programming language
 2. B. A flowchart is textual but the pseudocode is a diagram
-3. C. A flowchart is a schematic description of an algorithm, while pseudo-code is a textual description of an algorithm, while pseudo-
+3. C. A flowchart is a schematic description of an algorithm, while pseudo-code is a textual description of an algorithm, while pseudo-✔️
 4. D. A flowchart and a pseudo-code are the same
 
 
@@ -281,7 +283,7 @@ Which of the following operation need to do after insertion of 70
 *
 1 point
 A. Rotate right and rotate left
-B. Rotate left and rotate right
+B. Rotate left and rotate right✔️
 C. Need to Rotate left twice
 D. Need to Rotate right twice
 
@@ -290,15 +292,17 @@ D. Need to Rotate right twice
 *
 1 point
 A.log(n)
-B. n
+B. n✔️
 C. n/2
 D. None of the above
 
 
- Which of the following statement is true about the complete binary tree? I. In complete binary tree, every level must be filled from left to right direction II. Every full binary tree can be considered as a complete binary tree but reverse is not true   
+ Which of the following statement is true about the complete binary tree? 
+I. In complete binary tree, every level must be filled from left to right direction 
+II. Every full binary tree can be considered as a complete binary tree but reverse is not true   
 *
 1 point
-A. Only I is true
+A. Only I is true✔️
 B. Only II is true
 C. Both I and II are True
 D. None of the above
@@ -310,7 +314,7 @@ Which of the following sorting algorithms in its typical implementation gives be
 A. Quick Sort
 B. Heap Sort
 C. Merge Sort
-D. Insertion sort
+D. Insertion sort✔️
 
 
 Which one of the following is an application of Queue Data Structure?   
@@ -319,14 +323,14 @@ Which one of the following is an application of Queue Data Structure?
 A. Spooling in printers
 B. Queues in routers/ switches
 C. Evaluation of Arithmetic Expressions
-E. Both A and B
+E. Both A and B✔️
 
 
   Dijkstra’s Algorithm cannot be applied on ............  
 *
 1 point
-A. Directed and weighted graphs
-B. Graphs having negative weight function
+A. Directed and weighted graphs 
+B. Graphs having negative weight function✔️
 C. Unweighted graphs
 D. Undirected and unweighted graphs
 
@@ -335,15 +339,15 @@ D. Undirected and unweighted graphs
 *
 1 point
 A. O(1)
-B. O(logn)
+B. O(logn) ✔️ 
 C. O(n)
-D. O(nlogn)
+D. O(nlogn) 
 
 
    ...............is an abstract data type that generalizes a queue, for which elements can be added to or removed from either the front or rear end  
 *
 1 point
-Double ended queue
+A. Double ended queue✔️
 B. Deck
 C. Deque
 E. Both A and C are correct
@@ -352,8 +356,8 @@ E. Both A and C are correct
    How many pointers need to modify to insert any element at the front of the singly linear linked-list.  
 *
 1 point
-A. 1
-B. 2
+A. 1 
+B. 2✔️
 C. 3
 D. 4
 
@@ -361,25 +365,37 @@ D. 4
 The __________________ data structure is used to check whether an arithmetic expression has balanced parenthesis or not   
 *
 1 point
-A. Queue
+A. Queue 
 B. List
 C. Tree
-D. Stack
+D. Stack✔️
 
 
   Which of the following is/are advantages of cicular linked list?   
 *
 1 point
-A.  We can traverse the whole list by starting from any point. We just need to stop when the first visited node is visited again.
-2. B.  Circular Doubly Linked Lists are used for implementation of advanced data structures like Fibonacci Heap.
-3. C. Only A
-4. D. Both A and B
+A.  We can traverse the whole list by starting from any point. We just need to stop when the first visited node is visited again. ✔️
+B.  Circular Doubly Linked Lists are used for implementation of advanced data structures like Fibonacci Heap.
+C. Only A
+D. Both A and B
 
 
  Merge Sort works on two principles   
 *
 1 point
 A. To sort smaller size array and to merge two already sorted array operations are not efficient.
-B. To sort smaller size array and to merge two already sorted array operations are efficient.
+B. To sort smaller size array and to merge two already sorted array operations are efficient. ✔️
 C. To sort smaller size array is efficient and to merge two already sorted array is not efficient.
 D. To sort smaller size array is not efficient and to merge two already sorted array is efficient.
+
+
+
+
+
+
+
+
+
+
+
+
