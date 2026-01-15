@@ -201,8 +201,561 @@ Web-based Java Programming – MCQ Review (with Answers)
 •	d) @Service
 
 ================================================================================================================================================
+================================================================================================================================================
 
 
+QuestionID  :  9345         Subject Name  Enterprise Java
+Q1. What Class.forName will do while loding drivers?
+1.  load the driver ✔️
+2.  create an instance of a driver
+3.  initialize the driver
+4.  register driver with the DriverManager 
+
+Your Answer : 4
+
+---
+
+QuestionID  :  9756         Subject Name  Enterprise Java
+Q2. Which is not a method of HttpServlet?
+1.  doSend
+2.  doPut
+3.  doOption
+4.  doDelete
+
+Your Answer : 1
+
+---
+
+QuestionID  :  9759         Subject Name  Enterprise Java
+Q3. Struts implements the MVC/Layers pattern through the use of ------and-------to keep control-flow decisions out of presentation layer.
+1.  ActionForward,ActionMapping ✔️
+2. ActionForward,ActionMapping,Actionform
+3. Actionjsp,ActionMapping
+4. ActionResponce,Actionjsp
+
+Your Answer : 1
+
+---
+
+QuestionID  :  9760         Subject Name  Enterprise Java
+Q4. Which statement is correct.
+1. The response from the server to a HEAD request consists of status line. Content type and the document.
+2. The response from server to GEt request does not contain document.
+3. The setStatus method defined in HttpServletRequest class takes an int as an argument and sets the status of the Http response.
+4.  HttpServletResponse defines consatnts like SC_NOT_FOUND that may be used as parameter to a setStatus method. ✔️
+
+Your Answer : 4
+
+---
+
+QuestionID  :  9809         Subject Name  Enterprise Java
+Q5. The idea behind the J2EE platform is to provide a simple,_____ standard
+for distributed application through a component-based application model.
+1.  effective
+2.  efficient
+3.  unified ✔️
+4.  None
+
+Your Answer : 2
+
+---
+
+QuestionID  :  10304         Subject Name  Enterprise Java
+Q6. The MIME stand for ___________________.
+1.  Multipurpose internet mail execution
+2.  Multipurpose internet method extension
+3.  Multipurpose internet mail extension ✔️
+4.  Multipurpose invalid mail extension
+ 
+Your Answer : 3
+
+---
+
+QuestionID  :  10313         Subject Name  Enterprise Java
+Q7. How Many Implicit Object In JSP?
+1.  6
+2.  7 ✔️
+3.  5
+4.  None Of Above
+
+Your Answer : 4
+
+---
+
+QuestionID  :  10318         Subject Name  Enterprise Java
+Q8. What is the key difference between using a < jsp:forward > and HttpServletResponse.sendRedirect()?
+1.  forward executes on the client while sendRedirect() executes on the server ✔️
+2.  forward executes on the server while sendRedirect() executes on the client
+3. The two methods perform identically.
+4.  none
+
+Your Answer : 2
+
+---
+
+QuestionID  :  10959         Subject Name  Enterprise Java
+Q9. An enterprise beans allowed to use Thread.sleep()
+FALSE ✔️
+Your Answer : true
+
+---
+
+QuestionID  :  10960         Subject Name  Enterprise Java
+Q10. Can we use constructor , instead of init(),to initialize servlet?
+
+Your Answer : true ✔️
+
+---
+
+QuestionID  :  12756         Subject Name  Enterprise Java
+Q11. When the ejbRemove method encounters a sysyem problem ,it should throw_________
+1.  javax.ejb.NoSuchEntityException
+2.  java.ejb.EJBException ✔️
+3.  java.ejb.RemoveException
+4.  javax.ejb.DuplicateKeyException
+
+Your Answer : 2
+
+---
+
+QuestionID  :  12802         Subject Name  Enterprise Java
+Q12. ___________ is a block of java code in JSP that is used define class-wide variables and methods in the generated class file
+1.  scriplets
+2.  declarations ✔️
+3.  element
+4.  expression
+
+Your Answer : 2
+
+---
+
+QuestionID  :  12803         Subject Name  Enterprise Java
+Q13. Which of the following is not an implicit object ?
+1.  date ✔️
+2.  request
+3.  out
+4.  pagecontext
+ 
+Your Answer : 1
+
+---
+
+QuestionID  :  12828         Subject Name  Enterprise Java
+Q14. An Enterprise JavaBeans can be deployed in _______
+1.  J2EE server
+2. Weblogic
+3. Web sphere
+4. All of the above ✔️
+
+Your Answer : 4
+
+---
+
+QuestionID  :  12838         Subject Name  Enterprise Java
+Q15. getLastModified method belongs to which interface ?
+1.  Servlet Interface
+2.  HttpServlet Interface ✔️
+3.  Generic Servlet
+4.  HttpServletRequest 
+
+Your Answer : 1
+
+---
+
+QuestionID  :  12839         Subject Name  Enterprise Java
+Q16. Consider the following HTML page code:
+
+< html > < body >
+< a href="/servlet/HelloServlet" >POST< /a >
+< /body >< /html >
+
+Which method of HelloServIet will be invoked when the hyperlink is clicked?
+1.  doGet ✔️
+2.  doPost
+3.  doHref
+4.  servicePost
+
+Your Answer : 1
+
+---
+
+QuestionID  :  12855         Subject Name  Enterprise Java
+Q17. A JSP page called test.jsp is passed a parameter name in the URL using [http://localhost/test.jsp?name="John](http://localhost/test.jsp?name=%22John)". The test.jsp contains the following code.
+
+< %! String myName=request.getParameter();% >
+< % String test= "welcome" + myName; % >
+< %= test% >
+
+1. The program prints "Welcome John"
+2. The program gives a syntax error because of the statement
+< %! String myName=request.getParameter();% > ✔️
+3. The program gives a syntax error because of the statement
+< % String test= "welcome" + myName; % >
+4. The program gives a syntax error because of the statement < %= test% >
+
+Your Answer : 2
+
+---
+
+QuestionID  :  12877         Subject Name  Enterprise Java
+Q18. Which of the following lines would you use to include the output of Data-Servlett into any other serviet
+
+ 1.  RequestDispatcher rd=request. getRequestDispatcher("/Bervlet/DataServlet"); rd.include(request, response) ✔️
+ 2.  RequestDispatcher rd = request .getRequest:Dispatcher("/servlet/DataSel•vlet");
+rd.include(response)
+ 3.  RequestDispatcher rd = request.geCRequestDispatcher();  
+rd.inelude("/servIet/DataServIet",reguest,response);
+ 4.  RequestDispatcher rd = request.getRequestDispatcher();  
+rd. include ("/servlet/Dataservlet" ,response)
+
+Your Answer : 1
+
+---
+
+QuestionID  :  12889         Subject Name  Enterprise Java
+Q19. The page directive is used to convey information about the page to JSP container. Which of these is legal syntax of page directive.
+1.  < % page info="test page" % >
+2.  < %@ page info="test page" session="false"% > ✔️
+3.  < %@ page isThreadSafe=true % >
+4.  < %@ page isErrorPage="errorPage.jsp" % >
+
+Your Answer :  2
+
+---
+
+QuestionID  :  12907         Subject Name  Enterprise Java
+Q20. Which of the elements defined within the taglib element of taglib descriptor file are required.
+1.  uri
+2.  jsp-version  ✔️
+3.  display-name
+4.  None
+
+Your Answer :  1
+
+---
+
+QuestionID  :  12911         Subject Name  Enterprise Java
+Q21. Name the element within the tag element that defines the tag class that implements the functionality of tag.
+1.  tag
+2.  tag-class ✔️
+3.  tag-name
+4.  tag-uri
+
+Your Answer :  2
+
+---
+
+QuestionID  :  12927         Subject Name  Enterprise Java
+Q22. Which of the following statements are correct about the status of the Http response.
+1.
+A status of 200 to 299 signifies that the request file has moved.
+2.
+A status of 300 to 399 is informational messages.
+3. 
+A status of 400 to 499 indicates an error in the client.  ✔️
+4.
+A status of 500 to 599 signifies that the request was successful.
+
+Your Answer :  3
+
+---
+
+QuestionID  :  12985         Subject Name  Enterprise Java
+Q23. Assuming custom tag being ABHISHEK and prefix being SUNBEAM the syntax for empty custom tag
+1.  < ABHISHEK: SUNBEAM / >
+2.  < SUNBEAM: ABHISHEK >
+3.  < ABHISHEK: SUNBEAM >< /ABHISHEK: SUNBEAM >
+4.  < SUNBEAM: ABHISHEK >< /SUNBEAM: ABHISHEK > ✔️
+
+Your Answer : 4
+
+---
+
+QuestionID  :  13011         Subject Name  Enterprise Java
+Q24. ___________ pattern enables improved network traffic and response time. Fewer remote calls are made and less data is passed back and forth
+1.  Value Objects ✔️
+2.  Data Access Objects
+3.  Facade
+4.  Business Delegate
+ 
+Your Answer :  1
+
+---
+
+QuestionID  :  13283         Subject Name  Enterprise Java
+Q25. You have a J2EE application in which the programmer did not follow the programming restrictions listed in the EJB specification. This means that the application will surely not function properly
+
+Your Answer : false ✔️
+
+---
+
+QuestionID  :  13288         Subject Name  Enterprise Java
+Q26. Which of the following of beans would survive a server crash
+1.  Entity beans ✔️
+2.  Stateless session beans
+3.  Stateful session beans
+4.  Message-driven beans
+
+Your Answer : 1
+
+---
+
+QuestionID  :  13317         Subject Name  Enterprise Java
+Q27. Which of the following statements are true about locating or using the home interface of a session bean
+1.  Once acquired, the home interface can be used only once
+2.  Each instance of a session bean has its own EJBHome object
+3. The InitialContext must be narrowed before it can be used to get the home interface
+4.  None of the above ✔️
+
+Your Answer :   3
+
+---
+
+QuestionID  :  13386         Subject Name  Enterprise Java
+Q28. Which of the following statements are correct about a session bean whose class
+contains the following method? public void ejbCreate (String id)
+1.  It is a Stateless session bean
+2.  The home interface of the bean has the method create (String id) declared in it ✔️
+3. The component interface of the bean has the method ejbCreate (Stringid) declared in it
+4.  None of the above
+
+Your Answer : 2
+
+---
+
+QuestionID  :  13448         Subject Name  Enterprise Java
+Q29. Which of the following methods belong to the SessionContext interface, directly or by inheritance
+1.  ejbCreate()
+2.  ejbActivate()
+3.  getRollbackOnly()
+4.  None of the above
+
+Your Answer :  3
+
+---
+
+QuestionID  :  13503         Subject Name  Enterprise Java
+Q30. What are valid methods for HttpSessionListener interface.
+1.  sessionRemoved
+2.  sessionDestroyed ✔️
+3.  sessionReCreated
+4.  sessionReplaced
+
+Your Answer : 2
+
+---
+
+QuestionID  :  13534         Subject Name  Enterprise Java
+Q31. Sites using HTTPS that is HTTP plus SSL(Secure Sockets Layer ) can be identified by
+1.
+There is no way one can detect that site uses HTTPS protocol
+2.
+The URL of the website begins with https: instead of http: ✔️
+3.
+The URL of the website begins with ssl: instead of http:
+4.
+The URL of the website begins with shttp:
+
+Your Answer : 2
+ 
+---
+
+QuestionID  :  13545         Subject Name  Enterprise Java
+Q32. isRequestedSessionIdFromCookie method checks whether the requested session id came in as cookie.
+
+Your Answer : true ✔️
+
+---
+
+QuestionID  :  15292         Subject Name  Enterprise Java
+Q33.
+An object which implements the interfaces java.rmi.Remote and java.io.Serializable is being sent as a method parameter from one JVM to another. How would it be sent by RMI?
+1.  RMI will serialize the object and send it.
+2.  RMI will send the stub of the object. ✔️
+3.  Either A or B Throws an exception.
+4.  None
+
+Your Answer : 2
+
+---
+
+QuestionID  :  15300         Subject Name  Enterprise Java
+Q34. In the JMS, message producers and message consumers are created by which of the following objects?
+1.  Connection Factories
+2.  Message Listeners
+3.  Connections
+4.  Sessions ✔️
+
+Your Answer : 4
+
+---
+
+QuestionID  :  15302         Subject Name  Enterprise Java
+Q35. To author a Session bean which of the following classes are needed?
+
+1.A Home interface, A Remote Interface, a class that implements Enterprisebean interface and a PrimaryKey class.
+2.A Home interface, A Remote Interface and a class that implements the SessionBean interface. ✔️
+3.A Remote Interface and a class that implements the SessionBean interface.
+4.A Home interface, A Remote Interface and a class that implements the EnterpriseBean interface.
+
+Your Answer :  2
+
+---
+
+QuestionID  :  15314         Subject Name  Enterprise Java
+Q36. What will happen if a transactional client invokes an enterprise Bean method whose transaction attribute is set to `Never` within a transaction context ?
+1. TransactionRequiredException is thrown to the client.
+2. TransactionNotSupportedException is thrown to the client.
+3. Transaction is suspended till the bean method is completed.
+4.  RemoteException is thrown to the client. ✔️
+
+Your Answer : 2
+---
+
+QuestionID  :  15651         Subject Name  Enterprise Java
+Q37. Which of the following statement is false regarding the exceptions in JDBC
+1.  SQLWarning objects are a subclass of SQLException that deal with database access warnings 
+2. Warnings stop the execution of an application, as exceptions do; they simply alert the user that something did not happen as planned ✔️
+3.  Connection object has a getWarning() method in it.
+4.  Statement and ResultSet objects have getWarning() methods in it.
+
+Your Answer : 2
+---
+
+QuestionID  :  15657         Subject Name  Enterprise Java
+Q38. JDBC-ODBC Bridge does not work with Microsoft J++, because it does not support
+1.  Java Native Interface ✔️
+2.  JNDI
+3.  JINI
+4.  None of the above
+
+Your Answer : 1
+---
+
+QuestionID  :  15659         Subject Name  Enterprise Java
+Q39. We can retrieve a whole row of data at once, instead of calling an individual ResultSet.getXXX method for each column
+
+Your Answer :  false ✔️
+
+---
+
+QuestionID  :  15661         Subject Name  Enterprise Java
+Q40. The JDBC-ODBC bridge is multithreaded
+TRUE ✔️
+Your Answer : false 
+
+---
+
+QuestionID  :  15805         Subject Name  Enterprise Java
+Q41. Which of the following files is the correct name and location of deployment descriptor of a web application. Assume that the web application is rooted at \doc-root. Select the one correct answer
+
+```
+ 1.  \doc-root\dd.xml  
+ 2.  \doc-root\web.xml  
+ 3.  \doc-root\WEB-INF\web.xml   ✔️
+ 4.  \doc-root\WEB_INF\dd.xml  
+```
+
+Your Answer : 3
+
+---
+
+QuestionID  :  15819         Subject Name  Enterprise Java
+Q42. Name the class that includes the getSession method that is used to get the HttpSession object
+1.  HttpServletRequest ✔️
+2.  HttpServletResponse 
+3.  SessionContext
+4.  SessionConfig
+
+Your Answer : 1
+
+---
+
+QuestionID  :  15825         Subject Name  Enterprise Java
+Q43. The EJB timer service is used for timing notifications. It can be used with
+1.  CMP entity beans
+2.  both BMP and CMP entity beans
+3.  message-driven beans ✔️
+4.  B and C
+
+Your Answer :  4
+
+---
+
+QuestionID  :  15840         Subject Name  Enterprise Java
+Q44. What does the EJB specification architecture define
+1. Transactional components
+2.  Distributed object components
+3.  Server-side components
+4. All of the above ✔️
+
+Your Answer : 4
+
+---
+
+QuestionID  :  15862         Subject Name  Enterprise Java
+Q45. How can I use JDBC to create a database?
+1.  Include create=true at end of JDBC URL
+2.  Execute "CREATE DATABASE jGuru" SQL statement
+3.  Execute "STRSQL" and "CREATE COLLECTION jGuru" SQL statements
+4.  Database creation is DBMS specific ✔️
+
+Your Answer : 4
+
+---
+
+QuestionID  :  15870         Subject Name  Enterprise Java
+Q46. When using a JavaBean to get all the parameters from a form, what must the property be set to (??? in the following code) for automatic initialization?
+
+< jsp:useBean id="fBean" class="govi.FormBean" scope="request"/>
+< jsp:setProperty name="fBean" property="???" />
+< jsp:forward page="/servlet/JSP2Servlet" />
+1.  * ✔️
+2.  all
+3.  @
+4.  =
+
+Your Answer : 1
+
+---
+
+QuestionID  :  15878         Subject Name  Enterprise Java
+Q47. Which of the following statements makes your compiled JSP page implement the SingleThreadModel interface
+1.  <%@ page isThreadSafe="false" %>
+2.  <%@ page isThreadSafe="true" %> ✔️
+3.  all of the above
+4.  none of the above
+
+Your Answer : 1
+
+---
+
+QuestionID  :  15915         Subject Name  Enterprise Java
+Q48. Which page directive attribute allows you to take care of possible thread conflicts?
+1.  session
+2.  extends
+3.  buffer
+4.  IsThreadSafe ✔️
+
+Your Answer : 4
+
+---
+
+QuestionID  :  15919         Subject Name  Enterprise Java
+Q49. The servlet response object receives results generated by the servlet and sends them back to the client that made the request.
+
+Your Answer : true ✔️
+
+---
+
+QuestionID  :  15960         Subject Name  Enterprise Java
+Q50. In the Model View Controller architecture of an enterprise application, which of the following can be "best suited" as the Controller?
+1.  Servlets
+2.  Java Server Page
+3.  Session Bean 
+4.  Option 1 and Option 3 ✔️
+
+Your Answer : 1
 
 
 
