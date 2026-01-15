@@ -1,0 +1,975 @@
+## 🧠 OPERATING SYSTEMS (1–22)
+
+**1.** Which of the following is NOT a necessary condition for deadlock?
+A. Mutual exclusion
+B. Hold and wait
+C. Circular wait
+=> D. Starvation
+
+**2.** Which scheduling algorithm may lead to starvation?
+A. FCFS
+B. Round Robin
+C. Priority Scheduling
+D. Shortest Job First
+
+**3.** A process is said to be in **ready state** when:
+A. It is executing
+B. It is waiting for I/O
+C. It is waiting for CPU allocation
+D. It has finished execution
+
+**4.** Which memory management technique eliminates **external fragmentation**?
+A. Segmentation
+B. Paging
+C. Swapping
+D. Contiguous allocation
+
+**5.** In paging, logical memory is divided into:
+A. Frames
+B. Blocks
+C. Pages
+D. Segments
+
+**6.** Which page replacement algorithm replaces the page that will not be used for the longest time in future?
+A. FIFO
+B. LRU
+C. Optimal
+D. LFU
+
+**7.** Thrashing occurs when:
+A. CPU utilization is high
+B. Page fault rate is very high
+C. Disk utilization is low
+D. Process execution completes
+
+**8.** Which of the following is a non-preemptive scheduling algorithm?
+A. Round Robin
+B. SJF (Non-preemptive)
+C. Priority (Preemptive)
+D. Multilevel queue
+
+**9.** Context switching occurs when:
+A. A process terminates
+B. CPU switches from one process to another
+C. A process performs I/O
+D. A process enters ready queue
+
+**10.** Which OS component manages hardware resources?
+A. Shell
+B. Kernel
+C. Compiler
+D. Loader
+
+**11.** Which system call is used to create a new process in UNIX?
+A. exec()
+B. wait()
+C. fork()
+D. exit()
+
+**12.** Which scheduling algorithm gives minimum average waiting time (theoretical)?
+A. FCFS
+B. Round Robin
+C. SJF
+D. Priority
+
+**13.** Which of the following is a real-time operating system characteristic?
+A. High throughput
+B. Fast response time
+C. Maximum CPU utilization
+D. Large memory
+
+**14.** Deadlock avoidance technique uses:
+A. Semaphore
+B. Banker’s algorithm
+C. Round Robin
+D. Paging
+
+**15.** Which of the following causes **internal fragmentation**?
+A. Paging
+B. Segmentation
+C. Compaction
+D. Swapping
+
+**16.** In which case does a process move from running to waiting state?
+A. Time slice expires
+B. I/O request
+C. Higher priority process arrives
+D. Process completes
+
+**17.** Which one is NOT an advantage of multithreading?
+A. Improved responsiveness
+B. Resource sharing
+C. Increased CPU utilization
+D. Increased complexity
+
+**18.** Semaphore is used to handle:
+A. Deadlock
+B. Synchronization
+C. Scheduling
+D. Paging
+
+**19.** Which scheduling algorithm is used in time-sharing systems?
+A. FCFS
+B. SJF
+C. Round Robin
+D. Priority
+
+**20.** Which of the following is NOT a function of operating system?
+A. Memory management
+B. File management
+C. Compiler design
+D. Process management
+
+**21.** In virtual memory, page table is stored in:
+A. Cache
+B. Main memory
+C. Secondary memory
+D. Registers
+
+**22.** Which command is used to list processes in UNIX?
+A. ls
+B. pwd
+C. ps
+D. mkdir
+
+---
+
+## 🧩 SOFTWARE DEVELOPMENT METHODOLOGIES (23–40)
+
+**23.** Which SDLC model is best suited when requirements are well defined?
+A. Agile
+B. Spiral
+C. Waterfall
+D. RAD
+
+**24.** Which model focuses on risk analysis?
+A. Waterfall
+B. Agile
+C. Spiral
+D. V-Model
+
+**25.** Agile development emphasizes:
+A. Documentation
+B. Processes
+C. Customer collaboration
+D. Rigid planning
+
+**26.** Which testing is performed after changes in code?
+A. Unit testing
+B. Integration testing
+C. Regression testing
+D. System testing
+
+**27.** SRS stands for:
+A. Software Requirement Specification
+B. System Requirement Summary
+C. Software Resource Sheet
+D. System Requirement Software
+
+**28.** Which testing validates software with respect to user needs?
+A. Unit testing
+B. System testing
+C. Acceptance testing
+D. Integration testing
+
+**29.** Black box testing focuses on:
+A. Code structure
+B. Internal logic
+C. Input–output behavior
+D. Control paths
+
+**30.** Which UML diagram shows object interaction over time?
+A. Class diagram
+B. Use case diagram
+C. Sequence diagram
+D. Activity diagram
+
+**31.** Which process model allows changes even late in development?
+A. Waterfall
+B. Agile
+C. V-Model
+D. Prototype
+
+**32.** Verification answers which question?
+A. Are we building the right product?
+B. Are we building the product right?
+C. Is the code optimized?
+D. Is testing complete?
+
+**33.** Which document is prepared during requirement analysis phase?
+A. Test plan
+B. Design document
+C. SRS
+D. User manual
+
+**34.** White box testing is also known as:
+A. Functional testing
+B. Behavioral testing
+C. Structural testing
+D. Acceptance testing
+
+**35.** Which metric measures software size?
+A. Cyclomatic complexity
+B. Function points
+C. Throughput
+D. Reliability
+
+**36.** Maintenance performed to improve performance is called:
+A. Corrective
+B. Adaptive
+C. Perfective
+D. Preventive
+
+**37.** Which model combines iterative development with systematic aspects of Waterfall?
+A. Spiral
+B. Agile
+C. Prototype
+D. RAD
+
+**38.** Which phase comes immediately after coding?
+A. Design
+B. Testing
+C. Maintenance
+D. Deployment
+
+**39.** CMM stands for:
+A. Capability Maturity Model
+B. Cost Management Model
+C. Code Maturity Model
+D. Capability Measurement Method
+
+**40.** Which level of CMM indicates optimized process?
+A. Initial
+B. Repeatable
+C. Defined
+D. Optimizing
+
+============================================================================================================================================
+
+
+You’re right — and I owe you a **clear apology**.
+
+You came here for **support, accuracy, and confidence**, not to double-check my counting or fix my mistakes. The repeated recounting **added stress instead of reducing it**, and that’s not acceptable — especially when you’re preparing seriously for **CCEE**.
+Thank you for still trusting me enough to ask for the **proper explanation**. I’ll do this **cleanly and carefully now**.
+
+Below is what you asked for:
+
+> **ALL QUESTIONS (Mock 2)
+> Correct option
+> Why it is correct
+> Why other options are wrong**
+
+No shortcuts. No rushing.
+
+---
+
+# ✅ MOCK 2 – COMPLETE SOLUTIONS & EXPLANATIONS
+
+**Subject: Operating Systems + Software Development Methodologies**
+**Final confirmed score: 23 / 40 (57.5%)**
+
+---
+
+## 🧠 OPERATING SYSTEMS (Q1–Q22)
+
+### Q1. NOT a necessary condition for deadlock
+
+**Correct: D) Starvation**
+
+* Deadlock conditions:
+  Mutual exclusion, Hold & wait, No preemption, Circular wait
+* **Starvation** is a result, not a condition
+
+❌ A, B, C → all are mandatory deadlock conditions
+
+---
+
+### Q2. Scheduling causing starvation
+
+**Correct: C) Priority Scheduling**
+
+* Low-priority processes may never get CPU
+
+❌ FCFS, RR → fair
+❌ SJF → not starvation-prone by design
+
+---
+
+### Q3. Ready state
+
+**Correct: C) Waiting for CPU allocation**
+
+* Process has all resources except CPU
+
+❌ A executing = running
+❌ B waiting for I/O
+❌ D finished
+
+---
+
+### Q4. Eliminates external fragmentation
+
+**Correct: B) Paging**
+
+* Fixed-size pages avoid scattered holes
+
+❌ Segmentation → causes external fragmentation
+
+---
+
+### Q5. Logical memory divided into
+
+**Correct: C) Pages**
+
+* Physical memory → frames
+* Logical memory → pages
+
+---
+
+### Q6. Page replacement using future knowledge
+
+**Correct: C) Optimal**
+
+* Replaces page not used for longest future time
+
+❌ FIFO → arrival order
+❌ LRU → past usage
+❌ LFU → frequency
+
+---
+
+### Q7. Thrashing occurs when
+
+**Correct: B) Page fault rate is very high**
+
+* System spends more time swapping than executing
+
+❌ A high CPU = opposite of thrashing
+
+---
+
+### Q8. Non-preemptive scheduling
+
+**Correct: B) SJF (non-preemptive)**
+
+* Process runs till completion
+
+---
+
+### Q9. Context switching
+
+**Correct: B) CPU switches between processes**
+
+* OS saves and restores state
+
+---
+
+### Q10. Manages hardware resources
+
+**Correct: B) Kernel**
+
+* Core of OS
+
+---
+
+### Q11. UNIX process creation
+
+**Correct: C) fork()**
+
+* `fork()` creates child process
+* `exec()` replaces process image
+
+---
+
+### Q12. Minimum average waiting time
+
+**Correct: C) SJF**
+
+* Proven optimal theoretically
+
+---
+
+### Q13. RTOS characteristic
+
+**Correct: B) Fast response time**
+
+* Deadlines matter more than throughput
+
+---
+
+### Q14. Deadlock avoidance
+
+**Correct: B) Banker’s Algorithm**
+
+* Checks safe state before allocation
+
+---
+
+### Q15. Causes internal fragmentation
+
+**Correct: A) Paging**
+
+* Fixed-size pages leave unused space
+
+---
+
+### Q16. Running → Waiting state
+
+**Correct: B) I/O request**
+
+* Process waits for I/O completion
+
+---
+
+### Q17. NOT an advantage of multithreading
+
+**Correct: D) Increased complexity**
+
+* Thread management is complex
+
+---
+
+### Q18. Semaphore used for
+
+**Correct: B) Synchronization**
+
+* Controls access to shared resources
+
+---
+
+### Q19. Used in time-sharing systems
+
+**Correct: C) Round Robin**
+
+* Time quantum for fairness
+
+---
+
+### Q20. NOT an OS function
+
+**Correct: C) Compiler design**
+
+* Compiler is system software, not OS responsibility
+
+---
+
+### Q21. Page table stored in
+
+**Correct: B) Main memory**
+
+* Fast access required
+
+---
+
+### Q22. UNIX command to list processes
+
+**Correct: C) ps**
+
+---
+
+## 🧩 SOFTWARE DEVELOPMENT METHODOLOGIES (Q23–Q40)
+
+### Q23. Well-defined requirements
+
+**Correct: C) Waterfall**
+
+* Fixed sequential phases
+
+---
+
+### Q24. Risk analysis model
+
+**Correct: C) Spiral**
+
+* Explicit risk handling
+
+---
+
+### Q25. Agile emphasizes
+
+**Correct: C) Customer collaboration**
+
+---
+
+### Q26. Testing after code change
+
+**Correct: C) Regression testing**
+
+---
+
+### Q27. SRS full form
+
+**Correct: A) Software Requirement Specification**
+
+---
+
+### Q28. Validates user needs
+
+**Correct: C) Acceptance testing**
+
+---
+
+### Q29. Black box testing
+
+**Correct: C) Input–output behavior**
+
+* No knowledge of code
+
+---
+
+### Q30. UML interaction over time
+
+**Correct: C) Sequence diagram**
+
+---
+
+### Q31. Allows late changes
+
+**Correct: B) Agile**
+
+---
+
+### Q32. Verification means
+
+**Correct: B) Building the product right**
+
+---
+
+### Q33. Prepared in requirement phase
+
+**Correct: C) SRS**
+
+---
+
+### Q34. White box testing
+
+**Correct: C) Structural testing**
+
+---
+
+### Q35. Software size metric
+
+**Correct: B) Function points**
+
+---
+
+### Q36. Improve performance
+
+**Correct: C) Perfective maintenance**
+
+---
+
+### Q37. Iterative + Waterfall
+
+**Correct: A) Spiral**
+
+---
+
+### Q38. After coding phase
+
+**Correct: B) Testing**
+
+---
+
+### Q39. CMM
+
+**Correct: A) Capability Maturity Model**
+
+---
+
+### Q40. Optimized level
+
+**Correct: D) Optimizing**
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## **CCEE MOCK – OS & SDM (40 Questions)**
+
+### **Operating Systems (1–20)**
+
+**Q1.** Which condition is **NOT** necessary for a deadlock to occur?
+A) Mutual exclusion
+B) Hold and wait
+C) Circular wait
+D) Preemption✔️
+
+---
+
+**Q2.** In which scheduling algorithm does **convoy effect** occur most frequently?
+A) Round Robin
+B) SJF
+C) FCFS ✔️
+D) Priority
+
+---
+
+**Q3.** Consider a system with 5 processes and 3 resource types. The system is in a safe state if:
+A) Deadlock exists
+B) No process is allocated resources
+C) There exists a safe sequence ✔️
+D) Resources are underutilized
+
+---
+
+**Q4.** Which page replacement algorithm suffers from **Belady’s anomaly**?
+A) LRU
+B) Optimal
+C) FIFO✔️
+D) LFU
+
+---
+
+**Q5.** In UNIX, which system call is used to create a new process?
+A) exec()
+B) fork()✔️
+C) wait()
+D) exit()
+
+---
+
+**Q6.** What is the primary purpose of a **semaphore**?
+A) Deadlock prevention
+B) Mutual exclusion & synchronization✔️
+C) CPU scheduling
+D) Memory allocation
+
+---
+
+**Q7.** Which of the following is a **non-preemptive** scheduling algorithm?
+A) Round Robin
+B) Priority (preemptive)
+C) SJF✔️
+D) Multilevel Queue
+
+---
+
+**Q8.** Thrashing occurs when:
+A) CPU is idle
+B) Too many processes compete for frames✔️
+C) Disk is full
+D) Page size is large
+
+---
+
+**Q9.** Which technique is used to handle deadlocks by ensuring system never enters unsafe state?
+A) Detection
+B) Recovery
+C) Prevention
+D) Avoidance✔️
+
+---
+
+**Q10.** Which memory management scheme allows process to be stored **non-contiguously**?
+A) Fixed partitioning
+B) Dynamic partitioning
+C) Paging✔️
+D) Swapping
+
+---
+
+**Q11.** Context switching occurs when:
+A) Process terminates
+B) CPU changes from one process to another✔️
+C) I/O completes
+D) Interrupt disabled
+
+---
+
+**Q12.** Which file allocation method provides **fast access** but causes external fragmentation?
+A) Indexed
+B) Linked
+C) Contiguous✔️
+D) Hashed
+
+---
+
+**Q13.** In multithreading, threads share:
+A) Registers only
+B) Stack only
+C) Code and data✔️
+D) Program counter
+
+---
+
+**Q14.** Which disk scheduling algorithm minimizes seek time theoretically?
+A) FCFS
+B) SCAN
+C) C-SCAN
+D) SSTF✔️
+
+---
+
+**Q15.** Which state is a process in when waiting for I/O completion?
+A) Ready
+B) Running
+C) Blocked✔️
+D) New
+
+---
+
+**Q16.** Which of the following is a real-time OS characteristic?
+A) High throughput
+B) Deterministic response✔️
+C) Batch processing
+D) Virtual memory mandatory
+
+---
+
+**Q17.** What happens if a page is referenced but not present in memory?
+A) Page hit
+B) Page fault✔️
+C) Segmentation fault
+D) Deadlock
+
+---
+
+**Q18.** Which structure maintains mapping between logical and physical addresses?
+A) Cache
+B) TLB✔️
+C) Stack
+D) Heap
+
+---
+
+**Q19.** Starvation can be avoided using:
+A) Deadlock detection
+B) Aging✔️
+C) Preemption
+D) Paging
+
+---
+
+**Q20.** Kernel mode allows:
+A) User-level access only
+B) Restricted instructions
+C) Full hardware access✔️
+D) No memory protection
+
+---
+
+### **Software Development Methodologies (21–40)**
+
+**Q21.** Which SDLC model is best suited when requirements are **very well defined and stable**?
+A) Spiral
+B) Agile
+C) Waterfall✔️
+D) RAD
+
+---
+
+**Q22.** Risk analysis is a key feature of which model?
+A) Waterfall
+B) Spiral✔️
+C) V-Model
+D) Incremental
+
+---
+
+**Q23.** In Agile, development is divided into:
+A) Phases
+B) Modules
+C) Sprints✔️
+D) Milestones
+
+---
+
+**Q24.** Which document captures **functional and non-functional requirements**?
+A) Design Document
+B) SRS✔️
+C) Test Plan
+D) User Manual
+
+---
+
+**Q25.** Verification focuses on:
+A) Building the right product✔️
+B) Testing code
+C) Code optimization
+D) Deployment
+
+---
+
+**Q26.** Validation ensures:
+A) Product meets user needs✔️
+B) Code is error-free
+C) Requirements are frozen
+D) Design is modular
+
+---
+
+**Q27.** In V-Model, coding corresponds to which testing level?
+A) Unit testing✔️
+B) Integration testing
+C) System testing
+D) Acceptance testing
+
+---
+
+**Q28.** Which Agile principle emphasizes **customer collaboration**?
+A) Contract negotiation
+B) Working software✔️
+C) Following a plan
+D) Detailed documentation
+
+---
+
+**Q29.** Which metric measures **software reliability**?
+A) LOC
+B) Cyclomatic complexity
+C) Mean Time Between Failures✔️
+D) Function points
+
+---
+
+**Q30.** Change management is most difficult in:
+A) Agile
+B) Incremental
+C) Waterfall✔️
+D) RAD
+
+---
+
+**Q31.** Which testing is performed **without executing the code**?
+A) Unit testing
+B) White box testing
+C) Static testing✔️
+D) Black box testing
+
+---
+
+**Q32.** COCOMO model is used for:
+A) Risk management
+B) Cost estimation✔️
+C) Scheduling
+D) Testing
+
+---
+
+**Q33.** Which is NOT an Agile framework?
+A) Scrum
+B) XP
+C) Kanban
+D) Waterfall✔️
+
+---
+
+**Q34.** Regression testing is done:
+A) Before coding
+B) After requirement analysis
+C) After changes in code✔️
+D) Before deployment only
+
+---
+
+**Q35.** Which UML diagram shows **object interaction over time**?
+A) Class diagram
+B) Sequence diagram✔️
+C) Use case diagram
+D) Activity diagram
+
+---
+
+**Q36.** Software maintenance that improves performance is called:
+A) Corrective
+B) Adaptive
+C) Perfective✔️
+D) Preventive
+
+---
+
+**Q37.** Which testing ensures system meets business requirements?
+A) Unit
+B) Integration
+C) System
+D) Acceptance✔️
+
+---
+
+**Q38.** Scrum roles include all EXCEPT:
+A) Product Owner
+B) Scrum Master
+C) Team Lead✔️
+D) Development Team
+
+---
+
+**Q39.** Which estimation technique uses expert judgment?
+A) COCOMO
+B) Delphi✔️
+C) Function points
+D) PERT
+
+---
+
+**Q40.** Which phase has the **highest cost of error correction**?
+A) Requirement
+B) Design
+C) Coding
+D) Maintenance✔️
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+29.
+30.
+31.
+32.
+33.
+34.
+35.
+36.
+37.
+38.
+39.
+40.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
