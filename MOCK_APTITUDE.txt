@@ -1,0 +1,299 @@
+Number of questions – 40      
+Each question carries 1 mark.  
+There is no negative marking. 
+Try to attempt all the questions in the allotted time.  
+
+1) If a + b = 10, ab = 25, then find the value of a3 + b3. 
+1. 200  
+2. 150    
+3. 250   
+4. 300  
+
+2) The sum of 4 consecutive two-digit odd numbers when divided by 10 becomes a perfect 
+square. Which of the following can be possibly one of the four numbers? 
+1. 21    
+2. 25      ✔️
+3. 41  
+4. 67 
+
+3) When 2256 is divided by 17 the remainder would be 
+1. 1   
+2. 16       
+3. 14   
+4. None of these ✔️
+
+4) It takes 6 technicians a total of 10 hours to build a new server from Direct Computer, with each working at the same rate. If six technicians start to build the server at 11.00 AM, and one technician per hour is added beginning at 5.00 PM, at what time will the server be complete? 
+1. 6:40pm   
+2. 8:00pm    ✔️
+3. 8:20pm   
+4. 9pm 
+
+5) Two pipes fill a tank in 8 and 12 hrs respectively, third pipe can empty the tank 6 hrs, they start at 1pm, 2pm and 3pm respectively then at what time tank will be filled? 
+1. 6 am  
+2. 7 am  
+3. 8 am  ✔️
+4. 9 am 
+
+6) A set Tn = {n, n + 1, n + 2, n + 3, n + 4} where n = 1, 2, …, 95, 96. How many of these sets 
+contain 6 or a multiple of 6? 
+1. 78   
+2. 79   
+3. 80   
+4. 81 ✔️
+
+Directions for Questions 7 to 8:
+Refer to the data below and answer the questions that follows. 
+All the roads of city Z are either perpendicular or parallel to one another. The roads are all straight. Road, A, B, C, D and E are parallel to one another. Roads G, H, I, H, J, K, L and M are parallel to one another. 
+i. Road A is 1 mile east of road B 
+ii. Road B is 1/2 mile west of C. 
+iii. Road D is 1 mile west of E. 
+iv. Road G is 1/2 mile south of H. 
+v. Road I is 1 mile north of J 
+vi. Road K is 1/2 mile north of L. 
+vii. Road K is 1 mile south of M 
+
+7. Which of the following statements is necessarily true? 
+(a) I is 1 mile north of L   
+(c) E and B intersect    
+(b) D is 2 miles west of B ✔️
+(d) M is 1.5 miles north of L 
+
+8. If E is midway between B and C, then which of the following statement is false? 
+(a) D is less than 1 mile from B. 
+(b) C is less than 1.5 miles from D. 
+(c) Distance from E to B added to distance of E to C is 1/2 mile. ✔️
+(d) D is 2 miles west of A 
+
+
+Directions for Questions 9 to 10: 
+Refer to the sequence below and answer the questions that 
+follow: 
+2 z 5 ? 9 t r 2 × m + 3 b 7 - S 
+
+9. How many even numbers are located in even places from left to right? 
+(a) Two   
+(b) Three   
+(c) One   ✔️
+(d) None of these 
+
+10. How many letters in the above sequence are immediately preceded as well as 
+immediately followed by numbers? 
+(a) One   
+(b) Two    ✔️
+(c) Three   
+(d) None of these 
+
+11. Fresh grapes contain 90% water, rest is pulp, while dried grapes contain 20% water. How many kgs of dried grapes can we make from 20 kgs of fresh grapes? 
+1. 2 kg  ✔️
+2. 1.6 kg  
+3. 2.5 kg  
+4. 2.4 kg 
+
+12. The length, breadth and height of a room are in the ratio 3:2:1. If the length and breadth are halved and the height is doubled, then the total area of the four walls will 
+1. remain the same  
+4.decrease by 18.75%  
+2. decrease by 13.64%  ✔️
+3. increase by 15% 
+
+13. A number which when divided by 3, 4 and 5 leaves remainders of 1, 3 and 4 respectively. Find the remainder when the same number is divided by 60. 
+1. 29  
+2. 59   
+3. 19   ✔️
+4. 9 
+
+DIRECTIONS for questions 14 to 15: 
+Each question consists of five statements followed by options consisting of three statements put together in a specific order. Choose the option which indicates a valid argument, that is, where the third statement is a conclusion drawn from the preceding two statements. 
+
+14. A. MBAs are in great demand. 
+B. Ram and Sita are in great demand. 
+C. Ram is in great demand. 
+D. Sita is in great demand. 
+E. Ram and Sita are MBAs. 
+1. ABE  ✔️
+2. ECD 
+3. AEB 
+4. EBA 
+
+15. A. Modern industry is technology driven. 
+B. BTI is a modern industry. 
+C. BTI is technology driven. 
+D. BTI may be technology driven. 
+E. Technology driven industry is modem. 
+1. ABC  ✔️
+2. ABD 
+3. BCA 
+4. EBC 
+
+
+16. In a party of 40 people, everyone shakes hands with all the other persons exactly once. What is the total number of handshakes happening? 
+1. 760  
+2. 780  
+3. 820 ✔️
+4. 1560 
+
+17. The difference between the CI and SI for two years at 30% p.a is Rs.72. Find the principal. 
+1. 500    
+2. 600  
+3. 700  
+4. 800 
+
+18.  Two cards are drawn together from a pack of 52 cards. The probability that one is a spade and one is a heart, is: 
+1. 7/202  
+2. 13/51  
+3. 5/404  
+4. 13/102 ✔️
+
+19. In how many different ways can the letters of the word 'OPTICAL' be arranged so that the vowels always come together? 
+1. 120   ✔️
+2. 720   
+3. 4320   
+4. 2160 
+
+20. In how many ways can a bowler take 4 wickets in a single over comprising of 6 balls? 
+1. 15   
+2. 4   ✔️
+3. 20   
+4. 360 
+
+21. A, B, C, D and E are sitting on a bench. A is sitting next to B, C is sitting next to D, D is not sitting with E who is on the left end of the bench. C is on the second position from the right. A is to the right of B and E. A and C are sitting together. In which position  is A sitting ?  e b a c d
+1. Between B and D    
+3. Between E and D    
+2. Between B and C  ✔️
+4. Between C and E 
+
+22. Six friends are sitting in a circle and are facing the centre of the circle. Virat is between Rohit and Ravindra. Hardik is between Rahul and Jasprit. Rohit and Rahul are opposite to each other. Who is sitting to the right to Rohit ? 
+1. Rahul  
+2. Virat 
+3. Ravindra  
+4. Jasprit ✔️
+
+23. Each of these questions is based on the following information: 
+1. M % N means M is the son of N. 
+2. M @ N means M is the sister of N. 
+3. M $ N means M is the father of N. 
+
+Which of the following shows the relation that C is the granddaughter of E? 
+1. C % B $ F $ E   
+3 .C @ B % F % E✔️   
+2. B $ F $ E % C 
+4. E % B $ F $ C 
+
+24. One morning Smriti and Harmanpreet were talking to each other face to face at a crossing. If Harmanpreet's shadow was exactly to the left of Smriti, which direction was Smriti facing? 
+1.East   
+2. West  
+3. North  
+4. South ✔️
+
+25. Two stations A and B are 110 km apart on a straight line. One train starts from A at 7 a.m. and travels towards B at 20 kmph. Another train starts from B at 8 a.m. and travels towards A at a speed of 25 kmph. At what time will they meet? 
+1. 9 a.m.  
+2. 10 a.m.  
+3. 10.30 a.m.  
+4. 11 a.m. 
+
+26. A train overtakes two persons walking along a railway track. The first one walks at 4.5 km/hr. The other one walks at 5.4 km/hr. The train needs 8.4 and 8.5 seconds respectively to overtake them. What is the speed of the train if both the persons are walking in the same direction as the train? 
+1. 66 km/hr  
+2. 75 km/hr  
+3. 78 km/hr  
+4. 81 km/hr 
+
+27. A watch which gains uniformly is 2 minutes low at noon on Monday and is 4 min. 48 sec fast at 2 p.m. on the following Monday. When was it correct? 
+1. 2 p.m. on Tuesday 
+2. 2 p.m. on Wednesday 
+3. 3 p.m. on Thursday 
+4. 1 p.m. on Friday 
+
+28. The angle between the minute hand and the hour hand of a clock when the time is 4.20, is: 
+1. 0°   
+2. 10°   
+3. 5°   
+4. 20° 
+
+29. A man rows to a place 48 km distant and come back in 14 hours. He finds that he can row 4 km with the stream in the same time as 3 km against the stream. The rate of the stream is: 
+1. 1 km/hr  
+2. 1.5 km/hr  
+3. 2 km/hr  
+4. 2.5 km/hr 
+
+30. A man can row three-quarters of a kilometre against the stream in 11.25 minutes and down the stream in 7.5 minutes. The speed (in km/hr) of the man in still water is: 
+1. 2   
+2. 3   
+3. 4   
+4. 5 
+
+31. If the average marks of three batches of 55, 60 and 45 students respectively is 50, 55, 60, then the average marks of all the students is: 
+1. 53.33   
+2. 54.68  
+3. 55   
+4. None of these 
+
+32. A train starts moving towards a city station at a speed of 48 km/hr at the same instant when a cop fires a gun from the station. If the train was stationary, a man in the train would have heard it after 5 minutes. But, as the train is moving towards the station, a man in the train is able to hear the gun shot after 4 minutes 48 seconds. The speed of sound in m/sec is 
+1. 300     
+2. 310         
+3. 320   
+4. 330 
+
+33. Bhola, traveling at a uniform speed on his bicycle, delivers milk at our place everyday at 6 a.m. On one particular day, when we wanted milk early, I started my scooter at 5:30 a.m. traveling at a uniform speed, I met Bhola on the way, collected the milk and returned home at 5:40 a.m. Find the ratio of my speed to that of the milkman. 
+1. 2:1   
+2. 5:2   
+3. 4:1   
+4. 5:1 
+
+34. Two candles of equal lengths but different thicknesses can burn completely in 6 and 4 hours respectively. What will be the ratio of their lengths at the end of 3 hours? 
+1. 1:2  
+2. 3:1   
+3. 2:1   
+4. 1:3 
+
+35. Shubhman can row to some place and come back in 8 hours. His upstream speed is 45 and the downstream speed is 90 kmph. What is the distance that he travels upstream? 
+1. 320 km  
+2. 240 km  
+3. 210 km  
+4. 270 km 
+
+36. . December 9, 2001 is Sunday. What was the day on December 9, 1971? 
+1. Thursday  
+2. Wednesday             
+3.  Saturday   
+4. Sunday 
+
+37. Instead of walking along two adjacent sides of a rectangular field, a boy took a short cut along the diagonal and saved a distance equal to half the longer side. Then the ratio of the shorter side to the longer side is: 
+1. 3/4  
+2. 2/3   
+3 1/4    
+4. 1/2 
+
+38. Siraj was asked to calculate the arithmetic mean of ten positive integers each of which had two digits. By mistake, he interchanged the two digits, say a and b, in one of these ten integers. As a result, his answer for the arithmetic mean was 1.8 more than what it should have been. Then b – a equals 
+1. 1   
+2. 2    
+3. 3    
+4. None of these 
+
+Directions for questions 39 to 40: 
+Each item is followed by two 
+statements, A and B. Answer each question using the following instructions. 
+Choose (1) if the question can be answered by one of the statements alone and not by the other. 
+Choose (2) if the question can be answered by using either statement alone. 
+Choose (3) if the question can be answered by using both the statements together, but cannot be 
+answered by using either statement alone. 
+Choose (4) if the question cannot be answered even by using both statements together. 
+
+39. . Committee member W wants to schedule a one-hour meeting on Thursday for himself and 
+three other committee members, X,Y, and Z, Is there a one-hour period on Thursday that is 
+open for all four members? 
+(1) On Thursday W and X have an open period from 9:00 a.m. to 12:00 noon. 
+(2) On Thursday Y has an open period from 10:00 a.m. to 1:00 p.m. and Z has an open period from 8:00 a.m. to 11:00 a.m.
+
+ 
+40. . If Yashaswi’s and Sanju’s annual salaries in 2025 were each 10 percent higher than their respective annual salaries in 2024, what was Yashaswi’s annual salary in 2024? 
+(1) The sum of Yashaswi’s and Sanju’s annual salaries in 2024 was 5,00,00,000. 
+(2) The sum of Yashaswi’s and Sanju’s annual salaries in 2025 was 5,50,00,000. 
+
+
+
+
+
+
+
+
+
+
