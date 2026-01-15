@@ -1465,7 +1465,7 @@ func(a,b);
 
 A) a → value, b → reference 
 B) a → reference, b → value
-C) a → value, b → address ✔️s
+C) a → value, b → address ✔️
 D) a → value, b → pointer
 
 ---
