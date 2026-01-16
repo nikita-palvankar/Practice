@@ -1,0 +1,1961 @@
+# 📝 BATCH 1 — QUESTIONS 1 to 40
+
+### Q1.
+
+Selection sort algorithm design technique is an example of:
+A. Greedy Method ✔️
+B. Divide and Conquer
+C. Dynamic Programming
+D. Backtracking
+
+### Q2.
+
+Which of the following are applications of linked list?
+A. Navigation systems (forward & backward)
+B. Implementation of stacks and queues
+C. Implementation of hash tables
+D. All of the above ✔️
+
+### Q3.
+
+Which data structure is used for implementing recursion?
+A. Queue
+B. Stack ✔️
+C. Linked List
+D. Tree
+
+### Q4.
+
+Which traversal of a binary tree gives sorted output for a BST?
+A. Preorder
+B. Postorder
+C. Inorder ✔️
+D. Level order
+
+### Q5.
+
+Time complexity of binary search algorithm is:
+A. O(n)
+B. O(log n) ✔️
+C. O(n log n)
+D. O(1)
+
+### Q6.
+
+Which data structure follows FIFO principle?
+A. Stack
+B. Tree
+C. Queue ✔️
+D. Graph
+
+### Q7.
+
+Which of the following sorting algorithms is stable?
+A. Selection Sort
+B. Heap Sort
+C. Bubble Sort ✔️
+D. Quick Sort
+
+### Q8.
+
+Which of the following is not a linear data structure?
+A. Array
+B. Stack
+C. Queue
+D. Graph ✔️
+
+### Q9.
+
+What is the maximum number of children a binary tree node can have?
+A. 1
+B. 2 ✔️
+C. 3
+D. Unlimited
+
+### Q10.
+
+Which algorithm technique is used in merge sort?
+A. Greedy
+B. Backtracking
+C. Divide and Conquer ✔️
+D. Dynamic Programming
+
+### Q11.
+
+Which data structure is best for implementing undo/redo operations?
+A. Queue
+B. Stack ✔️
+C. Tree
+D. Graph
+
+### Q12.
+
+Which of the following is an example of non-linear data structure?
+A. Stack
+B. Array
+C. Tree  ✔️
+D. Linked List
+
+### Q13.
+
+Which traversal is used in Depth First Search (DFS)?
+A. Level order
+B. Breadth first
+C. Preorder/Inorder/Postorder ✔️
+D. Circular
+
+### Q14.
+
+Worst-case time complexity of quick sort is:
+A. O(n log n)
+B. O(log n)
+C. O(n²)  ✔️
+D. O(n)
+
+### Q15.
+
+Which data structure is used in BFS algorithm?
+A. Stack
+B. Queue ✔️
+C. Tree
+D. Graph
+
+### Q16.
+
+Which sorting algorithm is based on heap data structure?
+A. Merge Sort
+B. Quick Sort
+C. Heap Sort ✔️
+D. Insertion Sort
+
+### Q17.
+
+Which of the following is not an application of stack?
+A. Function calls
+B. Expression evaluation
+C. Priority scheduling ✔️
+D. Undo operation
+
+### Q18.
+
+Which data structure is used to detect cycle in graph?
+A. Stack
+B. Queue
+C. Disjoint Set ✔️
+D. Tree
+
+### Q19.
+
+Which traversal technique is used in BFS?
+A. Stack
+B. Queue ✔️
+C. Recursion
+D. Priority Queue
+
+### Q20.
+
+Which of the following data structures allows duplicate elements?
+A. Set
+B. Stack
+C. Queue
+D. Both B and C ✔️
+
+### Q21.
+
+Which case gives best time complexity for quick sort?
+A. Sorted array
+B. Reverse sorted array
+C. Random data ✔️
+D. All cases same
+
+### Q22.
+
+Which data structure is used in topological sorting?
+A. Stack
+B. Queue
+C. Tree
+D. Graph ✔️
+
+### Q23.
+
+Which operation is not possible in singly linked list?
+A. Insertion at beginning
+B. Insertion at end
+C. Deletion at end
+D. Traversal backward ✔️
+
+### Q24.
+
+Which of the following is a self-balancing BST?
+A. Binary Tree
+B. AVL Tree ✔️
+C. Heap
+D. Graph
+
+### Q25.
+
+Which data structure is used to implement LRU cache?
+A. Stack
+B. Queue
+C. HashMap + Doubly Linked List ✔️
+D. Tree
+
+### Q26.
+
+Which sorting algorithm is best for nearly sorted data?
+A. Selection Sort
+B. Bubble Sort
+C. Insertion Sort ✔️
+D. Heap Sort
+
+### Q27.
+
+Which graph traversal uses stack internally?
+A. BFS
+B. DFS ✔️
+C. Prim’s
+D. Kruskal’s
+
+### Q28.
+
+Which data structure is used to represent hierarchical relationship?
+A. Array
+B. Stack
+C. Tree ✔️
+D. Queue
+
+### Q29.
+
+Which of the following is not a property of heap?
+A. Complete binary tree
+B. Heap property
+C. Sorted elements ✔️ 
+D. Parent dominates children
+
+### Q30.
+
+Which algorithm is used to find shortest path in weighted graph?
+A. BFS
+B. DFS
+C. Dijkstra ✔️
+D. Kruskal
+
+### Q31.
+
+Which sorting algorithm is in-place?
+A. Merge Sort
+B. Heap Sort ✔️
+C. Counting Sort
+D. Radix Sort
+
+### Q32.
+
+Which data structure is used in recursion?
+A. Queue
+B. Stack ✔️
+C. Heap
+D. Tree
+
+### Q33.
+
+Which of the following has best average time complexity?
+A. Bubble Sort
+B. Insertion Sort
+C. Merge Sort ✔️
+D. Selection Sort
+
+### Q34.
+
+Which operation is costliest in array?
+A. Access
+B. Search
+C. Insertion ✔️
+D. Deletion
+
+### Q35.
+
+Which of the following is used for priority scheduling?
+A. Stack
+B. Queue
+C. Priority Queue ✔️
+D. Linked List
+
+### Q36.
+
+Which data structure is used to store adjacency list of graph?
+A. Array
+B. Stack
+C. Queue
+D. Linked List ✔️
+
+### Q37.
+
+Which sorting algorithm uses minimum number of swaps?
+A. Selection Sort ✔️
+B. Bubble Sort
+C. Insertion Sort
+D. Quick Sort
+
+### Q38.
+
+Which of the following algorithm finds Minimum Spanning Tree?
+A. Dijkstra
+B. Bellman Ford
+C. Prim’s ✔️
+D. Floyd Warshall
+
+### Q39.
+
+Which data structure is used to evaluate postfix expression?
+A. Queue
+B. Stack  ✔️
+C. Tree
+D. Graph
+
+### Q40.
+
+Which of the following is not a characteristic of stack?
+A. LIFO
+B. Restricted access
+C. Dynamic size
+D. FIFO ✔️
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# 📝 BATCH 2 — QUESTIONS 41 to 80
+
+### Q41.
+
+Which normal form removes partial dependency?
+A. 1NF
+B. 2NF ✔️
+C. 3NF
+D. BCNF
+
+### Q42.
+
+Which SQL clause is used to filter groups?
+A. WHERE
+B. GROUP BY
+C. HAVING ✔️
+D. ORDER BY
+
+### Q43.
+
+Which key uniquely identifies a record in a table?
+A. Foreign key
+B. Candidate key
+C. Primary key ✔️ 
+D. Composite key
+
+### Q44.
+
+Which join returns matching rows from both tables only?
+A. Left join
+B. Right join
+C. Full join
+D. Inner join ✔️
+
+### Q45.
+
+Which command is used to remove all records from a table but keep structure?
+A. DELETE
+B. DROP
+C. TRUNCATE ✔️
+D. REMOVE
+
+### Q46.
+
+Which constraint ensures no duplicate values in a column?
+A. NOT NULL
+B. UNIQUE ✔️
+C. CHECK
+D. DEFAULT
+
+### Q47.
+
+Which SQL function returns number of rows?
+A. SUM()
+B. COUNT() ✔️
+C. AVG()
+D. MAX()
+
+### Q48.
+
+Which index improves performance of SELECT queries?
+A. Clustered 
+B. Non-clustered
+C. Both ✔️
+D. None
+
+### Q49.
+
+Which isolation level prevents dirty reads?
+A. Read uncommitted
+B. Read committed  ✔️
+C. Repeatable read
+D. Serializable
+
+### Q50.
+
+Which transaction property ensures database consistency?
+A. Atomicity
+B. Durability
+C. Isolation
+D. Consistency ✔️
+
+---
+
+### Q51.
+
+Which HTTP method is idempotent?
+A. POST 
+B. PUT✔️
+C. PATCH
+D. CONNECT
+
+### Q52.
+
+Which status code means “Not Found”?
+A. 200
+B. 301
+C. 404 ✔️
+D. 500
+
+### Q53.
+
+Which HTML tag is used to define an unordered list?
+A. `<ol>` 
+B. `<ul>`✔️
+C. `<li>`
+D. `<list>`
+
+### Q54.
+
+Which CSS property changes text color?
+A. background-color
+B. font-style
+C. color ✔️
+D. text-decoration
+
+### Q55.
+
+Which JavaScript keyword declares a constant?
+A. var
+B. let
+C. const ✔️
+D. static
+
+### Q56.
+
+Which event occurs when a button is clicked?
+A. onload
+B. onmouseover
+C. onclick✔️
+D. onchange
+
+### Q57.
+
+Which protocol is stateless?
+A. FTP
+B. HTTP ✔️
+C. SMTP
+D. TCP
+
+### Q58.
+
+Which tag is used to include JavaScript in HTML?
+A. `<js>`
+B. `<script>` ✔️
+C. `<javascript>`
+D. `<code>`
+
+### Q59.
+
+Which CSS layout is one-dimensional?
+A. Grid 
+B. Flexbox ✔️
+C. Table
+D. Float
+
+### Q60.
+
+Which JavaScript function converts JSON string to object?
+A. JSON.stringify()
+B. JSON.parse()✔️
+C. toObject()
+D. parseJSON()
+
+---
+
+### Q61.
+
+Which keyword is used to inherit a class in Java?
+A. implements
+B. inherits
+C. extends ✔️
+D. super
+
+### Q62.
+
+Which JVM component loads class files?
+A. JIT 
+B. Class Loader ✔️
+C. Garbage Collector
+D. Bytecode Verifier
+
+### Q63.
+
+Which access modifier allows visibility within same package only?
+A. private
+B. protected
+C. public
+D. default ✔️
+
+### Q64.
+
+Which collection does NOT allow duplicates?
+A. List
+B. Set✔️
+C. ArrayList
+D. Vector
+
+### Q65.
+
+Which exception is unchecked?
+A. IOException 
+B. SQLException
+C. NullPointerException ✔️
+D. ClassNotFoundException
+
+### Q66.
+
+Which keyword is used to handle exceptions?
+A. catch 
+B. throw
+C. throws
+D. All of the above ✔️
+
+### Q67.
+
+Which thread method pauses execution?
+A. start()
+B. run()
+C. sleep() ✔️
+D. stop()
+
+### Q68.
+
+Which package contains JDBC classes?
+A. java.sql ✔️
+B. java.io
+C. java.util
+D. java.net
+
+### Q69.
+
+Which interface is used for sorting objects?
+A. Comparator ✔️
+B. Serializable
+C. Runnable
+D. Cloneable
+
+### Q70.
+
+Which Java feature supports runtime polymorphism?
+A. Method overloading
+B. Method overriding✔️
+C. Encapsulation
+D. Abstraction
+
+---
+
+### Q71.
+
+Which .NET language is primarily used for web apps?
+A. VB.NET
+B. C++
+C. C#✔️
+D. F#
+
+### Q72.
+
+Which ASP.NET file defines routing and services?
+A. Startup.cs ✔️
+B. Program.cs
+C. Web.config
+D. Appsettings.json 
+
+### Q73.
+
+Which control displays tabular data in ASP.NET?
+A. Label
+B. GridView ✔️
+C. Button
+D. TextBox
+
+### Q74.
+
+Which ADO.NET object executes SQL commands?
+A. DataSet
+B. DataTable 
+C. DataReader
+D. Command ✔️
+
+### Q75.
+
+Which method opens database connection?
+A. start()
+B. connect()
+C. open()✔️
+D. begin()
+
+### Q76.
+
+Which LINQ method filters data?
+A. Select
+B. Where✔️
+C. OrderBy
+D. GroupBy
+
+### Q77.
+
+Which ASP.NET feature supports MVC pattern?
+A. Razor
+B. WebForms
+C. ASP.NET MVC✔️
+D. ADO.NET
+
+### Q78.
+
+Which HTTP verb is used to update data?
+A. GET
+B. POST 
+C. PUT ✔️
+D. TRACE
+
+### Q79.
+
+Which file stores app configuration in .NET Core?
+A. web.config
+B. appsettings.json ✔️
+C. config.xml
+D. settings.ini
+
+### Q80.
+
+Which keyword creates an object in C#?
+A. create
+B. alloc
+C. new ✔️
+D. init
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# 📝 **BATCH 3 — QUESTIONS 81 to 120**
+
+---
+
+### Q81.
+
+Which data structure is used to implement function call stack internally?
+A. Queue
+B. Heap
+C. Stack ✔️
+D. Tree
+
+---
+
+### Q82.
+
+Which SQL command is used to remove a table permanently?
+A. DELETE
+B. TRUNCATE
+C. DROP ✔️
+D. REMOVE
+
+---
+
+### Q83.
+
+Which HTTP method is **not idempotent**?
+A. GET
+B. PUT
+C. DELETE
+D. POST ✔️
+
+---
+
+### Q84.
+
+Which Java keyword is used to prevent inheritance?
+A. static
+B. private 
+C. final ✔️
+D. abstract
+
+---
+
+### Q85.
+
+Which .NET component manages memory automatically?
+A. CLR ✔️
+B. CTS
+C. JIT 
+D. CLS
+
+---
+
+### Q86.
+
+Which sorting algorithm has **best worst-case time complexity**?
+A. Quick Sort 
+B. Bubble Sort
+C. Merge Sort ✔️
+D. Selection Sort
+
+---
+
+### Q87.
+
+Which normal form removes **transitive dependency**?
+A. 1NF
+B. 2NF
+C. 3NF ✔️
+D. BCNF
+
+---
+
+### Q88.
+
+Which HTML attribute is used to open link in new tab?
+A. rel
+B. target ✔️
+C. href 
+D. action
+
+---
+
+### Q89.
+
+Which Java collection maintains **insertion order**?
+A. HashSet
+B. TreeSet
+C. LinkedHashSet ✔️
+D. PriorityQueue
+
+---
+
+### Q90.
+
+Which ADO.NET object provides **forward-only, read-only** access?
+A. DataSet
+B. DataTable
+C. DataAdapter
+D. DataReader✔️
+
+---
+
+### Q91.
+
+Which graph algorithm uses **greedy approach**?
+A. DFS
+B. BFS
+C. Prim’s✔️
+D. Bellman Ford
+
+---
+
+### Q92.
+
+Which CSS property controls element visibility without removing space?
+A. display
+B. opacity
+C. visibility ✔️
+D. position
+
+---
+
+### Q93.
+
+Which Java exception is checked?
+A. ArithmeticException
+B. NullPointerException
+C. IOException ✔️
+D. ArrayIndexOutOfBoundsException
+
+---
+
+### Q94.
+
+Which LINQ method returns **first matching element**?
+A. Where
+B. Select 
+C. First ✔️
+D. OrderBy
+
+---
+
+### Q95.
+
+Which data structure is best for implementing **undo operation**?
+A. Queue
+B. Stack✔️
+C. Tree
+D. Graph
+
+---
+
+### Q96.
+
+Which HTTP status code represents **Server Error**?
+A. 301
+B. 400
+C. 404 
+D. 500✔️
+
+---
+
+### Q97.
+
+Which JVM area stores class metadata?
+A. Heap
+B. Stack
+C. Method Area ✔️
+D. PC Register
+
+---
+
+### Q98.
+
+Which SQL constraint enforces referential integrity?
+A. UNIQUE
+B. CHECK
+C. PRIMARY KEY
+D. FOREIGN KEY✔️
+
+---
+
+### Q99.
+
+Which Java feature allows same method name with different parameters?
+A. Overriding
+B. Overloading✔️
+C. Inheritance
+D. Polymorphism
+
+---
+
+### Q100.
+
+Which ASP.NET feature allows embedding C# code in HTML?
+A. MVC
+B. WebForms
+C. Razor✔️
+D. ADO.NET
+
+---
+
+### Q101.
+
+Which traversal uses queue internally?
+A. DFS
+B. BFS✔️
+C. Inorder
+D. Postorder
+
+---
+
+### Q102.
+
+Which SQL clause is executed **after GROUP BY**?
+A. WHERE
+B. HAVING ✔️
+C. SELECT
+D. ORDER BY
+
+---
+
+### Q103.
+
+Which Java interface is implemented by all collections?
+A. List
+B. Set
+C. Map
+D. Collection✔️
+
+---
+
+### Q104.
+
+Which CSS unit is relative to parent element?
+A. px
+B. em✔️
+C. cm
+D. pt
+
+---
+
+### Q105.
+
+Which .NET file contains dependency configuration?
+A. web.config
+B. appsettings.json ✔️
+C. startup.cs
+D. launchSettings.json
+
+---
+
+### Q106.
+
+Which algorithm is used for cycle detection in graph?
+A. BFS
+B. DFS ✔️
+C. Dijkstra
+D. Prim’s
+
+---
+
+### Q107.
+
+Which SQL function returns highest value?
+A. MAX()✔️
+B. TOP()
+C. HIGH()
+D. GREATEST()
+
+---
+
+### Q108.
+
+Which Java keyword is used to call parent class constructor?
+A. parent
+B. this
+C. base
+D. super✔️
+
+---
+
+### Q109.
+
+Which HTTP header tells browser content type?
+A. Accept
+B. Content-Type✔️
+C. Host
+D. Authorization
+
+---
+
+### Q110.
+
+Which collection allows **key–value pairs**?
+A. List
+B. Set
+C. Map✔️
+D. Queue
+
+---
+
+### Q111.
+
+Which sorting algorithm is **not comparison-based**?
+A. Merge Sort
+B. Quick Sort
+C. Heap Sort
+D. Counting Sort✔️
+
+---
+
+### Q112.
+
+Which SQL join returns **all rows from left table**?
+A. Inner Join
+B. Right Join
+C. Left Join✔️
+D. Full Join
+
+---
+
+### Q113.
+
+Which Java stream method converts stream to list?
+A. map()
+B. collect() ✔️
+C. filter()
+D. reduce() 
+
+---
+
+### Q114.
+
+Which ASP.NET Core middleware handles routing?
+A. UseMvc
+B. UseEndpoints ✔️
+C. UseStaticFiles
+D. UseAuthorization
+
+---
+
+### Q115.
+
+Which data structure is used in **expression evaluation**?
+A. Queue
+B. Stack✔️
+C. Tree
+D. Graph
+
+---
+
+### Q116.
+
+Which CSS property controls flex direction?
+A. flex-wrap 
+B. justify-content
+C. align-items
+D. flex-direction ✔️
+
+---
+
+### Q117.
+
+Which Java keyword is used to create object?
+A. alloc
+B. new✔️
+C. create
+D. init
+
+---
+
+### Q118.
+
+Which SQL statement is DDL?
+A. SELECT
+B. INSERT
+C. UPDATE
+D. CREATE ✔️
+
+---
+
+### Q119.
+
+Which .NET component converts IL to native code?
+A. CLR
+B. CTS
+C. JIT ✔️
+D. CLS 
+
+---
+
+### Q120.
+
+Which HTTP method is used to retrieve data?
+A. POST
+B. PUT
+C. GET ✔️
+D. PATCH
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 📝 **FINAL BATCH — REMAINING QUESTIONS (Q121 onward)**
+
+
+### Q121.
+
+Which data structure is used to implement recursion internally?
+A. Queue
+B. Heap
+C. Stack ✔️
+D. Tree
+
+---
+
+### Q122.
+
+Which SQL command removes all rows but can be rolled back?
+A. DROP
+B. TRUNCATE 
+C. DELETE ✔️
+D. REMOVE
+
+---
+
+### Q123.
+
+Which HTTP method is used to partially update a resource?
+A. PUT 
+B. PATCH ✔️
+C. POST
+D. GET
+
+---
+
+### Q124.
+
+Which Java keyword makes a variable constant?
+A. static
+B. final ✔️
+C. const 
+D. immutable
+
+---
+
+### Q125.
+
+Which .NET collection is type-safe and dynamic?
+A. Array
+B. Hashtable
+C. ArrayList
+D. List<T>✔️
+
+---
+
+### Q126.
+
+Which sorting algorithm works on **divide and conquer** principle?
+A. Insertion Sort
+B. Bubble Sort
+C. Merge Sort ✔️
+D. Selection Sort
+
+---
+
+### Q127.
+
+Which normal form removes **multi-valued dependency**?
+A. 1NF
+B. 2NF
+C. 3NF
+D. 4NF ✔️
+
+---
+
+### Q128.
+
+Which HTML tag is used to embed video?
+A. `<media>`
+B. `<video>`  ✔️
+C. `<embed>`
+D. `<movie>`
+
+---
+
+### Q129.
+
+Which Java collection is synchronized?
+A. ArrayList
+B. HashSet
+C. Vector ✔️
+D. LinkedList
+
+---
+
+### Q130.
+
+Which ADO.NET object acts as a bridge between DataSet and database?
+A. DataReader
+B. DataAdapter ✔️
+C. DataTable 
+D. Command
+
+---
+
+### Q131.
+
+Which algorithm is used to find **shortest path in weighted graph**?
+A. BFS
+B. DFS
+C. Dijkstra  ✔️
+D. Prim’s 
+
+---
+
+### Q132.
+
+Which CSS property is used to make element invisible and remove space?
+A. visibility
+B. opacity 
+C. display ✔️
+D. z-index
+
+---
+
+### Q133.
+
+Which Java exception must be handled at compile time?
+A. ArithmeticException 
+B. NullPointerException
+C. IOException ✔️
+D. ArrayIndexOutOfBoundsException
+
+---
+
+### Q134.
+
+Which LINQ method sorts data?
+A. Where
+B. Select
+C. OrderBy ✔️
+D. GroupBy
+
+---
+
+### Q135.
+
+Which data structure is used in **level-order traversal**?
+A. Stack
+B. Queue ✔️
+C. Tree
+D. Graph
+
+---
+
+### Q136.
+
+Which HTTP status code means **Bad Request**?
+A. 200
+B. 301 
+C. 400✔️
+D. 500
+
+---
+
+### Q137.
+
+Which JVM component verifies bytecode?
+A. Class Loader
+B. Bytecode Verifier ✔️
+C. JIT
+D. Garbage Collector
+
+---
+
+### Q138.
+
+Which SQL constraint prevents NULL values?
+A. UNIQUE
+B. CHECK
+C. NOT NULL ✔️
+D. PRIMARY KEY
+
+---
+
+### Q139.
+
+Which Java concept binds data and methods together?
+A. Inheritance
+B. Polymorphism
+C. Encapsulation✔️
+D. Abstraction
+
+---
+
+### Q140.
+
+Which ASP.NET Core file contains middleware pipeline?
+A. Program.cs ✔️
+B. Startup.cs
+C. appsettings.json
+D. launchSettings.json
+
+---
+
+### Q141.
+
+Which collection does NOT maintain insertion order?
+A. LinkedHashSet
+B. TreeSet
+C. HashSet ✔️
+D. Vector
+
+---
+
+### Q142.
+
+Which SQL clause sorts the result set?
+A. GROUP BY
+B. ORDER BY ✔️
+C. HAVING
+D. WHERE
+
+---
+
+### Q143.
+
+Which Java keyword is used to inherit an interface?
+A. extends
+B. implements ✔️
+C. inherits
+D. interface
+
+---
+
+### Q144.
+
+Which .NET component provides language interoperability?
+A. CLR
+B. CTS
+C. CLS✔️
+D. JIT
+
+---
+
+### Q145.
+
+Which data structure is used for **priority scheduling**?
+A. Stack
+B. Queue
+C. Priority Queue ✔️
+D. Linked List
+
+---
+
+### Q146.
+
+Which CSS layout system is two-dimensional?
+A. Flexbox
+B. Float
+C. Grid✔️
+D. Table
+
+---
+
+### Q147.
+
+Which SQL statement is used to change table structure?
+A. UPDATE
+B. ALTER✔️
+C. MODIFY
+D. CHANGE
+
+---
+
+### Q148.
+
+Which Java feature allows runtime method resolution?
+A. Overloading
+B. Overriding ✔️
+C. Abstraction
+D. Encapsulation
+
+---
+
+### Q149.
+
+Which HTTP method is safe and idempotent?
+A. POST
+B. PUT 
+C. DELETE
+D. GET ✔️
+
+---
+
+### Q150.
+
+Which .NET keyword is used to handle exceptions?
+A. try
+B. catch
+C. throw
+D. All of the above ✔️
+
+---
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+***   FULL INCORRECT QUESTIONS  -->  ***
+
+
+## 🧠 DSA (Batch 1 mistakes)
+
+**Q1.** Selection sort algorithm design technique is an example of:
+A. Greedy Method  ✔️
+B. Divide and Conquer
+C. Dynamic Programming
+D. Backtracking
+
+---
+
+**Q2.** Which data structure follows FIFO principle?
+A. Stack
+B. Tree
+C. Queue ✔️
+D. Graph
+
+---
+
+**Q3.** Which data structure is used to detect cycle in graph?
+A. Stack
+B. Queue
+C. Disjoint Set ✔️
+D. Tree
+
+---
+
+**Q4.** Which traversal technique is used in BFS?
+A. Stack
+B. Queue ✔️
+C. Recursion
+D. Priority Queue
+
+---
+
+**Q5.** Which case gives best time complexity for quick sort?
+A. Sorted array
+B. Reverse sorted array
+C. Random data ✔️
+D. All cases same
+
+---
+
+**Q6.** Which data structure is used in topological sorting?
+A. Stack
+B. Queue 
+C. Tree 
+D. Graph ✔️
+
+---
+
+**Q7.** Which algorithm is used to find shortest path in weighted graph?
+A. BFS
+B. DFS
+C. Dijkstra ✔️
+D. Kruskal
+
+---
+
+---
+
+## 🗄️ DATABASE (Batch 2 + 4 mistakes)
+
+**Q8.** Which isolation level prevents dirty reads?
+A. Read uncommitted
+B. Read committed ✔️
+C. Repeatable read
+D. Serializable
+
+---
+
+**Q9.** Which SQL command removes all rows but **can be rolled back**?
+A. DROP
+B. TRUNCATE
+C. DELETE ✔️
+D. REMOVE
+
+---
+
+**Q10.** Which normal form removes **multi-valued dependency**?
+A. 1NF
+B. 2NF
+C. 3NF
+D. 4NF ✔️
+
+---
+
+**Q11.** Which SQL clause is executed **after GROUP BY**?
+A. WHERE
+B. HAVING ✔️
+C. SELECT
+D. ORDER BY
+
+---
+
+**Q12.** Which SQL constraint enforces referential integrity?
+A. UNIQUE
+B. CHECK
+C. PRIMARY KEY
+D. FOREIGN KEY ✔️
+
+---
+
+---
+
+## 🌐 WEB / HTTP (Batch 2 + 3 + 4 mistakes)
+
+**Q13.** Which HTTP method is **not idempotent**?
+A. GET 
+B. PUT 
+C. DELETE
+D. POST   ✔️
+
+---
+
+**Q14.** Which HTTP method is used to **partially update** a resource?
+A. PUT
+B. PATCH ✔️
+C. POST
+D. GET
+
+---
+
+**Q15.** Which HTTP method is **safe and idempotent**?
+A. POST
+B. PUT
+C. DELETE
+D. GET ✔️
+
+---
+
+**Q16.** Which HTTP status code represents **Bad Request**?
+A. 200
+B. 301
+C. 400 ✔️
+D. 500
+
+---
+
+**Q17.** Which HTTP status code represents **Server Error**?
+A. 301
+B. 400
+C. 404
+D. 500 ✔️
+
+---
+
+---
+
+## ☕ JAVA (Batch 2 + 3 + 4 mistakes)
+
+**Q18.** Which Java exception is **checked**?
+A. ArithmeticException
+B. NullPointerException
+C. IOException ✔️
+D. ArrayIndexOutOfBoundsException
+
+---
+
+**Q19.** Which JVM area stores **class metadata**?
+A. Heap
+B. Stack
+C. Method Area ✔️
+D. PC Register
+
+---
+
+**Q20.** Which Java keyword makes a variable constant?
+A. static
+B. final ✔️
+C. const
+D. immutable
+
+---
+
+**Q21.** Which Java collection is synchronized by default?
+A. ArrayList
+B. HashSet
+C. Vector ✔️
+D. LinkedList
+
+---
+
+---
+
+## ⚙️ .NET (Batch 3 + 4 mistakes)
+
+**Q22.** Which ADO.NET object acts as a bridge between DataSet and database?
+A. DataReader
+B. DataAdapter ✔️
+C. DataTable
+D. Command 
+
+---
+
+**Q23.** Which .NET file defines the middleware pipeline?
+A. Program.cs ✔️
+B. appsettings.json
+C. web.config
+D. launchSettings.json
+
+---
+
+**Q24.** Which .NET component provides language interoperability?
+A. CLR
+B. CTS
+C. CLS ✔️
+D. JIT
+
+---
+
+---
+
+## 🎨 CSS / HTML (Batch 3 + 4 mistakes)
+
+**Q25.** Which CSS property makes an element invisible **and removes space**?
+A. visibility
+B. opacity
+C. display ✔️
+D. z-index
+
+---
+
+**Q26.** Which HTML tag is used to embed video in HTML5?
+A. `<embed>`
+B. `<media>`
+C. `<video>` ✔️
+D. `<movie>`
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 🔁 REMAINING INCORRECT QUESTIONS — FINAL RE-ATTEMPT MOCK
+
+
+## 🧠 DSA (Remaining mistakes)
+
+**Q1.** Which data structure allows duplicate elements?
+A. Set
+B. Stack
+C. Queue
+D. Both B and C✔️
+
+---
+
+**Q2.** Which data structure is used in BFS algorithm?
+A. Stack
+B. Queue ✔️
+C. Tree
+D. Graph
+
+---
+
+**Q3.** Which sorting algorithm is in-place?
+A. Merge Sort
+B. Heap Sort ✔️
+C. Counting Sort
+D. Radix Sort
+
+---
+
+**Q4.** Which operation is costliest in an array?
+A. Access
+B. Search
+C. Insertion ✔️
+D. Deletion
+
+---
+
+**Q5.** Which sorting algorithm uses minimum number of swaps?
+A. Selection Sort ✔️
+B. Bubble Sort
+C. Insertion Sort 
+D. Quick Sort
+
+---
+
+**Q6.** Which data structure is used to store adjacency list of graph?
+A. Array
+B. Stack
+C. Queue
+D. Linked List ✔️
+
+---
+
+**Q7.** Which algorithm finds Minimum Spanning Tree?
+A. Dijkstra
+B. Bellman Ford
+C. Prim’s ✔️
+D. Floyd Warshall
+
+---
+
+## 🗄️ DATABASE (Remaining mistakes)
+
+**Q8.** Which transaction isolation level prevents dirty reads?
+A. Read Uncommitted
+B. Read Committed ✔️
+C. Repeatable Read
+D. Serializable
+
+---
+
+**Q9.** Which SQL command permanently removes a table structure?
+A. DELETE
+B. TRUNCATE 
+C. DROP ✔️
+D. REMOVE
+
+---
+
+**Q10.** Which SQL function returns number of rows?
+A. SUM()
+B. COUNT() ✔️
+C. AVG()
+D. MAX()
+
+---
+
+**Q11.** Which index improves SELECT query performance?
+A. Clustered
+B. Non-clustered
+C. Both ✔️
+D. None
+
+---
+
+**Q12.** Which normal form removes partial dependency?
+A. 1NF
+B. 2NF ✔️
+C. 3NF
+D. BCNF
+
+---
+
+## 🌐 WEB / HTML / CSS (Remaining mistakes)
+
+**Q13.** Which HTTP method is idempotent?
+A. POST
+B. PUT ✔️
+C. PATCH
+D. CONNECT
+
+---
+
+**Q14.** Which HTTP status code means “Not Found”?
+A. 200
+B. 301
+C. 404 ✔️
+D. 500
+
+---
+
+**Q15.** Which HTML tag defines unordered list?
+A. `<ol>`
+B. `<ul>` ✔️
+C. `<li>`
+D. `<list>`
+
+---
+
+**Q16.** Which CSS layout is one-dimensional?
+A. Grid
+B. Flexbox ✔️
+C. Table
+D. Float
+
+---
+
+**Q17.** Which JavaScript function converts JSON string to object?
+A. JSON.stringify()
+B. JSON.parse() ✔️
+C. toObject() 
+D. parseJSON()
+
+---
+
+## ☕ JAVA (Remaining mistakes)
+
+**Q18.** Which access modifier allows visibility within same package only?
+A. private
+B. protected
+C. public
+D. default ✔️
+
+---
+
+**Q19.** Which exception is unchecked?
+A. IOException 
+B. SQLException
+C. NullPointerException ✔️
+D. ClassNotFoundException
+
+---
+
+**Q20.** Which thread method pauses execution?
+A. start()
+B. run()
+C. sleep() ✔️
+D. stop()
+
+---
+
+**Q21.** Which package contains JDBC classes?
+A. java.sql ✔️
+B. java.io
+C. java.util
+D. java.net
+
+---
+
+**Q22.** Which interface is used for sorting objects?
+A. Comparator ✔️
+B. Serializable
+C. Runnable
+D. Cloneable
+
+---
+
+**Q23.** Which Java feature supports runtime polymorphism?
+A. Method overloading
+B. Method overriding ✔️
+C. Encapsulation
+D. Abstraction
+
+---
+
+## ⚙️ .NET (Remaining mistakes)
+
+**Q24.** Which ASP.NET file defines routing and services?
+A. Startup.cs ✔️
+B. Program.cs
+C. Web.config
+D. appsettings.json
+
+---
+
+**Q25.** Which ADO.NET object executes SQL commands?
+A. DataSet
+B. DataTable
+C. DataReader
+D. Command ✔️
+
+---
+
+**Q26.** Which method opens database connection?
+A. start()
+B. connect() ✔️
+C. open()
+D. begin()
+
+---
+
+**Q27.** Which LINQ method filters data?
+A. Select
+B. Where ✔️
+C. OrderBy
+D. GroupBy
+
+---
+
+**Q28.** Which ASP.NET feature supports MVC pattern?
+A. Razor
+B. WebForms
+C. ASP.NET MVC ✔️
+D. ADO.NET
+
+---
+
+## 🔀 MIXED CONCEPTUAL
+
+**Q29.** Which collection does NOT allow duplicates?
+A. List
+B. Set ✔️
+C. ArrayList
+D. Vector
+
+---
+
+**Q30.** Which traversal uses queue internally?
+A. DFS
+B. BFS ✔️
+C. Inorder
+D. Postorder
+
+---
+
+**Q31.** Which algorithm uses greedy approach?
+A. DFS
+B. BFS
+C. Prim’s ✔️
+D. Bellman Ford
+
+---
+
+**Q32.** Which SQL join returns matching rows from both tables only?
+A. Left Join
+B. Right Join
+C. Full Join
+D. Inner Join ✔️
+
+---
+
+**Q33.** Which keyword creates object in C#?
+A. create
+B. alloc
+C. new✔️
+D. init
+
+---
+
+**Q34.** Which CSS property controls flex direction?
+A. flex-wrap
+B. justify-content
+C. align-items
+D. flex-direction ✔️
+
+---
+
+**Q35.** Which SQL statement is DDL?
+A. SELECT
+B. INSERT
+C. UPDATE
+D. CREATE ✔️
+
+---
+
+**Q36.** Which .NET component converts IL to native code?
+A. CLR
+B. CTS
+C. JIT✔️
+D. CLS
+
+---
+
+**Q37.** Which HTTP method is used to retrieve data?
+A. POST
+B. PUT
+C. GET ✔️
+D. PATCH
+
+---
+
+**Q38.** Which collection allows key–value pairs?
+A. List
+B. Set
+C. Map ✔️
+D. Queue
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
