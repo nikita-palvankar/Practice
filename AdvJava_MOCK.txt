@@ -1,0 +1,211 @@
+Web-based Java Programming – MCQ Review (with Answers)
+1.	Q1. Which method in HttpServlet handles client POST requests?
+•	a) doGet()
+•	b) doPost()  ✅
+•	c) service()
+•	d) init()
+2.	Q2. JSP snippet with <%! int count = 0; %> and <% count++; %>. What is printed across multiple requests?
+•	a) Always 1
+•	b) Incremented value across requests  ✅
+•	c) Compilation error
+•	d) 0
+3.	Q3. In JDBC, which interface is used for parameterized queries?
+•	a) Statement
+•	b) PreparedStatement  ✅
+•	c) CallableStatement
+•	d) ResultSet
+4.	Q4. Which of the following is NOT a valid JSP directive?
+•	a) <%@ page … %>
+•	b) <%@ include … %>
+•	c) <%@ taglib … %>
+•	d) <%@ servlet … %>  ✅
+5.	Q5. Servlet lifecycle methods are:
+•	a) init(), service(), destroy()  ✅
+•	b) start(), run(), stop()
+•	c) init(), doGet(), doPost()
+•	d) constructor(), service(), finalize()
+6.	Q6. Servlet printing req.getParameter("name") with URL …?name=Nikita. What is printed?
+•	a) Nothing
+•	b) Nikita  ✅
+•	c) Compilation error
+•	d) NullPointerException
+7.	Q7. Which JSP scope lasts until the web application is undeployed?
+•	a) page
+•	b) request
+•	c) session
+•	d) application  ✅
+8.	Q8. In MVC architecture, JSP usually acts as:
+•	a) Controller
+•	b) View  ✅
+•	c) Model
+•	d) Dispatcher
+9.	Q9. Which annotation in Spring marks a class as a controller?
+•	a) @Service
+•	b) @Controller  ✅
+•	c) @RestController
+•	d) @Component
+10.	Q10. Default port of Tomcat server is:
+•	a) 80
+•	b) 443
+•	c) 8080  ✅
+•	d) 3306
+11.	Q11. JSP EL expression: ${10/4}. What is the output?
+•	a) 2.5  ✅
+•	b) 2
+•	c) 2.0
+•	d) Compilation error
+12.	Q12. Which JDBC method retrieves metadata about columns in a table?
+•	a) getMetaData()  ✅
+•	b) getColumnMetaData()
+•	c) getColumns()
+•	d) getTableInfo()
+13.	Q13. HTTP status code for 'Resource Not Found' is:
+•	a) 200
+•	b) 302
+•	c) 404  ✅
+•	d) 500
+14.	Q14. JSP snippet: <% int x = 5; %> <%= x * 2 %>. What is the output?
+•	a) 10  ✅
+•	b) 5
+•	c) Compilation error
+•	d) 2
+15.	Q15. Which of the following is NOT true about Servlets?
+•	a) They run on server side
+•	b) They generate dynamic content
+•	c) They are platform-dependent  ✅
+•	d) They can handle both GET and POST
+16.	Q16. Which tag in JSP is used to include another resource at request time?
+•	a) <jsp:include>  ✅
+•	b) <%@ include %>
+•	c) <jsp:forward>
+•	d) <jsp:param>
+17.	Q17. Which interface in JDBC is used to call stored procedures?
+•	a) Statement
+•	b) PreparedStatement
+•	c) CallableStatement  ✅
+•	d) ResultSet
+18.	Q18. Which method of HttpSession returns the unique session ID?
+•	a) getId()  ✅
+•	b) getSessionId()
+•	c) getIdentifier()
+•	d) getKey()
+19.	Q19. Which JSP implicit object represents the output stream?
+•	a) request
+•	b) response
+•	c) out  ✅
+•	d) session
+20.	Q20. Which filter method is called only once when the filter is instantiated?
+•	a) doFilter()
+•	b) init()  ✅
+•	c) destroy()
+•	d) service()
+21.	Q21. Which of the following is NOT a valid scope in JSP?
+•	a) page
+•	b) request
+•	c) module  ✅
+•	d) session
+22.	Q22. Which JDBC method is used to move the cursor to the next row in a ResultSet?
+•	a) next()  ✅
+•	b) moveNext()
+•	c) advance()
+•	d) forward()
+23.	Q23. Which annotation in Spring is used to map HTTP requests to handler methods?
+•	a) @RequestMapping  ✅
+•	b) @Controller
+•	c) @Autowired
+•	d) @Service
+24.	Q24. Which JSP action forwards the request to another resource?
+•	a) <jsp:include>
+•	b) <jsp:forward>  ✅
+•	c) <jsp:param>
+•	d) <jsp:useBean>
+25.	Q25. Which HTTP method is idempotent?
+•	a) POST
+•	b) GET
+•	c) PUT  ✅
+•	d) DELETE
+26.	Q26. Which JDBC driver type is pure Java and platform-independent?
+•	a) Type-1
+•	b) Type-2
+•	c) Type-3
+•	d) Type-4  ✅
+27.	Q27. Which JSP directive is used to define error pages?
+•	a) <%@ page errorPage=... %>  ✅
+•	b) <%@ include errorPage=... %>
+•	c) <%@ taglib errorPage=... %>
+•	d) <%@ errorPage=... %>
+28.	Q28. Which Servlet method is called when the server shuts down?
+•	a) stop()
+•	b) destroy()  ✅
+•	c) finalize()
+•	d) end()
+29.	Q29. Which of the following is NOT a valid JDBC transaction isolation level?
+•	a) READ_UNCOMMITTED
+•	b) READ_COMMITTED
+•	c) REPEATABLE_READ
+•	d) READ_WRITE  ✅
+30.	Q30. Which JSP implicit object is used to access initialization parameters?
+•	a) config  ✅
+•	b) application
+•	c) session
+•	d) request
+31.	Q31. Which JSP implicit object represents the servlet context?
+•	a) application  ✅
+•	b) config
+•	c) context
+•	d) session
+32.	Q32. Which JDBC method is used to roll back a transaction?
+•	a) rollback()  ✅
+•	b) cancel()
+•	c) abort()
+•	d) undo()
+33.	Q33. Which tag in JSP is used to create and access a bean?
+•	a) <jsp:useBean>  ✅
+•	b) <jsp:setProperty>
+•	c) <jsp:getProperty>
+•	d) <jsp:bean>
+34.	Q34. Which Servlet interface is used to receive notifications about attribute changes in a session?
+•	a) HttpSessionListener
+•	b) HttpSessionAttributeListener  ✅
+•	c) ServletContextListener
+•	d) ServletRequestListener
+35.	Q35. Which of the following is NOT a valid HTTP status code?
+•	a) 201
+•	b) 304
+•	c) 450  ✅
+•	d) 503
+36.	Q36. Which JSP directive is used to import Java classes?
+•	a) <%@ page import=... %>  ✅
+•	b) <%@ include import=... %>
+•	c) <%@ taglib import=... %>
+•	d) <%@ import=... %>
+37.	Q37. Which JDBC method is used to execute an update query?
+•	a) executeQuery()
+•	b) executeUpdate()  ✅
+•	c) execute()
+•	d) update()
+38.	Q38. Which Servlet method is called for both GET and POST requests if not overridden?
+•	a) doGet()
+•	b) doPost()
+•	c) service()  ✅
+•	d) init()
+39.	Q39. Which JSP action is used to pass parameters to another resource?
+•	a) <jsp:param>  ✅
+•	b) <jsp:forward>
+•	c) <jsp:include>
+•	d) <jsp:useBean>
+40.	Q40. Which Spring annotation is used to automatically inject dependencies?
+•	a) @Autowired  ✅
+•	b) @Inject
+•	c) @Resource
+•	d) @Service
+
+================================================================================================================================================
+
+
+
+
+
+
+
+
