@@ -1,0 +1,1439 @@
+
+
+**Q1.** In SQL, what is the difference between `WHERE` and `HAVING` clauses?  
+=> a) `WHERE` filters rows before grouping, `HAVING` filters groups after aggregation  
+b) Both filter rows before grouping  
+c) `WHERE` filters groups after aggregation, `HAVING` filters rows before grouping  
+d) Both filter groups after aggregation  
+
+---
+
+**Q2.** Which of the following is true about PL/SQL cursors?  
+a) Implicit cursors are created automatically for every SQL statement  
+b) Explicit cursors must be declared and opened manually  
+=> c) Both a and b  
+d) Neither a nor b  
+
+---
+
+**Q3.** Consider the query:  
+```sql
+SELECT dept_id, COUNT(*) 
+FROM employees 
+GROUP BY dept_id 
+ORDER BY COUNT(*) DESC;
+```
+What does this query return?  
+a) Departments sorted by ID with employee counts  
+=> b) Departments sorted by employee count (highest first)  
+c) Employees sorted by department ID  
+d) Employees sorted by salary  
+
+---
+
+**Q4.** In Oracle PL/SQL, which exception is raised when you try to fetch beyond the last row of a cursor?  
+=> a) NO_DATA_FOUND  
+b) TOO_MANY_ROWS  
+c) INVALID_CURSOR  
+d) VALUE_ERROR  
+
+---
+
+**Q5.** Which of the following statements about transactions is correct?  
+=> a) `COMMIT` saves changes permanently, `ROLLBACK` undoes changes since last commit  
+b) `COMMIT` undoes changes, `ROLLBACK` saves changes permanently  
+c) Both save changes permanently  
+d) Both undo changes  
+
+---------------------------------------------------------------------------------------
+
+
+### 🟦 Section 1: C++ Programming
+**Q1.** Which of the following is true about inline functions in C++?  
+=> a) They reduce function call overhead  
+b) They always improve performance  
+c) They cannot be recursive  
+d) They are stored in heap memory  
+
+**Q2.** What is the output of:  
+```cpp
+int x = 5;  
+cout << ++x * x++;
+```  
+a) 30  
+=> b) 36  
+c) Undefined behavior  
+d) 25  
+
+**Q3.** Which feature of OOP does function overloading represent?  
+a) Encapsulation  
+=> b) Polymorphism  
+c) Inheritance  
+d) Abstraction  
+
+**Q4.** Which STL container provides fast random access and dynamic resizing?  
+a) list  
+=> b) vector  
+c) map  
+d) stack  
+
+**Q5.** Which keyword prevents a class from being inherited?  
+=> a) final  
+b) sealed  
+c) static  
+d) private  
+
+---
+
+### 🟩 Section 2: Object-Oriented Programming with Java
+**Q6.** Which of these is not a pillar of OOP?  
+a) Polymorphism  
+b) Encapsulation  
+c) Abstraction  
+=> d) Compilation  
+
+**Q7.** In Java, which keyword is used to prevent method overriding?  
+a) static  
+=> b) final  
+c) abstract  
+d) private  
+
+**Q8.** Which exception is thrown when dividing by zero in Java?  
+=> a) ArithmeticException  
+b) NullPointerException  
+c) NumberFormatException  
+d) IOException  
+
+**Q9.** Which collection allows unique elements and no duplicates?  
+a) ArrayList  
+=> b) HashSet  
+c) LinkedList  
+d) Vector  
+
+**Q10.** Which concept allows a subclass to provide a specific implementation of a method already defined in its superclass?  
+a) Overloading  
+=> b) Overriding  
+c) Abstraction  
+d) Encapsulation  
+
+---
+
+### 🟨 Section 3: Algorithms and Data Structures (Java)
+**Q11.** Time complexity of binary search?  
+a) O(n)  
+=> b) O(log n)  
+c) O(n log n)  
+d) O(1)  
+
+**Q12.** Which data structure is used in BFS traversal?  
+a) Stack  
+=> b) Queue  
+c) Linked List  
+d) Tree  
+
+**Q13.** Which sorting algorithm is stable?  
+a) Quick Sort  
+=> b) Merge Sort  
+c) Heap Sort  
+d) Selection Sort  
+
+**Q14.** What is the worst-case time complexity of inserting into a balanced BST (like AVL)?  
+a) O(1)  
+=> b) O(log n)  
+c) O(n)  
+d) O(n log n)  
+
+**Q15.** Which algorithm is used to find shortest path in weighted graphs (non-negative)?  
+a) DFS  
+b) BFS  
+=> c) Dijkstra’s Algorithm  
+d) Kruskal’s Algorithm  
+
+---
+
+### 🟥 Section 4: Web Programming Technologies
+**Q16.** Which tag is used to create a hyperlink in HTML?  
+a) `<link>`  
+=> b) `<a>`  
+c) `<href>`  
+d) `<url>`  
+
+**Q17.** Which CSS property controls text size?  
+a) font-style  
+=> b) font-size  
+c) text-size  
+d) size  
+
+**Q18.** Which HTTP method is idempotent?  
+=> a) POST  
+b) GET  
+c) PUT  
+d) DELETE  
+
+**Q19.** In JavaScript, `typeof null` returns?  
+a) null  
+=> b) object  
+c) undefined  
+d) string  
+
+**Q20.** Which Bootstrap class makes text bold?  
+a) .text-bold  
+=> b) .fw-bold  
+c) .bold  
+d) .strong  
+
+---
+
+### 🟧 Section 5: Aptitude
+**Q21.** If 3 workers finish a job in 12 days, how many workers are needed to finish it in 4 days?  
+=> a) 9  
+b) 12  
+c) 6  
+d) 8  
+
+**Q22.** A train 120m long passes a pole in 12s. Speed in km/h?  
+a) 30  
+=> b) 36  
+c) 40  
+d) 45  
+
+**Q23.** If the ratio of ages of A and B is 3:5 and A is 24, what is B’s age?  
+a) 36  
+=> b) 40  
+c) 42  
+d) 45  
+
+**Q24.** Simplify: \( \frac{1}{2} + \frac{1}{3} + \frac{1}{6} \)  
+=> a) 1  
+b) 2  
+c) 3/2  
+d) 5/6  
+
+**Q25.** If a sum doubles in 10 years at simple interest, what is the rate?  
+a) 5%  
+=> b) 10%  
+c) 15%  
+d) 20%  
+
+---
+
+### 🟪 Section 6: Database Technologies (SQL/PL-SQL)
+**Q26.** Which SQL command removes all rows but keeps table structure?  
+a) DROP  
+b) DELETE  
+=> c) TRUNCATE  
+d) REMOVE  
+
+**Q27.** Which constraint ensures uniqueness of column values?  
+a) PRIMARY KEY  
+=> b) UNIQUE  
+c) FOREIGN KEY  
+d) CHECK  
+
+**Q28.** In PL/SQL, which loop executes at least once?  
+a) FOR  
+b) WHILE  
+=> c) LOOP…EXIT  
+d) DO…WHILE  
+
+**Q29.** Which keyword is used to combine results of two queries without duplicates?  
+=> a) UNION  
+b) UNION ALL  
+c) INTERSECT  
+d) JOIN  
+
+**Q30.** Which normal form removes transitive dependency?  
+a) 1NF  
+b) 2NF  
+=> c) 3NF  
+d) BCNF  
+
+---
+
+### 🟫 Section 7: Microsoft .NET Technologies
+**Q31.** Which language is primarily used for ASP.NET?  
+a) Java  
+ =>b) C#  
+c) Python  
+d) VBScript  
+
+**Q32.** Which component manages memory in .NET?  
+a) CLR  
+b) JIT  
+=> c) Garbage Collector  
+d) MSIL  
+
+**Q33.** Which ASP.NET control is used to display tabular data?  
+=> a) GridView  
+b) TextBox  
+c) DropDownList  
+d) Label  
+
+**Q34.** Which keyword in C# defines an interface?  
+a) class  
+=> b) interface  
+c) abstract  
+d) struct  
+
+**Q35.** Which file extension is used for ASP.NET web pages?  
+a) .jsp  
+=> b) .aspx  
+c) .php  
+d) .html  
+
+---
+
+### 🟦 Section 8: OS & SDLC Concepts
+**Q36.** Which scheduling algorithm may cause starvation?  
+a) FCFS  
+b) SJF  
+c) Round Robin  
+=> d) Priority Scheduling  
+
+**Q37.** Which memory management technique allows non-contiguous allocation?  
+=> a) Paging  
+b) Contiguous allocation  
+c) Fixed partitioning  
+d) Swapping  
+
+**Q38.** In SDLC, which phase involves feasibility study?  
+=> a) Requirement Analysis  
+b) Design  
+c) Testing  
+d) Maintenance  
+
+**Q39.** Which OS concept allows multiple processes to share CPU time?  
+a) Multithreading  
+b) Multiprogramming  
+=> c) Time-sharing  
+d) Scheduling  
+
+**Q40.** Which is not a type of software testing?  
+a) Unit Testing  
+b) Integration Testing  
+c) Regression Testing  
+=> d) Compilation Testing  
+
+---
+
+### 🟩 Section 9: Web-based Java Programming (Servlets/JSP)
+**Q41.** Which method in Servlet handles GET requests?  
+a) doPost()  
+=> b) doGet()  
+c) service()  
+d) init()  
+
+**Q42.** Which implicit object in JSP represents the client request?  
+a) response  
+=> b) request  
+c) session  
+d) application  
+
+**Q43.** Which scope in JSP lasts until the browser is closed?  
+a) page  
+b) request  
+=> c) session  
+d) application  
+
+**Q44.** Which directive is used to include another file in JSP?  
+=> a) <%@ include %>  
+b) <%@ page %>  
+c) <%@ taglib %>  
+d) <%@ import %>  
+
+**Q45.** Which design pattern is commonly used in web apps with Servlets/JSP?  
+a) Singleton  
+=> b) MVC  
+c) Factory  
+d) Observer  
+
+---
+1.a 2.a 3.c 4.c 5.a 6.d 7.b 8.a 9.c 10.c 11.b 12.d 13.b 14.d 15.d 16.c 17.b 18.a 19.c 20.a 21.a 22.b 23.b 24.a 25.c 26.c 27.b 28.d 29.c 30.b 31.b 32.a 33.a 34.b 35.b 36.c 37.a 38.a 39.b 40.d 41.b 42.b 43. c 44.c 45. a
+================================================================================================================================================
+
+
+**1. C++ Programming**  
+Q1. Which operator cannot be overloaded in C++?  
+a) `+` b) `[]`  => c) `::` d) `->`  
+
+Q2. Which keyword is used to declare an abstract class?  
+=> a) `virtual` b) `abstract` c) `interface` d) `friend`  
+
+Q3. Which of the following is true about destructors?  
+a) They can be overloaded b) They cannot be virtual  => c) They are invoked automatically d) They return values  
+
+Q4. Which of the following is used for runtime type identification?  
+a) `typeid` b) `sizeof` c) `dynamic_cast`  => d) Both a and c  
+
+Q5. Which of the following is true about inline functions?  
+=> a) Reduce call overhead b) Always faster c) Cannot contain loops d) Stored in heap  
+
+
+**2. Java (OOP with Java)**  
+Q6. Which keyword is used to inherit a class in Java?  
+=> a) `extends` b) `implements` c) `inherits` d) `super`  
+
+Q7. Which of the following is not a feature of Java?  
+a) Platform independence  => b) Pointers c) Garbage collection d) OOP  
+
+Q8. Which method is called when an object is garbage collected?  
+=> a) `finalize()` b) `dispose()` c) `delete()` d) `destroy()`  
+
+Q9. Which of the following is true about interfaces in Java?  
+a) Can contain abstract methods only  =>  b) Can contain static methods c) Cannot be inherited d) Must be declared final  
+
+Q10. Which of the following is not a valid access modifier in Java?  
+a) `public` b) `protected`  => c) `internal` d) `private`  
+
+
+**3. Algorithms & Data Structures (Java)**  
+Q11. Which data structure uses FIFO?  
+a) Stack  => b) Queue c) Tree d) Graph  
+
+Q12. Which sorting algorithm has best case O(n)?  
+a) Quick sort b) Bubble sort  => c) Insertion sort d) Merge sort  
+
+Q13. Which of the following is not a linear data structure?  
+a) Array b) Linked list  => c) Tree d) Queue  
+
+Q14. Which traversal of binary tree visits root first?  
+a) Inorder  => b) Preorder c) Postorder d) Level order  
+
+Q15. Which of the following is true about hashing?  
+=> a) Provides constant time search b) Requires sorted data c) Uses recursion d) Always collision-free  
+
+
+**4. Web Programming Technologies**  
+Q16. Which tag is used to create a hyperlink in HTML?  
+a) `<link>`  => b) `<a>` c) `<href>` d) `<hyper>`  
+
+Q17. Which CSS property changes text color?  
+a) `font-color`  => b) `color` c) `text-color` d) `background-color`  
+
+Q18. Which protocol is used for secure communication?  
+a) HTTP  => b) HTTPS c) FTP d) SMTP  
+
+Q19. Which of the following is true about JavaScript?  
+a) It is compiled  => b) It is interpreted c) It is strongly typed d) It cannot manipulate DOM  
+
+Q20. Which of the following is not a valid HTML5 element?  
+a) `<section>` b) `<article>`  => c) `<frame>` d) `<nav>`  
+
+
+**5. Aptitude**  
+Q21. If 3 pencils cost ₹15, how much do 7 pencils cost?  
+a) ₹30  => b) ₹35 c) ₹40 d) ₹45  
+
+Q22. A train 120m long crosses a pole in 12s. Speed?  
+=> a) 10 m/s b) 12 m/s c) 15 m/s d) 20 m/s  
+
+Q23. If the ratio of ages is 3:5 and sum is 64, find ages.  
+=> a) 24,40 b) 18,46 c) 20,44 d) 30,34  
+
+Q24. What is the probability of getting a prime number on a dice?  
+=> a) 1/2 b) 1/3 c) 2/3 d) 5/6  
+
+Q25. If SP = ₹240, Profit = 20%, find CP.  
+=> a) ₹200 b) ₹220 c) ₹240 d) ₹250  
+
+
+**6. Database Technologies (SQL/PLSQL)**  
+Q26. Which SQL command is used to remove a table?  
+a) DELETE  => b) DROP c) REMOVE d) TRUNCATE  
+
+Q27. Which of the following is not a valid SQL constraint?  
+a) PRIMARY KEY b) FOREIGN KEY c) UNIQUE  => d) CHANGE  
+
+Q28. Which of the following is true about normalization?  
+=> a) Removes redundancy b) Adds redundancy c) Reduces performance d) None 
+ 
+Q29. Which keyword is used to sort results in SQL?  
+=> a) ORDER BY b) SORT BY c) GROUP BY d) HAVING  
+
+Q30. Which of the following is true about PL/SQL?  
+a) Supports procedures b) Supports triggers c) Supports functions  => d) All of the above  
+
+
+**7. Microsoft .NET Technologies**  
+Q31. Which language is primarily used in ASP.NET?  
+ => a) C# b) Java c) Python d) VB  
+
+Q32. Which of the following is true about CLR?  
+a) Manages memory b) Provides security c) Executes code  =>  d) All of the above  
+
+Q33. Which of the following is not a valid ASP.NET control?  
+a) TextBox b) Button c) GridView  => d) PrintView  
+
+Q34. Which of the following is true about ADO.NET?  
+=> a) Provides disconnected architecture b) Requires ODBC only c) Cannot connect to SQL Server d) None  
+
+Q35. Which of the following is true about MVC pattern?  
+a) Model handles UI b) View handles logic  => c) Controller handles input d) None  
+
+
+**8. OS & SDLC Concepts**  
+Q36. Which of the following is not an OS?  
+a) Windows b) Linux  => c) Oracle d) MacOS  
+
+Q37. Which scheduling algorithm is non-preemptive?  
+=> a) FCFS b) Round Robin c) SJF (preemptive) d) Priority  
+
+Q38. Which of the following is true about deadlock?  
+=> a) Occurs due to mutual exclusion b) Occurs due to preemption c) Occurs due to scheduling d) None  
+
+Q39. Which of the following is a phase in SDLC?  
+a) Requirement analysis b) Design c) Testing  => d) All of the above  
+
+Q40. Which of the following is true about Agile?  
+=> a) Iterative approach b) Waterfall model c) Sequential phases d) None  
+
+
+**9. Web-based Java Programming (Servlets/JSP)**  
+ Q41. Which method is called when a servlet is first loaded?  
+ => a) `init()` b) `service()` c) `doGet()` d) `doPost()`  
+
+Q42. Which of the following is true about JSP?  
+=> a) Allows Java code in HTML b) Cannot use JavaBeans c) Cannot use EL d) None  
+
+Q43. Which of the following is true about session management?  
+a) Cookies b) URL rewriting c) Hidden fields  => d) All of the above  
+
+Q44. Which of the following is true about JDBC?  
+=> a) Connects Java to databases b) Connects Java to files c) Connects Java to XML d) None  
+
+Q45. Which of the following is true about Servlets?  
+a) Run on client side  => b) Run on server side c) Run on both d) None  
+
+---
+===============================================================================================================================================================================================
+
+
+# 📝 CCEE MIXED MOCK – DAY 1
+
+
+## 🔹 1. C++ (5 Questions)
+
+**Q1.** What will be the output?
+
+```cpp
+#include<iostream>
+using namespace std;
+int main() {
+    int x = 10;
+    cout << ++x + x++;
+}
+```
+
+A) 21
+B) 22
+C) 23
+D) Undefined
+
+---
+
+**Q2.** Which feature of C++ supports runtime polymorphism?
+A) Function overloading
+B) Operator overloading
+C) Virtual functions
+D) Templates
+
+---
+
+**Q3.** Which STL container does NOT allow duplicate values?
+A) vector
+B) list
+C) set
+D) deque
+
+---
+
+**Q4.** What is the role of a destructor?
+A) Allocate memory
+B) Initialize objects
+C) Free resources
+D) Create objects
+
+---
+
+**Q5.** Which operator cannot be overloaded in C++?
+A) +
+B) ==
+C) ::
+D) <<
+
+---
+
+## 🔹 2. Java (OOP) (5 Questions)
+
+**Q6.** Which keyword prevents inheritance?
+A) static
+B) final
+C) private
+D) protected
+
+---
+
+**Q7.** Which collection maintains insertion order and allows duplicates?
+A) HashSet
+B) TreeSet
+C) ArrayList
+D) HashMap
+
+---
+
+**Q8.** What will happen if an exception is not caught?
+A) Program continues
+B) JVM ignores it
+C) Program terminates
+D) Compilation error
+
+---
+
+**Q9.** Which memory area stores objects in Java?
+A) Stack
+B) Heap
+C) Method area
+D) Register
+
+---
+
+**Q10.** Which interface provides sorting in collections?
+A) Serializable
+B) Cloneable
+C) Comparable
+D) Runnable
+
+---
+
+## 🔹 3. Data Structures (5 Questions)
+
+**Q11.** Which data structure follows LIFO?
+A) Queue
+B) Stack
+C) Tree
+D) Graph
+
+---
+
+**Q12.** Time complexity of binary search is:
+A) O(n)
+B) O(log n)
+C) O(n log n)
+D) O(1)
+
+---
+
+**Q13.** Which traversal gives sorted order in BST?
+A) Preorder
+B) Postorder
+C) Inorder
+D) Level order
+
+---
+
+**Q14.** Which sorting algorithm is fastest in average case?
+A) Bubble sort
+B) Insertion sort
+C) Quick sort
+D) Selection sort
+
+---
+
+**Q15.** Which data structure is used for BFS?
+A) Stack
+B) Queue
+C) Heap
+D) Set
+
+---
+
+## 🔹 4. Database Technologies (5 Questions)
+
+**Q16.** Which normal form removes partial dependency?
+A) 1NF
+B) 2NF
+C) 3NF
+D) BCNF
+
+---
+
+**Q17.** Which SQL command is used to remove all rows but keep structure?
+A) DELETE
+B) DROP
+C) TRUNCATE
+D) REMOVE
+
+---
+
+**Q18.** Which join returns only matching records?
+A) Left join
+B) Right join
+C) Inner join
+D) Full join
+
+---
+
+**Q19.** ACID property “A” stands for:
+A) Atomicity
+B) Accuracy
+C) Availability
+D) Association
+
+---
+
+**Q20.** Which index improves SELECT performance?
+A) Primary index
+B) Clustered index
+C) Non-clustered index
+D) All of the above
+
+---
+
+## 🔹 5. Web Programming Technologies (5 Questions)
+
+**Q21.** HTTP is a ______ protocol.
+A) Stateful
+B) Stateless
+C) Secure
+D) Reliable
+
+---
+
+**Q22.** Which HTML tag is used for unordered list?
+A) `<ol>`
+B) `<ul>`
+C) `<li>`
+D) `<list>`
+
+---
+
+**Q23.** Which CSS property controls text size?
+A) font-weight
+B) text-style
+C) font-size
+D) text-align
+
+---
+
+**Q24.** Which JavaScript keyword declares a block-scoped variable?
+A) var
+B) let
+C) const
+D) static
+
+---
+
+**Q25.** Which HTTP method is used to send data securely?
+A) GET
+B) POST
+C) PUT
+D) DELETE
+
+---
+
+## 🔹 6. Web-based Java (5 Questions)
+
+**Q26.** Servlet lifecycle method called first:
+A) service()
+B) init()
+C) destroy()
+D) doGet()
+
+---
+
+**Q27.** JSP is converted into:
+A) HTML
+B) Servlet
+C) Applet
+D) Bean
+
+---
+
+**Q28.** Which object manages database connection in JDBC?
+A) DriverManager
+B) Statement
+C) ResultSet
+D) PreparedStatement
+
+---
+
+**Q29.** Which design pattern is used in MVC?
+A) Singleton
+B) Factory
+C) Front Controller
+D) Adapter
+
+---
+
+**Q30.** Which is used for session tracking?
+A) Cookies
+B) HttpSession
+C) URL rewriting
+D) All of the above
+
+---
+
+## 🔹 7. Microsoft .NET (5 Questions)
+
+**Q31.** CLR stands for:
+A) Common Language Runtime
+B) Common Logical Runtime
+C) Common Language Resource
+D) Common Local Runtime
+
+---
+
+**Q32.** Which language is NOT .NET compatible?
+A) C#
+B) VB.NET
+C) Java
+D) F#
+
+---
+
+**Q33.** Which keyword is used for exception handling?
+A) throw
+B) catch
+C) try
+D) All of the above
+
+---
+
+**Q34.** Which collection stores key-value pairs?
+A) List
+B) Stack
+C) Dictionary
+D) Queue
+
+---
+
+**Q35.** Garbage Collection in .NET is:
+A) Manual
+B) Automatic
+C) Optional
+D) User-defined
+
+---
+
+## 🔹 8. OS + SDM (5 Questions)
+
+**Q36.** Which scheduling algorithm may cause starvation?
+A) FCFS
+B) SJF
+C) Round Robin
+D) FIFO
+
+---
+
+**Q37.** Deadlock requires how many necessary conditions?
+A) 2
+B) 3
+C) 4
+D) 5
+
+---
+
+**Q38.** Agile model emphasizes:
+A) Documentation
+B) Customer collaboration
+C) Fixed plan
+D) Heavy process
+
+---
+
+**Q39.** Semaphore is used for:
+A) Deadlock creation
+B) Memory allocation
+C) Process synchronization
+D) Scheduling
+
+---
+
+**Q40.** Scrum roles include:
+A) Product Owner
+B) Scrum Master
+C) Development Team
+D) All of the above
+
+---
+
+## 🔹 9. Aptitude + Communication (5 Questions)
+
+**Q41.** If CP = 100, SP = 120, profit % = ?
+A) 10%
+B) 15%
+C) 20%
+D) 25%
+
+---
+
+**Q42.** Find the next number: 2, 6, 12, 20, ?
+A) 28
+B) 30
+C) 32
+D) 36
+
+---
+
+**Q43.** Choose the correct sentence:
+A) He did not knew the answer
+B) He does not know the answer
+C) He do not know the answer
+D) He not knows the answer
+
+---
+
+**Q44.** Synonym of “Brief”:
+A) Long
+B) Short
+C) Small
+D) Weak
+
+---
+
+**Q45.** Choose the correct passive voice:
+“She writes a letter.”
+A) A letter was written by her
+B) A letter is written by her
+C) A letter has written by her
+D) A letter being written by her
+
+---
+
+## 📝 Answer Evaluation (Correct / Wrong)
+
+### 🔹 C++ (Q1–Q5)
+
+| Q | Your Ans | Correct | Result |
+| - | -------- | ------- | ------ |
+| 1 | C        | **C**   | ✅      |
+| 2 | A        | **C**   | ❌      |
+| 3 | A        | **C**   | ❌      |
+| 4 | C        | **C**   | ✅      |
+| 5 | C        | **C**   | ✅      |
+
+**C++ Score: 3 / 5**
+
+🔎 Issues:
+
+* Runtime polymorphism concept
+* STL container basics
+
+---
+
+### 🔹 Java (Q6–Q10)
+
+| Q  | Your | Correct |   |
+| -- | ---- | ------- | - |
+| 6  | B    | **B**   | ✅ |
+| 7  | C    | **C**   | ✅ |
+| 8  | C    | **C**   | ✅ |
+| 9  | B    | **B**   | ✅ |
+| 10 | D    | **C**   | ❌ |
+
+**Java Score: 4 / 5**
+
+🔎 Issue:
+
+* Confusion between `Comparable` vs `Comparator`
+
+---
+
+### 🔹 Data Structures (Q11–Q15)
+
+| Q  | Your | Correct |   |
+| -- | ---- | ------- | - |
+| 11 | B    | **B**   | ✅ |
+| 12 | B    | **B**   | ✅ |
+| 13 | C    | **C**   | ✅ |
+| 14 | B    | **C**   | ❌ |
+| 15 | B    | **B**   | ✅ |
+
+**DS Score: 4 / 5**
+
+🔎 Issue:
+
+* Average-case complexity of Quick Sort
+
+---
+
+### 🔹 Database (Q16–Q20)
+
+| Q  | Your | Correct |   |
+| -- | ---- | ------- | - |
+| 16 | C    | **B**   | ❌ |
+| 17 | C    | **C**   | ✅ |
+| 18 | C    | **C**   | ✅ |
+| 19 | A    | **A**   | ✅ |
+| 20 | B    | **D**   | ❌ |
+
+**DBMS Score: 3 / 5**
+
+🔎 Issues:
+
+* Normalization basics
+* Index types
+
+---
+
+### 🔹 Web Technologies (Q21–Q25)
+
+| Q  | Your | Correct |   |
+| -- | ---- | ------- | - |
+| 21 | B    | **B**   | ✅ |
+| 22 | B    | **B**   | ✅ |
+| 23 | A    | **C**   | ❌ |
+| 24 | B    | **B**   | ✅ |
+| 25 | B    | **B**   | ✅ |
+
+**Web Tech Score: 4 / 5**
+
+🔎 Issue:
+
+* CSS property confusion
+
+---
+
+### 🔹 Web-based Java (Q26–Q30)
+
+| Q  | Your | Correct |   |
+| -- | ---- | ------- | - |
+| 26 | B    | **B**   | ✅ |
+| 27 | B    | **B**   | ✅ |
+| 28 | A    | **A**   | ✅ |
+| 29 | B    | **C**   | ❌ |
+| 30 | D    | **D**   | ✅ |
+
+**Web Java Score: 4 / 5**
+
+🔎 Issue:
+
+* MVC pattern (Front Controller)
+
+---
+
+### 🔹 MS .NET (Q31–Q35)
+
+| Q  | Your | Correct |   |
+| -- | ---- | ------- | - |
+| 31 | A    | **A**   | ✅ |
+| 32 | C    | **C**   | ✅ |
+| 33 | D    | **D**   | ✅ |
+| 34 | C    | **C**   | ✅ |
+| 35 | B    | **B**   | ✅ |
+
+**.NET Score: 5 / 5** 🌟
+👉 **Strongest subject today**
+
+---
+
+### 🔹 OS + SDM (Q36–Q40)
+
+| Q  | Your | Correct |   |
+| -- | ---- | ------- | - |
+| 36 | D    | **B**   | ❌ |
+| 37 | 2    | **4**   | ❌ |
+| 38 | B    | **B**   | ✅ |
+| 39 | D    | **C**   | ❌ |
+| 40 | B    | **D**   | ❌ |
+
+**OS + SDM Score: 1 / 5**⚠️
+
+🔎 Major concern:
+
+* Scheduling
+* Deadlock conditions
+* Synchronization
+* Scrum basics
+
+---
+
+### 🔹 Aptitude + Communication (Q41–Q45)
+
+| Q  | Your | Correct |   |
+| -- | ---- | ------- | - |
+| 41 | C    | **C**   | ✅ |
+| 42 | B    | **A**   | ❌ |
+| 43 | C    | **B**   | ❌ |
+| 44 | A    | **B**   | ❌ |
+| 45 | A    | **B**   | ❌ |
+
+**Apti + Comm Score: 1 / 5** ⚠️
+
+🔎 Issues:
+
+* Series logic
+* Basic grammar
+* Vocabulary
+* Passive voice
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 🟣 MOCK 3: CCEE FULL MOCK (9 Subjects Combined)
+
+### **OOPS**
+
+**Q1.** Which OOPS concept allows the same function name to behave differently?
+A. Encapsulation
+B. Inheritance
+=> C. Polymorphism
+D. Abstraction
+
+**Q2.** In Java, which keyword is used to prevent inheritance?
+A. static
+B. private
+=> C. final
+D. protected
+
+---
+
+### **DBMS / SQL**
+
+**Q3.** Which normal form removes partial dependency?
+A. 1NF
+=> B. 2NF
+C. 3NF
+D. BCNF
+
+**Q4.** Which SQL command is used to remove all rows from a table but keep its structure?
+A. DROP
+B. DELETE
+C. REMOVE
+=> D. TRUNCATE
+
+---
+
+### **OPERATING SYSTEM**
+
+**Q5.** Which scheduling algorithm may cause starvation?
+A. FCFS
+B. Round Robin
+=> C. Priority Scheduling
+D. FIFO
+
+**Q6.** A process is in **waiting state** when:
+A. It is executing
+B. It is ready to execute
+=> C. It is waiting for I/O
+D. It has finished execution
+
+---
+
+### **COMPUTER NETWORKS**
+
+**Q7.** Which layer of OSI model handles error detection?
+A. Physical
+=> B. Data Link
+C. Network
+D. Transport
+
+**Q8.** Which protocol is used for secure communication over the internet?
+A. HTTP
+B. FTP
+C. SMTP
+=> D. HTTPS
+
+---
+
+### **DATA STRUCTURES**
+
+**Q9.** Which data structure follows FIFO?
+A. Stack
+=>  B. Queue
+C. Tree
+D. Graph
+
+**Q10.** Time complexity of binary search is:
+A. O(n)
+=>  B. O(log n)
+C. O(n log n)
+D. O(1)
+
+---
+
+### **PROGRAMMING (CODE SNIPPETS)**
+
+**Q11.** What is the output?
+
+```java
+int x = 5;
+System.out.println(x++ + ++x);
+```
+
+A. 10
+B. 11
+=> C. 12
+D. 13
+
+---
+
+### **SOFTWARE ENGINEERING**
+
+**Q13.** Which SDLC model is best when requirements are well defined?
+A. Agile
+B. Spiral
+=> C. Waterfall
+D. Prototype
+
+**Q14.** Which testing is done by developers?
+A. System testing
+=>  B. Unit testing
+C. Acceptance testing
+D. Beta testing
+
+---
+
+### **WEB TECHNOLOGIES**
+
+**Q15.** Which HTML tag is used for inserting a hyperlink?
+A. `<link>`
+B. `<href>`
+=> C. `<a>`
+D. `<url>`
+
+**Q16.** CSS stands for:
+A. Color Style Sheets
+B. Creative Style Sheets
+=> C. Cascading Style Sheets
+D. Computer Style Sheets
+
+---
+
+### **CLOUD / BASICS**
+
+**Q17.** Which cloud service model provides virtual machines?
+A. SaaS
+B. PaaS
+=> C. IaaS
+D. FaaS
+
+**Q18.** AWS EC2 is an example of:
+A. SaaS
+B. PaaS
+=> C. IaaS
+D. Private cloud
+
+---
+
+### **SQL (CODE)**
+
+**Q19.**
+
+```sql
+SELECT COUNT(*) FROM employee;
+```
+
+This query returns:
+A. Number of columns
+=> B. Number of rows
+C. Sum of values
+D. Maximum value
+
+**Q20.** Which clause is used to filter groups?
+A. WHERE
+B. GROUP BY
+=> C. HAVING
+D. ORDER BY
+
+---
+
+### **OOPS / JAVA**
+
+**Q21.** Which of these is NOT a Java feature?
+A. Object-oriented
+=> B. Platform dependent
+C. Secure
+D. Robust
+
+**Q22.** Interface in Java supports:
+=> A. Multiple inheritance
+B. Single inheritance
+C. No inheritance
+D. Hybrid inheritance
+
+---
+
+### **DSA**
+
+**Q23.** Which traversal gives sorted order in BST?
+A. Preorder
+B. Postorder
+=>C. Inorder
+D. Level order
+
+**Q24.** Stack overflow occurs when:
+A. Stack is empty
+=> B. Stack is full
+C. Element is accessed
+D. Stack is initialized
+
+---
+
+### **OS**
+
+**Q25.** Which is NOT a deadlock condition?
+A. Mutual exclusion
+B. Hold and wait
+=> C. Preemption
+D. Circular wait
+
+**Q26.** Paging helps in:
+A. Internal fragmentation
+=>  B. External fragmentation
+C. Deadlock
+D. Scheduling
+
+---
+
+### **CN**
+
+**Q27.** IP address length in IPv4 is:
+A. 16 bits
+=> B. 32 bits
+C. 64 bits
+D. 128 bits
+
+**Q28.** Which device works at Network layer?
+A. Hub
+B. Switch
+=> C. Router
+D. Repeater
+
+---
+
+### **SE / GENERAL**
+
+**Q31.** Which document describes system requirements?
+=> A. SRS
+B. UML
+C. DFD
+D. Test plan
+
+**Q32.** Black box testing focuses on:
+A. Code structure
+B. Logic
+=> C. Input-output behavior
+D. Loops
+
+---
+
+### **DBMS**
+
+**Q33.** Which key uniquely identifies a record?
+A. Foreign key
+=> B. Primary key
+C. Candidate key
+D. Composite key
+
+**Q34.** Which join returns only matching rows?
+A. Left join
+B. Right join
+C. Full join
+=> D. Inner join
+
+---
+
+### **WEB / CLOUD**
+
+**Q35.** HTTP is a:
+A. Stateful protocol
+=> B. Stateless protocol
+C. Secure protocol
+D. Transport protocol
+
+**Q36.** Which is an example of public cloud?
+=> A. AWS
+B. Intranet
+C. LAN
+D. Private server
+
+---
+
+### **LOGICAL / TECH APTI**
+
+**Q37.** Find the odd one out:
+A. Stack
+B. Queue
+C. Array
+=> D. Compiler
+
+**Q38.** Which data structure uses recursion naturally?
+A. Queue
+=> B. Tree
+C. Array
+D. Stack
+
+---
+
+### **FINAL CODE**
+
+**Q39.**
+
+```java
+String s1 = "Hello";
+String s2 = "Hello";
+System.out.println(s1 == s2);
+```
+
+=> A. true
+B. false
+C. Error
+D. null
+
+**Q40.**
+
+```python
+print(bool(0), bool(1))
+```
+
+A. False False
+B. True True
+C. False True
+D. True False
+
+---
+
+
+1.c
+2.c
+3.c
+4.d
+5.b
+6.b
+7.b
+8.d
+9.b
+10.b
+11.c
+12.c
+13.c
+14.a
+15.c
+16.c
+17.a
+18.a
+19.b
+20.c
+21.d
+22.a
+23.c
+24.b
+25.b
+26.a
+27.b
+28.a
+29.c
+30.a
+31.a
+32.a
+33.b
+34.d
+35.b
+36.a
+37.d
+38.b
+39.b
+40.c
+
+
+
