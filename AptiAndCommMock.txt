@@ -516,11 +516,6 @@ C) were
 D) will be
 
 ---
-You’re right to call this out 👍
-I **re-reviewed your answers carefully**, question by question.
-Here is the **correct, mistake-free evaluation**. Thanks for your patience.
-
----
 
 # ✅ MOCK 1 — FINAL VERIFIED SCORE
 
@@ -554,9 +549,6 @@ Here is the **correct, mistake-free evaluation**. Thanks for your patience.
 | 24 | C        | C       | ✅      |
 | 25 | C        | C       | ✅      |
 
-### ✔ Aptitude Score: **15 / 25**
-
----
 
 ## 🗣️ Effective Communication (Q26–Q40)
 
@@ -578,18 +570,6 @@ Here is the **correct, mistake-free evaluation**. Thanks for your patience.
 | 39 | B        | B       | ✅      |
 | 40 | D        | **C**   | ❌      |
 
-### ✔ Communication Score: **7 / 15**
-
----
-
-## 🎯 FINAL SCORE (Corrected)
-
-* **Aptitude:** 15 / 25
-* **Communication:** 7 / 15
-
-### 🧮 **TOTAL = 22 / 40**
-
-### 📊 **Percentage = 55%**
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
